@@ -1,0 +1,36 @@
+/*
+
+Project Name: Elias Schaut
+Client: Elias Schaut
+Author: Elias Schaut
+
+*/
+
+body {
+    /* the follow is the code to have the image display as a full page */
+    background: url('../images/3-scene.jpg') fixed center;
+    -webkit-background-size: cover; /* the next 3 lines are "browser prefixes", they are necessary to include for CSS3 techniques */
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#containter {
+    font-family: 'Caveat', cursive;
+    background: black;
+    color: white;
+
+    width: 424px;
+    padding: 15px;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+h2 {
+    background: purple;
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+}
