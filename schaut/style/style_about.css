@@ -1,0 +1,30 @@
+#about {
+    height: 100vh;
+    background-color: lightgray;
+
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#about-div-text {
+    padding-left: 10vw;
+    padding-right: 20vw;
+}
+
+#about-title {
+    font-size: 5vh;
+    margin: 0;
+}
+
+#about-img {
+    padding-left: 10vw;
+    width: 50vmin;
+    height: 50vmin;
+}
+
+#about-text {
+    font-size: 2vh;
+}
+

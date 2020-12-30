@@ -1,0 +1,16 @@
+header {
+    background-image: url("../img/HDK.jpg");
+    background-size: cover;
+    background-position: center;
+
+    height: 95vh;
+}
+
+#title {
+    width: 30vw;
+    font-size: 5vmin;
+    padding-top: 80vh;
+    padding-left: 5vw;
+    color: white;
+    margin: 0;
+}

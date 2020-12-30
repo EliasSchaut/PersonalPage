@@ -1,0 +1,24 @@
+#portfolio {
+    height: 100vh;
+    background-color: darkcyan;
+
+}
+
+#portfolio-title {
+    margin: 0;
+    font-size: 5vh;
+    padding: 5vh 0;
+    text-align: center;
+}
+
+#portfolio-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#portfolio-img {
+    width: 50vmin;
+    height: 20vmin;
+}

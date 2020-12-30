@@ -1,0 +1,22 @@
+nav {
+    height: 5vmin;
+    background-position: top left;
+    background-color: black;
+    background-size: cover;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: stretch;
+}
+
+.nav-item {
+    font-size: 3.5vmin;
+    padding: 0 20px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Roboto Slab', serif;
+}
+
+.nav-item:hover {
+    background-color: gray;
+}
