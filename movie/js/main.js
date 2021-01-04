@@ -8,12 +8,9 @@ $(document).ready(function () {
     // Create video classes first after loading the video.
     // This is necessary, because video-control needs to read status values from the video.
     video.ready(function () {
-        /**
-        new Video(video)
-
-        new VideoControl(video)
-
-        new Cookie()*/
+        let med = new Mediator();
+        let videoClass = new Video(med, video)
+        new VideoControl(videoClass)
 
         // remove load-spinner
         $("#page-load-spinner").attr("class", "invisible");
