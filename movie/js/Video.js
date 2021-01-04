@@ -1,18 +1,18 @@
 function Video(mediator, video) {
 
     /* video duration in seconds.*/
-    const DURATION = video.duration;
+    const DURATION = video.get(0).duration;
     const _this = this;
     const ID = "Video"
 
 
     this.play = function () {
-        video.play();
+        video.trigger("play");
     }
 
 
     this.pause = function () {
-        video.pause();
+        video.trigger("pause");
     }
 
 
@@ -30,7 +30,7 @@ function Video(mediator, video) {
 
     // get current video time in seconds
     this.getCurrentTime = function () {
-        return video.currentTime;
+        return video.get(0).currentTime;
     }
 
 
@@ -42,11 +42,31 @@ function Video(mediator, video) {
 
         if (this.isPlaying()) {
             this.pause();
-            video.currentTime = sec;
+            video.get(0).currentTime = sec;
             this.play();
 
         } else {
-            video.currentTime = sec;
+            video.get(0).currentTime = sec;
+
+        }
+    }
+
+
+    // set current videoTime in percent
+    this.setCurrentTimeInPercent = function (percent) {
+        if ((percent > 100) || (percent < 0)) {
+            return;
+        }
+
+        let sec = percent * DURATION;
+
+        if (this.isPlaying()) {
+            this.pause();
+            video.get(0).currentTime = sec;
+            this.play();
+
+        } else {
+            video.get(0).currentTime = sec;
 
         }
     }
@@ -58,27 +78,27 @@ function Video(mediator, video) {
 
 
     this.getVolume = function () {
-        return video.volume;
+        return video.get(0).volume;
     }
 
 
     this.setVolume = function (vol) {
-        video.volume = vol;
+        video.get(0).volume = vol;
     }
 
 
     this.getSpeed = function () {
-        return video.playbackRate;
+        return video.get(0).playbackRate;
     }
 
 
     this.setSpeed = function (speed) {
-        video.playbackRate = speed;
+        video.get(0).playbackRate = speed;
     }
 
 
     this.isPlaying = function () {
-        return !video.paused;
+        return !video.get(0).paused;
     }
 
 
@@ -113,9 +133,8 @@ function Video(mediator, video) {
      * EventListener for playback time. It is triggered when the playback time changes.
      * This will send a message to the VideoControl class to adjust the ProgressBar accordingly.
      * */
-    video.addEventListener("timeupdate", function () {
+    video.on("timeupdate", function () {
         let currentTime = _this.getCurrentTime();
-
         let progress = (currentTime / DURATION) * 100;
         mediator.send(`setProgress(${progress})`, ID, "VideoControl");
     })

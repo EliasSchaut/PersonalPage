@@ -9,8 +9,8 @@ $(document).ready(function () {
     // This is necessary, because video-control needs to read status values from the video.
     video.ready(function () {
         let med = new Mediator();
-        let videoClass = new Video(med, video)
-        new VideoControl(videoClass)
+        new Video(med, video);
+        new VideoControl(med);
 
         // remove load-spinner
         $("#page-load-spinner").attr("class", "invisible");
