@@ -59,6 +59,7 @@ function Video(mediator, video) {
         }
 
         let sec = percent * DURATION;
+        console.log(sec)
 
         if (this.isPlaying()) {
             this.pause();

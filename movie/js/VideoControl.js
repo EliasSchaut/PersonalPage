@@ -49,7 +49,6 @@ function VideoControl(mediator) {
 
 
     this.setProgress = function (percent) {
-        console.log(percent)
         progressBar.get(0).setAttribute("style", `width: ${percent}%`)
     }
 

@@ -7,7 +7,7 @@ $(document).ready(function () {
 
     // Create video classes first after loading the video.
     // This is necessary, because video-control needs to read status values from the video.
-    video.ready(function () {
+    video.on("loadeddata", function () {
         let med = new Mediator();
         new Video(med, video);
         new VideoControl(med);
