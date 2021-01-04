@@ -19,9 +19,7 @@
 <!-------------------------
 % Page Load Spinner
 -------------------------->
-<div id="page-load-spinner" class="spinner-border text-primary" role="status" style="width: 10rem; height: 10rem;">
-    <span class="sr-only">Loading...</span>
-</div>
+<div id="page-load-spinner" class="spinner-border text-primary" role="status"></div>
 <!------------------------>
 
 
@@ -31,46 +29,43 @@
 <div id="video-container" class="invisible">
 
     <!-- Video -->
-    <video id="video" src=""></video>
+    <video id="video" src="res/mov_bbb.mp4"></video>
 
     <!-- Video Control -->
-    <div class="push-up">
-        <div id="video-control-container">
+    <div id="video-control-container">
 
-            <!-- -10 | Volume | PausePlay | Speed | +10 -->
-            <div id="video-control-inline">
-                <button id="video-control-prev" type="button" class="btn btn-outline-dark btn-sm" name="prev">
-                    <span>-10</span>
-                </button>
+        <!-- -10 | Volume | PausePlay | Speed | +10 -->
+        <div id="video-control-inline">
+            <button id="video-control-prev" type="button" class="btn btn-outline-dark btn-sm" name="prev">
+                <span>-10</span>
+            </button>
 
-                <img id="video-control-volume-pic" alt="volume" height="25px" width="25px" src=""/>
+            <img id="video-control-volume-pic" alt="volume" height="25px" width="25px" src=""/>
 
-                <div id="video-control-volume-bar-container">
-                    <input id="video-control-volume-bar" class="custom-range" type="range" min="0" max="100" value="100" name="volume-bar">
-                </div>
+            <div id="video-control-volume-bar-container">
+                <input id="video-control-volume-bar" class="custom-range" type="range" min="0" max="100" value="100" name="volume-bar">
+            </div>
 
-                <div id="pause-play-container">
-                    <button id="pause-play-button" type="button" class="btn btn-outline-dark" name="pause-play">
-                        <img src="res/pause-play-button.jpg" height="25px" width="25px" alt="pause/play">
-                    </button>
-                </div>
-
-                <div id="video-control-speed-bar-container">
-                    <input id="video-control-speed-bar" class="custom-range" type="range" min="0" max="100" value="50">
-                </div>
-
-                <p id="video-control-speed-label"></p>
-
-                <button id="video-control-next" type="button" class="btn btn-outline-dark btn-sm" name="next">
-                    <span>+10</span>
+            <div id="video-control-pause-play-container">
+                <button id="video-control-pause-play" type="button" class="btn btn-outline-dark" name="pause-play">
+                    <img src="res/pause-play.jpg" height="25px" width="25px" alt="pause/play">
                 </button>
             </div>
 
-            <!-- Progress -->
-            <div id="video-control-progress-bar-container" class="progress">
-                <div id="video-control-progress-bar" class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+            <div id="video-control-speed-bar-container">
+                <input id="video-control-speed-bar" class="custom-range" type="range" min="0" max="100" value="50">
             </div>
 
+            <p id="video-control-speed-label"></p>
+
+            <button id="video-control-next" type="button" class="btn btn-outline-dark btn-sm" name="next">
+                <span>+10</span>
+            </button>
+        </div>
+
+        <!-- Progress -->
+        <div id="video-control-progress-bar-container" class="progress">
+            <div id="video-control-progress-bar" class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
         </div>
     </div>
 </div>

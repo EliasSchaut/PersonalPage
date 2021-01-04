@@ -1,0 +1,73 @@
+/* ----------------------
+    General
+-----------------------*/
+body {
+    background-color: grey;
+    text-align: center;
+}
+
+#video-container {
+    margin: 20px
+}
+
+#page-load-spinner {
+    width: 20vmin;
+    height: 20vmin;
+
+    position: absolute;
+}
+/* ------------------- */
+
+
+
+/* ----------------------
+    Video
+-----------------------*/
+#video {
+    width: 90vw;
+}
+/* ------------------- */
+
+
+
+/* ----------------------
+    VideoControl
+-----------------------*/
+#video-control-container {
+    margin-top: 20px
+}
+
+#video-control-inline {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 85vw;
+    margin: 0 auto 20px;
+}
+
+#video-control-volume-bar-container {
+    padding: 0 10px;
+}
+
+#video-control-volume-bar {
+    width: 10vw;
+}
+
+#video-control-pause-play-container {
+    padding: 0 20px
+}
+
+#video-control-speed-bar-container {
+    padding: 0 10px;
+}
+
+#video-control-speed-bar {
+    width: 10vw;
+}
+
+#video-control-progress-bar-container {
+    width: 85vw;
+    height: 16px;
+    margin: auto;
+}
+/* ------------------- */
