@@ -37,6 +37,10 @@ body {
     margin-top: 20px
 }
 
+#video-control-prev {
+    margin: 0 10px;
+}
+
 #video-control-inline {
     display: flex;
     justify-content: center;
@@ -63,6 +67,15 @@ body {
 
 #video-control-speed-bar {
     width: 10vw;
+}
+
+#video-control-speed-label {
+    position: relative;
+    top: 5px
+}
+
+#video-control-next {
+    margin: 0 15px;
 }
 
 #video-control-progress-bar-container {
