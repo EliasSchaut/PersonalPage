@@ -10,15 +10,18 @@ function VideoControl(mediator) {
     const _this = this;
     const startVol = 50;
     const startSpeed = 0;
+    const nextSkip = 10;
+    const prevSkip = -10;
     let pausePlayActive = true;
 
     let pausePlay = $("#video-control-pause-play");
     let progressBar = $("#video-control-progress-bar");
-    let progressBarContainer = $("#video-control-progress-bar-container");
     let volumeBar = $("#video-control-volume-bar");
     let volumeLabel = $("#video-control-volume-pic")
     let speedBar = $("#video-control-speed-bar");
-    let speedLabel = $("#video-control-speed-label")
+    let speedLabel = $("#video-control-speed-label");
+    let prev = $("#video-control-prev");
+    let next = $("#video-control-next");
 
 
     /**
@@ -97,41 +100,58 @@ function VideoControl(mediator) {
 
 
     /**
-     * EventListener für den Pause/Play-Button. Er wird ausgelöst durch das Klicken auf diesen.
-     * Dadurch wird die Videowiedergabe fortgesetzt bzw. pausiert.
+     * EventListener for the pause/play-button. It is triggered by clicking on it.
+     * This will continue or pause video playback.
      * */
     pausePlay.on("click", function () {
         mediator.send(`playPause()`, ID, "Video")
 
-    })
+    });
 
 
     /**
-     * EventListener für die Volume-Bar. Er wird ausgelöst, wenn der Regler verschoben wird.
-     * Dadurch wird die Videolautstärke auf den Prozent-Wert der Progress-Bar gesetzt.
+     * EventListener for the volume-bar. It is triggered when the slider is moved.
+     * This sets the video volume to the percent value of the progress bar.
      * */
     volumeBar.on("input", function () {
         let vol = volumeBar.val() / 100;
         mediator.send(`setVolume(${vol})`, ID, "Video")
         setVolumeLabel(vol)
-    })
+    });
 
 
     /**
-     * EventListener für die Speed-Bar. Er wird ausgelöst, wenn der Regler verschoben wird.
-     * Dadurch wird die Videoabspielgeschwindigkeit auf den Prozent-Wert der Speed-Bar gesetzt.
+     * EventListener for the speed-bar. It is triggered when the slider is moved.
+     * This sets the video play speed to the percentage of the speed bar.
      * */
     speedBar.on("input", function () {
         let speed = ((speedBar.val() * 2) / 100) + 1; // range [1, 3]
         mediator.send(`setSpeed(${speed})`, ID, "Video");
         setSpeedLabel(speed)
-    })
+    });
 
 
     /**
-     * EventListener für die Progress-Bar. Er wird ausgelöst, durch Klicken auf diese.
-     * Dadurch wird geprüft, ob zwischen dem jetzigen und letzten Trigger geklicktg wurde.
-     * Falls, ja wird die Videowiedergabe und die Progressanzeige darauf gesetzt.
+     * EventListener for the next-button. It is triggered by clicking on it.
+     * This skips nextSkip seconds
+     * */
+    next.on("click", function () {
+        mediator.send(`setCurrentTimeRelative(${nextSkip})`, ID, "Video");
+    });
+
+
+    /**
+     * EventListener for the Speed-Bar. It is triggered by clicking on it.
+     * This skips prevSkip seconds
+     * */
+    prev.on("click", function () {
+        mediator.send(`setCurrentTimeRelative(${prevSkip})`, ID, "Video");
+    });
+
+
+    /**
+     * EventListener for the Progress-Bar. Er wird ausgelöst, durch Klicken auf diese.It is triggered by clicking on it.
+     * This will set the current video-position.
      * */
     document.getElementById("video-control-progress-bar-container").addEventListener("click", function (event) {
         let percent = (event.layerX / this.clientWidth);
@@ -142,9 +162,9 @@ function VideoControl(mediator) {
 
 
     /**
-     * Setzt das Audio-Icon passend zur übergebenen Lautstärke vol
+     * Sets the audio icon to match the passed volume vol
      *
-     * @param {Number} vol Eine Zahl im Bereich [0, 1]
+     * @param {Number} vol A number in range [0, 1]
      */
     let setVolumeLabel = function (vol) {
         if (vol === 0) {
@@ -161,9 +181,9 @@ function VideoControl(mediator) {
 
 
     /**
-     * Setzt die Speed-Information passend zur übergebenen Geschwindigkeit speed
+     * Sets the speed information to match the passed speed
      *
-     * @param {Number} speed Eine Zahl im Bereich [1, 3]
+     * @param {Number} speed A number in range [1, 3]
      */
     let setSpeedLabel = function (speed) {
         speedLabel.html(speed.toFixed(2) + "x");

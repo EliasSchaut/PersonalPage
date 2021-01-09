@@ -72,6 +72,21 @@ function Video(mediator, video) {
         }
     }
 
+    // set current videoTime relative (videoTime =+ sec)
+    this.setCurrentTimeRelative = function (sec) {
+        let newCurTime = this.getCurrentTime() + sec;
+
+        if (newCurTime < 0) {
+            newCurTime = 0;
+
+        } else if (newCurTime > this.getDuration()) {
+            newCurTime = this.getDuration();
+
+        }
+
+        this.setCurrentTime(newCurTime);
+    }
+
 
     this.getDuration = function () {
         return DURATION;
