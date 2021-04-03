@@ -1,8 +1,22 @@
 #contacts {
-    height: 95vh;
+    height: 40vmin;
     background-color: darkslategray;
 }
 
 #contacts-title {
     margin: 0;
+    font-size: 5vh;
+    text-align: center;
+    padding: 4vmin;
+}
+
+#contacts-flex-div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contacts-pics {
+    width: 20vmin;
+    height: 20vmin;
 }
