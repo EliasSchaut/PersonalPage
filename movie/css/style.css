@@ -7,7 +7,7 @@ body {
 }
 
 #video-container {
-    margin: 20px
+    margin: 20px;
 }
 
 #page-load-spinner {
@@ -24,7 +24,7 @@ body {
     Video
 -----------------------*/
 #video {
-    width: 90vw;
+    width: 70vw;
 }
 /* ------------------- */
 
