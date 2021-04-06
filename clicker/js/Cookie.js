@@ -64,7 +64,12 @@ function Cookie() {
      * Checks whether the cookie is valid and if so, the data is set from the cookie
      * */
     let checkCookie = function () {
-        return document.cookie !== "";
+        if (cookieValues.clicks === "") {
+            cookieValues.clicks = "0";
+            return true;
+        }
+
+        return false;
 
     }
 
