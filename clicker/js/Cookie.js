@@ -10,7 +10,7 @@ function Cookie() {
         "clicks": ""
     }
 
-    const EX_TIME_IN_HOURS = 2;
+    const EX_TIME_IN_HOURS = 24 * 365;
     const COOKIE_NAME = "Cookie";
     // ----------------------------
     
