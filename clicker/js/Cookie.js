@@ -12,7 +12,6 @@ function Cookie() {
 
     const EX_TIME_IN_HOURS = 2;
     const COOKIE_NAME = "Cookie";
-    const _this = this;
     // ----------------------------
     
 
@@ -44,18 +43,6 @@ function Cookie() {
         if (checkCookie()) {
             let subvalues = decodeURIComponent(document.cookie);
             cookieValues = JSON.parse(subvalues.split("=")[1]);
-
-            if (cookieValues.clicks === "") {
-                cookieValues.clicks = "0";
-            }
-
-            return true;
-
-        } else {
-            console.log("uff")
-            return false;
-
-
         }
     }
 
@@ -64,12 +51,12 @@ function Cookie() {
      * Checks whether the cookie is valid and if so, the data is set from the cookie
      * */
     let checkCookie = function () {
-        if (cookieValues.clicks === "") {
+        if (document.cookie === "") {
             cookieValues.clicks = "0";
-            return true;
+            return false;
         }
 
-        return false;
+        return true;
 
     }
 

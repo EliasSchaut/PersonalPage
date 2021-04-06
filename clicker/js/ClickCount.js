@@ -17,7 +17,6 @@ function ClickCount(clicks) {
     button.addEventListener("click", function () {
         clicks++;
         out.innerHTML = clicks + out_suffix;
-        console.log(JSON.stringify({"clicks": `${_this.getClicks()}`}));
     })
 
 }
