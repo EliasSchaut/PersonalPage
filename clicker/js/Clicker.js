@@ -1,4 +1,4 @@
-function ClickCount(clicks) {
+function Clicker(clicks) {
 
     // --------------------------
     // constructor
@@ -7,7 +7,6 @@ function ClickCount(clicks) {
     let out = document.getElementById("clicks");
     const out_suffix = " Clicks!";
     out.innerHTML = clicks + out_suffix;
-    _this = this;
     // --------------------------
 
     this.getClicks = function() {
