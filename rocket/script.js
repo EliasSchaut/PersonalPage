@@ -5,8 +5,8 @@ const launch = document.getElementsByClassName("control-launch-button")[0]
 const rocket = document.getElementsByClassName("rocket")[0]
 const password = "TrustNo1";
 
-console.log("Password: TrustNo1")
-disable()
+console.log(`Password: ${password}`)
+disable_panel()
 
 
 /* ---------------------------------------
@@ -14,7 +14,7 @@ disable()
 ** ------------------------------------ */
 window.onload = function () {
     setTimeout(function () {
-        alert("Warning! You enter a critical rocket launch system! \nDont inspect the page!")
+        alert("Warning! You enter a critical rocket launch system! \nDont inspect the page to find out the password!")
     }, 500)
 }
 
@@ -44,7 +44,7 @@ launch.addEventListener("click", function () {
         clear_text_field()
         change_placeholder_green("LIFTOFF!")
         liftoff()
-        disable()
+        disable_panel()
 
     } else {
         clear_text_field()
@@ -84,7 +84,7 @@ function enable_panel() {
 }
 
 
-function disable() {
+function disable_panel() {
     for (const button of document.getElementsByClassName("control-button")) {
         button.disabled = true
     }
@@ -129,7 +129,7 @@ function check_launch_possible() {
 
     } else if (pass_input.placeholder === "Enough Energy!") {
         clear_text_field()
-        change_placeholder_red("Not enough energy!")
+        change_placeholder_red("Not Enough Energy!")
     }
 }
 
@@ -139,7 +139,7 @@ function check_max() {
     }
 
     for (const slider of document.getElementsByClassName("control-slider")) {
-        if (slider.value !== "100") return false
+        if (slider.value !== slider.max) return false
     }
 
     return true
