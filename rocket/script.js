@@ -1,17 +1,22 @@
-alert("Warning! You enter a critical rocket launch system! \nDont inspect the page!")
-console.log("Password: TrustNo1")
 
 const pass_input = document.getElementsByClassName("control-input")[0]
 const ok_button = document.getElementsByClassName("control-ok-button")[0]
 const launch = document.getElementsByClassName("control-launch-button")[0]
 const rocket = document.getElementsByClassName("rocket")[0]
 const password = "TrustNo1";
+
+console.log("Password: TrustNo1")
 disable()
 
 
 /* ---------------------------------------
 ** Event Listeners
 ** ------------------------------------ */
+window.onload = function () {
+	alert("Warning! You enter a critical rocket launch system! \nDont inspect the page!")
+}
+
+
 ok_button.addEventListener("click", function () {
     const to_check = pass_input.value
 
