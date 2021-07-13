@@ -14,7 +14,8 @@ disable_panel()
 ** ------------------------------------ */
 window.onload = function () {
     setTimeout(function () {
-        alert("Warning! You enter a critical rocket launch system! \nDont inspect the page to find out the password!")
+        alert("Warning! You enter a critical rocket launch system! \n" +
+            "Dont inspect the page to find out the password if you are not authorised!")
     }, 500)
 }
 
