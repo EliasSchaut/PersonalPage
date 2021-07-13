@@ -18,6 +18,8 @@ body {
 }
 
 .planet {
+    width: 300px;
+    height: 300px;
     position: fixed;
     bottom: -15px;
     left: -15px;
@@ -25,10 +27,12 @@ body {
 }
 
 .rocket {
-    transform: rotate(30deg);
+    width: 100px;
+    height: 100px;
+    transform: rotate(35deg);
     position: fixed;
-    bottom: 330px;
-    left: 370px;
+    bottom: 120px;
+    left: 160px;
 }
 /* ------------------*/
 
