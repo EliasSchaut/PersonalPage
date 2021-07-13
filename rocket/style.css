@@ -29,10 +29,10 @@ body {
 .rocket {
     width: 100px;
     height: 100px;
-    transform: rotate(35deg);
+    transform: rotate(45deg);
     position: fixed;
-    bottom: 120px;
-    left: 160px;
+    bottom: 105px;
+    left: 175px;
 }
 /* ------------------*/
 
@@ -88,10 +88,8 @@ body {
 .check-buttons {
     display: flex;
     padding: 5%;
-    margin-top: 10px;
+    margin-top: 5%;
     height: 2vh;
-    border-radius: 5px;
-    border: none;
 
     flex-direction: row;
     text-align: center;
@@ -105,10 +103,8 @@ body {
 .levers {
     display: flex;
     padding: 5%;
-    margin-top: 10px;
+    margin-top: 5%;
     height: 45%;
-
-    border-radius: 5px;
 
     flex-direction: row;
     justify-items: center;
@@ -118,8 +114,8 @@ body {
 .control-launch-button {
     display: block;
     width: 40%;
-    height: 20%;
-    margin-top: 10px;
+    height: 15%;
+    margin-top: 5%;
     margin-left: auto;
     margin-right: auto;
     background-color: red;

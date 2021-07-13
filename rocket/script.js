@@ -12,10 +12,17 @@ disable()
 /* ---------------------------------------
 ** Event Listeners
 ** ------------------------------------ */
-window.onloadeddata = function () {
-	alert("Warning! You enter a critical rocket launch system! \nDont inspect the page!")
+window.onload = function () {
+    setTimeout(function () {
+        alert("Warning! You enter a critical rocket launch system! \nDont inspect the page!")
+    }, 500)
 }
 
+document.addEventListener("keypress", function (e) {
+    if (e.key === "Enter") {
+        ok_button.click()
+    }
+})
 
 ok_button.addEventListener("click", function () {
     const to_check = pass_input.value
@@ -37,6 +44,7 @@ launch.addEventListener("click", function () {
         clear_text_field()
         change_placeholder_green("LIFTOFF!")
         liftoff()
+        disable()
 
     } else {
         clear_text_field()
@@ -118,6 +126,10 @@ function check_launch_possible() {
     if (check_max()) {
         clear_text_field()
         change_placeholder_green("Enough Energy!")
+
+    } else if (pass_input.placeholder === "Enough Energy!") {
+        clear_text_field()
+        change_placeholder_red("Not enough energy!")
     }
 }
 
