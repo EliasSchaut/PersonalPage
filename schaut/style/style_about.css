@@ -9,8 +9,7 @@
 }
 
 #about-div-text {
-    padding-left: 10vw;
-    padding-right: 20vw;
+    width: 70%;
 }
 
 #about-title {
@@ -19,12 +18,12 @@
 }
 
 #about-img {
-    padding-left: 10vw;
-    width: 50vmin;
-    height: 50vmin;
+    width: 15%;
+    border-radius: 500px;
 }
 
 #about-text {
-    font-size: 2vh;
+    font-size: 200%;
+
 }
 
