@@ -1,0 +1,47 @@
+body {
+    text-align: center;
+    font-size: x-large;
+}
+
+#task-field {
+    margin: 0 auto;
+    text-align: left;
+    width: 50vw;
+}
+
+#input-task {
+    width: 85%;
+    height: 30px;
+}
+
+#add-task-button {
+    background-color: mediumpurple;
+    height: 35px;
+}
+
+#task-list {
+    text-align: left;
+    padding: 0;
+    list-style: none;
+
+}
+
+.check-btn {
+    vertical-align: middle;
+    margin-right: 20px;
+    width: 2em;
+    height: 2em;
+}
+
+.task {
+    vertical-align: middle;
+
+}
+
+.delete-btn {
+    vertical-align: middle;
+    background-color: darkred;
+    color: white;
+    border-radius: 500px;
+    margin-left: 10px;
+}
