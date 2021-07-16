@@ -123,6 +123,10 @@ body {
     color: white;
 }
 
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: white;
+  opacity: 1; /* Firefox */
+}
 /* ------------------*/
 
 input[type=range][orient=vertical]
@@ -132,3 +136,4 @@ input[type=range][orient=vertical]
     width: 8px;
     padding: 0 5px;
 }
+
