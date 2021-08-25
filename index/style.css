@@ -1,0 +1,14 @@
+body {
+    background-color: azure;
+    text-align: center;
+}
+
+#pages {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card {
+    margin-bottom: 20px;
+}
