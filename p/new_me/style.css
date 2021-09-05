@@ -1,0 +1,55 @@
+body {
+    background: darkgray;
+    overflow: hidden;
+    margin: 0;
+}
+
+#avatar {
+    position: absolute;
+    height: 20%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+#top {
+    position: absolute;
+    margin: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+    z-index: 0;
+
+    width: 0;
+    height: 0;
+    border-left: 50vw solid transparent;
+    border-right: 50vw solid transparent;
+    border-top: 50vh solid #f00;
+}
+
+#left {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    z-index: 0;
+    background-color: blue;
+}
+
+#right {
+    position: absolute;
+    top: 50%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    z-index: 0;
+    background-color: yellow;
+}
+
+#bottom {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 0;
+    background-color: green;
+}

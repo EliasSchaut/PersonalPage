@@ -4,7 +4,7 @@ const pages = [
         "description": "A page that describes me.",
         "img_src": "index/img/about-me.jpg",
         "alt_img": "A picture about me",
-        "link_to_page": "p/schaut"
+        "link_to_page": "p/me"
     },
     {
         "title": "Games",
