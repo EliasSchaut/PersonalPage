@@ -7,67 +7,49 @@
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style/style_general.css">
-    <link rel="stylesheet" href="style/style_nav.css">
-    <link rel="stylesheet" href="style/style_title.css">
-    <link rel="stylesheet" href="style/style_about.css">
-    <link rel="stylesheet" href="style/style_portfolio.css">
-    <link rel="stylesheet" href="style/style_contacts.css">
-    <link rel="stylesheet" href="style/style_footer.css">
+    <link rel="stylesheet" href="style/style.css">
 </head>
 <body>
-<nav id="nav">
-    <a href="#about" class="nav-item">Über&nbsp;mich</a>
-    <!--<a href="#portfolio" class="nav-item">Portfolio</a>-->
-    <a href="#contacts" class="nav-item">Kontakt</a>
-</nav>
 
-<header><h1 id="title">Elias&nbsp;Schaut</h1></header>
+<div id="content">
+    <section id="title">
+        <img id="title-img" src="img/SchautElias.JPG" alt="Personal photo">
+        <h1 id="title-h1">Elias&nbsp;Schaut</h1>
+    </section>
 
-<section id="about">
-    <div id="about-div-text">
-        <h2 id="about-title">Über&nbsp;mich</h2>
-        <p id="about-text">
-            Ich würde mich als sozialer, offener Optimist bezeichnen.
-            Ich bin ein Mensch, der immer ein Lächeln im Gesicht trägt und dafür sorgt, das andere das auch tun.
-            Darum findet man mich auch bei vielen sozialen Aktionen wieder. Ob das ein Stammtisch oder eine Party ist,
-            spielt keine Rolle. Ich kann mich in fast jedem sozialen Umfeld aufhalten.
-            Deswegen versteh ich mich in der Regel mit allen Menschen.
-            <br>
-            Ich finde sozialen Kontakt wichtig.
-            Manche Menschen vergessen viel zu schnell, dass das Leben dazu da ist, gelebt zu werden.
-            Was bringt es einem 24/7 seiner Arbeit nachzugehen, aber sonst nichts im Leben zu haben.
-            Produktivität ist das eine, aber man muss die wenige Zeit, die man hat, genießen!
-        </p>
-    </div>
-    <img id="about-img" src="img/SchautElias.JPG" alt="Personal photo">
-</section>
+    <section id="contacts">
+        <div id="contacts-flex-div">
+            <a class="contacts-flex-item" href="https://discordapp.com/users/501805867369496576">
+                <img class="contacts-flex-item contacts-pics" src="img/discord.svg" alt="Discord">
+            </a>
 
-<!--
-<section id="portfolio">
-    <h2 id="portfolio-title">Portfolio</h2>
-    <div id="portfolio-flex">
-	
-    </div>
-</section>
--->
+            <a class="contacts-flex-item" href="https://github.com/EliasSchaut">
+                <img class="contacts-flex-item contacts-pics" src="img/github.svg" alt="Github">
+            </a>
 
-<section id="contacts">
-    <h2 id="contacts-title">Kontakt</h2>
-    <div id="contacts-flex-div">
-        <a class="contacts-flex-item" href="https://discordapp.com/users/501805867369496576">
-            <img class="contacts-flex-item contacts-pics" src="img/discord-logo-small.png" alt="Discord">
-        </a>
+            <a class="contacts-flex-item" href="https://steamcommunity.com/id/kid_ilias/">
+                <img class="contacts-flex-item contacts-pics" src="img/steam.svg" alt="Steam">
+            </a>
+        </div>
+    </section>
 
-        <a class="contacts-flex-item" href="https://github.com/EliasSchaut">
-            <img class="contacts-flex-item contacts-pics" src="img/github-logo-small.png" alt="Github">
-        </a>
-
-        <a class="contacts-flex-item" href="https://steamcommunity.com/id/kid_ilias/">
-            <img class="contacts-flex-item contacts-pics" src="img/steam-logo-small.png" alt="Steam">
-        </a>
-    </div>
-</section>
+    <section id="about">
+        <div id="about-div-text">
+            <p id="about-text">
+                Ich würde mich als sozialen, offenen Optimist bezeichnen.
+                Ich bin ein Mensch, der immer ein Lächeln im Gesicht trägt und dafür sorgt, das andere das auch tun.
+                Darum findet man mich auch bei vielen sozialen Aktionen wieder. Ob das ein Stammtisch oder eine Party ist,
+                spielt keine Rolle. Ich kann mich in fast jedem sozialen Umfeld aufhalten.
+                Deswegen versteh ich mich in der Regel mit allen Menschen.
+                <br>
+                Ich finde sozialen Kontakt wichtig.
+                Manche Menschen vergessen viel zu schnell, dass das Leben dazu da ist, gelebt zu werden.
+                Was bringt es einem 24/7 seiner Arbeit nachzugehen, aber sonst nichts im Leben zu haben.
+                Produktivität ist das eine, aber man muss die wenige Zeit, die man hat, genießen!
+            </p>
+        </div>
+    </section>
+</div>
 
 <footer id="footer">
     <a href="/p/impressum" class="footer-item">Impressum</a>

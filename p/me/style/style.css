@@ -1,0 +1,110 @@
+/* -----------------------------
+** General
+** ---------------------------*/
+body {
+    overflow: hidden;
+    background-color: lightgray;
+    padding: 0;
+    margin: 0;
+}
+
+#content {
+    margin: 15vh 0 0;
+    height: 85vh;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+#content ::selection {
+    color: white;
+    background-color: #800080;
+}
+/* -------------------------- */
+
+
+/* -----------------------------
+** Title
+** ---------------------------*/
+#title {
+    text-align: center;
+}
+
+#title-img {
+    width: 20vmin;
+    border-radius: 500px;
+}
+
+#title-h1 {
+    font-size: 4vmin;
+}
+/* -------------------------- */
+
+
+/* -----------------------------
+** Contacts
+** ---------------------------*/
+#contacts {
+    width: 70vw;
+}
+
+#contacts-flex-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contacts-pics {
+    width: 2vmin;
+    padding: 0 2vmin;
+}
+/* -------------------------- */
+
+
+/* -----------------------------
+** About
+** ---------------------------*/
+#about {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#about-div-text {
+    width: 70%;
+}
+
+#about-text {
+    font-size: 2.3vmin;
+    text-align: justify
+}
+/* -------------------------- */
+
+
+/* -----------------------------
+** Footer
+** ---------------------------*/
+footer {
+    position: sticky;
+    bottom: 0;
+    height: 5vmin;
+    background-color: black;
+
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footer-item {
+    margin: 0;
+    font-size: 4vmin;
+    padding: 0 2vmin;
+    text-decoration: none;
+    color: white;
+}
+
+.footer-item:hover {
+    background-color: gray;
+}
+/* -------------------------- */
+
