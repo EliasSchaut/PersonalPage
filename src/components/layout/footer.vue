@@ -1,12 +1,5 @@
 <template>
   <footer class="bg-white dark:bg-gray-800">
-    <!-- debug -->
-    <div class="text-gray-500 dark:text-gray-300">
-      <button @click="auth.logged_in = !auth.logged_in">
-        logged_in: {{ auth.logged_in }}
-      </button>
-    </div>
-
     <div class="mx-auto max-w-7xl overflow-hidden px-6 py-20 sm:py-24 lg:px-8">
       <nav
         class="-mb-6 columns-2 sm:flex sm:justify-center sm:space-x-12"
@@ -38,20 +31,20 @@
         &copy; 2023 Elias Lorenz Schaut
       </p>
     </div>
+    <SettingLang />
+    <SettingTheme />
   </footer>
 </template>
 
 <script setup lang="ts">
 import { defineComponent, h } from 'vue';
-import { authStore } from '~/store/auth';
 
-const auth = authStore();
 const navigation = {
   main: [
     { name: 'About', href: '#' },
+    { name: 'Blog', href: '#' },
     { name: 'Imprint', href: '#' },
     { name: 'Privacy', href: '#' },
-    { name: 'Resources', href: '#' },
   ],
   social: [
     {

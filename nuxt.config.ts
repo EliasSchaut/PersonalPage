@@ -36,7 +36,7 @@ export default defineNuxtConfig({
       redirectOn: 'root',
       fallbackLocale: 'en',
     },
-    baseUrl: "https://localhost:3000/",
+    baseUrl: 'https://localhost:3000/',
     lazy: true,
   },
 
@@ -67,4 +67,4 @@ export default defineNuxtConfig({
       maxAge: 60 * 60 * 24 * 30,
     },
   },
-})
+});
