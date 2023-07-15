@@ -31,8 +31,6 @@
         &copy; 2023 Elias Lorenz Schaut
       </p>
     </div>
-    <SettingLang />
-    <SettingTheme />
   </footer>
 </template>
 
