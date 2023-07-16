@@ -11,7 +11,9 @@
       developer, I'm constantly creating ways to enhance the fun and
       productivity of the communities I'm involved in.
     </ElementCard>
-    <ElementCard title="Bildungsweg" :icon="AcademicCapIcon"></ElementCard>
+    <ElementCard title="Bildungsweg" :icon="AcademicCapIcon">
+      <ElementTimeline :events="graduation_timeline" />
+    </ElementCard>
     <ElementCard title="Projects" :icon="CodeBracketIcon"></ElementCard>
   </ul>
 </template>
@@ -22,4 +24,19 @@ import {
   AcademicCapIcon,
   CodeBracketIcon,
 } from '@heroicons/vue/24/outline';
+
+const graduation_timeline = [
+  {
+    content: 'Grundschule Jahn- und Schillerschule Brühl',
+    time: '2006 - 2010',
+  },
+  {
+    content: 'Abitur Moll Gymnasium Mannheim',
+    time: '2010 - 2018',
+  },
+  {
+    content: 'Informatik B.Sc. KIT Karlsruhe',
+    time: '2018 - heute',
+  },
+];
 </script>
