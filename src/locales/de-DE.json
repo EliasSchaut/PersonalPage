@@ -1,24 +1,14 @@
 {
   "common": {
-    "err": {
-      "404": {
-        "title": "Seite nicht gefunden",
-        "desc": "Die von Ihnen gesuchte Seite ist nicht vorhanden."
-      },
-      "501": {
-        "title": "Nicht implementiert",
-        "desc": "Entschuldigung, diese Funktion ist noch nicht implementiert."
-      }
-    },
+    "and": "und",
     "sr": {
       "dismiss": "Schließen",
       "open_user_menu": "Benutzermenü öffnen",
       "open_main_menu": "Hauptmenü öffnen"
     },
-    "form": {
-      "mail": "E-Mail Adresse",
-      "password": "Passwort",
-      "forgot_password": "Passwort vergessen?"
+    "modal": {
+      "close": "Schließen",
+      "go_back": "Gehe zurück"
     },
     "lang": {
       "en": "Englisch",
@@ -30,23 +20,48 @@
       "system": "System"
     }
   },
-  "nav": {
-    "go_home": "Zurück zur Startseite",
-    "profile": "Ihr Profil",
-    "settings": "Einstellungen",
-    "sign_out": "Abmelden",
-    "login": "Anmelden",
-    "sign_up": "Registrieren"
+  "banner": {
+    "contact": "Kontakt",
+    "donate": "Spenden",
+    "donate_me": "Spende {name}"
   },
-  "login": {
-    "title": "Melden Sie sich bei Ihrem Konto an",
-    "submit": "Anmelden",
-    "oauth": "Oder weiter mit",
-    "no_account": "Kein Konto?",
-    "sign_up": "Registriere dich jetzt"
+  "home": {
+    "bio": {
+      "title": "Bio",
+      "body": "Hallo, ich bin Elias und würde mich als sozialen Optimisten bezeichnen. Meine Mission ist es, positive Stimmung zu verbreiten, wo immer ich auch hinkomme. Genau aus diesem Grund bin ich ein regelmäßiges Gesicht bei verschiedenen sozialen Zusammenkünften. Als leidenschaftlicher Web- und Bot-Entwickler entwickle ich ständig neue Möglichkeiten, um den Spaß und die Produktivität der Gemeinschaften, an denen ich beteiligt bin, zu steigern."
+    },
+    "education": {
+      "title": "Bildungsweg",
+      "today": "heute",
+      "school": {
+        "elementary": "Grundschule",
+        "a_levels": "Abitur",
+        "computer_science": "Informatik"
+      }
+    },
+    "skills": {
+      "title": "Skills",
+      "technical": "Technische Skills",
+      "soft": {
+        "title": "Soft Skills",
+        "skills": {
+          "events": "Kreative Eventplanung",
+          "organisation": "Organisationstalent",
+          "teamwork": "Teamfähig",
+          "communication": "Kommunikativ"
+        }
+      }
+    },
+    "projects": {
+      "title": "Projekte"
+    }
   },
   "footer": {
-    "title": "Footer"
+    "title": "Footer",
+    "home": "Startseite",
+    "source": "Quellcode",
+    "imprint": "Impressum",
+    "privacy": "Datenschutz"
   },
   "imprint": {
     "title": "Impressum",

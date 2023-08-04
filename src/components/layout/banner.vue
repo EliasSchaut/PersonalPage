@@ -42,7 +42,7 @@
                 class="-ml-0.5 mr-1.5 h-5 w-5 text-gray-400"
                 aria-hidden="true"
               />
-              <span>Kontakt</span>
+              <span>{{ $t('banner.contact') }}</span>
             </a>
             <button
               type="button"
@@ -53,7 +53,7 @@
                 class="-ml-0.5 mr-1.5 h-5 w-5 text-white"
                 aria-hidden="true"
               />
-              <span>Donate</span>
+              <span>{{ $t('banner.donate') }}</span>
             </button>
           </div>
         </div>
@@ -76,7 +76,7 @@
       <DialogTitle
         as="h3"
         class="text-base font-semibold leading-6 text-gray-900 dark:text-white"
-        >Donate Elias Schaut
+        >{{ $t('banner.donate_me', { name: 'Elias Schaut' }) }}
       </DialogTitle>
       <div class="mt-4">
         <p class="text-sm text-gray-500">

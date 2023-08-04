@@ -21,14 +21,16 @@
       leave-to-class="transform opacity-0 scale-95"
     >
       <MenuItems
-        class="absolute right-0 z-10 mt-2 w-32 origin-top-right divide-y divide-gray-100 rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none"
+        class="absolute right-0 z-10 mt-2 w-32 origin-top-right divide-y divide-gray-100 rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none dark:bg-gray-800 dark:text-white dark:ring-gray-600"
       >
         <div class="py-1">
           <MenuItem v-slot="{ active }" v-for="item in items">
             <a
               @click="item.callback"
               :class="[
-                active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
+                active
+                  ? 'bg-gray-100 text-gray-900 dark:bg-gray-900 dark:text-gray-100'
+                  : 'text-gray-700 dark:text-gray-300',
                 'group flex items-center px-4 py-2 text-sm',
               ]"
             >

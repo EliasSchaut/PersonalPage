@@ -1,24 +1,14 @@
 {
   "common": {
-    "err": {
-      "404": {
-        "title": "Page not found",
-        "desc": "Sorry, we couldn’t find the page you’re looking for."
-      },
-      "501": {
-        "title": "Not Implemented",
-        "desc": "Sorry, this feature is currently not implemented."
-      }
-    },
+    "and": "and",
     "sr": {
       "dismiss": "Dismiss",
       "open_user_menu": "Open user menu",
       "open_main_menu": "Open main menu"
     },
-    "form": {
-      "mail": "E-Mail address",
-      "password": "Password",
-      "forgot_password": "Forgot password?"
+    "modal": {
+      "close": "Close",
+      "go_back": "Go back"
     },
     "lang": {
       "en": "English",
@@ -30,23 +20,48 @@
       "system": "System"
     }
   },
-  "nav": {
-    "go_home": "Go back home",
-    "profile": "Your Profile",
-    "settings": "Settings",
-    "sign_out": "Sign out",
-    "login": "Log in",
-    "sign_up": "Sign up"
+  "banner": {
+    "contact": "Contact",
+    "donate": "Donate",
+    "donate_me": "Donate {name}"
   },
-  "login": {
-    "title": "Sign in to your account",
-    "submit": "Sign in",
-    "oauth": "Or continue with",
-    "no_account": "No account?",
-    "sign_up": "Sign Up Now"
+  "home": {
+    "bio": {
+      "title": "Bio",
+      "body": "Hey, I’m Elias and I would describe myself as a social optimist. It's my mission to spread positivity wherever I go, which is precisely why I'm a regular face at various social gatherings. As a passionate web and bot developer, I'm constantly creating ways to enhance the fun and productivity of the communities I'm involved in."
+    },
+    "education": {
+      "title": "Education",
+      "today": "today",
+      "school": {
+        "elementary": "Elementary School",
+        "a_levels": "A Levels",
+        "computer_science": "Computer Science"
+      }
+    },
+    "skills": {
+      "title": "Skills",
+      "technical": "Technical Skills",
+      "soft": {
+        "title": "Soft Skills",
+        "skills": {
+          "events": "Creative event planning",
+          "organisation": "Organizational talent",
+          "teamwork": "Team player",
+          "communication": "Communicative"
+        }
+      }
+    },
+    "projects": {
+      "title": "Projects"
+    }
   },
   "footer": {
-    "title": "Footer"
+    "title": "Footer",
+    "home": "Home",
+    "source": "Source Code",
+    "imprint": "Imprint",
+    "privacy": "Privacy"
   },
   "imprint": {
     "title": "Imprint",

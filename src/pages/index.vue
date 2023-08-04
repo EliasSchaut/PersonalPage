@@ -3,18 +3,35 @@
     role="list"
     class="mx-4 mt-7 grid grid-cols-1 gap-x-6 gap-y-8 pb-8 sm:mx-6 lg:grid-cols-2 xl:mx-8 xl:gap-x-8"
   >
-    <ElementCard title="Bio" :icon="IdentificationIcon">
-      Hey, I’m Elias and I would describe myself as a social optimist. It's my
-      mission to spread positivity wherever I go, which is precisely why I'm a
-      regular face at various social gatherings. As a passionate web and bot
-      developer, I'm constantly creating ways to enhance the fun and
-      productivity of the communities I'm involved in.
+    <ElementCard :title="$t('home.bio.title')" :icon="IdentificationIcon">
+      {{ $t('home.bio.body') }}
     </ElementCard>
-    <ElementCard title="Bildungsweg" :icon="AcademicCapIcon">
-      <ElementTimeline :events="graduation_timeline" />
+    <ElementCard :title="$t('home.education.title')" :icon="AcademicCapIcon">
+      <ElementTimeline
+        :events="[
+          {
+            content: `${$t('home.education.school.elementary')} Jahn- ${$t(
+              'common.and',
+            )} Schillerschule Brühl`,
+            time: '2006 - 2010',
+          },
+          {
+            content: `${$t(
+              'home.education.school.a_levels',
+            )} Moll Gymnasium Mannheim`,
+            time: '2010 - 2018',
+          },
+          {
+            content: `${$t(
+              'home.education.school.computer_science',
+            )} B.Sc. KIT Karlsruhe`,
+            time: `2018 - ${$t('home.education.today')}`,
+          },
+        ]"
+      />
     </ElementCard>
-    <ElementCard title="Skills" :icon="TrophyIcon">
-      <h1 class="mb-2 text-xl">Technical Skills</h1>
+    <ElementCard :title="$t('home.skills.title')" :icon="TrophyIcon">
+      <h1 class="mb-2 text-xl">{{ $t('home.skills.technical') }}</h1>
       <ElementBadge
         v-for="skill in skills_technical"
         class="my-0.5 mr-1"
@@ -23,15 +40,20 @@
         :color="skill.color"
         :href="skill.href"
       />
-      <h1 class="my-2 pt-2 text-xl">Soft Skills</h1>
+      <h1 class="my-2 pt-2 text-xl">{{ $t('home.skills.soft.title') }}</h1>
       <ElementBadge
-        v-for="skill in skills_soft"
+        v-for="skill in [
+          $t('home.skills.soft.skills.events'),
+          $t('home.skills.soft.skills.organisation'),
+          $t('home.skills.soft.skills.teamwork'),
+          $t('home.skills.soft.skills.communication'),
+        ]"
         class="my-0.5 mr-1"
         :key="skill"
         :content="skill"
       />
     </ElementCard>
-    <ElementCard title="Projects" :icon="CodeBracketIcon">
+    <ElementCard :title="$t('home.projects.title')" :icon="CodeBracketIcon">
       <ElementList :list="projects" />
     </ElementCard>
   </ul>
@@ -50,20 +72,6 @@ export default defineComponent({
   name: 'IndexPage',
   data() {
     return {
-      graduation_timeline: [
-        {
-          content: 'Grundschule Jahn- und Schillerschule Brühl',
-          time: '2006 - 2010',
-        },
-        {
-          content: 'Abitur Moll Gymnasium Mannheim',
-          time: '2010 - 2018',
-        },
-        {
-          content: 'Informatik B.Sc. KIT Karlsruhe',
-          time: '2018 - heute',
-        },
-      ],
       projects: [
         {
           content: 'WatchVote',
@@ -228,12 +236,6 @@ export default defineComponent({
           color: '#07c3f2',
           href: 'https://www.jetbrains.com/webstorm/',
         },
-      ],
-      skills_soft: [
-        'Kreative Eventplanung',
-        'Organisationstalent',
-        'Teamfähig',
-        'Kommunikativ',
       ],
     };
   },

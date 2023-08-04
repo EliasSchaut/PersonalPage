@@ -5,7 +5,23 @@
         class="-mb-6 columns-2 sm:flex sm:justify-center sm:space-x-12"
         :aria-label="$t('footer.title')"
       >
-        <div v-for="item in main" :key="item.name" class="pb-6">
+        <div
+          v-for="item in [
+            {
+              name: $t('footer.home'),
+              href: '/',
+              intern: true,
+            },
+            {
+              name: $t('footer.source'),
+              href: 'https://github.com/EliasSchaut/PersonalPage',
+            },
+            { name: $t('footer.imprint'), href: '/imprint', intern: true },
+            { name: $t('footer.privacy'), href: '/privacy', intern: true },
+          ]"
+          :key="item.name"
+          class="pb-6"
+        >
           <nuxt-link
             v-if="item?.intern"
             :to="item.href"
@@ -51,19 +67,6 @@ export default defineComponent({
   name: 'LayoutFooter',
   data() {
     return {
-      main: [
-        {
-          name: 'Home',
-          href: '/',
-          intern: true,
-        },
-        {
-          name: 'Source Code',
-          href: 'https://github.com/EliasSchaut/PersonalPage',
-        },
-        { name: 'Imprint', href: '/imprint', intern: true },
-        { name: 'Privacy', href: '/privacy', intern: true },
-      ],
       social: [
         {
           name: 'GitHub',
