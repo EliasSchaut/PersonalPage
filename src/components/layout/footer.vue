@@ -6,7 +6,15 @@
         :aria-label="$t('footer.title')"
       >
         <div v-for="item in main" :key="item.name" class="pb-6">
+          <nuxt-link
+            v-if="item?.intern"
+            :to="item.href"
+            class="text-sm leading-6 text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-400"
+          >
+            {{ item.name }}
+          </nuxt-link>
           <a
+            v-else
             :href="item.href"
             target="_blank"
             class="text-sm leading-6 text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-400"
@@ -44,13 +52,17 @@ export default defineComponent({
   data() {
     return {
       main: [
-        { name: 'Resources', href: '#' },
+        {
+          name: 'Home',
+          href: '/',
+          intern: true,
+        },
         {
           name: 'Source Code',
           href: 'https://github.com/EliasSchaut/PersonalPage',
         },
-        { name: 'Imprint', href: '#' },
-        { name: 'Privacy', href: '#' },
+        { name: 'Imprint', href: '/imprint', intern: true },
+        { name: 'Privacy', href: '/privacy', intern: true },
       ],
       social: [
         {

@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="bg-white dark:bg-gray-900">
     <div>
       <img
         class="h-32 w-full object-cover lg:h-48"
@@ -29,8 +29,10 @@
           <div
             class="mt-6 flex flex-col justify-stretch space-y-3 sm:flex-row sm:space-x-4 sm:space-y-0"
           >
-            <SettingLang />
-            <SettingTheme />
+            <div class="flex flex-row justify-stretch space-x-4">
+              <SettingLang class="w-full" />
+              <SettingTheme class="w-full" />
+            </div>
             <a
               :href="`mailto:${email}`"
               type="button"
