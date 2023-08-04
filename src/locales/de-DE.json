@@ -57,13 +57,9 @@
   },
   "privacy": {
     "title": "Datenschutzerklärung",
-    "registration": {
-      "title": "Was passiert mit den Angaben, die ich bei der Registrierung angebe?",
-      "body": "Wenn bei der Registrierung auf „Bestätigen“ geklickt wird, werden alle hier gemachten Angaben an eine Datenbank auf einem dedizierten Server von IONOS SE in Frankfurt, Deutschland gesendet und dort spätestens zum Ende des Betreibens dieser Webseite gespeichert."
-    },
-    "access": {
-      "title": "Wer hat Zugriff auf meine Daten und warum?",
-      "body": "Zugriff auf alle Angaben hat lediglich der oben genannte betreiber dieser Website. Das angegebene Passwort wird nur verschlüsselt gespeichert und kann nicht eingesehen werden. die E-Mail-Adresse wird nur für die Kommunikation mit dem Nutzer verwendet und nicht an Dritte weitergegeben. Der jeweilig angegebene Name ist öffentlich einsehbar! Wenn ein Benutzer-Account gelöscht wird, werden alle Daten, die mit diesem Account verknüpft sind, ebenfalls gelöscht. Dies beinhaltet auch die Filmvorschläge und Filmwahlen, die der Benutzer gemacht hat."
+    "data": {
+      "title": "Welche Daten werden von dieser Website erfasst?",
+      "body": "Diese Website erfasst keine Daten von dir. Der im Impressum angegebene Betreiber erfährt nur von dir, wenn du ihm eine E-Mail schreibst. Dadurch erfährt der Betreiber deine E-Mail-Adresse und deinen Namen. Diese Daten werden nur für die Beantwortung deiner Anfrage verwendet und nicht an Dritte weitergegeben."
     },
     "cookies": {
       "title": "Analytics/Cookies/Externe-Ressourcen u.ä.?",
