@@ -73,7 +73,7 @@
     <div class="mt-3 text-center sm:mt-5">
       <DialogTitle
         as="h3"
-        class="text-base font-semibold leading-6 text-gray-900"
+        class="text-base font-semibold leading-6 text-gray-900 dark:text-white"
         >Donate Elias Schaut
       </DialogTitle>
       <div class="mt-4">

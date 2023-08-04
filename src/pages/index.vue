@@ -17,14 +17,20 @@
     <ElementCard title="Skills" :icon="TrophyIcon">
       <h1 class="mb-2 text-xl">Technical Skills</h1>
       <ElementBadge
-        v-for="skill in skills"
+        v-for="skill in skills_technical"
         class="my-0.5 mr-1"
         :key="skill.content"
         :content="skill.content"
         :color="skill.color"
         :href="skill.href"
       />
-      <h1 class="my-2 py-2 text-xl">Soft Skills</h1>
+      <h1 class="my-2 pt-2 text-xl">Soft Skills</h1>
+      <ElementBadge
+        v-for="skill in skills_soft"
+        class="my-0.5 mr-1"
+        :key="skill"
+        :content="skill"
+      />
     </ElementCard>
     <ElementCard title="Projects" :icon="CodeBracketIcon">
       <ElementList :list="projects" />
@@ -77,7 +83,7 @@ export default defineComponent({
           href: 'https://legacy.schaut.dev',
         },
       ],
-      skills: [
+      skills_technical: [
         {
           content: 'Typescript',
           color: '#3178c6',
@@ -223,6 +229,12 @@ export default defineComponent({
           color: '#07c3f2',
           href: 'https://www.jetbrains.com/webstorm/',
         },
+      ],
+      skills_soft: [
+        'Kreative Eventplanung',
+        'Organisationstalent',
+        'Teamfähig',
+        'Kommunikativ',
       ],
     };
   },
