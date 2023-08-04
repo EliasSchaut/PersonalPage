@@ -3,7 +3,7 @@
     <div>
       <img
         class="h-32 w-full object-cover lg:h-48"
-        :src="backgroundImage"
+        src="/assets/img/banner.png"
         alt="Profile Picture"
       />
     </div>
