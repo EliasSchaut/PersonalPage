@@ -60,12 +60,10 @@ export default defineComponent({
   },
   props: {
     events: {
-      type: Array<
-        {
-          content: string;
-          time: string;
-        }[]
-      >,
+      type: Array<{
+        content: string;
+        time: string;
+      }>,
       required: true,
     },
   },

@@ -78,24 +78,7 @@
       </DialogTitle>
       <div class="mt-4">
         <p class="text-sm text-gray-500">
-          <ElementList
-            :list="[
-              {
-                href: 'https://paypal.me/eschaut',
-                body: 'PayPal',
-                icon: IconPayPal,
-              },
-              {
-                href: 'https://github.com/sponsors/EliasSchaut',
-                body: 'GitHub Sponsor',
-                icon: IconGitHub,
-              },
-              {
-                body: 'IBAN: DE68 6725 0020 1003 2385 51',
-                icon: BuildingLibraryIcon,
-              },
-            ]"
-          />
+          <ElementList :list="donate" />
         </p>
       </div>
     </div>
@@ -127,12 +110,25 @@ export default defineComponent({
       avatar: '/assets/img/avatar_elias.jpg',
       backgroundImage:
         'https://images.unsplash.com/photo-1444628838545-ac4016a5418a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80',
+      donate: [
+        {
+          href: 'https://paypal.me/eschaut',
+          content: 'PayPal',
+          icon: () => IconPayPal,
+        },
+        {
+          href: 'https://github.com/sponsors/EliasSchaut',
+          content: 'GitHub Sponsor',
+          icon: () => IconGitHub,
+        },
+        {
+          content: 'IBAN: DE68 6725 0020 1003 2385 51',
+          icon: () => BuildingLibraryIcon,
+        },
+      ],
     };
   },
   methods: {
-    BuildingLibraryIcon,
-    IconGitHub: () => IconGitHub,
-    IconPayPal: () => IconPayPal,
     show_donate() {
       this.$refs.show.show();
     },

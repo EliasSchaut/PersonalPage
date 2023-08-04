@@ -5,7 +5,7 @@
   >
     <li
       v-for="element in list"
-      :key="element.body"
+      :key="element.content"
       class="relative flex justify-between gap-x-6 px-4 py-5 hover:bg-gray-50 sm:px-6"
     >
       <div class="flex min-w-0 gap-x-4">
@@ -19,9 +19,9 @@
           <p class="text-sm font-semibold leading-6 text-gray-900">
             <a v-if="element.href" :href="element.href" target="_blank">
               <span class="absolute inset-x-0 -top-px bottom-0" />
-              {{ element.body }}
+              {{ element.content }}
             </a>
-            <span v-else>{{ element.body }}</span>
+            <span v-else>{{ element.content }}</span>
           </p>
         </div>
       </div>
@@ -46,7 +46,7 @@ export default defineComponent({
   },
   props: {
     list: {
-      type: Array<{ body: string; href?: string; icon?: Function }>,
+      type: Array<{ content: string; href?: string; icon?: Function }>,
       required: true,
     },
   },
