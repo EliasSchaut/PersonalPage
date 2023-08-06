@@ -1,19 +1,19 @@
 <template>
   <div class="bg-white dark:bg-gray-900">
     <div>
-      <img
+      <nuxt-img
         class="h-32 w-full object-cover lg:h-48"
-        src="/assets/img/banner.png"
-        alt="Profile Picture"
+        src="/banner.png"
+        alt="Profile Banner"
       />
     </div>
     <div class="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
       <div class="-mt-12 sm:-mt-16 sm:flex sm:items-end sm:space-x-5">
         <div class="flex">
-          <img
+          <nuxt-img
             class="h-24 w-24 rounded-full ring-4 ring-white dark:ring-gray-900 sm:h-32 sm:w-32"
-            src="/assets/img/avatar_elias.jpg"
-            alt=""
+            src="/avatar_elias.jpg"
+            alt="Profile Picture"
           />
         </div>
         <div

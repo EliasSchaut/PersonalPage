@@ -5,11 +5,3 @@
     <path fill="#d00" d="M0 160h640v160H0z" />
   </svg>
 </template>
-
-<script lang="ts">
-import { defineComponent } from 'vue';
-
-export default defineComponent({
-  name: 'IconFlagDe',
-});
-</script>

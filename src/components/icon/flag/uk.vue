@@ -13,11 +13,3 @@
     <path fill="#C8102E" d="M0 193v96h640v-96H0zM273 0v480h96V0h-96z" />
   </svg>
 </template>
-
-<script lang="ts">
-import { defineComponent } from 'vue';
-
-export default defineComponent({
-  name: 'IconFlagUk',
-});
-</script>
