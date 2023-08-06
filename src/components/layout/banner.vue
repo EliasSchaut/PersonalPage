@@ -129,6 +129,11 @@ export default defineComponent({
       ],
     };
   },
+  mounted() {
+    if (this.$route.params.slug.includes('donate')) {
+      this.show_donate();
+    }
+  },
   methods: {
     show_donate() {
       this.$refs.show.show();
