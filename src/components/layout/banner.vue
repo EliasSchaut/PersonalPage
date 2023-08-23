@@ -95,7 +95,7 @@ import {
 } from '@heroicons/vue/24/outline';
 import { DialogTitle } from '@headlessui/vue';
 import { defineComponent } from 'vue';
-import { IconGitHub, IconPayPal } from '#components';
+import { IconGitHub, IconPayPal, IconKoFi } from '#components';
 
 export default defineComponent({
   name: 'LayoutBanner',
@@ -118,12 +118,17 @@ export default defineComponent({
           icon: () => IconPayPal,
         },
         {
+          href: 'https://ko-fi.com/kid_ilias',
+          content: 'Ko-Fi',
+          icon: () => IconKoFi,
+        },
+        {
           href: 'https://github.com/sponsors/EliasSchaut',
           content: 'GitHub Sponsor',
           icon: () => IconGitHub,
         },
         {
-          content: 'IBAN: DE68 6725 0020 1003 2385 51',
+          content: 'IBAN: DE24 6605 0101 1022 9775 48',
           icon: () => BuildingLibraryIcon,
         },
       ],
