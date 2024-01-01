@@ -1,5 +1,5 @@
 <template>
-  <div class="absolute top-5">
+  <div>
     <nav class="hidden md:inline">
       <ul
         class="flex rounded-full bg-white/90 px-3 text-sm font-medium text-gray-800 shadow-lg shadow-gray-800/5 ring-1 ring-gray-900/5 backdrop-blur dark:bg-gray-800/90 dark:text-gray-200 dark:ring-white/10"
