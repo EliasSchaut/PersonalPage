@@ -5,36 +5,20 @@
         class="-mb-6 columns-2 sm:flex sm:justify-center sm:space-x-12"
         :aria-label="$t('footer.title')"
       >
-        <div
-          v-for="item in [
-            {
-              name: $t('footer.home'),
-              href: '/',
-              intern: true,
-            },
-            {
-              name: $t('footer.source'),
-              href: 'https://github.com/EliasSchaut/PersonalPage',
-            },
-            { name: $t('footer.imprint'), href: '/imprint', intern: true },
-            { name: $t('footer.privacy'), href: '/privacy', intern: true },
-          ]"
-          :key="item.name"
-          class="pb-6"
-        >
+        <div v-for="link in links" :key="link.title" class="pb-6">
           <nuxt-link
-            v-if="item?.intern"
-            :to="item.href"
+            v-if="link?.intern"
+            :to="link.href"
             class="text-sm leading-6 text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-400"
           >
-            {{ item.name }}
+            {{ link.title }}
           </nuxt-link>
           <a
             v-else
-            :href="item.href"
+            :href="link.href"
             target="_blank"
             class="text-sm leading-6 text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-400"
-            >{{ item.name }}</a
+            >{{ link.title }}</a
           >
         </div>
       </nav>
@@ -53,19 +37,21 @@
       <p
         class="mt-10 text-center text-xs leading-5 text-gray-500 dark:text-gray-300"
       >
-        &copy; 2023 Elias Lorenz Schaut
+        &copy; 2023-2024 Elias Lorenz Schaut
       </p>
     </div>
   </footer>
 </template>
 
 <script lang="ts">
-import { IconGitHub, IconSteam, IconDiscord } from '#components';
+import { IconDiscord, IconGitHub, IconSteam } from '#components';
 import { defineComponent } from 'vue';
 
 export default defineComponent({
   name: 'LayoutFooter',
-  data() {
+  setup() {
+    const { t } = useI18n();
+
     return {
       social: [
         {
@@ -84,6 +70,20 @@ export default defineComponent({
           icon: IconSteam,
         },
       ],
+      links: [
+        {
+          title: t('footer.home'),
+          href: '/',
+          intern: true,
+        },
+        {
+          title: t('footer.source'),
+          href: 'https://github.com/EliasSchaut/PersonalPage',
+        },
+        { title: t('footer.resources'), href: '/resources', intern: true },
+        { title: t('footer.imprint'), href: '/imprint', intern: true },
+        { title: t('footer.privacy'), href: '/privacy', intern: true },
+      ] as Array<{ title: string; href: string; intern?: boolean }>,
     };
   },
 });

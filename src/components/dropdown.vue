@@ -48,7 +48,7 @@
 </template>
 
 <script lang="ts">
-import { defineComponent, PropType } from 'vue';
+import { defineComponent } from 'vue';
 import { ChevronDownIcon } from '@heroicons/vue/24/outline';
 import { Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/vue';
 
@@ -63,13 +63,11 @@ export default defineComponent({
   },
   props: {
     items: {
-      type: Object as PropType<
-        {
-          icon: () => {};
-          label: string;
-          callback: () => {};
-        }[]
-      >,
+      type: Array<{
+        icon: () => {};
+        label: string;
+        callback: () => {};
+      }>,
       required: true,
     },
   },

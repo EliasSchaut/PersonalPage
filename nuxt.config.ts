@@ -1,9 +1,11 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
+
 export default defineNuxtConfig({
   devtools: { enabled: true },
   workspaceDir: '.',
   srcDir: './src',
   modules: [
+    '@nuxt/content',
     '@nuxtjs/i18n',
     '@nuxtjs/tailwindcss',
     '@nuxtjs/color-mode',
