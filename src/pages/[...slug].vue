@@ -3,11 +3,11 @@
     role="list"
     class="mx-4 mt-7 grid grid-cols-1 gap-x-6 gap-y-8 pb-8 sm:mx-6 lg:grid-cols-2 xl:mx-8 xl:gap-x-8"
   >
-    <ElementCard :title="$t('home.bio.title')" :icon="IdentificationIcon">
+    <Card :title="$t('home.bio.title')" :icon="IdentificationIcon">
       {{ $t('home.bio.body') }}
-    </ElementCard>
-    <ElementCard :title="$t('home.education.title')" :icon="AcademicCapIcon">
-      <ElementTimeline
+    </Card>
+    <Card :title="$t('home.education.title')" :icon="AcademicCapIcon">
+      <Timeline
         :events="[
           {
             content: `${$t('home.education.school.elementary')} Jahn- ${$t(
@@ -29,10 +29,10 @@
           },
         ]"
       />
-    </ElementCard>
-    <ElementCard :title="$t('home.skills.title')" :icon="TrophyIcon">
+    </Card>
+    <Card :title="$t('home.skills.title')" :icon="TrophyIcon">
       <h1 class="mb-2 text-xl">{{ $t('home.skills.technical') }}</h1>
-      <ElementBadge
+      <Badge
         v-for="skill in skills_technical"
         class="my-0.5 mr-1"
         :key="skill.content"
@@ -41,7 +41,7 @@
         :href="skill.href"
       />
       <h1 class="my-2 pt-2 text-xl">{{ $t('home.skills.soft.title') }}</h1>
-      <ElementBadge
+      <Badge
         v-for="skill in [
           $t('home.skills.soft.skills.events'),
           $t('home.skills.soft.skills.organisation'),
@@ -52,10 +52,10 @@
         :key="skill"
         :content="skill"
       />
-    </ElementCard>
-    <ElementCard :title="$t('home.projects.title')" :icon="CodeBracketIcon">
-      <ElementList :list="projects" />
-    </ElementCard>
+    </Card>
+    <Card :title="$t('home.projects.title')" :icon="CodeBracketIcon">
+      <List :list="projects" />
+    </Card>
   </ul>
 </template>
 
