@@ -66,7 +66,7 @@
     </div>
   </div>
 
-  <ElementModal ref="show">
+  <Modal ref="show">
     <div
       class="mx-auto flex h-12 w-12 items-center justify-center rounded-full bg-green-100"
     >
@@ -80,11 +80,11 @@
       </DialogTitle>
       <div class="mt-4">
         <p class="text-sm text-gray-500">
-          <ElementList :list="donate" />
+          <List :list="donate" />
         </p>
       </div>
     </div>
-  </ElementModal>
+  </Modal>
 </template>
 
 <script lang="ts">

@@ -1,16 +1,16 @@
 <template>
-  <ElementDropdown
-    :compo="IconFlagDe"
+  <Dropdown
+    :compo="IconFlagDeFunc"
     :items="[
       {
         label: $t('common.lang.de'),
         callback: () => setLocale('de'),
-        icon: IconFlagDe,
+        icon: IconFlagDeFunc,
       },
       {
         label: $t('common.lang.en'),
         callback: () => setLocale('en'),
-        icon: IconFlagUk,
+        icon: IconFlagUkFunc,
       },
     ]"
   >
@@ -22,7 +22,7 @@
       v-else
       class="h-5 w-5 text-gray-400 group-hover:text-gray-500"
     />
-  </ElementDropdown>
+  </Dropdown>
 </template>
 
 <script lang="ts">
@@ -32,8 +32,8 @@ import { IconFlagDe, IconFlagUk } from '#components';
 export default defineComponent({
   name: 'SettingLang',
   methods: {
-    IconFlagDe: () => IconFlagDe,
-    IconFlagUk: () => IconFlagUk,
+    IconFlagDeFunc: () => IconFlagDe,
+    IconFlagUkFunc: () => IconFlagUk,
   },
   setup() {
     return {
