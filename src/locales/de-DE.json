@@ -1,6 +1,7 @@
 {
   "banner": {
     "contact": "Kontakt",
+    "desc": "Web-/Bot-Entwickler • kreativer Projektleiter • Software-Designer • leidenschaftlicher Programmierer",
     "donate": "Spenden",
     "donate_me": "Spende {name}"
   },
@@ -51,11 +52,23 @@
       "title": "Projekte"
     },
     "skills": {
+      "etc": {
+        "skills": {
+          "games": "Computerspiele",
+          "piano": "Klavier",
+          "trumpet": "Trompete"
+        },
+        "title": "Sonstige Skills"
+      },
       "soft": {
         "skills": {
           "communication": "Kommunikativ",
           "events": "Kreative Eventplanung",
+          "mentoring": "Mentoring",
           "organisation": "Organisationstalent",
+          "overmotivated": "Übermotiviert",
+          "project_management": "Projektleitung",
+          "social": "Sozial energetisch",
           "teamwork": "Teamfähig"
         },
         "title": "Soft Skills"
@@ -64,7 +77,22 @@
       "title": "Skills"
     },
     "work": {
-      "title": "Berufserfahrung"
+      "event": {
+        "akk_desc": "Ehrenamtliche wöchentliche Ausschankarbeiten im Kultur-Café.",
+        "eezi_desc": "Tutor & HiWi Arbeiten zur Unterstützung der Studienanfänger.",
+        "fsmi": "FSMI - Fachschaft Mathe & Informatik",
+        "fsmi_desc": "Ehrenamtliche Sprechstunde und Unterstützung bei Events. Verantwortung für das Fachschaftsfrühstück.",
+        "hadiko_ev_desc": "Ehrenamtliche Vereinsarbeiten im Belegungsausschuss, Dachterrassenministerium, Billardministerium und AK Öffentlichkeitsarbeit. Zusätzlich etliche ehrenamtliche Flurarbeiten für Finanzen, Getränkeministerium, Flurputz, Fluressen und Flurturnieren.",
+        "hadiko_vev": "HaDiKo Veranstaltungen e.V. Abteilung K2",
+        "hadiko_vev_desc": "Ehrenamtliche Vereinsarbeiten und Finanzen für unzählige soziale Veranstaltungen.",
+        "lila_pause": "Lila Pause - FSMI O-Phasen-Gruppe",
+        "lila_pause_desc": "Ehrenamtliche Begrüßung & Einführung der Studienanfänger. Zudem wöchentliche Stammtische mit gelegentlichen Specials. Seit 2020 Hauptorganisator.",
+        "mannheim": "Tätigkeiten Mannheim",
+        "mannheim_desc": "Beisitzender des Schülerbeirats des Technoseums Mannheim 2015-2016. Schülerstudium über zwei Semester an der Universität Mannheim 2018. Teilnahme am Blasorchester der Musikschule. Einmalige Teilnahme Jugend musiziert als Klavierbegleitung.",
+        "moll": "Tätigkeiten Moll Gymnasium",
+        "moll_desc": "Teilnahme an diversen Orchestern/Chören jedes Schuljahr, ab 2014 inklusive Mentor-Arbeit. Robotik AG mit Teilnahme FLL. Projektleiter im Rahmen der Projekttage über Musikgeschichte 2015."
+      },
+      "title": "Tätigkeiten"
     }
   },
   "imprint": {
