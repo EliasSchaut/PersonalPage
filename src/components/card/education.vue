@@ -1,6 +1,6 @@
 <template>
   <Card :title="$t('home.education.title')" :icon="AcademicCapIcon">
-    <Timeline
+    <ListTime
       :events="[
         {
           content: `${$t('home.education.school.elementary')} Jahn- ${$t(
