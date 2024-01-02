@@ -1,8 +1,5 @@
 <template>
-  <LayoutHeader
-    title="Geschriebenes zu kreativen Projekten."
-    intro="Alle meine Ideen, Erfahrungen, Umsetzungen und mehr gesammelt in chronologischer Reihenfolge."
-  >
+  <LayoutHeader :title="$t('articles.title')" :intro="$t('articles.intro')">
     <nav>
       <ContentList path="/articles" v-slot="{ list }">
         <ul

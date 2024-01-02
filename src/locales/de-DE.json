@@ -1,4 +1,8 @@
 {
+  "articles": {
+    "intro": "Alle meine Ideen, Erfahrungen, Umsetzungen und mehr gesammelt in chronologischer Reihenfolge.",
+    "title": "Geschriebenes zu kreativen Projekten."
+  },
   "banner": {
     "contact": "Kontakt",
     "desc": "Web-/Bot-Entwickler • kreativer Projektleiter • Software-Designer • leidenschaftlicher Programmierer",
@@ -116,5 +120,9 @@
       "title": "Was sind meine Rechte?"
     },
     "title": "Datenschutzerklärung"
+  },
+  "projects": {
+    "intro": "Über die letzten Jahre habe ich an einigen kleineren oder größeren Projekten gearbeitet.     Auf die hier gelisteten Projekte bin ich allerdings besonders stolz! Wenn dich etwas interessiert,     dann schau dir den Code doch einfach genauer an. Alles ist Open-Source!",
+    "title": "Meine ausgewählte Projekte, die dazu dienen, meine Communities zu verbessern."
   }
 }
