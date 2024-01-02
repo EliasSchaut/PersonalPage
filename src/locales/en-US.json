@@ -1,6 +1,7 @@
 {
   "banner": {
     "contact": "Contact",
+    "desc": "Web/Bot Developer • Creative Project Manager • Software Designer • Passionate Programmer",
     "donate": "Donate",
     "donate_me": "Donate {name}"
   },
@@ -51,11 +52,23 @@
       "title": "Projects"
     },
     "skills": {
+      "etc": {
+        "skills": {
+          "games": "Computer games",
+          "piano": "Piano",
+          "trumpet": "Trumpet"
+        },
+        "title": "Other Skills"
+      },
       "soft": {
         "skills": {
           "communication": "Communicative",
           "events": "Creative event planning",
+          "mentoring": "Mentoring",
           "organisation": "Organizational talent",
+          "overmotivated": "Overmotivated",
+          "project_management": "Project management",
+          "social": "Socially energetic",
           "teamwork": "Team player"
         },
         "title": "Soft Skills"
@@ -64,7 +77,22 @@
       "title": "Skills"
     },
     "work": {
-      "title": "Work experience"
+      "event": {
+        "akk_desc": "Volunteer weekly serving work at the Culture Café.",
+        "eezi_desc": "Tutor & HiWi work to support first-year students.",
+        "fsmi": "FSMI - Math & Computer Science Student Council",
+        "fsmi_desc": "Voluntary office hours and support at events. Responsibility for the student council breakfast.",
+        "hadiko_ev_desc": "Voluntary association work in the occupancy committee, roof top ministry, billiard ministry and work group public work. In addition, numerous voluntary hallway work for finances, the beverage ministry, hallway cleaning, hallway eating and hallway tournaments.",
+        "hadiko_vev": "HaDiKo Veranstaltungen e.V. Department K2",
+        "hadiko_vev_desc": "Voluntary association work and finances for countless social events.",
+        "lila_pause": "Lila Pause - FSMI O-phase group",
+        "lila_pause_desc": "Volunteer welcome & introduction of first-year students. Also weekly regulars' tables with occasional specials. Main organizer since 2020.",
+        "mannheim": "Activities Mannheim",
+        "mannheim_desc": "Member of the pupil advisory board of the Technoseums Mannheim 2015-2016. Pupil studying for two semesters at the University of Mannheim 2018. Participation in the brass orchestra of the music school. One-time participation in \"Jugend musiziert\" as piano accompaniment.",
+        "moll": "Activities Moll Gymnasium",
+        "moll_desc": "Participation in various orchestras/choirs every school year, from 2014 including mentor work. Robotics AG with FLL participation. Project manager during the project days about music history 2015."
+      },
+      "title": "Activities"
     }
   },
   "imprint": {

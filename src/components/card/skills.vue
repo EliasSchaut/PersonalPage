@@ -16,6 +16,23 @@
         $t('home.skills.soft.skills.organisation'),
         $t('home.skills.soft.skills.teamwork'),
         $t('home.skills.soft.skills.communication'),
+        $t('home.skills.soft.skills.project_management'),
+        $t('home.skills.soft.skills.mentoring'),
+        $t('home.skills.soft.skills.social'),
+        $t('home.skills.soft.skills.overmotivated'),
+      ]"
+      class="my-0.5 mr-1"
+      :key="skill"
+      :content="skill"
+    />
+    <h1 class="my-2 pt-2 text-xl">
+      {{ $t('home.skills.etc.title') }}
+    </h1>
+    <Badge
+      v-for="skill in [
+        $t('home.skills.etc.skills.games'),
+        $t('home.skills.etc.skills.piano'),
+        $t('home.skills.etc.skills.trumpet'),
       ]"
       class="my-0.5 mr-1"
       :key="skill"
