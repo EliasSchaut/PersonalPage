@@ -14,6 +14,12 @@ export default defineNuxtConfig({
     '@pinia-plugin-persistedstate/nuxt',
   ],
 
+  content: {
+    navigation: {
+      fields: ['title', 'description', 'date', 'datetime', 'tag'],
+    },
+  },
+
   i18n: {
     langDir: 'locales',
     locales: [

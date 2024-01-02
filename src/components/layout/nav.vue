@@ -9,7 +9,7 @@
             :href="page.href"
             :class="[
               'relative block px-3 py-2 transition',
-              $route.href === page.href
+              page.matches.test($route.href)
                 ? 'text-indigo-500 dark:text-indigo-400'
                 : 'hover:text-indigo-500 dark:hover:text-indigo-400',
             ]"
@@ -69,16 +69,19 @@ export default defineComponent({
         {
           title: 'About',
           href: '/',
+          matches: /^\/$/,
         },
         {
           title: 'Articles',
           href: '/articles',
+          matches: /^\/articles(\/.*)?$/,
         },
         {
           title: 'Projects',
           href: '/projects',
+          matches: /^\/projects(\/.*)?$/,
         },
-      ] as Array<{ title: string; href: string }>,
+      ] as Array<{ title: string; href: string; matches: RegExp }>,
     };
   },
 });
