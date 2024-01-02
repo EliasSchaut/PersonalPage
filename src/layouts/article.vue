@@ -18,11 +18,11 @@
       <SettingTheme />
     </div>
 
-    <main
-      class="mx-auto w-1/2 max-w-3xl px-6 py-32 text-base leading-7 text-gray-700 lg:px-8 dark:text-gray-100"
+    <article
+      class="prose lg:prose-xl dark:prose-invert mx-auto w-1/2 max-w-3xl px-6 py-32 text-base leading-7 text-gray-700 lg:px-8 dark:text-gray-100"
     >
       <slot />
-    </main>
+    </article>
     <LayoutFooter />
   </div>
 </template>
