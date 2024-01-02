@@ -63,6 +63,12 @@
           {{ name }}
         </h1>
       </div>
+      <div class="mt-6 min-w-0">
+        <h4 class="text-gray-600 dark:text-gray-400">
+          Web Developer • Bot Developer • Creative Project Manager • Passionate
+          Programmer
+        </h4>
+      </div>
     </div>
   </div>
 
