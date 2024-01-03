@@ -37,7 +37,6 @@
 import { defineComponent } from 'vue';
 
 export default defineComponent({
-  name: 'ElementsBadge',
   props: {
     content: {
       type: String,

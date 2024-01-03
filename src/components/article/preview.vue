@@ -4,7 +4,7 @@
       <time :datetime="datetime" class="text-gray-500 dark:text-gray-400">{{
         date
       }}</time>
-      <Badge :content="tag" no_dot />
+      <BadgeSimple :content="tag" href="asdf" />
     </div>
     <div class="group relative">
       <h3
