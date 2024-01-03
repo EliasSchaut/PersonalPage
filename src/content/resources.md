@@ -1,66 +1,28 @@
 ---
-title: "Resources"
-description: "Descriptions for used resourced on this Website"
-date: "01. Jan 2024"
-datetime: "2024-01-01"
+title: "Resource Compilation"
+description: "Detailed insights into the resources utilized for building this Website"
+date: "03. Jan 2024"
+datetime: "2024-01-03"
 ---
 
-# Resources
-# h1 Heading
+# Resource Compilation
+Check out the suite of software tools and assets leveraged to enhance the brilliance of my website!
 
-## h2 Heading
+## Software Toolset
+- [Typescript](https://www.typescriptlang.org/): The core programming language used
+- [Vue](https://vuejs.org): The framework for front-end development
+- [Nuxt](https://nuxt.com): A Vue.js framework, for server-side rendering
+- [Nuxt/Content](https://content.nuxt.com/): For the streamlined creation of articles from markdown files
+- [Nuxt/i18n](https://i18n.nuxtjs.org/): For enabling translation/localization
+- [Nuxt/ColorMode](https://color-mode.nuxtjs.org/): For enabling dark mode
+- [Nuxt/Image](https://image.nuxt.com/): For optimising images
+- [Pinia](https://pinia.vuejs.org/): For effective state management
+- [Tailwind](https://tailwindcss.com): For versatile css styling
 
-### h3 Heading
-
-#### h4 Heading
-
-##### h5 Heading
-
-###### h6 Heading
-
-## Emphasis
-
-**This is bold text**
-
-_This is italic text_
-
-~~Strikethrough~~
-
-## Blockquotes
-
-> Example of a very smart quote here
-
-## Lists
-
-Unordered:
-
-- Create a list by starting a line with `+`, `-`, or `*`
-- Sub-lists are made by indenting 2 spaces:
-    - Marker character change forces new list start:
-    - Ac tristique libero volutpat at
-
-Ordered:
-
-1. Lorem ipsum dolor sit amet
-2. Consectetur adipiscing elit
-3. Integer molestie lorem at massa
-
-## Code
-
-Inline `code`
-
-Block code "fences"
-
-```js
-const foo = function (bar) {
-  return bar++
-}
-
-console.log(foo(5))
-```
-
-## Links
-
-[link text](http://dev.nodeca.com)
-
-[link with title](http://nodeca.github.io/pica/demo/ 'title text!')
+## Asset Inventory
+- [Tailwind UI](https://tailwindui.com): Modern styled UI components (holding a Personal Complete Package Restricted License)
+- [Headless UI](https://headlessui.com/): Minimalistic unstyled UI components
+- [Heroicons](https://heroicons.com/): Used for a diverse range of generic icons
+- [Bootstrap Icons](https://icons.getbootstrap.com/): Used for social icons
+- [Flagpedia](https://flagpedia.net/): Used for flag icons
+- Personal bought galaxy stock photo for banner

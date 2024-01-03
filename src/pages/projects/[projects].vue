@@ -1,5 +1,5 @@
 <template>
   <Article>
-    <CardProjects />
+    <ContentDoc />
   </Article>
 </template>

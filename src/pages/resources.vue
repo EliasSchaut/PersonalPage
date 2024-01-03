@@ -1,9 +1,5 @@
 <template>
-  <ContentDoc />
+  <Article>
+    <ContentDoc />
+  </Article>
 </template>
-
-<script setup lang="ts">
-definePageMeta({
-  layout: 'article',
-});
-</script>
