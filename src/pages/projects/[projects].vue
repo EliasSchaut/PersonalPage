@@ -1,3 +1,5 @@
 <template>
-  <CardProjects />
+  <Article>
+    <CardProjects />
+  </Article>
 </template>

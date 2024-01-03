@@ -1,10 +1,12 @@
 <template>
-  <article class="flex max-w-xl flex-col items-start justify-between">
+  <div
+    class="flex max-w-xl flex-col items-start justify-between rounded-2xl p-5 hover:bg-gray-100 dark:hover:bg-gray-800"
+  >
     <div class="flex items-center gap-x-4 text-xs">
       <time :datetime="datetime" class="text-gray-500 dark:text-gray-400">{{
         date
       }}</time>
-      <BadgeSimple :content="tag" href="asdf" />
+      <BadgeSimple :content="tag" />
     </div>
     <div class="group relative">
       <h3
@@ -21,7 +23,7 @@
         {{ description }}
       </p>
     </div>
-  </article>
+  </div>
 </template>
 
 <script lang="ts">
