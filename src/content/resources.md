@@ -12,9 +12,9 @@ Check out the suite of software tools and assets leveraged to enhance the brilli
 - [Typescript](https://www.typescriptlang.org/): The core programming language used
 - [Vue](https://vuejs.org): The framework for front-end development
 - [Nuxt](https://nuxt.com): A Vue.js framework, for server-side rendering
+- [Nuxt/ColorMode](https://color-mode.nuxtjs.org/): For enabling dark mode
 - [Nuxt/Content](https://content.nuxt.com/): For the streamlined creation of articles from markdown files
 - [Nuxt/i18n](https://i18n.nuxtjs.org/): For enabling translation/localization
-- [Nuxt/ColorMode](https://color-mode.nuxtjs.org/): For enabling dark mode
 - [Nuxt/Image](https://image.nuxt.com/): For optimising images
 - [Pinia](https://pinia.vuejs.org/): For effective state management
 - [Tailwind](https://tailwindcss.com): For versatile css styling
@@ -25,4 +25,4 @@ Check out the suite of software tools and assets leveraged to enhance the brilli
 - [Heroicons](https://heroicons.com/): Used for a diverse range of generic icons
 - [Bootstrap Icons](https://icons.getbootstrap.com/): Used for social icons
 - [Flagpedia](https://flagpedia.net/): Used for flag icons
-- Personal bought galaxy stock photo for banner
+- Personal bought galaxy stock photo for banner image
