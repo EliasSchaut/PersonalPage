@@ -39,7 +39,7 @@
       >
         <XMarkIcon class="h-6 w-6 text-gray-500 dark:text-gray-400" />
       </button>
-      <h2 class="text-sm font-medium text-zinc-600 dark:text-zinc-400">
+      <h2 class="text-sm font-medium text-gray-600 dark:text-gray-400">
         Navigation
       </h2>
     </div>
@@ -48,11 +48,19 @@
         class="-my-2 divide-y divide-gray-100 text-base text-gray-800 dark:divide-gray-100/5 dark:text-gray-300"
       >
         <li v-for="page in pages" :key="page.title">
-          <nuxt-link class="block py-2" :href="page.href">
+          <nuxt-link
+            class="block py-2 hover:bg-gray-200 dark:hover:bg-gray-800"
+            :href="page.href"
+            @click="$refs.mobile_nav.hide()"
+          >
             {{ page.title }}
           </nuxt-link>
         </li>
       </ul>
+      <div class="mt-5 flex flex-row justify-stretch space-x-4 sm:hidden">
+        <SettingLang class="w-full" />
+        <SettingTheme class="w-full" />
+      </div>
     </nav>
   </Modal>
 </template>
