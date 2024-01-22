@@ -11,7 +11,7 @@ Check out the suite of software tools and assets leveraged to enhance the brilli
 ## Software Toolset
 - [Typescript](https://www.typescriptlang.org/): The core programming language used
 - [Vue](https://vuejs.org): The framework for front-end development
-- [Nuxt](https://nuxt.com): A Vue.js framework, for server-side rendering
+- [Nuxt](https://nuxt.com): A Vue.js framework, for server-side rendering and other features
 - [Nuxt/ColorMode](https://color-mode.nuxtjs.org/): For enabling dark mode
 - [Nuxt/Content](https://content.nuxt.com/): For the streamlined creation of articles from markdown files
 - [Nuxt/i18n](https://i18n.nuxtjs.org/): For enabling translation/localization
