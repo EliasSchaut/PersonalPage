@@ -16,7 +16,7 @@ jobs:
           chmod 600 ~/.ssh/private.key
       - name: Connect
         run: |
-          ssh -i .ssh/private.key ${{ secrets.SSH_HOST }}
+          ssh -i ~/.ssh/private.key ${{ secrets.SSH_HOST }}
       - name: Git Pull
         run: |
           cd ${{ secrets.DEPLOY_DIR }}
@@ -24,5 +24,5 @@ jobs:
           git pull
       - name: Start Workflow
         run: |
-          ./workflow.sh
           cd ${{ secrets.DEPLOY_DIR }}
+          ./workflow.sh
