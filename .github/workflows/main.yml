@@ -10,10 +10,19 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Create SSH key
-        run: mkdir .ssh && echo "${{secrets.SSH_PRIVATE_KEY}}" > ~/.ssh/private.key && chmod 600 ~/.ssh/private.key
+        run: |
+          mkdir .ssh
+          echo "${{secrets.SSH_PRIVATE_KEY}}" > ~/.ssh/private.key
+          chmod 600 ~/.ssh/private.key
       - name: Connect
-        run: ssh -i .ssh/private.key ${{ secrets.SSH_HOST }} && cd ${{ secrets.DEPLOY_DIR }}
+        run: |
+          ssh -i .ssh/private.key ${{ secrets.SSH_HOST }}
       - name: Git Pull
-        run: git reset --hard && git pull
+        run: |
+          cd ${{ secrets.DEPLOY_DIR }}
+          git reset --hard
+          git pull
       - name: Start Workflow
-        run: ./workflow.sh
+        run: |
+          ./workflow.sh
+          cd ${{ secrets.DEPLOY_DIR }}
