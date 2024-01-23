@@ -1,6 +1,6 @@
 <template>
   <TransitionRoot as="template" :show="open">
-    <Dialog as="div" class="relative z-10 break-words" @close="open = false">
+    <Dialog as="div" class="relative z-10 break-words" @close="hide()">
       <TransitionChild
         as="template"
         enter="ease-out duration-300"
@@ -17,7 +17,10 @@
 
       <div class="fixed inset-0 z-10 overflow-y-auto">
         <div
-          class="flex min-h-full items-end justify-center p-4 text-center sm:items-center sm:p-0"
+          :class="[
+            'flex min-h-full justify-center p-4 text-center sm:p-0',
+            place_top ? 'items-start' : 'items-end sm:items-center',
+          ]"
         >
           <TransitionChild
             as="template"
@@ -29,16 +32,16 @@
             leave-to="opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95"
           >
             <DialogPanel
-              class="relative transform overflow-hidden rounded-lg bg-white px-4 pb-4 pt-5 text-left shadow-xl transition-all dark:bg-gray-900 dark:text-white sm:my-8 sm:w-full sm:max-w-sm sm:p-6"
+              class="relative w-full transform overflow-hidden rounded-lg bg-white px-4 pb-4 pt-5 text-left shadow-xl transition-all sm:my-8 sm:w-full sm:max-w-sm sm:p-6 dark:bg-gray-900 dark:text-white"
             >
               <slot />
-              <div class="mt-5 sm:mt-6">
+              <div v-if="!hide_close" class="mt-5 sm:mt-6">
                 <button
                   type="button"
-                  class="inline-flex w-full justify-center rounded-md bg-indigo-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 dark:bg-indigo-500"
-                  @click="open = false"
+                  class="inline-flex w-full justify-center rounded-md bg-gray-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-gray-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-600 dark:bg-gray-800"
+                  @click="hide()"
                 >
-                  Go back
+                  Close
                 </button>
               </div>
             </DialogPanel>
@@ -65,6 +68,16 @@ export default defineComponent({
     DialogPanel,
     TransitionChild,
     TransitionRoot,
+  },
+  props: {
+    place_top: {
+      type: Boolean,
+      default: false,
+    },
+    hide_close: {
+      type: Boolean,
+      default: false,
+    },
   },
   setup() {
     return {

@@ -11,7 +11,7 @@
       <div class="-mt-12 sm:-mt-16 sm:flex sm:items-end sm:space-x-5">
         <div class="flex">
           <nuxt-img
-            class="h-24 w-24 rounded-full ring-4 ring-white dark:ring-gray-900 sm:h-32 sm:w-32"
+            class="h-24 w-24 rounded-full ring-4 ring-white sm:h-32 sm:w-32 dark:ring-gray-900"
             src="/avatar_elias.jpg"
             alt="Profile Picture"
           />
@@ -47,7 +47,7 @@
             <button
               type="button"
               class="inline-flex items-center rounded-md bg-indigo-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 dark:bg-indigo-500 dark:hover:bg-indigo-400 dark:focus-visible:outline-indigo-500"
-              @click="show_donate()"
+              @click="show_donate_modal()"
             >
               <GiftIcon
                 class="-ml-0.5 mr-1.5 h-5 w-5 text-white"
@@ -63,10 +63,15 @@
           {{ name }}
         </h1>
       </div>
+      <div class="mt-6 min-w-0">
+        <h4 class="text-gray-600 dark:text-gray-400">
+          {{ $t('banner.desc') }}
+        </h4>
+      </div>
     </div>
   </div>
 
-  <ElementModal ref="show">
+  <Modal ref="donate_modal">
     <div
       class="mx-auto flex h-12 w-12 items-center justify-center rounded-full bg-green-100"
     >
@@ -80,22 +85,22 @@
       </DialogTitle>
       <div class="mt-4">
         <p class="text-sm text-gray-500">
-          <ElementList :list="donate" />
+          <List :list="donate" />
         </p>
       </div>
     </div>
-  </ElementModal>
+  </Modal>
 </template>
 
 <script lang="ts">
 import { EnvelopeIcon, GiftIcon } from '@heroicons/vue/20/solid';
 import {
-  GiftIcon as BigGiftIcon,
   BuildingLibraryIcon,
+  GiftIcon as BigGiftIcon,
 } from '@heroicons/vue/24/outline';
 import { DialogTitle } from '@headlessui/vue';
 import { defineComponent } from 'vue';
-import { IconGitHub, IconPayPal, IconKoFi } from '#components';
+import { IconGitHub, IconKoFi, IconPayPal } from '#components';
 
 export default defineComponent({
   name: 'LayoutBanner',
@@ -105,7 +110,7 @@ export default defineComponent({
     BigGiftIcon,
     GiftIcon,
   },
-  data() {
+  setup() {
     return {
       name: 'Elias Schaut',
       email: 'eschaut@outlook.de',
@@ -135,13 +140,13 @@ export default defineComponent({
     };
   },
   mounted() {
-    if (this.$route.params.slug.includes('donate')) {
-      this.show_donate();
+    if (this.$route.params.home.includes('donate')) {
+      this.show_donate_modal();
     }
   },
   methods: {
-    show_donate() {
-      this.$refs.show.show();
+    show_donate_modal() {
+      this.$refs.donate_modal.show();
     },
   },
 });

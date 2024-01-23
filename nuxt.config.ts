@@ -1,9 +1,11 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
+
 export default defineNuxtConfig({
   devtools: { enabled: true },
   workspaceDir: '.',
   srcDir: './src',
   modules: [
+    '@nuxt/content',
     '@nuxtjs/i18n',
     '@nuxtjs/tailwindcss',
     '@nuxtjs/color-mode',
@@ -11,6 +13,12 @@ export default defineNuxtConfig({
     '@pinia/nuxt',
     '@pinia-plugin-persistedstate/nuxt',
   ],
+
+  content: {
+    navigation: {
+      fields: ['title', 'description', 'date', 'datetime', 'tag'],
+    },
+  },
 
   i18n: {
     langDir: 'locales',

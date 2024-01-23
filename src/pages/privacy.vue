@@ -1,11 +1,11 @@
 <template>
   <div class="mx-4 my-10 flex flex-row justify-center">
-    <ElementCard
+    <Card
       :title="$t('privacy.title')"
       :icon="ClipboardDocumentCheckIcon"
       class="w-full align-middle lg:w-2/3"
     >
-      <ElementFaq
+      <Faq
         :faqs="[
           {
             question: $t('privacy.data.title'),
@@ -21,7 +21,7 @@
           },
         ]"
       />
-    </ElementCard>
+    </Card>
   </div>
 </template>
 

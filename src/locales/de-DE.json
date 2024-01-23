@@ -1,88 +1,128 @@
 {
+  "articles": {
+    "intro": "Alle meine Ideen, Erfahrungen, Umsetzungen und mehr gesammelt in chronologischer Reihenfolge.",
+    "title": "Geschriebenes zu kreativen Projekten."
+  },
+  "banner": {
+    "contact": "Kontakt",
+    "desc": "Web-/Bot-Entwickler • kreativer Projektleiter • Software-Designer • leidenschaftlicher Programmierer",
+    "donate": "Spenden",
+    "donate_me": "Spende {name}"
+  },
   "common": {
     "and": "und",
-    "sr": {
-      "dismiss": "Schließen",
-      "open_user_menu": "Benutzermenü öffnen",
-      "open_main_menu": "Hauptmenü öffnen"
+    "lang": {
+      "de": "Deutsch",
+      "en": "Englisch"
     },
     "modal": {
       "close": "Schließen",
       "go_back": "Gehe zurück"
     },
-    "lang": {
-      "en": "Englisch",
-      "de": "Deutsch"
+    "sr": {
+      "dismiss": "Schließen",
+      "open_main_menu": "Hauptmenü öffnen",
+      "open_user_menu": "Benutzermenü öffnen"
     },
     "theme": {
-      "light": "Hell",
       "dark": "Dunkel",
+      "light": "Hell",
       "system": "System"
     }
   },
-  "banner": {
-    "contact": "Kontakt",
-    "donate": "Spenden",
-    "donate_me": "Spende {name}"
+  "footer": {
+    "home": "Startseite",
+    "imprint": "Impressum",
+    "privacy": "Datenschutz",
+    "resources": "Ressourcen",
+    "source": "Quellcode",
+    "title": "Footer"
   },
   "home": {
     "bio": {
-      "title": "Bio",
-      "body": "Hallo, ich bin Elias und würde mich als sozialen Optimisten bezeichnen. Meine Mission ist es, positive Stimmung zu verbreiten, wo immer ich auch hinkomme. Genau aus diesem Grund bin ich ein regelmäßiges Gesicht bei verschiedenen sozialen Zusammenkünften. Als leidenschaftlicher Web- und Bot-Entwickler entwickle ich ständig neue Möglichkeiten, um den Spaß und die Produktivität der Gemeinschaften, an denen ich beteiligt bin, zu steigern."
+      "body": "Hallo, ich bin Elias und würde mich als sozialen Optimisten bezeichnen. Meine Mission ist es, positive Stimmung zu verbreiten, wo immer ich auch hinkomme. Genau aus diesem Grund bin ich ein regelmäßiges Gesicht bei verschiedenen sozialen Zusammenkünften. Als leidenschaftlicher Web- und Bot-Entwickler entwickle ich ständig neue Möglichkeiten, um den Spaß und die Produktivität der Gemeinschaften, an denen ich beteiligt bin, zu steigern.",
+      "title": "Bio"
     },
     "education": {
-      "title": "Bildungsweg",
-      "today": "heute",
       "school": {
-        "elementary": "Grundschule",
         "a_levels": "Abitur",
-        "computer_science": "Informatik"
-      }
-    },
-    "skills": {
-      "title": "Skills",
-      "technical": "Technische Skills",
-      "soft": {
-        "title": "Soft Skills",
-        "skills": {
-          "events": "Kreative Eventplanung",
-          "organisation": "Organisationstalent",
-          "teamwork": "Teamfähig",
-          "communication": "Kommunikativ"
-        }
-      }
+        "computer_science": "Informatik",
+        "elementary": "Grundschule"
+      },
+      "title": "Bildungsweg",
+      "today": "heute"
     },
     "projects": {
       "title": "Projekte"
+    },
+    "skills": {
+      "etc": {
+        "skills": {
+          "games": "Computerspiele",
+          "piano": "Klavier",
+          "trumpet": "Trompete"
+        },
+        "title": "Sonstige Skills"
+      },
+      "soft": {
+        "skills": {
+          "communication": "Kommunikativ",
+          "events": "Kreative Eventplanung",
+          "mentoring": "Mentoring",
+          "organisation": "Organisationstalent",
+          "overmotivated": "Übermotiviert",
+          "project_management": "Projektleitung",
+          "social": "Sozial energetisch",
+          "teamwork": "Teamfähig"
+        },
+        "title": "Soft Skills"
+      },
+      "technical": "Technische Skills",
+      "title": "Skills"
+    },
+    "work": {
+      "event": {
+        "akk_desc": "Ehrenamtliche wöchentliche Ausschankarbeiten im Kultur-Café.",
+        "eezi_desc": "Tutor & HiWi Arbeiten zur Unterstützung der Studienanfänger.",
+        "fsmi": "FSMI - Fachschaft Mathe & Informatik",
+        "fsmi_desc": "Ehrenamtliche Sprechstunde und Unterstützung bei Events. Verantwortung für das Fachschaftsfrühstück.",
+        "hadiko_ev_desc": "Ehrenamtliche Vereinsarbeiten im Belegungsausschuss, Dachterrassenministerium, Billardministerium und AK Öffentlichkeitsarbeit. Zusätzlich etliche ehrenamtliche Flurarbeiten für Finanzen, Getränkeministerium, Flurputz, Fluressen und Flurturnieren.",
+        "hadiko_vev": "HaDiKo Veranstaltungen e.V. Abteilung K2",
+        "hadiko_vev_desc": "Ehrenamtliche Vereinsarbeiten und Finanzen für unzählige soziale Veranstaltungen.",
+        "lila_pause": "Lila Pause - FSMI O-Phasen-Gruppe",
+        "lila_pause_desc": "Ehrenamtliche Begrüßung & Einführung der Studienanfänger. Zudem wöchentliche Stammtische mit gelegentlichen Specials. Seit 2020 Hauptorganisator.",
+        "mannheim": "Tätigkeiten Mannheim",
+        "mannheim_desc": "Beisitzender des Schülerbeirats des Technoseums Mannheim 2015-2016. Schülerstudium über zwei Semester an der Universität Mannheim 2018. Teilnahme am Blasorchester der Musikschule. Einmalige Teilnahme Jugend musiziert als Klavierbegleitung.",
+        "moll": "Tätigkeiten Moll Gymnasium",
+        "moll_desc": "Teilnahme an diversen Orchestern/Chören jedes Schuljahr, ab 2014 inklusive Mentor-Arbeit. Robotik AG mit Teilnahme FLL. Projektleiter im Rahmen der Projekttage über Musikgeschichte 2015."
+      },
+      "title": "Tätigkeiten"
     }
-  },
-  "footer": {
-    "title": "Footer",
-    "home": "Startseite",
-    "source": "Quellcode",
-    "imprint": "Impressum",
-    "privacy": "Datenschutz"
   },
   "imprint": {
-    "title": "Impressum",
-    "declaration": "Angaben gemäß § 5 TMG",
     "contact": "Kontakt",
+    "declaration": "Angaben gemäß § 5 TMG",
     "email": "E-Mail",
-    "phone": "Telefon"
+    "phone": "Telefon",
+    "title": "Impressum"
   },
   "privacy": {
-    "title": "Datenschutzerklärung",
-    "data": {
-      "title": "Welche Daten werden von dieser Website erfasst?",
-      "body": "Diese Website erfasst keine Daten von dir. Der im Impressum angegebene Betreiber erfährt nur von dir, wenn du ihm eine E-Mail schreibst. Dadurch erfährt der Betreiber deine E-Mail-Adresse und deinen Namen. Diese Daten werden nur für die Beantwortung deiner Anfrage verwendet und nicht an Dritte weitergegeben."
-    },
     "cookies": {
-      "title": "Analytics/Cookies/Externe-Ressourcen u.ä.?",
-      "body": "Diese Website verwendet kein analytisches Tracking jeglicher Art. Diese Website verwendet Cookies. Das sind kleine Textdateien, die der Webbrowser auf dem Endgerät speichert. Cookies helfen dabei, das Angebot nutzerfreundlicher, effektiver und sicherer zu machen. Einige Cookies sind “Session-Cookies.” Solche Cookies werden nach Ende der Browser-Sitzung von selbst gelöscht. Hingegen bleiben andere Cookies auf Ihrem Endgerät bestehen, bis diese händisch selbst gelöscht werden. Solche Cookies helfen bei Rückkehr auf die Website gemachte Einstellungen wiederzuverwenden. Mit einem modernen Webbrowser kann das Setzen von Cookies überwacht, einschränkt oder unterbunden werden. Viele Webbrowser lassen sich so konfigurieren, dass Cookies mit dem Schließen des Programms von selbst gelöscht werden. Die Deaktivierung von Cookies kann eine eingeschränkte Funktionalität der Website zur Folge haben."
+      "body": "Diese Website verwendet kein analytisches Tracking jeglicher Art. Diese Website verwendet Cookies. Das sind kleine Textdateien, die der Webbrowser auf dem Endgerät speichert. Cookies helfen dabei, das Angebot nutzerfreundlicher, effektiver und sicherer zu machen. Einige Cookies sind “Session-Cookies.” Solche Cookies werden nach Ende der Browser-Sitzung von selbst gelöscht. Hingegen bleiben andere Cookies auf Ihrem Endgerät bestehen, bis diese händisch selbst gelöscht werden. Solche Cookies helfen bei Rückkehr auf die Website gemachte Einstellungen wiederzuverwenden. Mit einem modernen Webbrowser kann das Setzen von Cookies überwacht, einschränkt oder unterbunden werden. Viele Webbrowser lassen sich so konfigurieren, dass Cookies mit dem Schließen des Programms von selbst gelöscht werden. Die Deaktivierung von Cookies kann eine eingeschränkte Funktionalität der Website zur Folge haben.",
+      "title": "Analytics/Cookies/Externe-Ressourcen u.ä.?"
+    },
+    "data": {
+      "body": "Diese Website erfasst keine Daten von dir. Der im Impressum angegebene Betreiber erfährt nur von dir, wenn du ihm eine E-Mail schreibst. Dadurch erfährt der Betreiber deine E-Mail-Adresse und deinen Namen. Diese Daten werden nur für die Beantwortung deiner Anfrage verwendet und nicht an Dritte weitergegeben.",
+      "title": "Welche Daten werden von dieser Website erfasst?"
     },
     "rights": {
-      "title": "Was sind meine Rechte?",
-      "body": "Nach DSGVO und BDSG kannst du jederzeit Auskunft, Aktualisierung, Sperrung oder Löschung aller deiner Daten verlangen. Dein Ansprechpartner hierfür ist der oben genannte Betreiber dieser Webseite. Außerdem bin ich verpflichtet, dich an dein Recht zu erinnern, dieser Zustimmung jederzeit zu widersprechen und dich ggf. bei einer Aufsichtsbehörde über mich zu beschweren."
-    }
+      "body": "Nach DSGVO und BDSG kannst du jederzeit Auskunft, Aktualisierung, Sperrung oder Löschung aller deiner Daten verlangen. Dein Ansprechpartner hierfür ist der oben genannte Betreiber dieser Webseite. Außerdem bin ich verpflichtet, dich an dein Recht zu erinnern, dieser Zustimmung jederzeit zu widersprechen und dich ggf. bei einer Aufsichtsbehörde über mich zu beschweren.",
+      "title": "Was sind meine Rechte?"
+    },
+    "title": "Datenschutzerklärung"
+  },
+  "projects": {
+    "intro": "Über die letzten Jahre habe ich an einigen kleineren oder größeren Projekten gearbeitet.     Auf die hier gelisteten Projekte bin ich allerdings besonders stolz! Wenn dich etwas interessiert,     dann schau dir den Code doch einfach genauer an. Alles ist Open-Source!",
+    "title": "Meine ausgewählte Projekte, die dazu dienen, meine Communities zu verbessern."
   }
 }

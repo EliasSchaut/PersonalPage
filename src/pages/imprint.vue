@@ -1,6 +1,6 @@
 <template>
   <div class="mx-4 my-10 flex flex-row justify-center">
-    <ElementCard
+    <Card
       :title="$t('imprint.title')"
       :icon="IdentificationIcon"
       class="w-full align-middle sm:w-1/2"
@@ -12,7 +12,7 @@
         <b>{{ $t('imprint.contact') }}:</b><br />
         {{ $t('imprint.email') }}: {{ impressum.email }}<br />
       </p>
-    </ElementCard>
+    </Card>
   </div>
 </template>
 

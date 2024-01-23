@@ -1,12 +1,12 @@
 <template>
   <ul
     role="list"
-    class="divide-y divide-gray-100 overflow-hidden bg-white shadow-sm ring-1 ring-gray-900/5 dark:divide-gray-700 dark:bg-gray-800 dark:ring-gray-700 sm:rounded-xl"
+    class="divide-y divide-gray-100 overflow-hidden bg-white shadow-sm ring-1 ring-gray-900/5 sm:rounded-xl dark:divide-gray-700 dark:bg-gray-800 dark:ring-gray-700"
   >
     <li
       v-for="element in list"
       :key="element.content"
-      class="relative flex justify-between gap-x-6 px-4 py-5 hover:bg-gray-50 dark:hover:bg-gray-900 sm:px-6"
+      class="relative flex justify-between gap-x-6 px-4 py-5 hover:bg-gray-50 sm:px-6 dark:hover:bg-gray-900"
     >
       <div class="flex min-w-0 gap-x-4">
         <component

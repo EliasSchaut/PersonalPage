@@ -1,88 +1,128 @@
 {
+  "articles": {
+    "intro": "All my ideas, experiences, implementations, and more, collected in chronological order.",
+    "title": "Writing on creative projects."
+  },
+  "banner": {
+    "contact": "Contact",
+    "desc": "Web/Bot Developer • Creative Project Manager • Software Designer • Passionate Programmer",
+    "donate": "Donate",
+    "donate_me": "Donate {name}"
+  },
   "common": {
     "and": "and",
-    "sr": {
-      "dismiss": "Dismiss",
-      "open_user_menu": "Open user menu",
-      "open_main_menu": "Open main menu"
+    "lang": {
+      "de": "German",
+      "en": "English"
     },
     "modal": {
       "close": "Close",
       "go_back": "Go back"
     },
-    "lang": {
-      "en": "English",
-      "de": "German"
+    "sr": {
+      "dismiss": "Dismiss",
+      "open_main_menu": "Open main menu",
+      "open_user_menu": "Open user menu"
     },
     "theme": {
-      "light": "Light",
       "dark": "Dark",
+      "light": "Light",
       "system": "System"
     }
   },
-  "banner": {
-    "contact": "Contact",
-    "donate": "Donate",
-    "donate_me": "Donate {name}"
+  "footer": {
+    "home": "Home",
+    "imprint": "Imprint",
+    "privacy": "Privacy",
+    "resources": "Resources",
+    "source": "Source Code",
+    "title": "Footer"
   },
   "home": {
     "bio": {
-      "title": "Bio",
-      "body": "Hey, I’m Elias and I would describe myself as a social optimist. It's my mission to spread positivity wherever I go, which is precisely why I'm a regular face at various social gatherings. As a passionate web and bot developer, I'm constantly creating ways to enhance the fun and productivity of the communities I'm involved in."
+      "body": "Hey, I’m Elias and I would describe myself as a social optimist. It's my mission to spread positivity wherever I go, which is precisely why I'm a regular face at various social gatherings. As a passionate web and bot developer, I'm constantly creating ways to enhance the fun and productivity of the communities I'm involved in.",
+      "title": "Bio"
     },
     "education": {
-      "title": "Education",
-      "today": "today",
       "school": {
-        "elementary": "Elementary School",
         "a_levels": "A Levels",
-        "computer_science": "Computer Science"
-      }
-    },
-    "skills": {
-      "title": "Skills",
-      "technical": "Technical Skills",
-      "soft": {
-        "title": "Soft Skills",
-        "skills": {
-          "events": "Creative event planning",
-          "organisation": "Organizational talent",
-          "teamwork": "Team player",
-          "communication": "Communicative"
-        }
-      }
+        "computer_science": "Computer Science",
+        "elementary": "Elementary School"
+      },
+      "title": "Education",
+      "today": "today"
     },
     "projects": {
       "title": "Projects"
+    },
+    "skills": {
+      "etc": {
+        "skills": {
+          "games": "Computer games",
+          "piano": "Piano",
+          "trumpet": "Trumpet"
+        },
+        "title": "Other Skills"
+      },
+      "soft": {
+        "skills": {
+          "communication": "Communicative",
+          "events": "Creative event planning",
+          "mentoring": "Mentoring",
+          "organisation": "Organizational talent",
+          "overmotivated": "Overmotivated",
+          "project_management": "Project management",
+          "social": "Socially energetic",
+          "teamwork": "Team player"
+        },
+        "title": "Soft Skills"
+      },
+      "technical": "Technical Skills",
+      "title": "Skills"
+    },
+    "work": {
+      "event": {
+        "akk_desc": "Volunteer weekly serving work at the Culture Café.",
+        "eezi_desc": "Tutor & HiWi work to support first-year students.",
+        "fsmi": "FSMI - Math & Computer Science Student Council",
+        "fsmi_desc": "Voluntary office hours and support at events. Responsibility for the student council breakfast.",
+        "hadiko_ev_desc": "Voluntary association work in the occupancy committee, roof top ministry, billiard ministry and work group public work. In addition, numerous voluntary hallway work for finances, the beverage ministry, hallway cleaning, hallway eating and hallway tournaments.",
+        "hadiko_vev": "HaDiKo Veranstaltungen e.V. Department K2",
+        "hadiko_vev_desc": "Voluntary association work and finances for countless social events.",
+        "lila_pause": "Lila Pause - FSMI O-phase group",
+        "lila_pause_desc": "Volunteer welcome & introduction of first-year students. Also weekly regulars' tables with occasional specials. Main organizer since 2020.",
+        "mannheim": "Activities Mannheim",
+        "mannheim_desc": "Member of the pupil advisory board of the Technoseums Mannheim 2015-2016. Pupil studying for two semesters at the University of Mannheim 2018. Participation in the brass orchestra of the music school. One-time participation in \"Jugend musiziert\" as piano accompaniment.",
+        "moll": "Activities Moll Gymnasium",
+        "moll_desc": "Participation in various orchestras/choirs every school year, from 2014 including mentor work. Robotics AG with FLL participation. Project manager during the project days about music history 2015."
+      },
+      "title": "Activities"
     }
-  },
-  "footer": {
-    "title": "Footer",
-    "home": "Home",
-    "source": "Source Code",
-    "imprint": "Imprint",
-    "privacy": "Privacy"
   },
   "imprint": {
-    "title": "Imprint",
-    "declaration": "Information according to § 5 TMG",
     "contact": "Contact",
+    "declaration": "Information according to § 5 TMG",
     "email": "E-Mail",
-    "phone": "Phone"
+    "phone": "Phone",
+    "title": "Imprint"
   },
   "privacy": {
-    "title": "Privacy",
-    "data": {
-      "title": "What data is collected by this website?",
-      "body": "This website does not collect any data from you. The operator specified in the imprint only learns about you if you write him an e-mail. Thereby the operator learns your e-mail address and your name. This data will only be used to answer your request and will not be passed on to third parties."
-    },
     "cookies": {
-      "title": "Analytics/Cookies/External Resources etc.?",
-      "body": "This website does not use analytical tracking of any kind. This website uses cookies. These are small text files that the web browser stores on the end device. Cookies help to make the website more user-friendly, effective and secure. Some cookies are \"session cookies.\" Such cookies are deleted by themselves at the end of the browser session. In contrast, other cookies remain on your terminal device until they are manually deleted by yourself. Such cookies help to reuse settings made when returning to the website. With a modern web browser, the setting of cookies can be monitored, restricted or prevented. Many web browsers can be configured to automatically delete cookies when the program is closed. Disabling cookies may result in limited functionality of the website."
+      "body": "This website does not use analytical tracking of any kind. This website uses cookies. These are small text files that the web browser stores on the end device. Cookies help to make the website more user-friendly, effective and secure. Some cookies are \"session cookies.\" Such cookies are deleted by themselves at the end of the browser session. In contrast, other cookies remain on your terminal device until they are manually deleted by yourself. Such cookies help to reuse settings made when returning to the website. With a modern web browser, the setting of cookies can be monitored, restricted or prevented. Many web browsers can be configured to automatically delete cookies when the program is closed. Disabling cookies may result in limited functionality of the website.",
+      "title": "Analytics/Cookies/External Resources etc.?"
+    },
+    "data": {
+      "body": "This website does not collect any data from you. The operator specified in the imprint only learns about you if you write him an e-mail. Thereby the operator learns your e-mail address and your name. This data will only be used to answer your request and will not be passed on to third parties.",
+      "title": "What data is collected by this website?"
     },
     "rights": {
-      "title": "What are my rights?",
-      "body": "According to DSGVO and BDSG, you can request information, updating, blocking or deletion of all your data at any time. Your contact person for this is the above-mentioned operator of this website. In addition, I am obliged to remind you of your right to object to this consent at any time and, if necessary, to complain to a supervisory authority about me."
-    }
+      "body": "According to DSGVO and BDSG, you can request information, updating, blocking or deletion of all your data at any time. Your contact person for this is the above-mentioned operator of this website. In addition, I am obliged to remind you of your right to object to this consent at any time and, if necessary, to complain to a supervisory authority about me.",
+      "title": "What are my rights?"
+    },
+    "title": "Privacy"
+  },
+  "projects": {
+    "intro": "Over the past few years, I've worked on some smaller or larger projects. However, I am particularly proud of the projects listed here! If you're interested, just take a closer look at the code. Everything is open-source!",
+    "title": "My selected projects, designed to improve my communities."
   }
 }
