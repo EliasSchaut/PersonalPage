@@ -10,10 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Create SSH key
-        run: |
-          mkdir .ssh
-          echo "${{secrets.SSH_PRIVATE_KEY}}" > .ssh/private.key
-          sudo chmod 600 .ssh/private.key
+        run: mkdir .ssh && echo "${{secrets.SSH_PRIVATE_KEY}}" > ~/.ssh/private.key && chmod 600 ~/.ssh/private.key
       - name: Connect
         run: ssh -i .ssh/private.key ${{ secrets.SSH_HOST }} && cd ${{ secrets.DEPLOY_DIR }}
       - name: Git Pull
