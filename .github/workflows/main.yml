@@ -9,21 +9,19 @@ jobs:
     name: Deploy
     runs-on: ubuntu-latest
     steps:
-      - name: Create SSH key
+      - name: Connect via ssh
         run: |
-          mkdir ~/.ssh
-          echo "${{secrets.SSH_PRIVATE_KEY}}" > ~/.ssh/private.key
-          chmod 600 ~/.ssh/private.key
-          echo "${{secrets.SSH_KNOWN_HOST}}" > ~/.ssh/known_hosts
-      - name: Connect
-        run: |
-          ssh -i ~/.ssh/private.key ${{ secrets.SSH_HOST }}
+          'which ssh-agent || ( apt-get update -y && apt-get install openssh-client -y )'
+          eval $(ssh-agent -s)
+          echo "${{ secrets.SSH_PRIVATE_KEY }}" | tr -d '\r' | ssh-add - > /dev/null
+          mkdir -p ~/.ssh
+          chmod 700 ~/.ssh
+          '[[ -f /.dockerenv ]] && echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config'
+          ssh ${{ secrets.SSH_HOST }}
       - name: Git Pull
         run: |
           cd ${{ secrets.DEPLOY_DIR }}
           git reset --hard
           git pull
       - name: Start Workflow
-        run: |
-          cd ${{ secrets.DEPLOY_DIR }}
-          ./workflow.sh
+        run: ./workflow.sh
