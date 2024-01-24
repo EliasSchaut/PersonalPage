@@ -28,6 +28,6 @@ jobs:
           TARGET: ${{ secrets.DEPLOY_DIR }}
           EXCLUDE: "/dist/, /node_modules/"
           SSH_CMD_ARGS: -o StrictHostKeyChecking=no
-          AFTER_SKRIPT: |
+          SCRIPT_AFTER: |
             pm2 restart PersonalPage
           
