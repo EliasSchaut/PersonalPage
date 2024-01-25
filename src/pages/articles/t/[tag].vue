@@ -16,19 +16,22 @@
             v-if="!list.some((article: any) => article.tags.includes($route.params.tag))">
             {{ $t('articles.tag_not_found') }}
           </li>
-          <li v-for="article of list" :key="article._path">
-            <ArticlePreview
-              v-if="article.tags.includes($route.params.tag)"
-              :title="article.title"
-              :href="article._path.replace(`/${$i18n.locale}`, '')"
-              :date="article.date"
-              :datetime="article.datetime"
-              :description="article.description"
-              :tags="article.tags"
-            />
-          </li>
+          <template v-for="article of list" :key="article._path">
+            <li v-if="article.tags.includes($route.params.tag)">
+              <ArticlePreview
+                :title="article.title"
+                :href="article._path.replace(`/${$i18n.locale}`, '')"
+                :date="article.date"
+                :datetime="article.datetime"
+                :description="article.description"
+                :tags="article.tags"
+              />
+            </li>
+          </template>
         </ul>
       </ContentList>
     </nav>
   </LayoutHeader>
 </template>
+<script setup lang="ts">
+</script>
