@@ -1,7 +1,9 @@
 {
   "articles": {
     "intro": "All my ideas, experiences, implementations, and more, collected in chronological order.",
-    "title": "Writing on creative projects."
+    "title": "Writing on creative projects.",
+    "return_overview": "Return to overview",
+    "tag_not_found": "No entry's found for this tag ..."
   },
   "banner": {
     "contact": "Contact",

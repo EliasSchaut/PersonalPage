@@ -6,7 +6,9 @@
       <time :datetime="datetime" class="text-gray-500 dark:text-gray-400">{{
         date
       }}</time>
-      <BadgeSimple :content="tag" />
+      <div class="flex flex-1 justify-end gap-1">
+        <BadgeSimple v-for="tag in tags" :content="tag" :href="'/articles/t/' + tag" />
+      </div>
     </div>
     <div class="group relative">
       <h3
@@ -51,9 +53,9 @@ export default defineComponent({
       type: String,
       required: true,
     },
-    tag: {
-      type: String,
-      default: '',
+    tags: {
+      type: Array<String>,
+      default: [''],
     },
   },
 });
