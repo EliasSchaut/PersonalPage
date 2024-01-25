@@ -12,7 +12,7 @@
               :date="article.date"
               :datetime="article.datetime"
               :description="article.description"
-              :tag="article.tag"
+              :tags="article.tags"
             />
           </li>
         </ul>
