@@ -25,6 +25,9 @@
             </a>
             <span v-else>{{ element.content }}</span>
           </p>
+          <p v-if="element.subcontent" class="text-gray-600 dark:text-gray-400">
+            {{ element.subcontent }}
+          </p>
         </div>
       </div>
       <div v-if="element.href" class="flex shrink-0 items-center gap-x-4">
@@ -48,7 +51,7 @@ export default defineComponent({
   },
   props: {
     list: {
-      type: Array<{ content: string; href?: string; icon?: Function }>,
+      type: Array<{ content: string; subcontent?: string; href?: string; icon?: Function }>,
       required: true,
     },
   },

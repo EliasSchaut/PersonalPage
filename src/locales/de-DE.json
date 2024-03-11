@@ -1,9 +1,9 @@
 {
   "articles": {
     "intro": "Alle meine Ideen, Erfahrungen, Umsetzungen und mehr gesammelt in chronologischer Reihenfolge.",
-    "title": "Geschriebenes zu kreativen Projekten.",
     "return_overview": "Zurück zur Übersicht",
-    "tag_not_found": "Es wurde kein Eintrag für diesen Tag gefunden ..."
+    "tag_not_found": "Es wurde kein Eintrag für diesen Tag gefunden ...",
+    "title": "Geschriebenes zu kreativen Projekten."
   },
   "banner": {
     "contact": "Kontakt",
@@ -125,6 +125,14 @@
   },
   "projects": {
     "intro": "Über die letzten Jahre habe ich an einigen kleineren oder größeren Projekten gearbeitet.     Auf die hier gelisteten Projekte bin ich allerdings besonders stolz! Wenn dich etwas interessiert,     dann schau dir den Code doch einfach genauer an. Alles ist Open-Source!",
+    "subcontents": {
+      "bdayhero": "(WIP) Eine hero Seite als Teaser und Einladung für meinen Geburtstag",
+      "discordbots": "(Eingestellt) Eine Sammlung von Discord-Bots für verschiedene Zwecke",
+      "karaokelist": "(WIP) Eine Website zur Verwaltung aller verfügbaren Karaoke-Songs",
+      "watchvote": "(WIP) Eine Full-Stack-Management-Anwendung zum Vorschlagen und Abstimmen von Filmen für zyklische Filmveranstaltungen",
+      "webbeginnings": "(Eingestellt) Meine ersten Webprojekte",
+      "winvite": "(Eingestellt) Ein vollständiges Stack-Management-Tool zum Erstellen von öffentlich zugänglichen Invites als Website"
+    },
     "title": "Meine ausgewählte Projekte, die dazu dienen, meine Communities zu verbessern."
   }
 }
