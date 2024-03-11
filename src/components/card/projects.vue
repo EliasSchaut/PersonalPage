@@ -35,6 +35,11 @@ const projects = computed(() => [
     href: 'https://github.com/EliasSchaut/SnakeArena'
   },
   {
+    content: 'DiscordDungeon',
+    subcontent: t('projects.subcontents.discorddungeon'),
+    href: 'https://discord.gg/4SdzCaenKs'
+  },
+  {
     content: 'Discord Bots',
     subcontent: t('projects.subcontents.discordbots'),
     href: 'https://github.com/EliasSchaut?tab=repositories&q=Bot',
