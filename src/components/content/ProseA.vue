@@ -1,7 +1,7 @@
 <template>
   <NuxtLink
     class="border-b-0 border-indigo-500 font-semibold text-indigo-500 no-underline hover:border-b-2"
-    :href="href"
+    :href="(href.startsWith('http')) ? href : '/articles/' + href"
     :target="target"
   >
     <slot />
@@ -16,7 +16,7 @@ defineProps({
   },
   target: {
     type: String,
-    default: undefined,
+    default: "_blank",
     required: false,
   },
 });
