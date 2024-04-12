@@ -17,7 +17,7 @@ const projects = computed(() => [
   {
     content: 'BdayHero',
     subcontent: t('projects.subcontents.bdayhero'),
-    href: 'https://github.com/EliasSchaut/Winvite',
+    href: 'https://github.com/EliasSchaut/BdayHero',
   },
   {
     content: 'KaraokeList',
