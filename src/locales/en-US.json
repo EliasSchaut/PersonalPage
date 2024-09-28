@@ -91,8 +91,10 @@
         "hadiko_ev_desc": "Voluntary association work in the occupancy committee, roof top ministry, billiard ministry and work group public work. In addition, numerous voluntary hallway work for finances, the beverage ministry, hallway cleaning, hallway eating and hallway tournaments.",
         "hadiko_vev": "HaDiKo Veranstaltungen e.V. Department K2",
         "hadiko_vev_desc": "Voluntary association work and finances for countless social events.",
+        "level42": "Level 42 - FSMI Master O-phase group",
+        "level42_desc": "Foundation of the volunteer group to welcome and introduce first-year Master's students",
         "lila_pause": "Lila Pause - FSMI O-phase group",
-        "lila_pause_desc": "Volunteer welcome & introduction of first-year students. Also weekly regulars' tables with occasional specials. Main organizer since 2020.",
+        "lila_pause_desc": "Volunteer welcome & introduction of first-year students. Also weekly regulars' tables with occasional specials. 2020-2023 Main organizer.",
         "mannheim": "Activities Mannheim",
         "mannheim_desc": "Member of the pupil advisory board of the Technoseums Mannheim 2015-2016. Pupil studying for two semesters at the University of Mannheim 2018. Participation in the brass orchestra of the music school. One-time participation in \"Jugend musiziert\" as piano accompaniment.",
         "moll": "Activities Moll Gymnasium",
@@ -107,6 +109,12 @@
     "email": "E-Mail",
     "phone": "Phone",
     "title": "Imprint"
+  },
+  "nav": {
+    "about": "About",
+    "articles": "Articles",
+    "projects": "Projects",
+    "wiki": "Wiki"
   },
   "privacy": {
     "cookies": {
@@ -126,10 +134,10 @@
   "projects": {
     "intro": "Over the past few years, I've worked on some smaller or larger projects. However, I am particularly proud of the projects listed here! If you're interested, just take a closer look at the code. Everything is open-source!",
     "subcontents": {
-      "bdayhero": "(WIP) A hero page like teaser and invitation for my bday",
+      "bdayhero": "A hero page like teaser and invitation for my bday",
       "discordbots": "(Discontinued) A collection of discord bots for various purposes",
       "discorddungeon": "(Event) An epic puzzle adventure centred around Discord",
-      "karaokelist": "(WIP) A full stack management website for available karaoke songs",
+      "karaokelist": "A full stack management website for available karaoke songs",
       "snakearena": "(Event) A german java code contest for a variant of the game snake",
       "watchvote": "(WIP) A full stack management application for proposing and voting movies for cyclical movie events",
       "webbeginnings": "(Discontinued) My first web projects",

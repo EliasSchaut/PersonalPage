@@ -3,9 +3,14 @@
     <ListChecks
       :events="[
         {
+          content: $t('home.work.event.level42'),
+          subcontent: $t('home.work.event.level42_desc'),
+          time: `2024 - ${$t('home.education.today')}`,
+        },
+        {
           content: $t('home.work.event.lila_pause'),
           subcontent: $t('home.work.event.lila_pause_desc'),
-          time: `2018 - ${$t('home.education.today')}`,
+          time: `2018 - 2024`,
         },
         {
           content: 'eezi - Eine Einführung zum Informatikstudium',
@@ -15,7 +20,7 @@
         {
           content: 'Akk - Arbeitskreis Kultur und Kommunikation',
           subcontent: $t('home.work.event.akk_desc'),
-          time: `2018 - ${$t('home.education.today')}`,
+          time: `2018 - 2024`,
         },
         {
           content: $t('home.work.event.hadiko_vev'),

@@ -25,13 +25,13 @@
       >
         <div class="py-1">
           <MenuItem v-slot="{ active }" v-for="item in items">
-            <a
+            <button
               @click="item.callback"
               :class="[
                 active
                   ? 'bg-gray-100 text-gray-900 dark:bg-gray-900 dark:text-gray-100'
                   : 'text-gray-700 dark:text-gray-300',
-                'group flex items-center px-4 py-2 text-sm',
+                'group w-full flex items-center px-4 py-2 text-sm',
               ]"
             >
               <component
@@ -39,7 +39,7 @@
                 class="mr-3 h-5 w-5 text-gray-400 group-hover:text-gray-500"
               />
               {{ item.label }}
-            </a>
+            </button>
           </MenuItem>
         </div>
       </MenuItems>

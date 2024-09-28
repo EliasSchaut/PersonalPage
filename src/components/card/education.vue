@@ -18,7 +18,13 @@
           content: `${$t(
             'home.education.school.computer_science',
           )} B.Sc. KIT Karlsruhe`,
-          time: `2018 - ${$t('home.education.today')}`,
+          time: `2018 - 2024`,
+        },
+        {
+          content: `${$t(
+            'home.education.school.computer_science',
+          )} M.Sc. KIT Karlsruhe`,
+          time: `2024 - ${$t('home.education.today')}`,
         },
       ]"
     />

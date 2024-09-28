@@ -4,6 +4,7 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   workspaceDir: '.',
   srcDir: './src',
+  compatibilityDate: '2024-09-28',
   modules: [
     '@nuxt/content',
     '@nuxtjs/i18n',

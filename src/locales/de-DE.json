@@ -91,8 +91,10 @@
         "hadiko_ev_desc": "Ehrenamtliche Vereinsarbeiten im Belegungsausschuss, Dachterrassenministerium, Billardministerium und AK Öffentlichkeitsarbeit. Zusätzlich etliche ehrenamtliche Flurarbeiten für Finanzen, Getränkeministerium, Flurputz, Fluressen und Flurturnieren.",
         "hadiko_vev": "HaDiKo Veranstaltungen e.V. Abteilung K2",
         "hadiko_vev_desc": "Ehrenamtliche Vereinsarbeiten und Finanzen für unzählige soziale Veranstaltungen.",
+        "level42": "Level 42 - FSMI Master O-Phasen-Gruppe",
+        "level42_desc": "Gründung der ehrenamtlichen Gruppe zur Begrüßung & Einführung der Master Studienanfänger ",
         "lila_pause": "Lila Pause - FSMI O-Phasen-Gruppe",
-        "lila_pause_desc": "Ehrenamtliche Begrüßung & Einführung der Studienanfänger. Zudem wöchentliche Stammtische mit gelegentlichen Specials. Seit 2020 Hauptorganisator.",
+        "lila_pause_desc": "Ehrenamtliche Begrüßung & Einführung der Studienanfänger. Zudem wöchentliche Stammtische mit gelegentlichen Specials. 2020-2023 Hauptorganisator.",
         "mannheim": "Tätigkeiten Mannheim",
         "mannheim_desc": "Beisitzender des Schülerbeirats des Technoseums Mannheim 2015-2016. Schülerstudium über zwei Semester an der Universität Mannheim 2018. Teilnahme am Blasorchester der Musikschule. Einmalige Teilnahme Jugend musiziert als Klavierbegleitung.",
         "moll": "Tätigkeiten Moll Gymnasium",
@@ -107,6 +109,12 @@
     "email": "E-Mail",
     "phone": "Telefon",
     "title": "Impressum"
+  },
+  "nav": {
+    "about": "Über",
+    "articles": "Artikel",
+    "projects": "Projekte",
+    "wiki": "Wiki"
   },
   "privacy": {
     "cookies": {
@@ -126,10 +134,10 @@
   "projects": {
     "intro": "Über die letzten Jahre habe ich an einigen kleineren oder größeren Projekten gearbeitet.     Auf die hier gelisteten Projekte bin ich allerdings besonders stolz! Wenn dich etwas interessiert,     dann schau dir den Code doch einfach genauer an. Alles ist Open-Source!",
     "subcontents": {
-      "bdayhero": "(WIP) Eine hero Seite als Teaser und Einladung für meinen Geburtstag",
+      "bdayhero": "Eine hero Seite als Teaser und Einladung für meinen Geburtstag",
       "discordbots": "(Eingestellt) Eine Sammlung von Discord-Bots für verschiedene Zwecke",
       "discorddungeon": "(Event) Ein episches Rätzelabenteuer rund um Discord",
-      "karaokelist": "(WIP) Eine Website zur Verwaltung aller verfügbaren Karaoke-Songs",
+      "karaokelist": "Eine Website zur Verwaltung aller verfügbaren Karaoke-Songs",
       "snakearena": "(Event) Ein deutscher Java-Code-Wettbewerb für eine Variante des Spiels Snake",
       "watchvote": "(WIP) Eine Full-Stack-Management-Anwendung zum Vorschlagen und Abstimmen von Filmen für zyklische Filmveranstaltungen",
       "webbeginnings": "(Eingestellt) Meine ersten Webprojekte",

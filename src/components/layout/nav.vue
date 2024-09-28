@@ -72,24 +72,31 @@ import { ChevronDownIcon, XMarkIcon } from '@heroicons/vue/24/outline';
 export default defineComponent({
   components: { ChevronDownIcon, XMarkIcon },
   setup() {
+    const { t } = useI18n()
+
     return {
-      pages: [
+      pages: computed(() => [
         {
-          title: 'About',
+          title: t('nav.about'),
           href: '/',
           matches: /^\/$/,
         },
         {
-          title: 'Articles',
+          title: t('nav.articles'),
           href: '/articles',
           matches: /^\/articles(\/.*)?$/,
         },
         {
-          title: 'Projects',
+          title: t('nav.projects'),
           href: '/projects',
           matches: /^\/projects(\/.*)?$/,
         },
-      ] as Array<{ title: string; href: string; matches: RegExp }>,
+        {
+          title: t('nav.wiki'),
+          href: 'https://wiki.schaut.dev',
+          matches: /^\/wiki.schaut.dev(\/.*)?$/,
+        },
+      ]) as Array<{ title: string; href: string; matches: RegExp }>,
     };
   },
 });

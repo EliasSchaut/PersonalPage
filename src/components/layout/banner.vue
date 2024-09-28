@@ -140,7 +140,7 @@ export default defineComponent({
     };
   },
   mounted() {
-    if (this.$route.params.home.includes('donate')) {
+    if (this.$route.params.home && this.$route.params.home.includes('donate')) {
       this.show_donate_modal();
     }
   },
