@@ -1,10 +1,11 @@
 <template>
-  <Body class="bg-white dark:bg-second-800" />
+  <Body class="bg-second-50 dark:bg-second-900" />
 
-  <nav class="flex p-4 justify-between bg-second-100 dark:bg-second-900 sm:bg-second-200 sm:dark:bg-second-800">
-    <div class="left-5 top-5 hidden sm:inline">
-      <nuxt-link href="/">
+  <nav class="flex p-4 justify-between border border-b-4 border-second-200 dark:border-second-800 bg-second-100 sm:dark:bg-second-900">
+    <div class="left-5 top-5">
+      <nuxt-link href="/" class="flex gap-3 items-center">
         <AvatarSmall />
+        <span class="bg-gradient-to-r bg-clip-text from-blue-800 dark:from-blue-200 to-prime-800 dark:to-prime-200 text-transparent font-bold">Elias Schaut</span>
       </nuxt-link>
     </div>
 
@@ -19,7 +20,7 @@
   </nav>
 
   <main
-    class="dark:bg-second-900 bg-white text-second-800 dark:text-second-200 w-full px-6 py-32"
+    class="dark:bg-second-950 bg-second-50 text-second-800 dark:text-second-200 w-full p-10"
   >
     <slot />
   </main>
