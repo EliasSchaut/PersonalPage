@@ -22,7 +22,6 @@ Wirf einen Blick auf die Software-Tools, die zur Verbesserung dieser Website ein
 ## Asset Inventar
 - [Tailwind UI](https://tailwindui.com): Moderne gestylte UI-Komponenten (mit einer Personal Complete Package Restricted License)
 - [Headless UI](https://headlessui.com/): Minimalistische, ungestylte UI-Komponenten
-- [Heroicons](https://heroicons.com/): Verwendet für eine Vielzahl von generischen Icons
+- [Heroicons](https://heroicons.com/): Verwendet für eine Vielzahl generischer Icons
 - [Bootstrap Icons](https://icons.getbootstrap.com/): Verwendet für soziale Symbole
 - [Flagpedia](https://flagpedia.net/): Verwendet für Flaggensymbole
-- Persönlich gekauftes Galaxie Stock Foto für Banner Bild

@@ -9,9 +9,3 @@
     <CardWork />
   </ul>
 </template>
-
-<script setup lang="ts">
-definePageMeta({
-  layout: 'banner',
-});
-</script>

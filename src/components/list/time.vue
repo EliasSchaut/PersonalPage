@@ -5,7 +5,7 @@
         <div class="relative pb-8">
           <span
             v-if="eventIdx !== events.length - 1"
-            class="absolute left-4 top-4 -ml-px h-full w-0.5 bg-gray-200 dark:bg-gray-800"
+            class="absolute left-4 top-4 -ml-px h-full w-0.5 bg-second-200 dark:bg-second-800"
             aria-hidden="true"
           />
           <div class="relative flex space-x-3">
@@ -13,9 +13,9 @@
               <span
                 :class="[
                   eventIdx === events.length - 1
-                    ? 'bg-indigo-500'
-                    : 'bg-gray-300 dark:bg-gray-800',
-                  'flex h-8 w-8 items-center justify-center rounded-full ring-8 ring-white dark:ring-gray-900',
+                    ? 'bg-prime-500'
+                    : 'bg-second-300 dark:bg-second-800',
+                  'flex h-8 w-8 items-center justify-center rounded-full ring-8 ring-white dark:ring-second-900',
                 ]"
               >
                 <component

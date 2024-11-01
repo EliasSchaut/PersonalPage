@@ -1,6 +1,6 @@
 <template>
   <NuxtLink
-    class="border-b-0 border-indigo-500 font-semibold text-indigo-500 no-underline hover:border-b-2"
+    class="border-b-0 border-prime-500 font-semibold text-prime-500 no-underline hover:border-b-2"
     :href="(href.startsWith('http')) ? href : '/articles/' + href"
     :target="target"
   >

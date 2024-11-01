@@ -1,5 +1,5 @@
 <template>
-  <footer class="bg-white dark:bg-gray-800">
+  <footer class="bg-white dark:bg-second-800">
     <div class="mx-auto max-w-7xl overflow-hidden px-6 py-20 sm:py-24 lg:px-8">
       <nav
         class="-mb-6 columns-2 sm:flex sm:justify-center sm:space-x-12"
@@ -9,7 +9,7 @@
           <nuxt-link
             v-if="link?.intern"
             :to="link.href"
-            class="text-sm leading-6 text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-400"
+            class="text-sm leading-6 text-second-600 hover:text-second-900 dark:text-second-300 dark:hover:text-second-400"
           >
             {{ link.title }}
           </nuxt-link>
@@ -17,7 +17,7 @@
             v-else
             :href="link.href"
             target="_blank"
-            class="text-sm leading-6 text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-400"
+            class="text-sm leading-6 text-second-600 hover:text-second-900 dark:text-second-300 dark:hover:text-second-400"
             >{{ link.title }}</a
           >
         </div>
@@ -27,7 +27,7 @@
           v-for="item in social"
           :key="item.name"
           :href="item.href"
-          class="text-gray-400 hover:text-gray-500 dark:text-gray-500 dark:hover:text-gray-400"
+          class="text-second-400 hover:text-second-500 dark:text-second-500 dark:hover:text-second-400"
           target="_blank"
         >
           <span class="sr-only">{{ item.name }}</span>
@@ -35,7 +35,7 @@
         </a>
       </div>
       <p
-        class="mt-10 text-center text-xs leading-5 text-gray-500 dark:text-gray-300"
+        class="mt-10 text-center text-xs leading-5 text-second-500 dark:text-second-300"
       >
         &copy; 2023-2024 Elias Lorenz Schaut
       </p>

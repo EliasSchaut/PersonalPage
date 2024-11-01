@@ -10,7 +10,7 @@
             <p class="text-sm">
               {{ event.content }}
             </p>
-            <p class="text-sm dark:text-gray-500">
+            <p class="text-sm dark:text-second-500">
               {{ event.subcontent }}
             </p>
           </div>
