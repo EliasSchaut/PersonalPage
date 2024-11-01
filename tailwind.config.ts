@@ -17,7 +17,10 @@ export default <Partial<Config>>{
     extend: {
       colors: {
         prime: colors.indigo,
-        second: colors.zinc
+        second: colors.gray
+      },
+      fontFamily: {
+        sans: ['Nunito', 'sans-serif'],
       }
     },
   },

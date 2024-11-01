@@ -8,6 +8,7 @@ export default defineNuxtConfig({
   modules: [
     '@nuxt/content',
     '@nuxtjs/i18n',
+    '@nuxt/fonts',
     '@nuxtjs/tailwindcss',
     '@nuxtjs/color-mode',
     '@nuxtjs/sitemap',
@@ -25,6 +26,16 @@ export default defineNuxtConfig({
     navigation: {
       fields: ['title', 'description', 'date', 'datetime', 'tag'],
     },
+  },
+
+  fonts: {
+    defaults: {
+      weights: [400, 500, 600, 700],
+      styles: ['normal', 'italic'],
+    },
+    families: [{
+      name: 'Nunito', provider: 'local'
+    }]
   },
 
   i18n: {
