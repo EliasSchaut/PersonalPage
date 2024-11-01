@@ -10,10 +10,16 @@ export default defineNuxtConfig({
     '@nuxtjs/i18n',
     '@nuxtjs/tailwindcss',
     '@nuxtjs/color-mode',
+    '@nuxtjs/sitemap',
     '@nuxt/image',
     '@pinia/nuxt',
     '@pinia-plugin-persistedstate/nuxt',
   ],
+
+  site: {
+    url: 'https://schaut.dev',
+    name: 'Elias Lorenz Schaut personal website and portfolio',
+  },
 
   content: {
     navigation: {
@@ -46,7 +52,7 @@ export default defineNuxtConfig({
       redirectOn: 'root',
       fallbackLocale: 'en',
     },
-    baseUrl: 'https://localhost:3000/',
+    baseUrl: 'https://schaut.dev/',
     lazy: true,
   },
 
