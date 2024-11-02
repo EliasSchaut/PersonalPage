@@ -25,3 +25,4 @@ Wirf einen Blick auf die Software-Tools, die zur Verbesserung dieser Website ein
 - [Heroicons](https://heroicons.com/): Verwendet für eine Vielzahl generischer Icons
 - [Bootstrap Icons](https://icons.getbootstrap.com/): Verwendet für soziale Symbole
 - [Flagpedia](https://flagpedia.net/): Verwendet für Flaggensymbole
+- [DEVICON](https://devicon.dev/): Verwendet für Technologie-Icons

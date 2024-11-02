@@ -1,0 +1,53 @@
+<template>
+  <span>
+    <!-- Langs -->
+    <ToolsItem alt="Typescript" icon_src="/devicons/typescript-original.svg" tool_href="https://www.typescriptlang.org/" />
+    <ToolsItem alt="JavaScript" icon_src="/devicons/javascript-original.svg" tool_href="https://developer.mozilla.org/docs/Web/javascript" />
+    <ToolsItem alt="Java" icon_src="/devicons/java-original.svg" tool_href="https://www.java.com/" />
+    <ToolsItem alt="Python" icon_src="/devicons/python-original.svg" tool_href="https://www.python.org/" />
+    <ToolsItem alt="C" icon_src="/devicons/c-original.svg" tool_href="https://gcc.gnu.org/" />
+    <ToolsItem alt="C++" icon_src="/devicons/cplusplus-original.svg" tool_href="https://isocpp.org/" />
+    <ToolsItem alt="GDScript" icon_src="/devicons/godot-original.svg" tool_href="https://godotengine.org/" />
+    <ToolsItem alt="LaTeX" icon_src="/devicons/latex-original.svg" tool_href="https://www.latex-project.org/" />
+
+    <!-- Infrastruktur & Tools-->
+    <ToolsItem alt="GitHub" icon_src="/devicons/github-original.svg" tool_href="https://github.com/" />
+    <ToolsItem alt="GitLab" icon_src="/devicons/gitlab-original.svg" tool_href="https://gitlab.com/" />
+    <ToolsItem alt="Git" icon_src="/devicons/git-original.svg" tool_href="https://git-scm.com/" />
+    <ToolsItem alt="NPM" icon_src="/devicons/npm-original-wordmark.svg" tool_href="https://www.npmjs.com/" />
+
+    <!-- Libs & Frameworks -->
+    <ToolsItem alt="Vue.js" icon_src="/devicons/vuejs-original.svg" tool_href="https://vuejs.org/" />
+    <ToolsItem alt="Nuxt" icon_src="/devicons/nuxtjs-original.svg" tool_href="https://nuxt.com/" />
+    <ToolsItem alt="NestJS" icon_src="/devicons/nestjs-original.svg" tool_href="https://nestjs.com/" />
+    <ToolsItem alt="tailwindcss" icon_src="/devicons/tailwindcss-original.svg" tool_href="https://tailwindcss.com/" />
+    <ToolsItem alt="Bootstrap" icon_src="/devicons/bootstrap-original.svg" tool_href="https://getbootstrap.com/" />
+    <ToolsItem alt="GraphQL" icon_src="/devicons/graphql-plain.svg" tool_href="https://graphql.org/" />
+    <ToolsItem alt="Prisma" icon_src="/devicons/prisma-original.svg" tool_href="https://www.prisma.io/" />
+    <ToolsItem alt="Node.js" icon_src="/devicons/nodejs-original.svg" tool_href="https://nodejs.org/" />
+    <ToolsItem alt="ESLint" icon_src="/devicons/discordjs-original.svg" tool_href="https://eslint.org/" />
+    <ToolsItem alt="Prettier" icon_src="/devicons/prettier-original.svg" tool_href="https://prettier.io/" />
+    <ToolsItem alt="discord.js" icon_src="/devicons/eslint-original.svg" tool_href="https://discord.js.org/" />
+
+    <!-- Ext. Services & DB-->
+    <ToolsItem alt="PostgeSQL" icon_src="/devicons/postgresql-original.svg" tool_href="https://www.postgresql.org/" />
+    <ToolsItem alt="SQLite" icon_src="/devicons/sqlite-original.svg" tool_href="https://www.sqlite.org/" />
+    <ToolsItem alt="Prometheus" icon_src="/devicons/prometheus-original.svg" tool_href="https://prometheus.io/" />
+    <ToolsItem alt="Redis" icon_src="/devicons/redis-original.svg" tool_href="https://redis.io/" />
+
+    <!-- Selfhosted Services -->
+    <ToolsItem alt="Grafana" icon_src="/devicons/grafana-original.svg" tool_href="https://grafana.com/" />
+
+    <!-- OS & Software -->
+    <ToolsItem alt="Debian" icon_src="/devicons/debian-original.svg" tool_href="https://www.debian.org/" />
+    <ToolsItem alt="Windows" icon_src="/devicons/windows11-original.svg" tool_href="https://www.microsoft.com/windows" />
+    <ToolsItem alt="Raspberry Pi" icon_src="/devicons/raspberrypi-original.svg" tool_href="https://www.raspberrypi.com/" />
+    <ToolsItem alt="Godot Engine" icon_src="/devicons/godot-original.svg" tool_href="https://godotengine.org/" />
+    <ToolsItem alt="JetBrains IDEs" icon_src="/devicons/jetbrains-original.svg" tool_href="https://www.jetbrains.com/ides/" />
+    <ToolsItem alt="Bash" icon_src="/devicons/bash-original.svg" tool_href="https://www.gnu.org/software/bash/" />
+    <ToolsItem alt="ohmyzsh" icon_src="/devicons/ohmyzsh-original.svg" tool_href="https://ohmyz.sh/" />
+    <ToolsItem alt="Discord" icon_src="/devicons/discord-original.svg" tool_href="https://discord.com/" />
+    <ToolsItem alt="MS365" icon_src="/devicons/ms365-original.svg" tool_href="https://microsoft365.com/" />
+    <ToolsItem alt="Postman" icon_src="/devicons/postman-original.svg" tool_href="https://www.postman.com/" />
+  </span>
+</template>

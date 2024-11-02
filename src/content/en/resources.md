@@ -25,3 +25,4 @@ Check out the suite of software tools and assets leveraged to enhance the brilli
 - [Heroicons](https://heroicons.com/): Used for a diverse range of generic icons
 - [Bootstrap Icons](https://icons.getbootstrap.com/): Used for social icons
 - [Flagpedia](https://flagpedia.net/): Used for flag icons
+- [DEVICON](https://devicon.dev/): Used for technology icons
