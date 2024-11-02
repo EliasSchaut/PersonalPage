@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <nav class="hidden md:inline">
+  <nav>
+    <div class="hidden md:inline">
       <ul
         class="flex rounded-full bg-white/90 px-3 text-sm font-medium text-second-800 shadow-lg shadow-second-800/5 ring-1 ring-second-900/5 backdrop-blur dark:bg-second-800/90 dark:text-second-200 dark:ring-white/10"
       >
@@ -17,7 +17,7 @@
           </nuxt-link>
         </li>
       </ul>
-    </nav>
+    </div>
     <button
       type="button"
       class="group flex items-center rounded-full bg-white/90 px-4 py-2 text-sm font-medium text-second-800 shadow-lg shadow-second-800/5 ring-1 ring-second-900/5 backdrop-blur md:hidden dark:bg-second-800/90 dark:text-second-200 dark:ring-white/10 dark:hover:ring-white/20"
@@ -28,7 +28,7 @@
         class="ml-3 h-auto w-2 stroke-second-500 group-hover:stroke-second-700 dark:group-hover:stroke-second-400"
       />
     </button>
-  </div>
+  </nav>
   <Modal ref="mobile_nav" hide_close place_top>
     <div class="flex flex-row-reverse items-center justify-between">
       <button
@@ -48,7 +48,7 @@
       >
         <li v-for="page in pages" :key="page.title">
           <nuxt-link
-            class="block py-2 hover:bg-second-200 dark:hover:bg-second-800"
+            class="block py-2 hover:bg-second-200 dark:hover:bg-second-800 px-2"
             :href="page.href"
             @click="$refs.mobile_nav!.hide()"
           >
@@ -57,7 +57,7 @@
         </li>
       </ul>
       <div class="mt-5 flex flex-row justify-stretch space-x-4 sm:hidden">
-        <SettingLang class="w-full" />
+        <SettingLang class="w-full " />
         <SettingTheme class="w-full" />
       </div>
     </nav>
@@ -67,7 +67,6 @@
 <script lang="ts">
 import { defineComponent } from 'vue';
 import { ChevronDownIcon, XMarkIcon } from '@heroicons/vue/24/outline';
-import { $URL } from 'ufo';
 
 export default defineComponent({
   components: { ChevronDownIcon, XMarkIcon },

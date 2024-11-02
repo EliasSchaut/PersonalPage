@@ -21,6 +21,9 @@ export default <Partial<Config>>{
       },
       fontFamily: {
         sans: ['Nunito', 'sans-serif'],
+      },
+      screens: {
+        'xs': '475px',
       }
     },
   },
