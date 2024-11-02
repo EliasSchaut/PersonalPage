@@ -30,18 +30,47 @@
     <AvatarBig class="hidden sm:block" />
   </section>
 
-  <section id="tools" class="mt-8">
+  <section id="tools" class="mt-8 flex flex-col gap-y-2">
     <h1 class="text-lg">🛠️ My Tools & Langs:</h1>
-    <Tools class="mt-2 flex flex-wrap gap-1" />
+    <Tools class="flex flex-wrap gap-1" />
+  </section>
+
+  <section id="education" class="mt-8 flex flex-col gap-y-4">
+    <h1 class="text-lg">🎓 My Education:</h1>
+    <ListTime
+      :events="[
+        {
+          content: `${$t('home.education.school.elementary')} Jahn- ${$t(
+            'common.and',
+          )} Schillerschule Brühl`,
+          time: '2006 - 2010',
+        },
+        {
+          content: `${$t(
+            'home.education.school.a_levels',
+          )} Moll Gymnasium Mannheim`,
+          time: '2010 - 2018',
+        },
+        {
+          content: `${$t(
+            'home.education.school.computer_science',
+          )} B.Sc. KIT Karlsruhe`,
+          time: `2018 - 2024`,
+        },
+        {
+          content: `${$t(
+            'home.education.school.computer_science',
+          )} M.Sc. KIT Karlsruhe`,
+          time: `2024 - ${$t('home.education.today')}`,
+        },
+      ]"
+    />
   </section>
 
   <ul
     role="list"
     class="mx-4 mt-7 grid grid-cols-1 gap-x-6 gap-y-8 pb-8 sm:mx-6 lg:grid-cols-2 xl:mx-8 xl:gap-x-8"
   >
-    <CardBio />
-    <CardEducation />
-    <CardSkills />
     <CardWork />
   </ul>
 </template>

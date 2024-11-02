@@ -15,7 +15,7 @@
                   eventIdx === events.length - 1
                     ? 'bg-prime-500'
                     : 'bg-second-300 dark:bg-second-800',
-                  'flex h-8 w-8 items-center justify-center rounded-full ring-8 ring-white dark:ring-second-900',
+                  'flex h-8 w-8 items-center justify-center rounded-full ring-8 ring-second-50 dark:ring-second-950',
                 ]"
               >
                 <component

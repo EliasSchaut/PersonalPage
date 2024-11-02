@@ -1,5 +1,5 @@
 <template>
-  <a v-if="tool_href !== '#'" class="p-2 rounded-md hover:bg-second-200 dark:hover:bg-second-800"
+  <a v-if="tool_href !== '#'" class="flex justify-center items-center p-2 rounded-md hover:bg-second-200 dark:hover:bg-second-800"
      :href="tool_href"
      target="_blank">
     <img :src="icon_src" :alt="alt" :title="alt" :height="height" :width="width" />
