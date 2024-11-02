@@ -1,5 +1,5 @@
 <template>
-  <Body class="bg-second-50 dark:bg-second-900" />
+  <Body class="font-nunito bg-second-50 dark:bg-second-900" />
 
   <LayoutNav />
   <main

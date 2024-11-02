@@ -1,6 +1,6 @@
 <template>
   <div
-    class="flex max-w-xl flex-col items-start justify-between rounded-2xl p-5 hover:bg-second-100 dark:hover:bg-second-800"
+    class="flex max-w-xl flex-col items-start justify-between rounded-2xl p-5 hover:bg-second-100 dark:hover:bg-second-900"
   >
     <div class="flex items-center gap-x-4 text-xs">
       <time :datetime="datetime" class="text-second-500 dark:text-second-400">{{
@@ -12,7 +12,7 @@
     </div>
     <div class="group relative">
       <h3
-        class="mt-3 text-lg font-semibold leading-6 text-second-900 group-hover:text-second-600 dark:text-white dark:group-hover:text-second-200"
+        class="mt-3 text-lg font-semibold leading-6 text-second-900 dark:text-white"
       >
         <a :href="href">
           <span class="absolute inset-0" />

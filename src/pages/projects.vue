@@ -3,3 +3,9 @@
     <CardProjects />
   </LayoutHeader>
 </template>
+
+<script setup lang="ts">
+definePageMeta({
+  layout: 'article',
+});
+</script>

@@ -20,7 +20,7 @@ export default <Partial<Config>>{
         second: colors.gray
       },
       fontFamily: {
-        sans: ['Nunito', 'sans-serif'],
+        nunito: ['Nunito', 'sans-serif'],
       },
       screens: {
         'xs': '475px',
