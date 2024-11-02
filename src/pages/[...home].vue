@@ -2,7 +2,7 @@
   <section id="intro" class="flex gap-x-6 justify-between">
     <div class="flex flex-col gap-y-4">
 
-      <h2 class="text-lg">Hey There! 🤟</h2>
+      <h1 class="text-lg">Hey There! 🤟</h1>
       <AvatarBig class="sm:hidden" />
       <Typewriter class="text-3xl font-semibold"
                   :strings="[
@@ -19,7 +19,7 @@
                   autostart
                   loop
       />
-      <h4>{{ $t('banner.desc') }}</h4>
+      <p>{{ $t('banner.desc') }}</p>
       <p class="italic w-full md:w-96 text-second-600 dark:text-second-400">
         It's my mission to spread positivity wherever I go!
         I'm constantly creating ways to enhance the
@@ -31,12 +31,12 @@
   </section>
 
   <section id="tools" class="mt-8 flex flex-col gap-y-2">
-    <h1 class="text-lg">🛠️ My Tools & Langs:</h1>
+    <h2 class="text-lg">🛠️ My Tools & Langs:</h2>
     <Tools class="flex flex-wrap gap-1" />
   </section>
 
   <section id="education" class="mt-8 flex flex-col gap-y-4">
-    <h1 class="text-lg">🎓 My Education:</h1>
+    <h2 class="text-lg">🎓 My Education:</h2>
     <ListTime
       :events="[
         {
@@ -67,12 +67,8 @@
     />
   </section>
 
-  <ul
-    role="list"
-    class="mx-4 mt-7 grid grid-cols-1 gap-x-6 gap-y-8 pb-8 sm:mx-6 lg:grid-cols-2 xl:mx-8 xl:gap-x-8"
-  >
+  <section id="journey" class="mx-4 sm:mx-6 xl:mx-8 mt-10 flex flex-col gap-y-4">
+    <h2 class="text-3xl text-center font-semibold">🗺️ Journey</h2>
     <CardWork />
-  </ul>
+  </section>
 </template>
-<script setup lang="ts">
-</script>
