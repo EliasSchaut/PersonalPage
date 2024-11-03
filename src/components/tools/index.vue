@@ -123,6 +123,17 @@
 
     <!-- Ext. Services & DB-->
     <ToolsItem
+      alt="Docker"
+      icon_src="/devicons/docker-original.svg"
+      tool_href="https://www.docker.com/"
+    >
+    </ToolsItem>
+    <ToolsItem
+      alt="NGINX"
+      icon_src="/devicons/nginx-original.svg"
+      tool_href="https://nginx.org/"
+    />
+    <ToolsItem
       alt="PostgeSQL"
       icon_src="/devicons/postgresql-original.svg"
       tool_href="https://www.postgresql.org/"
