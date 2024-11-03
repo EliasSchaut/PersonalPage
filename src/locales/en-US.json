@@ -1,15 +1,12 @@
 {
   "articles": {
-    "intro": "All my ideas, experiences, implementations, and more, collected in chronological order.",
+    "intro": "My collected thoughts, projects and inspirations - in chronological order.",
     "return_overview": "Return to overview",
     "tag_not_found": "No entry's found for this tag ...",
-    "title": "Writing on creative projects."
+    "title": "Creative blog: Ideas, experiences and realisations."
   },
   "banner": {
-    "contact": "Contact",
-    "desc": "Web/Bot Developer • Creative Project Manager • Software Designer • Passionate Programmer",
-    "donate": "Donate",
-    "donate_me": "Donate {name}"
+    "contact": "Contact"
   },
   "common": {
     "and": "and",
@@ -41,46 +38,38 @@
     "title": "Footer"
   },
   "home": {
-    "bio": {
-      "body": "Hey, I’m Elias and I would describe myself as a social optimist. It's my mission to spread positivity wherever I go, which is precisely why I'm a regular face at various social gatherings. As a passionate web and bot developer, I'm constantly creating ways to enhance the fun and productivity of the communities I'm involved in.",
-      "title": "Bio"
-    },
+    "donate": "Donate",
+    "donate_me": "Donate {name}",
     "education": {
       "school": {
         "a_levels": "A Levels",
         "computer_science": "Computer Science",
         "elementary": "Elementary School"
       },
-      "title": "Education",
+      "title": "🎓 My Education:",
       "today": "today"
     },
+    "intro": {
+      "bio": "It's my mission to spread positivity wherever I go! I'm constantly creating ways to enhance the fun and productivity of the communities I'm involved in.",
+      "hey": "Hey There! 🤟",
+      "jobs": "Web/Bot Developer • Creative Project Manager • Software Designer • Passionate Programmer",
+      "my_name": "I'm Elias Lorenz Schaut",
+      "traits": {
+        "0": "🔭 I love to learn new things",
+        "1": "🌱 I build apps to improve communities",
+        "2": "🔓 I love to code open source",
+        "3": "🤔 I'm open to collaborate",
+        "4": "💬 I am full of creative ideas",
+        "5": "😄 I like to make people happy",
+        "6": "⚡ I am full of energy"
+      }
+    },
+    "journey": "My Journey",
     "projects": {
       "title": "Projects"
     },
     "skills": {
-      "etc": {
-        "skills": {
-          "games": "Computer games",
-          "piano": "Piano",
-          "trumpet": "Trumpet"
-        },
-        "title": "Other Skills"
-      },
-      "soft": {
-        "skills": {
-          "communication": "Communicative",
-          "events": "Creative event planning",
-          "mentoring": "Mentoring",
-          "organisation": "Organizational talent",
-          "overmotivated": "Overmotivated",
-          "project_management": "Project management",
-          "social": "Socially energetic",
-          "teamwork": "Team player"
-        },
-        "title": "Soft Skills"
-      },
-      "technical": "Technical Skills",
-      "title": "Skills"
+      "title": "🛠️ My Tools:"
     },
     "work": {
       "event": {
@@ -143,6 +132,6 @@
       "webbeginnings": "(Discontinued) My first web projects",
       "winvite": "(Discontinued) A full stack management tool to create public available invites as website"
     },
-    "title": "My selected projects, designed to improve my communities."
+    "title": "My projects to strengthen communities."
   }
 }

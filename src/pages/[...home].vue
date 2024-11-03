@@ -1,29 +1,27 @@
 <template>
   <section id="intro" class="flex justify-between gap-x-6">
     <div class="flex flex-col gap-y-4">
-      <h1 class="text-lg">Hey There! 🤟</h1>
+      <h1 class="text-lg">{{ $t('home.intro.hey') }}</h1>
       <AvatarBig class="sm:hidden" />
       <Typewriter
         class="text-3xl font-semibold"
         :strings="[
-          '🔭 I love to learn new things',
-          '🌱 I build apps to improve communities',
-          '🔓 I love to code open source',
-          '🤔 I\'m open to collaborate',
-          '💬 I am full of creative ideas',
-          '😄 I like to make people happy',
-          '⚡ I am full of energy',
+          $t('home.intro.traits.0'),
+          $t('home.intro.traits.1'),
+          $t('home.intro.traits.2'),
+          $t('home.intro.traits.3'),
+          $t('home.intro.traits.4'),
+          $t('home.intro.traits.5'),
+          $t('home.intro.traits.6'),
         ]"
-        init_string="I'm Elias Lorenz Schaut"
+        :init_string="$t('home.intro.my_name')"
         :init_delay="2000"
         autostart
         loop
       />
-      <p>{{ $t('banner.desc') }}</p>
-      <p class="w-full italic text-second-600 dark:text-second-400 md:w-96">
-        It's my mission to spread positivity wherever I go! I'm constantly
-        creating ways to enhance the fun and productivity of the communities I'm
-        involved in.
+      <p>{{ $t('home.intro.jobs') }}</p>
+      <p class="w-full italic text-second-600 dark:text-second-400 lg:w-2/3">
+        {{ $t('home.intro.bio') }}
       </p>
       <LayoutSocials class="gap-x-4" />
     </div>
@@ -31,12 +29,12 @@
   </section>
 
   <section id="tools" class="mt-8 flex flex-col gap-y-2">
-    <h2 class="text-lg">🛠️ My Tools & Langs:</h2>
+    <h2 class="text-lg">{{ $t('home.skills.title') }}</h2>
     <Tools class="flex flex-wrap gap-1" />
   </section>
 
   <section id="education" class="mt-8 flex flex-col gap-y-4">
-    <h2 class="text-lg">🎓 My Education:</h2>
+    <h2 class="text-lg">{{ $t('home.education.title') }}</h2>
     <ListTime
       :events="[
         {
@@ -72,7 +70,7 @@
       <span>🗺️</span
       ><span
         class="select-none bg-gradient-to-b from-prime-500 to-prime-600 bg-clip-text text-transparent dark:from-prime-200 dark:to-prime-300"
-        >Journey</span
+        >{{ $t('home.journey') }}</span
       >
     </h2>
     <CardWork />
