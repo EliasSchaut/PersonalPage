@@ -9,6 +9,8 @@
     <ToolsItemCpp />
     <ToolsItemGdscript />
     <ToolsItemLatex />
+    <ToolsItemHtml />
+    <ToolsItemCss />
 
     <!-- Infrastruktur & Tools-->
     <ToolsItemGithub />
@@ -25,6 +27,7 @@
     <ToolsItemGraphql />
     <ToolsItemPrisma />
     <ToolsItemNodejs />
+    <ToolsItemExpress />
     <ToolsItemEslint />
     <ToolsItemPrettier />
     <ToolsItemDiscordjs />
