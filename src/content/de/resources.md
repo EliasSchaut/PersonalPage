@@ -19,7 +19,7 @@ Wirf einen Blick auf die Software-Tools, die zur Verbesserung dieser Website ein
 - [Nuxt/i18n](https://i18n.nuxtjs.org/): Zur Aktivierung der Übersetzung/Lokalisierung
 - [Nuxt/Image](https://image.nuxt.com/): Für die Optimierung von Bildern
 - [Pinia](https://pinia.vuejs.org/): Für eine effektive Zustandsverwaltung
-- [Tailwind](https://tailwindcss.com): Für vielseitiges Css-Styling
+- [Tailwind](https://tailwindcss.com): Für vielseitiges CSS-Styling
 
 ## Asset Inventar
 
@@ -28,4 +28,4 @@ Wirf einen Blick auf die Software-Tools, die zur Verbesserung dieser Website ein
 - [Heroicons](https://heroicons.com/): Verwendet für eine Vielzahl generischer Icons
 - [Bootstrap Icons](https://icons.getbootstrap.com/): Verwendet für soziale Symbole
 - [Flagpedia](https://flagpedia.net/): Verwendet für Flaggensymbole
-- [DEVICON](https://devicon.dev/): Verwendet für Technologie-Icons
+- [Devicon](https://devicon.dev/): Verwendet für Technologie-Icons

@@ -29,7 +29,7 @@ export default defineComponent({
     return {
       impressum: {
         name: 'Elias Lorenz Schaut',
-        email: 'eschaut@outlook.de',
+        email: 'elias@schaut.dev',
       },
     };
   },
