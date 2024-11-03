@@ -20,17 +20,17 @@
   >
     <SunIcon
       v-if="settings.theme === 'light'"
-      class="h-5 w-5 text-gray-400 group-hover:text-gray-500"
+      class="h-5 w-5 text-second-400 group-hover:text-second-500"
       aria-hidden="true"
     />
     <MoonIcon
       v-else-if="settings.theme === 'dark'"
-      class="h-5 w-5 text-gray-400 group-hover:text-gray-500"
+      class="h-5 w-5 text-second-400 group-hover:text-second-500"
       aria-hidden="true"
     />
     <ComputerDesktopIcon
       v-else
-      class="h-5 w-5 text-gray-400 group-hover:text-gray-500"
+      class="h-5 w-5 text-second-400 group-hover:text-second-500"
       aria-hidden="true"
     />
   </Dropdown>
@@ -39,9 +39,9 @@
 <script lang="ts">
 import { defineComponent } from 'vue';
 import {
-  SunIcon,
-  MoonIcon,
   ComputerDesktopIcon,
+  MoonIcon,
+  SunIcon,
 } from '@heroicons/vue/24/outline';
 import { settingsStore } from '~/store/settings';
 

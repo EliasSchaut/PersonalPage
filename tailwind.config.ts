@@ -1,6 +1,7 @@
 import type { Config } from 'tailwindcss';
 
 import typography_styles from './typography';
+import colors from 'tailwindcss/colors';
 
 export default <Partial<Config>>{
   darkMode: 'class',
@@ -13,7 +14,18 @@ export default <Partial<Config>>{
     './app.vue',
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        prime: colors.indigo,
+        second: colors.gray,
+      },
+      fontFamily: {
+        nunito: ['Nunito', 'sans-serif'],
+      },
+      screens: {
+        xs: '475px',
+      },
+    },
   },
   variants: {
     extend: {},

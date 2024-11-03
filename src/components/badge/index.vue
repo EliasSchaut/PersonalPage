@@ -1,7 +1,7 @@
 <template>
   <a
     v-if="href !== '#'"
-    class="inline-flex items-center gap-x-1.5 rounded-md px-2 py-1 text-sm font-medium text-gray-900 ring-1 ring-inset ring-gray-200 dark:text-gray-100 dark:ring-gray-700"
+    class="inline-flex items-center gap-x-1.5 rounded-md px-2 py-1 text-sm font-medium text-second-900 ring-1 ring-inset ring-second-200 dark:text-second-100 dark:ring-second-700"
     :href="href"
     target="_blank"
   >
@@ -18,7 +18,7 @@
   </a>
   <span
     v-else
-    class="inline-flex items-center gap-x-1.5 rounded-md px-2 py-1 text-sm font-medium text-gray-900 ring-1 ring-inset ring-gray-200 dark:text-gray-100 dark:ring-gray-700"
+    class="inline-flex items-center gap-x-1.5 rounded-md px-2 py-1 text-sm font-medium text-second-900 ring-1 ring-inset ring-second-200 dark:text-second-100 dark:ring-second-700"
   >
     <svg
       v-if="!no_dot"
@@ -44,7 +44,7 @@ export default defineComponent({
     },
     color: {
       type: String,
-      default: 'gray',
+      default: 'second',
     },
     href: {
       type: String,

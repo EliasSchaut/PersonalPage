@@ -8,17 +8,37 @@ export default defineNuxtConfig({
   modules: [
     '@nuxt/content',
     '@nuxtjs/i18n',
+    '@nuxt/fonts',
     '@nuxtjs/tailwindcss',
     '@nuxtjs/color-mode',
+    '@nuxtjs/sitemap',
     '@nuxt/image',
     '@pinia/nuxt',
     '@pinia-plugin-persistedstate/nuxt',
   ],
 
+  site: {
+    url: 'https://schaut.dev',
+    name: 'Elias Lorenz Schaut personal website and portfolio',
+  },
+
   content: {
     navigation: {
       fields: ['title', 'description', 'date', 'datetime', 'tag'],
     },
+  },
+
+  fonts: {
+    defaults: {
+      weights: [400, 500, 600, 700],
+      styles: ['normal', 'italic'],
+    },
+    families: [
+      {
+        name: 'Nunito',
+        provider: 'local',
+      },
+    ],
   },
 
   i18n: {
@@ -46,7 +66,7 @@ export default defineNuxtConfig({
       redirectOn: 'root',
       fallbackLocale: 'en',
     },
-    baseUrl: 'https://localhost:3000/',
+    baseUrl: 'https://schaut.dev/',
     lazy: true,
   },
 

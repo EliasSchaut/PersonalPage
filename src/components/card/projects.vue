@@ -5,7 +5,7 @@
 </template>
 
 <script setup lang="ts">
-const { t } = useI18n()
+const { t } = useI18n();
 import { CodeBracketIcon } from '@heroicons/vue/24/outline';
 
 const projects = computed(() => [
@@ -22,7 +22,7 @@ const projects = computed(() => [
   {
     content: 'KaraokeList',
     subcontent: t('projects.subcontents.karaokelist'),
-    href: 'https://github.com/EliasSchaut/KaraokeList'
+    href: 'https://github.com/EliasSchaut/KaraokeList',
   },
   {
     content: 'Winvite',
@@ -32,12 +32,12 @@ const projects = computed(() => [
   {
     content: 'SnakeArena',
     subcontent: t('projects.subcontents.snakearena'),
-    href: 'https://github.com/EliasSchaut/SnakeArena'
+    href: 'https://github.com/EliasSchaut/SnakeArena',
   },
   {
     content: 'DiscordDungeon',
     subcontent: t('projects.subcontents.discorddungeon'),
-    href: 'https://discord.gg/4SdzCaenKs'
+    href: 'https://discord.gg/4SdzCaenKs',
   },
   {
     content: 'Discord Bots',

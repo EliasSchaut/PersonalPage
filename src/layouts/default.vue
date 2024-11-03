@@ -1,28 +1,13 @@
 <template>
-  <Body class="bg-white dark:bg-gray-800" />
-  <div class="bg-white dark:bg-gray-900 dark:text-white">
-    <div class="absolute left-5 top-5 hidden sm:inline">
-      <nuxt-link href="/">
-        <AvatarSmall />
-      </nuxt-link>
-    </div>
+  <Body
+    class="bg-second-50 font-nunito selection:bg-prime-100 dark:bg-second-900 dark:selection:bg-prime-900"
+  />
 
-    <div class="flex items-center justify-center">
-      <div class="absolute top-5">
-        <LayoutNav />
-      </div>
-    </div>
-
-    <div class="absolute right-5 top-5 hidden gap-4 sm:flex">
-      <SettingLang />
-      <SettingTheme />
-    </div>
-
-    <main
-      class="mx-auto w-full px-6 py-32 text-base leading-7 text-gray-700 md:w-3/4 lg:w-2/3 lg:px-8 xl:w-1/2 dark:text-gray-100"
-    >
-      <slot />
-    </main>
-    <LayoutFooter />
-  </div>
+  <LayoutNav />
+  <main
+    class="w-full bg-second-50 p-6 text-second-800 dark:bg-second-950 dark:text-second-200 sm:p-10"
+  >
+    <slot />
+  </main>
+  <LayoutFooter />
 </template>
