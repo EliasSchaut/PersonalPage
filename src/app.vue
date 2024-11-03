@@ -5,7 +5,7 @@
     content="Elias Lorenz Schaut's personal website and portfolio"
   />
   <Meta name="keywords" content="elias, lorenz, schaut, kit, karlsruhe" />
-  <Meta name="theme-color" content="#f65c19" />
+  <Meta name="theme-color" content="#111827" />
   <Link
     rel="apple-touch-icon"
     sizes="180x180"
