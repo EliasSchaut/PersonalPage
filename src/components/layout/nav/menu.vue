@@ -9,8 +9,11 @@
             :href="page.href"
             :class="{
               'relative block px-3 py-2 transition': true,
-              'text-prime-500 dark:text-prime-400': page.matches.test(route.fullPath),
-              'hover:text-prime-500 dark:hover:text-prime-400': !page.matches.test(route.fullPath),
+              'text-prime-500 dark:text-prime-400': page.matches.test(
+                route.fullPath,
+              ),
+              'hover:text-prime-500 dark:hover:text-prime-400':
+                !page.matches.test(route.fullPath),
             }"
           >
             {{ page.title }}
@@ -20,7 +23,7 @@
     </div>
     <button
       type="button"
-      class="group flex items-center rounded-full bg-white/90 px-4 py-2 text-sm font-medium text-second-800 shadow-lg shadow-second-800/5 ring-1 ring-second-900/5 backdrop-blur md:hidden dark:bg-second-800/90 dark:text-second-200 dark:ring-white/10 dark:hover:ring-white/20"
+      class="group flex items-center rounded-full bg-white/90 px-4 py-2 text-sm font-medium text-second-800 shadow-lg shadow-second-800/5 ring-1 ring-second-900/5 backdrop-blur dark:bg-second-800/90 dark:text-second-200 dark:ring-white/10 dark:hover:ring-white/20 md:hidden"
       @click="$refs.mobile_nav!.show()"
     >
       Menu
@@ -48,7 +51,7 @@
       >
         <li v-for="page in pages" :key="page.title">
           <nuxt-link
-            class="block py-2 hover:bg-second-200 dark:hover:bg-second-800 px-2"
+            class="block px-2 py-2 hover:bg-second-200 dark:hover:bg-second-800"
             :href="page.href"
             @click="$refs.mobile_nav!.hide()"
           >
@@ -57,7 +60,7 @@
         </li>
       </ul>
       <div class="mt-5 flex flex-row justify-stretch space-x-4 sm:hidden">
-        <SettingLang class="w-full " />
+        <SettingLang class="w-full" />
         <SettingTheme class="w-full" />
       </div>
     </nav>
@@ -75,28 +78,31 @@ export default defineComponent({
 
     return {
       route: useRoute(),
-      pages: computed(() => [
-        {
-          title: t('nav.about'),
-          href: '/',
-          matches: /^\/$/,
-        },
-        {
-          title: t('nav.articles'),
-          href: '/articles',
-          matches: /^\/articles(\/.*)?$/,
-        },
-        {
-          title: t('nav.projects'),
-          href: '/projects',
-          matches: /^\/projects(\/.*)?$/,
-        },
-        {
-          title: t('nav.wiki'),
-          href: 'https://wiki.schaut.dev',
-          matches: /^\/wiki.schaut.dev(\/.*)?$/,
-        },
-      ] as Array<{ title: string; href: string; matches: RegExp }>),
+      pages: computed(
+        () =>
+          [
+            {
+              title: t('nav.about'),
+              href: '/',
+              matches: /^\/$/,
+            },
+            {
+              title: t('nav.articles'),
+              href: '/articles',
+              matches: /^\/articles(\/.*)?$/,
+            },
+            {
+              title: t('nav.projects'),
+              href: '/projects',
+              matches: /^\/projects(\/.*)?$/,
+            },
+            {
+              title: t('nav.wiki'),
+              href: 'https://wiki.schaut.dev',
+              matches: /^\/wiki.schaut.dev(\/.*)?$/,
+            },
+          ] as Array<{ title: string; href: string; matches: RegExp }>,
+      ),
     };
   },
 });

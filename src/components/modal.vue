@@ -32,7 +32,7 @@
             leave-to="opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95"
           >
             <DialogPanel
-              class="relative w-full transform rounded-lg bg-second-50 px-4 pb-4 pt-5 text-left shadow-xl transition-all sm:my-8 sm:w-full sm:max-w-sm sm:p-6 dark:bg-second-900 dark:text-white"
+              class="relative w-full transform rounded-lg bg-second-50 px-4 pb-4 pt-5 text-left shadow-xl transition-all dark:bg-second-900 dark:text-white sm:my-8 sm:w-full sm:max-w-sm sm:p-6"
             >
               <slot />
               <div v-if="!hide_close" class="mt-5 sm:mt-6">

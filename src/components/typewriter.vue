@@ -25,7 +25,7 @@ export default defineComponent({
     },
     init_string: {
       type: String,
-      default: "",
+      default: '',
     },
     loop: {
       type: Boolean,
@@ -38,7 +38,7 @@ export default defineComponent({
     init_delay: {
       type: Number,
       default: 0,
-    }
+    },
   },
 });
 </script>

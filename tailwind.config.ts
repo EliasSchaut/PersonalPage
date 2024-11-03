@@ -17,14 +17,14 @@ export default <Partial<Config>>{
     extend: {
       colors: {
         prime: colors.indigo,
-        second: colors.gray
+        second: colors.gray,
       },
       fontFamily: {
         nunito: ['Nunito', 'sans-serif'],
       },
       screens: {
-        'xs': '475px',
-      }
+        xs: '475px',
+      },
     },
   },
   variants: {

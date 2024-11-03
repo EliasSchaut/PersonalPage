@@ -7,7 +7,11 @@
         date
       }}</time>
       <div class="flex flex-1 justify-end gap-1">
-        <BadgeSimple v-for="tag in tags" :content="tag" :href="'/articles/t/' + tag" />
+        <BadgeSimple
+          v-for="tag in tags"
+          :content="tag"
+          :href="'/articles/t/' + tag"
+        />
       </div>
     </div>
     <div class="group relative">

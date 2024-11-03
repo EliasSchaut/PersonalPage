@@ -71,7 +71,7 @@
     <h2 class="space-x-2 text-center text-3xl font-semibold">
       <span>🗺️</span
       ><span
-        class="bg-gradient-to-b from-prime-500 to-prime-600 bg-clip-text text-transparent dark:from-prime-200 dark:to-prime-300"
+        class="select-none bg-gradient-to-b from-prime-500 to-prime-600 bg-clip-text text-transparent dark:from-prime-200 dark:to-prime-300"
         >Journey</span
       >
     </h2>

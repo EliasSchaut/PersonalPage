@@ -1,11 +1,12 @@
 ---
-title: "Test"
-description: "Test page to visual markdown"
-date: "01. Jan 2024"
-datetime: "2024-01-01"
+title: 'Test'
+description: 'Test page to visual markdown'
+date: '01. Jan 2024'
+datetime: '2024-01-01'
 ---
 
 # Resources
+
 # h1 Heading
 
 ## h2 Heading
@@ -36,8 +37,8 @@ Unordered:
 
 - Create a list by starting a line with `+`, `-`, or `*`
 - Sub-lists are made by indenting 2 spaces:
-    - Marker character change forces new list start:
-    - Ac tristique libero volutpat at
+  - Marker character change forces new list start:
+  - Ac tristique libero volutpat at
 
 Ordered:
 
@@ -53,10 +54,10 @@ Block code "fences"
 
 ```js
 const foo = function (bar) {
-  return bar++
-}
+  return bar++;
+};
 
-console.log(foo(5))
+console.log(foo(5));
 ```
 
 ## Links

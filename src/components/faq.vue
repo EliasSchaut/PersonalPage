@@ -2,7 +2,9 @@
   <div class="bg-white dark:bg-second-900">
     <div class="mx-auto px-6 pb-6">
       <div class="mx-auto divide-y divide-second-900/10 dark:divide-white/10">
-        <dl class="space-y-6 divide-y divide-second-900/10 dark:divide-white/10">
+        <dl
+          class="space-y-6 divide-y divide-second-900/10 dark:divide-white/10"
+        >
           <Disclosure
             as="div"
             v-for="faq in faqs"
@@ -28,7 +30,9 @@
               </DisclosureButton>
             </dt>
             <DisclosurePanel as="dd" class="mt-2 pr-12">
-              <p class="text-base leading-7 text-second-600 dark:text-second-300">
+              <p
+                class="text-base leading-7 text-second-600 dark:text-second-300"
+              >
                 {{ faq.answer }}
               </p>
             </DisclosurePanel>

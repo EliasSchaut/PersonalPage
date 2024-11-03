@@ -33,9 +33,12 @@ export default defineNuxtConfig({
       weights: [400, 500, 600, 700],
       styles: ['normal', 'italic'],
     },
-    families: [{
-      name: 'Nunito', provider: 'local'
-    }]
+    families: [
+      {
+        name: 'Nunito',
+        provider: 'local',
+      },
+    ],
   },
 
   i18n: {

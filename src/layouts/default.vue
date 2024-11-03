@@ -5,7 +5,7 @@
 
   <LayoutNav />
   <main
-    class="w-full bg-second-50 p-10 text-second-800 dark:bg-second-950 dark:text-second-200"
+    class="w-full bg-second-50 p-6 text-second-800 dark:bg-second-950 dark:text-second-200 sm:p-10"
   >
     <slot />
   </main>

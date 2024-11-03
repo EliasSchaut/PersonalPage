@@ -2,7 +2,7 @@
   <Menu as="div" class="relative inline-block text-left">
     <div>
       <MenuButton
-        class="inline-flex w-full justify-center gap-x-1.5 rounded-md bg-white px-3 py-2 text-sm font-semibold text-second-900 shadow-sm  hover:bg-second-50 dark:bg-white/10 dark:hover:bg-white/20"
+        class="inline-flex w-full justify-center gap-x-1.5 rounded-md bg-white px-3 py-2 text-sm font-semibold text-second-900 shadow-sm hover:bg-second-50 dark:bg-white/10 dark:hover:bg-white/20"
       >
         <slot />
         <ChevronDownIcon
@@ -31,7 +31,7 @@
                 active
                   ? 'bg-second-100 text-second-900 dark:bg-second-900 dark:text-second-100'
                   : 'text-second-700 dark:text-second-300',
-                'group w-full flex items-center px-4 py-2 text-sm',
+                'group flex w-full items-center px-4 py-2 text-sm',
               ]"
             >
               <component
