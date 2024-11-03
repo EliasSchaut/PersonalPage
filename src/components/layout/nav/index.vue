@@ -1,6 +1,6 @@
 <template>
   <nav
-    class="flex justify-between border border-b-4 border-second-200 bg-second-100 p-4 dark:border-second-800 dark:bg-second-900"
+    class="flex justify-between border-b-4 border-second-200 bg-second-100 p-4 dark:border-second-800 dark:bg-second-900"
   >
     <div class="left-5 top-5">
       <nuxt-link href="/src/public" class="flex items-center gap-3">
