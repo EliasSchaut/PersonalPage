@@ -1,9 +1,11 @@
 <template>
-  <Body class="font-nunito bg-second-50 dark:bg-second-900" />
+  <Body
+    class="bg-second-50 font-nunito selection:bg-prime-100 dark:bg-second-900 dark:selection:bg-prime-900"
+  />
 
   <LayoutNav />
   <main
-    class="dark:bg-second-950 bg-second-50 text-second-800 dark:text-second-200 w-full p-10"
+    class="w-full bg-second-50 p-10 text-second-800 dark:bg-second-950 dark:text-second-200"
   >
     <slot />
   </main>

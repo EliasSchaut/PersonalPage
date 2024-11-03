@@ -8,22 +8,18 @@
             class="absolute left-4 top-4 -ml-px h-full w-0.5 bg-second-200 dark:bg-second-800"
             aria-hidden="true"
           />
-          <div class="relative flex space-x-3">
+          <div class="relative flex gap-x-3">
             <div>
               <span
                 :class="[
-                  eventIdx === events.length - 1
+                  eventIdx === 0
                     ? 'bg-prime-500'
                     : 'bg-second-300 dark:bg-second-800',
                   'flex h-8 w-8 items-center justify-center rounded-full ring-8 ring-second-50 dark:ring-second-950',
                 ]"
               >
                 <component
-                  :is="
-                    eventIdx === events.length - 1
-                      ? ArrowRightIcon
-                      : ArrowDownIcon
-                  "
+                  :is="eventIdx === 0 ? ArrowRightIcon : ArrowUpIcon"
                   class="h-5 w-5 text-white"
                   aria-hidden="true"
                 />
@@ -48,13 +44,13 @@
 
 <script lang="ts">
 import { defineComponent } from 'vue';
-import { ArrowDownIcon, ArrowRightIcon } from '@heroicons/vue/24/outline';
+import { ArrowUpIcon, ArrowRightIcon } from '@heroicons/vue/24/outline';
 
 export default defineComponent({
   name: 'timeline',
   setup() {
     return {
-      ArrowDownIcon,
+      ArrowUpIcon,
       ArrowRightIcon,
     };
   },

@@ -1,31 +1,31 @@
 <template>
-  <section id="intro" class="flex gap-x-6 justify-between">
+  <section id="intro" class="flex justify-between gap-x-6">
     <div class="flex flex-col gap-y-4">
-
       <h1 class="text-lg">Hey There! 🤟</h1>
       <AvatarBig class="sm:hidden" />
-      <Typewriter class="text-3xl font-semibold"
-                  :strings="[
-                    '🔭 I love to learn new things',
-                    '🌱 I build apps to improve communities',
-                    '🔓 I love to code open source',
-                    '🤔 I\'m open to collaborate',
-                    '💬 I am full of creative ideas',
-                    '😄 I like to make people happy',
-                    '⚡ I am full of energy',
-                    ]"
-                  init_string="I'm Elias Lorenz Schaut"
-                  :init_delay="2000"
-                  autostart
-                  loop
+      <Typewriter
+        class="text-3xl font-semibold"
+        :strings="[
+          '🔭 I love to learn new things',
+          '🌱 I build apps to improve communities',
+          '🔓 I love to code open source',
+          '🤔 I\'m open to collaborate',
+          '💬 I am full of creative ideas',
+          '😄 I like to make people happy',
+          '⚡ I am full of energy',
+        ]"
+        init_string="I'm Elias Lorenz Schaut"
+        :init_delay="2000"
+        autostart
+        loop
       />
       <p>{{ $t('banner.desc') }}</p>
-      <p class="italic w-full md:w-96 text-second-600 dark:text-second-400">
-        It's my mission to spread positivity wherever I go!
-        I'm constantly creating ways to enhance the
-        fun and productivity of the communities I'm involved in.
+      <p class="w-full italic text-second-600 dark:text-second-400 md:w-96">
+        It's my mission to spread positivity wherever I go! I'm constantly
+        creating ways to enhance the fun and productivity of the communities I'm
+        involved in.
       </p>
-      <LayoutSocials />
+      <LayoutSocials class="gap-x-4" />
     </div>
     <AvatarBig class="hidden sm:block" />
   </section>
@@ -40,16 +40,10 @@
     <ListTime
       :events="[
         {
-          content: `${$t('home.education.school.elementary')} Jahn- ${$t(
-            'common.and',
-          )} Schillerschule Brühl`,
-          time: '2006 - 2010',
-        },
-        {
           content: `${$t(
-            'home.education.school.a_levels',
-          )} Moll Gymnasium Mannheim`,
-          time: '2010 - 2018',
+            'home.education.school.computer_science',
+          )} M.Sc. KIT Karlsruhe`,
+          time: `2024 - ${$t('home.education.today')}`,
         },
         {
           content: `${$t(
@@ -59,16 +53,28 @@
         },
         {
           content: `${$t(
-            'home.education.school.computer_science',
-          )} M.Sc. KIT Karlsruhe`,
-          time: `2024 - ${$t('home.education.today')}`,
+            'home.education.school.a_levels',
+          )} Moll Gymnasium Mannheim`,
+          time: '2010 - 2018',
+        },
+        {
+          content: `${$t('home.education.school.elementary')} Jahn- ${$t(
+            'common.and',
+          )} Schillerschule Brühl`,
+          time: '2006 - 2010',
         },
       ]"
     />
   </section>
 
-  <section id="journey" class="mx-4 sm:mx-6 xl:mx-8 mt-10 flex flex-col gap-y-4">
-    <h2 class="text-3xl text-center font-semibold">🗺️ Journey</h2>
+  <section id="journey" class="mt-10 flex flex-col gap-y-4 sm:mx-6 xl:mx-8">
+    <h2 class="space-x-2 text-center text-3xl font-semibold">
+      <span>🗺️</span
+      ><span
+        class="bg-gradient-to-b from-prime-500 to-prime-600 bg-clip-text text-transparent dark:from-prime-200 dark:to-prime-300"
+        >Journey</span
+      >
+    </h2>
     <CardWork />
   </section>
 </template>

@@ -1,5 +1,5 @@
 <template>
-  <div class="flex gap-x-4">
+  <div class="flex">
     <a
       v-for="socal in socials"
       :key="socal.name"
@@ -37,5 +37,5 @@ const socials = [
     href: 'https://steamcommunity.com/id/kid_ilias/',
     icon: IconSteam,
   },
-]
+];
 </script>
