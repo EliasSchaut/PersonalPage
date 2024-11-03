@@ -29,6 +29,10 @@
       "system": "System"
     }
   },
+  "donate": {
+    "me": "Donate {name}",
+    "title": "Donate"
+  },
   "footer": {
     "home": "Home",
     "imprint": "Imprint",
@@ -38,8 +42,6 @@
     "title": "Footer"
   },
   "home": {
-    "donate": "Donate",
-    "donate_me": "Donate {name}",
     "education": {
       "school": {
         "a_levels": "A Levels",

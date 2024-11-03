@@ -75,4 +75,16 @@
     </h2>
     <CardWork />
   </section>
+
+  <ModalDonate ref="donate_modal" />
 </template>
+
+<script lang="ts">
+export default defineComponent({
+  mounted() {
+    if (this.$route.params.home && this.$route.params.home.includes('donate')) {
+      this.$refs.donate_modal?.show();
+    }
+  },
+});
+</script>

@@ -29,6 +29,10 @@
       "system": "System"
     }
   },
+  "donate": {
+    "me": "Spende {name}",
+    "title": "Spenden"
+  },
   "footer": {
     "home": "Startseite",
     "imprint": "Impressum",
@@ -38,8 +42,6 @@
     "title": "Footer"
   },
   "home": {
-    "donate": "Spenden",
-    "donate_me": "Spende {name}",
     "education": {
       "school": {
         "a_levels": "Abitur",
