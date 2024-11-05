@@ -5,7 +5,7 @@
     :href="tool_href"
     target="_blank"
   >
-    <img
+    <nuxt-img
       :src="icon_src"
       :alt="alt"
       :title="alt"
@@ -13,7 +13,7 @@
       :width="width"
     />
   </a>
-  <img
+  <nuxt-img
     v-else
     :src="icon_src"
     :alt="alt"
