@@ -20,6 +20,7 @@ Wirf einen Blick auf die Software-Tools, die zur Verbesserung dieser Website ein
 - [Nuxt/Image](https://image.nuxt.com/): Für die Optimierung von Bildern
 - [Pinia](https://pinia.vuejs.org/): Für eine effektive Zustandsverwaltung
 - [Tailwind](https://tailwindcss.com): Für vielseitiges CSS-Styling
+- [TypewriterJS](https://github.com/tameemsafi/typewriterjs): Für den Schreibmaschinen-Effekt auf der Startseite
 
 ## Asset Inventar
 

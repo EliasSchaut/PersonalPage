@@ -20,6 +20,7 @@ Check out the suite of software tools and assets leveraged to enhance the brilli
 - [Nuxt/Image](https://image.nuxt.com/): For optimizing images
 - [Pinia](https://pinia.vuejs.org/): For effective state management
 - [Tailwind](https://tailwindcss.com): For versatile CSS styling
+- [TypewriterJS](https://github.com/tameemsafi/typewriterjs): For the typewriter effect on the start page
 
 ## Asset Inventory
 

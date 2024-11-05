@@ -3,7 +3,7 @@
     class="group flex flex-col items-center justify-start gap-6 rounded-2xl p-5 hover:bg-second-100 dark:hover:bg-second-900 sm:flex-row"
     :href="href"
   >
-    <img
+    <nuxt-img
       class="rounded-md transition-transform duration-300 group-hover:scale-105"
       height="128"
       width="128"

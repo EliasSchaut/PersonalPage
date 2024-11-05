@@ -27,7 +27,10 @@
             {{ $t('articles.tag_not_found') }}
           </li>
           <template v-else v-for="article of list" :key="article._path">
-            <li v-if="!tag || article.tags.includes(tag)" :key="article._path">
+            <li
+              v-if="!article.hidden && (!tag || article.tags.includes(tag))"
+              :key="article._path"
+            >
               <ArticlePreview
                 :title="article.title!"
                 :href="article._path!.replace(`/${$i18n.locale}`, '')"
