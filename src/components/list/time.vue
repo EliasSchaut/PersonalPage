@@ -44,7 +44,7 @@
 
 <script lang="ts">
 import { defineComponent } from 'vue';
-import { ArrowUpIcon, ArrowRightIcon } from '@heroicons/vue/24/outline';
+import { ArrowRightIcon, ArrowUpIcon } from '@heroicons/vue/24/outline';
 
 export default defineComponent({
   name: 'timeline',
