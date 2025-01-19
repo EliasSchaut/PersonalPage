@@ -11,24 +11,20 @@ export default defineComponent({
     return { typewriter: ref<Typewriter | null>(null) };
   },
   mounted() {
-    this.typewriter = new Typewriter('#typewriter', {
-      strings: this.strings,
-      loop: this.loop,
-      stringSplitter: (string: string) => {
-        return [...string];
-      },
-    });
-
-    if (this.autostart) {
-      setTimeout(() => {
-        this.play();
-      }, this.init_delay);
-    }
-
-    const target_is_visible = useElementVisibility(
-      this.$refs.typewriter as HTMLElement,
-    ) as Ref<boolean>;
-    watch(target_is_visible, this.on_element_visibility);
+    setTimeout(() => {
+      this.typewriter = new Typewriter('#typewriter', {
+        strings: this.strings,
+        loop: this.loop,
+        autoStart: this.autostart,
+        stringSplitter: (string: string) => {
+          return [...string];
+        },
+      });
+      const target_is_visible = useElementVisibility(
+        this.$refs.typewriter as HTMLElement,
+      ) as Ref<boolean>;
+      watch(target_is_visible, this.on_element_visibility);
+    }, this.init_delay);
   },
   methods: {
     on_element_visibility(is_visible: boolean) {
