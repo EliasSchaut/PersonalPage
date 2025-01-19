@@ -1,22 +1,49 @@
 <template>
-  <span id="typewriter">{{ init_string }}</span>
+  <span id="typewriter" ref="typewriter">{{ init_string }}</span>
 </template>
 
 <script lang="ts">
 import Typewriter from 'typewriter-effect/dist/core';
+import { useElementVisibility } from '@vueuse/core';
 
 export default defineComponent({
+  setup() {
+    return { typewriter: ref<Typewriter | null>(null) };
+  },
   mounted() {
-    setTimeout(() => {
-      new Typewriter('#typewriter', {
-        strings: this.strings,
-        autoStart: this.autostart,
-        loop: this.loop,
-        stringSplitter: (string: string) => {
-          return [...string];
-        },
-      });
-    }, this.init_delay);
+    this.typewriter = new Typewriter('#typewriter', {
+      strings: this.strings,
+      loop: this.loop,
+      stringSplitter: (string: string) => {
+        return [...string];
+      },
+    });
+
+    if (this.autostart) {
+      setTimeout(() => {
+        this.play();
+      }, this.init_delay);
+    }
+
+    const target_is_visible = useElementVisibility(
+      this.$refs.typewriter as HTMLElement,
+    ) as Ref<boolean>;
+    watch(target_is_visible, this.on_element_visibility);
+  },
+  methods: {
+    on_element_visibility(is_visible: boolean) {
+      if (is_visible) {
+        this.play();
+      } else {
+        this.pause();
+      }
+    },
+    pause() {
+      this.typewriter.pause();
+    },
+    play() {
+      this.typewriter.start();
+    },
   },
   props: {
     strings: {
