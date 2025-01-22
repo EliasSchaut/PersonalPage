@@ -3,6 +3,11 @@
     <ListChecks
       :events="[
         {
+          content: $t('home.work.event.kit_gamejam'),
+          subcontent: $t('home.work.event.kit_gamejam_desc'),
+          time: `2024 - ${$t('home.education.today')}`,
+        },
+        {
           content: $t('home.work.event.level42'),
           subcontent: $t('home.work.event.level42_desc'),
           time: `2024 - ${$t('home.education.today')}`,

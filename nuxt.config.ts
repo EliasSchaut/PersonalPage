@@ -14,7 +14,7 @@ export default defineNuxtConfig({
     '@nuxtjs/sitemap',
     '@nuxt/image',
     '@pinia/nuxt',
-    '@pinia-plugin-persistedstate/nuxt',
+    'pinia-plugin-persistedstate/nuxt',
   ],
 
   site: {
@@ -88,11 +88,8 @@ export default defineNuxtConfig({
     },
   },
 
-  pinia: {
-    autoImports: ['defineStore'],
-  },
-
-  piniaPersistedstate: {
+  piniaPluginPersistedstate: {
+    storage: 'cookies',
     cookieOptions: {
       maxAge: 60 * 60 * 24 * 30,
     },
