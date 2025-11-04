@@ -1,6 +1,6 @@
 <template>
   <Article>
-    <ContentRenderer v-if="page" :value="page" />
+    <ContentRenderer v-if="page" :value="page" :prose="true" />
   </Article>
 </template>
 

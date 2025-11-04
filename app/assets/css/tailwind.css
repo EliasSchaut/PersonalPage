@@ -33,6 +33,8 @@
     --color-second-950: var(--color-gray-950);
 }
 
+@plugin "@tailwindcss/typography";
+
 button {
     @apply hover:cursor-pointer;
 }
