@@ -16,11 +16,11 @@
   >
     <IconFlagDe
       v-if="$i18n.locale === 'de'"
-      class="h-5 w-5 text-second-400 group-hover:text-second-500"
+      class="text-second-400 group-hover:text-second-500 h-5 w-5"
     />
     <IconFlagUk
       v-else
-      class="h-5 w-5 text-second-400 group-hover:text-second-500"
+      class="text-second-400 group-hover:text-second-500 h-5 w-5"
     />
   </Dropdown>
 </template>

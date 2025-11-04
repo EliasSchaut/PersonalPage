@@ -7,17 +7,17 @@
             <CheckBadgeIcon />
           </span>
           <div class="flex w-full flex-col justify-center gap-y-1">
-            <div class="whitespace-nowrap text-left text-sm sm:hidden">
+            <div class="text-left text-sm whitespace-nowrap sm:hidden">
               <time>{{ event.time }}</time>
             </div>
             <p class="text-sm font-bold">
               {{ event.content }}
             </p>
-            <p class="text-sm dark:text-second-500">
+            <p class="dark:text-second-500 text-sm">
               {{ event.subcontent }}
             </p>
           </div>
-          <div class="hidden whitespace-nowrap text-right text-sm sm:block">
+          <div class="hidden text-right text-sm whitespace-nowrap sm:block">
             <time>{{ event.time }}</time>
           </div>
         </div>

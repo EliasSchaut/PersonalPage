@@ -5,7 +5,7 @@
         <div class="relative pb-8">
           <span
             v-if="eventIdx !== events.length - 1"
-            class="absolute left-4 top-4 -ml-px h-full w-0.5 bg-second-200 dark:bg-second-800"
+            class="bg-second-200 dark:bg-second-800 absolute top-4 left-4 -ml-px h-full w-0.5"
             aria-hidden="true"
           />
           <div class="relative flex gap-x-3">
@@ -15,7 +15,7 @@
                   eventIdx === 0
                     ? 'bg-prime-500'
                     : 'bg-second-300 dark:bg-second-800',
-                  'flex h-8 w-8 items-center justify-center rounded-full ring-8 ring-second-50 dark:ring-second-950',
+                  'ring-second-50 dark:ring-second-950 flex h-8 w-8 items-center justify-center rounded-full ring-8',
                 ]"
               >
                 <component
@@ -31,7 +31,7 @@
                   {{ event.content }}
                 </p>
               </div>
-              <div class="whitespace-nowrap text-right text-sm">
+              <div class="text-right text-sm whitespace-nowrap">
                 <time>{{ event.time }}</time>
               </div>
             </div>

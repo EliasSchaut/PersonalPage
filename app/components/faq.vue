@@ -1,9 +1,9 @@
 <template>
-  <div class="bg-white dark:bg-second-900">
+  <div class="dark:bg-second-900 bg-white">
     <div class="mx-auto px-6 pb-6">
-      <div class="mx-auto divide-y divide-second-900/10 dark:divide-white/10">
+      <div class="divide-second-900/10 mx-auto divide-y dark:divide-white/10">
         <dl
-          class="space-y-6 divide-y divide-second-900/10 dark:divide-white/10"
+          class="divide-second-900/10 space-y-6 divide-y dark:divide-white/10"
         >
           <Disclosure
             as="div"
@@ -14,9 +14,9 @@
           >
             <dt>
               <DisclosureButton
-                class="flex w-full items-start justify-between text-left text-second-900 dark:text-white"
+                class="text-second-900 flex w-full items-start justify-between text-left dark:text-white"
               >
-                <span class="text-base font-semibold leading-7">{{
+                <span class="text-base leading-7 font-semibold">{{
                   faq.question
                 }}</span>
                 <span class="ml-6 flex h-7 items-center">
@@ -31,7 +31,7 @@
             </dt>
             <DisclosurePanel as="dd" class="mt-2 pr-12">
               <p
-                class="text-base leading-7 text-second-600 dark:text-second-300"
+                class="text-second-600 dark:text-second-300 text-base leading-7"
               >
                 {{ faq.answer }}
               </p>

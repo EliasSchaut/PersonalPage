@@ -1,12 +1,12 @@
 <template>
   <ul
     role="list"
-    class="divide-y divide-second-100 overflow-hidden bg-white shadow-sm ring-1 ring-second-900/5 dark:divide-second-700 dark:bg-second-800 dark:ring-second-700 sm:rounded-xl"
+    class="divide-second-100 ring-second-900/5 dark:divide-second-700 dark:bg-second-800 dark:ring-second-700 divide-y overflow-hidden bg-white shadow-sm ring-1 sm:rounded-xl"
   >
     <li
       v-for="element in list"
       :key="element.content"
-      class="relative flex justify-between gap-x-6 px-4 py-5 hover:bg-second-50 dark:hover:bg-second-900 sm:px-6"
+      class="hover:bg-second-50 dark:hover:bg-second-900 relative flex justify-between gap-x-6 px-4 py-5 sm:px-6"
     >
       <div class="flex min-w-0 gap-x-4">
         <component
@@ -17,7 +17,7 @@
         />
         <div class="min-w-0 flex-auto">
           <p
-            class="text-sm font-semibold leading-6 text-second-900 dark:text-second-100"
+            class="text-second-900 dark:text-second-100 text-sm leading-6 font-semibold"
           >
             <a v-if="element.href" :href="element.href" target="_blank">
               <span class="absolute inset-x-0 -top-px bottom-0" />
@@ -35,7 +35,7 @@
       </div>
       <div v-if="element.href" class="flex shrink-0 items-center gap-x-4">
         <ChevronRightIcon
-          class="h-5 w-5 flex-none text-second-400 dark:text-second-500"
+          class="text-second-400 dark:text-second-500 h-5 w-5 flex-none"
           aria-hidden="true"
         />
       </div>

@@ -1,7 +1,7 @@
 <template>
   <a
     v-if="href !== '#'"
-    class="inline-flex items-center gap-x-1.5 rounded-md px-2 py-1 text-sm font-medium text-second-900 ring-1 ring-inset ring-second-200 dark:text-second-100 dark:ring-second-700"
+    class="text-second-900 ring-second-200 dark:text-second-100 dark:ring-second-700 inline-flex items-center gap-x-1.5 rounded-md px-2 py-1 text-sm font-medium ring-1 ring-inset"
     :href="href"
     target="_blank"
   >
@@ -18,7 +18,7 @@
   </a>
   <span
     v-else
-    class="inline-flex items-center gap-x-1.5 rounded-md px-2 py-1 text-sm font-medium text-second-900 ring-1 ring-inset ring-second-200 dark:text-second-100 dark:ring-second-700"
+    class="text-second-900 ring-second-200 dark:text-second-100 dark:ring-second-700 inline-flex items-center gap-x-1.5 rounded-md px-2 py-1 text-sm font-medium ring-1 ring-inset"
   >
     <svg
       v-if="!no_dot"

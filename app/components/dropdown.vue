@@ -2,11 +2,11 @@
   <Menu as="div" class="relative inline-block text-left">
     <div>
       <MenuButton
-        class="inline-flex w-full justify-center gap-x-1.5 rounded-md bg-white px-3 py-2 text-sm font-semibold text-second-900 shadow-sm hover:bg-second-50 dark:bg-white/10 dark:hover:bg-white/20"
+        class="text-second-900 hover:bg-second-50 inline-flex w-full justify-center gap-x-1.5 rounded-md bg-white px-3 py-2 text-sm font-semibold shadow-sm dark:bg-white/10 dark:hover:bg-white/20"
       >
         <slot />
         <ChevronDownIcon
-          class="-mr-1 h-5 w-5 text-second-400"
+          class="text-second-400 -mr-1 h-5 w-5"
           aria-hidden="true"
         />
       </MenuButton>
@@ -21,7 +21,7 @@
       leave-to-class="transform opacity-0 scale-95"
     >
       <MenuItems
-        class="absolute right-0 z-10 mt-2 w-32 origin-top-right divide-y divide-second-100 rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none dark:bg-second-800 dark:text-white dark:ring-second-600"
+        class="divide-second-100 ring-opacity-5 dark:bg-second-800 dark:ring-second-600 absolute right-0 z-10 mt-2 w-32 origin-top-right divide-y rounded-md bg-white shadow-lg ring-1 ring-black focus:outline-none dark:text-white"
       >
         <div class="py-1">
           <MenuItem v-slot="{ active }" v-for="item in items">
@@ -36,7 +36,7 @@
             >
               <component
                 :is="item.icon()"
-                class="mr-3 h-5 w-5 text-second-400 group-hover:text-second-500"
+                class="text-second-400 group-hover:text-second-500 mr-3 h-5 w-5"
               />
               {{ item.label }}
             </button>
