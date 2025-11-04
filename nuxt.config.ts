@@ -1,10 +1,9 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 
 export default defineNuxtConfig({
-  devtools: { enabled: process.env.NODE_ENV !== 'production' },
+  devtools: { enabled: true },
   workspaceDir: '.',
-  srcDir: './src',
-  compatibilityDate: '2024-09-28',
+  compatibilityDate: '2025-09-29',
   modules: [
     '@nuxt/content',
     '@nuxtjs/i18n',
@@ -22,12 +21,6 @@ export default defineNuxtConfig({
     name: 'Elias Lorenz Schaut personal website and portfolio',
   },
 
-  content: {
-    navigation: {
-      fields: ['title', 'description', 'date', 'datetime', 'tag'],
-    },
-  },
-
   fonts: {
     defaults: {
       weights: [400, 500, 600, 700],
@@ -43,31 +36,34 @@ export default defineNuxtConfig({
 
   i18n: {
     langDir: 'locales',
+    restructureDir: 'app',
     locales: [
       {
-        code: 'en',
+        code: 'en_US',
         iso: 'en-US',
         name: 'English',
         isCatchallLocale: true,
         file: 'en-US.json',
       },
       {
-        code: 'de',
+        code: 'de_DE',
         iso: 'de-DE',
         name: 'Deutsch',
         file: 'de-DE.json',
       },
     ],
-    defaultLocale: 'en',
+    defaultLocale: 'en_US',
     strategy: 'no_prefix',
     detectBrowserLanguage: {
       useCookie: true,
       cookieKey: 'i18n_redirected',
       redirectOn: 'root',
-      fallbackLocale: 'en',
+      fallbackLocale: 'en_US',
     },
-    baseUrl: 'https://schaut.dev/',
-    lazy: true,
+    compilation: {
+      strictMessage: false,
+      escapeHtml: false,
+    },
   },
 
   colorMode: {
@@ -78,14 +74,10 @@ export default defineNuxtConfig({
   },
 
   tailwindcss: {
-    configPath: 'tailwind.config.ts',
-  },
-
-  postcss: {
-    plugins: {
-      tailwindcss: {},
-      autoprefixer: {},
-    },
+    cssPath: [`~/assets/css/tailwind.css`],
+    config: {},
+    viewer: true,
+    exposeConfig: false,
   },
 
   piniaPluginPersistedstate: {
