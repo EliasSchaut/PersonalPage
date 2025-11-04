@@ -7,13 +7,13 @@
   >
     {{ content }}
   </a>
-  <nuxt-link
+  <NuxtLink
     v-else-if="href !== '#'"
     class="bg-second-200 text-second-600 hover:bg-second-300 dark:bg-second-800 dark:text-second-400 dark:hover:bg-second-700 relative z-10 rounded-full px-3 py-1.5 font-medium"
     :href="href"
   >
     {{ content }}
-  </nuxt-link>
+  </NuxtLink>
   <span
     v-else
     class="bg-second-50 text-second-600 dark:bg-second-800 dark:text-second-400 relative z-10 rounded-full px-3 py-1.5 font-medium"
