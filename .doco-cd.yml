@@ -1,0 +1,10 @@
+name: personalpage
+reference: main
+compose_files:
+  - docker-compose.yml
+build_opts:
+  force_image_pull: true
+  no_cache: true
+  quiet: false
+external_secrets:
+  PORT: 6a477644-2c72-4ab1-94b4-7bf96c1e12b7:prod:PORT

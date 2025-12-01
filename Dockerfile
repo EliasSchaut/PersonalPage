@@ -1,15 +1,33 @@
-FROM node:alpine
-LABEL authors="elias"
+# Build Stage 1
+FROM node:22-alpine AS build
+WORKDIR /app
 
-ENV NODE_ENV=production
-ENV PORT=3000
+RUN corepack enable
 
-RUN mkdir -p /home/node/app/node_modules && chown -R node:node /home/node/app
-WORKDIR /home/node/app
-COPY package*.json ./
-RUN npm install
-COPY --chown=node:node . .
+COPY package.json package-lock.json .npmrc ./
+
+# Install dependencies
+RUN npm i
+
+# Copy the entire project
+COPY . ./
+
+# Build the project
 RUN npm run build
+
+# Build Stage 2
+
+FROM node:22-alpine
+WORKDIR /app
+
+# Only `.output` folder is needed from the build stage
+COPY --from=build /app/.output/ ./
+
+# Change the port and host
+ENV PORT=80
+ENV HOST=0.0.0.0
+ENV NODE_ENV=production
+
 EXPOSE $PORT
 
-CMD ["npm", "start"]
+CMD ["node", "/app/server/index.mjs"]

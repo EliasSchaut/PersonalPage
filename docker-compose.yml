@@ -1,8 +1,9 @@
 services:
-  app:
-    build: .
+  personalpage:
+    container_name: weavingjeans
+    image: kidilais/personalpage:latest
+    build:
+      context: .
+      dockerfile: Dockerfile
     ports:
-      - '3000:3000'
-    environment:
-      NODE_ENV: production
-      PORT: 3000
+      - '${PORT:-3000}:3000'
