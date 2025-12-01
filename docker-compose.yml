@@ -1,7 +1,7 @@
 services:
   personalpage:
     container_name: weavingjeans
-    image: kidilais/personalpage:latest
+    image: kidilias/personalpage:latest
     build:
       context: .
       dockerfile: Dockerfile
