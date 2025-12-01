@@ -66,5 +66,4 @@ const { data: list } = await useAsyncData(
   },
   { watch: [locale, tag] },
 );
-console.log(list.value);
 </script>
