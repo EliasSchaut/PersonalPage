@@ -4,18 +4,18 @@
     :items="[
       {
         label: $t('common.lang.de'),
-        callback: () => setLocale('de'),
+        callback: () => setLocale('de_DE'),
         icon: IconFlagDeFunc,
       },
       {
         label: $t('common.lang.en'),
-        callback: () => setLocale('en'),
+        callback: () => setLocale('en_US'),
         icon: IconFlagUkFunc,
       },
     ]"
   >
     <IconFlagDe
-      v-if="$i18n.locale === 'de'"
+      v-if="$i18n.locale === 'de_DE'"
       class="text-second-400 group-hover:text-second-500 h-5 w-5"
     />
     <IconFlagUk
@@ -26,7 +26,6 @@
 </template>
 
 <script lang="ts">
-import { defineComponent } from 'vue';
 import { IconFlagDe, IconFlagUk } from '#components';
 
 export default defineComponent({

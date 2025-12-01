@@ -3,6 +3,7 @@ title: 'Verwendete Ressourcen'
 description: 'Detaillierte Einblicke in die Ressourcen, die für die Erstellung dieser Website verwendet wurden'
 date: '03. Jan 2024'
 datetime: '2024-01-03'
+published: false
 ---
 
 # Verwendete Ressourcen

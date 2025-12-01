@@ -1,6 +1,6 @@
 <template>
   <NuxtLink
-    class="group flex flex-col items-center justify-start gap-6 rounded-2xl p-5 hover:bg-second-100 dark:hover:bg-second-900 sm:flex-row"
+    class="group hover:bg-second-100 dark:hover:bg-second-900 flex flex-col items-center justify-start gap-6 rounded-2xl p-5 sm:flex-row"
     :href="href"
   >
     <NuxtImg
@@ -19,19 +19,19 @@
         <div class="flex flex-1 justify-end gap-1">
           <BadgeSimple
             v-for="tag in tags"
-            :content="tag"
-            :href="'/articles/t/' + tag"
+            :content="tag as string"
+            :href="'/articles?tag=' + tag"
           />
         </div>
       </div>
       <div>
         <h3
-          class="mt-3 text-lg font-semibold leading-6 text-second-900 group-hover:underline dark:text-white"
+          class="text-second-900 mt-3 text-lg leading-6 font-semibold group-hover:underline dark:text-white"
         >
           {{ title }}
         </h3>
         <p
-          class="mt-5 line-clamp-3 text-sm leading-6 text-second-600 dark:text-second-100"
+          class="text-second-600 dark:text-second-100 mt-5 line-clamp-3 text-sm leading-6"
         >
           {{ description }}
         </p>
