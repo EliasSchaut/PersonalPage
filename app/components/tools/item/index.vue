@@ -1,11 +1,11 @@
 <template>
   <a
     v-if="tool_href !== '#'"
-    class="flex items-center justify-center rounded-md p-2 hover:bg-second-200 dark:hover:bg-second-800"
+    class="hover:bg-second-200 dark:hover:bg-second-800 flex items-center justify-center rounded-md p-2"
     :href="tool_href"
     target="_blank"
   >
-    <nuxt-img
+    <img
       :src="icon_src"
       :alt="alt"
       :title="alt"
@@ -13,7 +13,7 @@
       :width="width"
     />
   </a>
-  <nuxt-img
+  <img
     v-else
     :src="icon_src"
     :alt="alt"
