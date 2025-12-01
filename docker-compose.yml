@@ -1,6 +1,6 @@
 services:
   personalpage:
-    container_name: weavingjeans
+    container_name: personalpage
     image: kidilias/personalpage:latest
     build:
       context: .
