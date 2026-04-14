@@ -20,10 +20,10 @@
         loop
       />
       <p>{{ $t('home.intro.jobs') }}</p>
-      <p class="w-full italic text-second-600 dark:text-second-400 lg:w-2/3">
+      <p class="text-second-600 dark:text-second-400 w-full italic lg:w-2/3">
         {{ $t('home.intro.bio') }}
       </p>
-      <LayoutSocials class="gap-x-4" />
+      <SocialLayout class="gap-x-4" />
     </div>
     <AvatarBig class="hidden sm:block" />
   </section>
@@ -69,7 +69,7 @@
     <h2 class="space-x-2 text-center text-3xl font-semibold">
       <span>🗺️</span
       ><span
-        class="select-none bg-gradient-to-b from-prime-500 to-prime-600 bg-clip-text text-transparent dark:from-prime-200 dark:to-prime-300"
+        class="from-prime-500 to-prime-600 dark:from-prime-200 dark:to-prime-300 bg-linear-to-b bg-clip-text text-transparent select-none"
         >{{ $t('home.journey') }}</span
       >
     </h2>

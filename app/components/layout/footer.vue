@@ -9,7 +9,7 @@
           <nuxt-link
             v-if="link?.intern"
             :to="link.href"
-            class="text-sm leading-6 text-second-600 hover:text-second-900 dark:text-second-300 dark:hover:text-second-400"
+            class="text-second-600 hover:text-second-900 dark:text-second-300 dark:hover:text-second-400 text-sm leading-6"
           >
             {{ link.title }}
           </nuxt-link>
@@ -17,14 +17,14 @@
             v-else
             :href="link.href"
             target="_blank"
-            class="text-sm leading-6 text-second-600 hover:text-second-900 dark:text-second-300 dark:hover:text-second-400"
+            class="text-second-600 hover:text-second-900 dark:text-second-300 dark:hover:text-second-400 text-sm leading-6"
             >{{ link.title }}</a
           >
         </div>
       </nav>
-      <LayoutSocials class="mt-10 flex justify-center gap-x-10" />
+      <SocialLayout class="mt-10 justify-center gap-x-10" />
       <p
-        class="mt-10 text-center text-xs leading-5 text-second-500 dark:text-second-300"
+        class="text-second-500 dark:text-second-300 mt-10 text-center text-xs leading-5"
       >
         &copy; 2023-2024 Elias Lorenz Schaut
       </p>

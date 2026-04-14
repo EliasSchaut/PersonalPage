@@ -7,7 +7,8 @@
       @click="$i18n.setLocale(lang)"
       :class="{
         'text-second-400 group-hover:text-second-500': $i18n.locale !== lang,
-        'text-second-900 group-hover:text-second-500': $i18n.locale === lang,
+        'text-second-900 dark:text-second-100 group-hover:text-second-500':
+          $i18n.locale === lang,
       }"
     >
       <b>{{ lang.split('_')[0] }}</b>
