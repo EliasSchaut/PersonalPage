@@ -1,33 +1,23 @@
-# Build Stage 1
-FROM node:22-alpine AS build
-WORKDIR /app
+FROM node:24-slim AS base
+
+ENV NODE_ENV=production
+ENV PORT=3000
+ENV PNPM_HOME="/pnpm"
+ENV PATH="$PNPM_HOME:$PATH"
 
 RUN corepack enable
-
-COPY package.json package-lock.json .npmrc ./
-
-# Install dependencies
-RUN npm i
-
-# Copy the entire project
-COPY . ./
-
-# Build the project
-RUN npm run build
-
-# Build Stage 2
-
-FROM node:22-alpine
+COPY . /app
 WORKDIR /app
 
-# Only `.output` folder is needed from the build stage
-COPY --from=build /app/.output/ ./
+FROM base AS prod-deps
+RUN --mount=type=cache,id=pnpm,target=/pnpm/store pnpm install --prod --frozen-lockfile
 
-# Change the port and host
-ENV PORT=80
-ENV HOST=0.0.0.0
-ENV NODE_ENV=production
+FROM base AS build
+RUN --mount=type=cache,id=pnpm,target=/pnpm/store pnpm install --frozen-lockfile
+RUN pnpm run build
 
+FROM base
+COPY --from=prod-deps /app/node_modules /app/node_modules
+COPY --from=build /app/.output /app/.output
 EXPOSE $PORT
-
-CMD ["node", "/app/server/index.mjs"]
+CMD [ "pnpm", "start" ]

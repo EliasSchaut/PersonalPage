@@ -3,7 +3,7 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   workspaceDir: '.',
-  compatibilityDate: '2025-09-29',
+  compatibilityDate: '2026-04-14',
   modules: [
     '@nuxt/content',
     '@nuxtjs/i18n',
@@ -14,6 +14,7 @@ export default defineNuxtConfig({
     '@nuxt/image',
     '@pinia/nuxt',
     'pinia-plugin-persistedstate/nuxt',
+    'nuxt-studio',
   ],
 
   site: {

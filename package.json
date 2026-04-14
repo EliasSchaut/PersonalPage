@@ -1,5 +1,6 @@
 {
   "name": "personal-page",
+  "packageManager": "pnpm@10.33.0",
   "description": "My personal website about me and my projects",
   "author": "EliasSchaut",
   "private": true,
@@ -21,28 +22,37 @@
   "dependencies": {
     "@headlessui/vue": "^1.7.23",
     "@heroicons/vue": "^2.2.0",
-    "@nuxt/content": "^3.8.2",
-    "@nuxt/fonts": "^0.12.1",
+    "@nuxt/content": "^3.13.0",
+    "@nuxt/fonts": "^0.14.0",
     "@nuxt/image": "^2.0.0",
     "@nuxtjs/color-mode": "^4.0.0",
-    "@nuxtjs/i18n": "^10.2.1",
-    "@nuxtjs/sitemap": "^7.4.7",
+    "@nuxtjs/i18n": "^10.2.4",
+    "@nuxtjs/sitemap": "^8.0.12",
     "@nuxtjs/tailwindcss": "^7.0.0-beta.1",
     "@pinia/nuxt": "^0.11.3",
     "@tailwindcss/typography": "^0.5.19",
-    "@vueuse/core": "^14.1.0",
-    "better-sqlite3": "^12.5.0",
-    "nuxt": "^4.2.1",
+    "@vueuse/core": "^14.2.1",
+    "better-sqlite3": "^12.9.0",
+    "nuxt": "^4.4.2",
+    "nuxt-studio": "1.6.0",
     "pinia": "^3.0.4",
     "pinia-plugin-persistedstate": "^4.7.1",
-    "tailwindcss": "^4.1.17",
-    "typescript": "^5.9.3",
+    "tailwindcss": "^4.2.2",
+    "typescript": "^6.0.2",
     "typewriter-effect": "^2.22.0",
-    "vue-tsc": "^3.1.5"
+    "vue-tsc": "^3.2.6"
   },
   "devDependencies": {
-    "@nuxt/devtools": "^3.1.1",
-    "prettier": "^3.7.3",
-    "prettier-plugin-tailwindcss": "^0.7.1"
+    "@nuxt/devtools": "^3.2.4",
+    "prettier": "^3.8.2",
+    "prettier-plugin-tailwindcss": "^0.7.2"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "@parcel/watcher",
+      "better-sqlite3",
+      "esbuild",
+      "sharp"
+    ]
   }
 }
