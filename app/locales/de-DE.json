@@ -27,7 +27,8 @@
       "dark": "Dunkel",
       "light": "Hell",
       "system": "System"
-    }
+    },
+    "today": "heute"
   },
   "donate": {
     "me": "Spende {name}",
@@ -42,14 +43,19 @@
     "title": "Footer"
   },
   "home": {
-    "education": {
-      "school": {
-        "a_levels": "Abitur",
-        "computer_science": "Informatik",
-        "elementary": "Grundschule"
+    "experiences": {
+      "uni": {
+        "content": "Computer Science M.Sc.",
+        "organisation": "Karlsruher Institut für Technologie (KIT)"
       },
-      "title": "🎓 Mein Bildungsweg:",
-      "today": "heute"
+      "andrena": {
+        "content": "Werkstudent"
+      },
+      "iss": {
+        "content": "Studentische Hilfskraft (HiWi)",
+        "organisation": "Informatik Studiengang Service (ISS)"
+      },
+      "title": "🚀 Meine Erfahrungen:"
     },
     "intro": {
       "bio": "Es ist meine Mission, positive Stimmung zu verbreiten, wo immer ich auch hingehe! Ich erschaffe ständig neue Möglichkeiten, um den Spaß und die Produktivität in den Gemeinschaften, in denen ich tätig bin, zu steigern.",

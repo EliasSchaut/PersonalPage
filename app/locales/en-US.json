@@ -27,7 +27,8 @@
       "dark": "Dark",
       "light": "Light",
       "system": "System"
-    }
+    },
+    "today": "today"
   },
   "donate": {
     "me": "Donate {name}",
@@ -42,14 +43,19 @@
     "title": "Footer"
   },
   "home": {
-    "education": {
-      "school": {
-        "a_levels": "A Levels",
-        "computer_science": "Computer Science",
-        "elementary": "Elementary School"
+    "experiences": {
+      "uni": {
+        "content": "Informatik M.Sc.",
+        "organisation": "Karlsruher Institut for Technology (KIT)"
       },
-      "title": "🎓 My Education:",
-      "today": "today"
+      "andrena": {
+        "content": "Working Student"
+      },
+      "iss": {
+        "content": "Student Research Assistant (HiWi)",
+        "organisation": "Informatics Study Program Services (ISS)"
+      },
+      "title": "🚀 My Experiences:"
     },
     "intro": {
       "bio": "It's my mission to spread positivity wherever I go! I'm constantly creating ways to enhance the fun and productivity of the communities I'm involved in.",

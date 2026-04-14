@@ -5,12 +5,27 @@
         {
           content: $t('home.work.event.kit_gamejam'),
           subcontent: $t('home.work.event.kit_gamejam_desc'),
-          time: `2024 - ${$t('home.education.today')}`,
+          time: `2024 - ${$t('common.today')}`,
         },
         {
           content: $t('home.work.event.level42'),
           subcontent: $t('home.work.event.level42_desc'),
-          time: `2024 - ${$t('home.education.today')}`,
+          time: `2024 - ${$t('common.today')}`,
+        },
+        {
+          content: 'eezi - Eine Einführung zum Informatikstudium',
+          subcontent: $t('home.work.event.eezi_desc'),
+          time: `2021 - 2025`,
+        },
+        {
+          content: $t('home.work.event.hadiko_vev'),
+          subcontent: $t('home.work.event.hadiko_vev_desc'),
+          time: `2020 - ${$t('common.today')}`,
+        },
+        {
+          content: 'HaDiKo e.V.',
+          subcontent: $t('home.work.event.hadiko_ev_desc'),
+          time: `2020 - ${$t('common.today')}`,
         },
         {
           content: $t('home.work.event.lila_pause'),
@@ -18,24 +33,9 @@
           time: `2018 - 2024`,
         },
         {
-          content: 'eezi - Eine Einführung zum Informatikstudium',
-          subcontent: $t('home.work.event.eezi_desc'),
-          time: `2021 - ${$t('home.education.today')}`,
-        },
-        {
           content: 'Akk - Arbeitskreis Kultur und Kommunikation',
           subcontent: $t('home.work.event.akk_desc'),
           time: `2018 - 2024`,
-        },
-        {
-          content: $t('home.work.event.hadiko_vev'),
-          subcontent: $t('home.work.event.hadiko_vev_desc'),
-          time: `2020 - ${$t('home.education.today')}`,
-        },
-        {
-          content: 'HaDiKo e.V.',
-          subcontent: $t('home.work.event.hadiko_ev_desc'),
-          time: `2020 - ${$t('home.education.today')}`,
         },
         {
           content: $t('home.work.event.fsmi'),

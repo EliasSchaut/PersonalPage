@@ -1,7 +1,7 @@
 {
   "name": "Elias Lorenz Schaut - Portfolio",
   "short_name": "Elias Lorenz Schaut",
-  "start_url": "https://schaut.dev",
+  "start_url": "/",
   "icons": [
     {
       "src": "/favicon/android-chrome-192x192.png",

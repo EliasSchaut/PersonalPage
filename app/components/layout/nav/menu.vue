@@ -79,8 +79,8 @@ export default defineComponent({
           [
             {
               title: t('nav.about'),
-              href: '/',
-              matches: /^\/$/,
+              href: '/about',
+              matches: /^\/about(\/.*)?$/,
             },
             {
               title: t('nav.articles'),

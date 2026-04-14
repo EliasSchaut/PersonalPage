@@ -1,8 +1,8 @@
 <template>
   <nuxt-img
-    height="32"
-    width="32"
-    class="h-8 w-8 rounded-full border-2 border-prime-600 dark:border-prime-400"
+    height="40"
+    width="40"
+    class="border-prime-600 dark:border-prime-400 h-10 w-10 rounded-full border-2"
     src="/img/avatar_elias.jpg"
     alt="Avatar Elias"
   />

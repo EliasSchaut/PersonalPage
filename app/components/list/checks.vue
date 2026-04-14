@@ -3,7 +3,7 @@
     <li v-for="event in events" :key="event.content">
       <div class="relative space-x-3 pb-8">
         <div class="flex min-w-0 items-center justify-center space-x-4 pt-1.5">
-          <span class="flex h-8 w-8 items-center justify-center">
+          <span class="hidden h-8 w-8 items-center justify-center sm:flex">
             <CheckBadgeIcon />
           </span>
           <div class="flex w-full flex-col justify-center gap-y-1">

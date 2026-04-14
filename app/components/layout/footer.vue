@@ -26,7 +26,7 @@
       <p
         class="text-second-500 dark:text-second-300 mt-10 text-center text-xs leading-5"
       >
-        &copy; 2023-2024 Elias Lorenz Schaut
+        &copy; 2023-2026 Elias Lorenz Schaut
       </p>
     </div>
   </footer>
