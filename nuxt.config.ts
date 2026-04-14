@@ -1,3 +1,4 @@
+import 'dotenv/config';
 // https://nuxt.com/docs/api/configuration/nuxt-config
 
 export default defineNuxtConfig({
@@ -87,4 +88,19 @@ export default defineNuxtConfig({
       maxAge: 60 * 60 * 24 * 30,
     },
   },
+
+  studio: {
+    repository: {
+      provider: 'github',
+      owner: 'EliasSchaut',
+      repo: 'PersonalPage',
+      branch: 'main',
+    },
+    auth: {
+      github: {
+        clientId: process.env.NUXT_STUDIO_GITHUB_CLIENT_ID,
+        clientSecret: process.env.NUXT_STUDIO_GITHUB_CLIENT_SECRET,
+      }
+    }
+  }
 });
