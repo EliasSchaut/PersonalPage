@@ -10,6 +10,11 @@ export const settingsStore = defineStore('settings', {
       this.theme = theme;
       useColorMode().preference = theme;
     },
+    toggleTheme() {
+      if (this.theme === 'light') this.setTheme('dark');
+      else if (this.theme === 'dark') this.setTheme('system');
+      else this.setTheme('light');
+    },
   },
   persist: true,
 });

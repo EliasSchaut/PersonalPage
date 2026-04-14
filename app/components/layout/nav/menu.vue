@@ -59,10 +59,6 @@
           </nuxt-link>
         </li>
       </ul>
-      <div class="mt-5 flex flex-row justify-stretch space-x-4 sm:hidden">
-        <SettingLang class="w-full" />
-        <SettingTheme class="w-full" />
-      </div>
     </nav>
   </Modal>
 </template>

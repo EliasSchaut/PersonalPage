@@ -1,43 +1,27 @@
 <template>
-  <Dropdown
-    :items="[
-      {
-        label: $t('common.theme.light'),
-        callback: () => settings.setTheme('light'),
-        icon: SunIcon,
-      },
-      {
-        label: $t('common.theme.dark'),
-        callback: () => settings.setTheme('dark'),
-        icon: MoonIcon,
-      },
-      {
-        label: $t('common.theme.system'),
-        callback: () => settings.setTheme('system'),
-        icon: ComputerDesktopIcon,
-      },
-    ]"
+  <button
+    class="shadow-second-800/5 ring-second-900/5 dark:bg-second-800/90 flex items-center rounded-full bg-white/90 px-3 py-2 shadow-lg ring-1 backdrop-blur-sm transition dark:ring-white/10 dark:hover:ring-white/20"
+    @click="settings.toggleTheme"
   >
     <SunIcon
       v-if="settings.theme === 'light'"
-      class="text-second-400 group-hover:text-second-500 h-5 w-5"
+      class="text-second-900 group-hover:text-second-500 dark:text-second-100 h-6 w-6"
       aria-hidden="true"
     />
     <MoonIcon
       v-else-if="settings.theme === 'dark'"
-      class="text-second-400 group-hover:text-second-500 h-5 w-5"
+      class="text-second-900 group-hover:text-second-500 dark:text-second-100 h-6 w-6"
       aria-hidden="true"
     />
     <ComputerDesktopIcon
       v-else
-      class="text-second-400 group-hover:text-second-500 h-5 w-5"
+      class="text-second-900 group-hover:text-second-500 dark:text-second-100 h-6 w-6"
       aria-hidden="true"
     />
-  </Dropdown>
+  </button>
 </template>
 
 <script lang="ts">
-import { defineComponent } from 'vue';
 import {
   ComputerDesktopIcon,
   MoonIcon,
