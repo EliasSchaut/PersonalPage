@@ -126,17 +126,18 @@
   "nav": {
     "about": "About",
     "articles": "Articles",
+    "home": "Home",
     "projects": "Projects",
     "wiki": "Wiki"
   },
   "privacy": {
-    "cookies": {
-      "body": "This website does not use analytical tracking of any kind. This website uses cookies. These are small text files that the web browser stores on the end device. Cookies help to make the website more user-friendly, effective and secure. Some cookies are \"session cookies.\" Such cookies are deleted by themselves at the end of the browser session. In contrast, other cookies remain on your terminal device until they are manually deleted by yourself. Such cookies help to reuse settings made when returning to the website. With a modern web browser, the setting of cookies can be monitored, restricted or prevented. Many web browsers can be configured to automatically delete cookies when the program is closed. Disabling cookies may result in limited functionality of the website.",
-      "title": "Analytics/Cookies/External Resources etc.?"
-    },
     "contact": {
       "body": "If you submit the contact form, the e-mail address and the message you provide are sent as an e-mail to the operator's mailbox via an SMTP service. The website itself does not store the form contents in a database. The data is used solely to reply to your request and is not passed on to third parties beyond the e-mail provider required to deliver the message. You can request deletion of your message from the operator's mailbox at any time.",
       "title": "What happens with the data I enter into the contact form?"
+    },
+    "cookies": {
+      "body": "This website does not use analytical tracking of any kind. This website uses cookies. These are small text files that the web browser stores on the end device. Cookies help to make the website more user-friendly, effective and secure. Some cookies are \"session cookies.\" Such cookies are deleted by themselves at the end of the browser session. In contrast, other cookies remain on your terminal device until they are manually deleted by yourself. Such cookies help to reuse settings made when returning to the website. With a modern web browser, the setting of cookies can be monitored, restricted or prevented. Many web browsers can be configured to automatically delete cookies when the program is closed. Disabling cookies may result in limited functionality of the website.",
+      "title": "Analytics/Cookies/External Resources etc.?"
     },
     "data": {
       "body": "This website does not collect any data from you. The operator specified in the imprint only learns about you if you write him an e-mail. Thereby the operator learns your e-mail address and your name. This data will only be used to answer your request and will not be passed on to third parties.",

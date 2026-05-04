@@ -35,12 +35,6 @@
     </section>
 
     <div class="flex w-full flex-col justify-between gap-8 md:flex-row">
-      <section id="contact" class="flex w-full flex-col gap-y-4">
-        <Card :title="$t('home.contact.title')" :icon="PaperAirplaneIcon">
-          <Contact />
-        </Card>
-      </section>
-
       <section id="experiences" class="flex w-full flex-col gap-y-4">
         <Card :title="$t('home.experiences.title')" :icon="BriefcaseIcon">
           <div class="flex w-full flex-col gap-y-5">
@@ -72,6 +66,12 @@
               {{ $t('home.experiences.cv') }} ⬇
             </a>
           </div>
+        </Card>
+      </section>
+
+      <section id="contact" class="flex w-full flex-col gap-y-4">
+        <Card :title="$t('home.contact.title')" :icon="PaperAirplaneIcon">
+          <Contact />
         </Card>
       </section>
     </div>
