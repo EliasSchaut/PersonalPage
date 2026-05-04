@@ -12,6 +12,15 @@ npm-debug.log
 logs
 *.log
 
+# Secrets / local env
+.env
+.env.*
+!.env.example
+
+# Git
+.git
+.gitignore
+
 # Misc
 .DS_Store
 .fleet
