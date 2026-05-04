@@ -44,6 +44,16 @@
   },
   "home": {
     "contact": {
+      "form": {
+        "agree": "Mit dem Klick akzeptierst du die",
+        "email": "Deine E-Mail",
+        "error_generic": "Etwas ist schiefgelaufen. Bitte versuche es später erneut.",
+        "message": "Nachricht",
+        "privacy_policy": "Datenschutzerklärung",
+        "sending": "Wird gesendet ...",
+        "submit": "Lass uns reden",
+        "success": "Danke! Deine Nachricht wurde gesendet."
+      },
       "title": "Kontakt"
     },
     "experiences": {

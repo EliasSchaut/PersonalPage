@@ -67,5 +67,5 @@ export default defineEventHandler(async (event) => {
     ).replace(/\n/g, '<br>')}</p>`,
   });
 
-  await sendRedirect(event, '/?contact=sent', 303);
+  return { ok: true };
 });

@@ -44,6 +44,16 @@
   },
   "home": {
     "contact": {
+      "form": {
+        "agree": "By clicking, you agree to the",
+        "email": "Your Email",
+        "error_generic": "Something went wrong. Please try again later.",
+        "message": "Message",
+        "privacy_policy": "privacy policy",
+        "sending": "Sending ...",
+        "submit": "Let's talk",
+        "success": "Thanks! Your message has been sent."
+      },
       "title": "Contact"
     },
     "experiences": {
