@@ -1,10 +1,11 @@
 ---
-title: 'Bday 21'
-description: 'Über meinen 21. Geburtstag'
-date: '2021-06-04'
-tags: ['Bday']
-cover: 'Bday21.png'
+title: Bday 21
+cover: Bday21.png
+date: 2021-06-04
+description: Über meinen 21. Geburtstag
 published: true
+tags:
+  - Bday
 ---
 
 # Bday 21
@@ -28,16 +29,16 @@ Events, die möglichst unterschiedlich waren, um den Spaß für alle zu Steigern
 ### Event: Der Bday Counter
 
 Damit der Hype steigt und die Planlosigkeit abnimmt, gab es an meinem Bday einen Countdown, der die Zeit bis nächsten
-Event runterzählte. Dieser war ein nicht joinbarer Sprachchannel, der von einem Bot _(Bday-Timer)_ stetig umbenannt
+Event runterzählte. Dieser war ein nicht joinbarer Sprachchannel, der von einem Bot *(Bday-Timer)* stetig umbenannt
 wurde, um die Zeit bis zum nächsten Event anzuzeigen.
 
 ### Event: Speed-Dating
 
-Was eher hätte _Speed-Friending_ heißen sollen, war ein Event zu Beginn des Bdays, was die Leute dazu bringen sollte,
+Was eher hätte *Speed-Friending* heißen sollen, war ein Event zu Beginn des Bdays, was die Leute dazu bringen sollte,
 sich untereinander besser kennenzulernen, da es online schwieriger ist, sich auszutauschen.
 Teilnehmer konnten sich jeweils zu dritt in einem Sprachchannel kennenlernen. Ein solches Grüppchen hatte 5 Minuten
 Zeit, um sich gegenseitig vorzustellen und Fragen zu stellen. Nach 5 Minuten wurde gewechselt und die nächste Gruppe
-konnte sich kennenlernen. Der selbstgeschriebene Bot _Shuffle_ kümmerte sich um die vollautomatische Verteilung der
+konnte sich kennenlernen. Der selbstgeschriebene Bot *Shuffle* kümmerte sich um die vollautomatische Verteilung der
 Teilnehmer in die Gruppen.
 
 ### Disziplin: Rallye (35 Punkte)
@@ -68,7 +69,7 @@ kreative Aufgaben dabei, damit die Gäste zusammenzuwachsen. Dabei kamen interes
 
 ### Disziplin: Discord-Dungeon-Adventure (10 Punkte)
 
-Das _Discord-Dungeon-Adventure_ war ein aufwendiges Text-Adventure, welches die Gäste in die Tiefen des Tempels des heiligen Ilias führte. Hier mussten sie Rätsel lösen und Aufgaben erfüllen, um den Tempel zu verlassen. Eine ausführliche Beschreibung des Adventures findet sich in diesem Artikel: [Bday Metagame 21](/articles/bday21_meta).
+Das *Discord-Dungeon-Adventure* war ein aufwendiges Text-Adventure, welches die Gäste in die Tiefen des Tempels des heiligen Ilias führte. Hier mussten sie Rätsel lösen und Aufgaben erfüllen, um den Tempel zu verlassen. Eine ausführliche Beschreibung des Adventures findet sich in diesem Artikel: [Bday Metagame 21](/articles/bday21_meta).
 
 ### Event: XP-Leveling
 
@@ -79,7 +80,7 @@ Belohnungen waren höhere Discord-Rechte (wie Emojis hinzufügen) oder Einblicke
 
 ### Disziplin: Codenames (10 Punkte)
 
-Das Spiel [_Codenames_](https://de.wikipedia.org/wiki/Codenames) ist ein wunderbares Spiel, dass man auch online in 2 Teams gegeneinander spielen kann. Gespielt wurde über die Website [codenames.game](https://codenames.game/). Die Geheimdienstchefs und die Agenten beider Teams waren jeweils in einem Sprachchannel und haben sich chaotisch über die Bedeutung der Wörter unterhalten.
+Das Spiel [*Codenames*](https://de.wikipedia.org/wiki/Codenames) ist ein wunderbares Spiel, dass man auch online in 2 Teams gegeneinander spielen kann. Gespielt wurde über die Website [codenames.game](https://codenames.game/). Die Geheimdienstchefs und die Agenten beider Teams waren jeweils in einem Sprachchannel und haben sich chaotisch über die Bedeutung der Wörter unterhalten.
 
 ### Disziplin: Movie-Quiz
 

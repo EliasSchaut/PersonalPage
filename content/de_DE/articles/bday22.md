@@ -1,10 +1,11 @@
 ---
-title: 'Bday 22'
-description: 'Über meinen 22. Geburtstag'
-date: '2022-06-04'
-tags: ['Bday']
-cover: 'Bday22.png'
+title: Bday 22
+cover: Bday22.png
+date: 2022-06-04
+description: Über meinen 22. Geburtstag
 published: true
+tags:
+  - Bday
 ---
 
 # Bday22: Mein erster großer Offline-Geburtstag nach Corona
@@ -25,21 +26,21 @@ Die Teams sollten natürlich nicht zufällig entstehen. Stattdessen wollte ich b
 
 Zusätzlich baute ich mehrere Stationen auf: eine Gaming-Ecke mit einer Nintendo Switch, Outdoor-Spiele wie Wikingerschach und größere Haupt-Events wie eine Mini-Olympiade mit Bierkastenlauf und Eierlauf. Dank meiner Erfahrungen aus der O-Phase wusste ich genau, wie ich das Spielfeld gestalten musste (Sprühkreide sei Dank!).
 
-Ein weiteres Highlight: Ein interaktives Quiz über mich und Geburtstage im Allgemeinen, das ich mit Kahoot organisierte. Und weil ich letztes Jahr ein Metagame erstellt hatte, wollte ich auch diesmal ein spannendes Spiel integrieren – die Details dazu will ich in einem [anderen Artikel](/articles/bday22_meta) beschreiben, um hier nicht den Rahmen zu sprengen. 
+Ein weiteres Highlight: Ein interaktives Quiz über mich und Geburtstage im Allgemeinen, das ich mit Kahoot organisierte. Und weil ich letztes Jahr ein Metagame erstellt hatte, wollte ich auch diesmal ein spannendes Spiel integrieren – die Details dazu will ich in einem [anderen Artikel](/articles/bday22_meta) beschreiben, um hier nicht den Rahmen zu sprengen.
 
 Das fertige Program sah wie folgt aus:
 
-* 18:30 - Einlass
-* 19:00 - Offizieller Beginn
-* 19:00 - Eröffnung aller Stationen (Karaoke, Grill, Zapfstand, Billard)
-* 20:00 - Offizielle Durchsage (Elias) (K2-Bar-Hauptraum)
-* 20:30 - Klassenkampf: Olympia (beim Zapfstand)
-* 22:30 - Klassenkampf: Kahoot (K2-Bar-Hauptraum)
-* 23:45 - Versammlung Hauptraum K2-Bar
-* 24:00 - Runterzählen + Gratulation, Kuchen, Geschenke, etc. + Rede
-* 01:00 - Auflösung Klassenkampf + Abbau Karaoke + Aufbau Tanzfläche
-* 01:30 - Eröffnung Disco
-* Danach - Open End
+- 18:30 - Einlass
+- 19:00 - Offizieller Beginn
+- 19:00 - Eröffnung aller Stationen (Karaoke, Grill, Zapfstand, Billard)
+- 20:00 - Offizielle Durchsage (Elias) (K2-Bar-Hauptraum)
+- 20:30 - Klassenkampf: Olympia (beim Zapfstand)
+- 22:30 - Klassenkampf: Kahoot (K2-Bar-Hauptraum)
+- 23:45 - Versammlung Hauptraum K2-Bar
+- 24:00 - Runterzählen + Gratulation, Kuchen, Geschenke, etc. + Rede
+- 01:00 - Auflösung Klassenkampf + Abbau Karaoke + Aufbau Tanzfläche
+- 01:30 - Eröffnung Disco
+- Danach - Open End
 
 ## Die ultimative Geburtstags-Website
 
@@ -55,15 +56,15 @@ Als die Gäste eintrafen, wurden sie mit Buttons in Rot oder Blau und ihren Toke
 
 Ein kleines Highlight zum Schluss: Irgendwann in der Nacht tauchte plötzlich ein Gartenzwerg auf. Random Leute hatten ihn aus einem nahegelegenen Kleingarten geklaut und mir als Geschenk dagelassen. Am nächsten Tag stand ein gestresster Nachbar vor meiner Tür und fragte, ob ich etwas über einen verschwundenen Gartenzwerg wüsste. Ich gab ihn natürlich zurück – aber für einen Abend war er der heimliche Star der Party.
 
- ![Zwerg](/articles/zwerg.jpg)
+![Zwerg](/articles/zwerg.jpg)
 
 ## Fazit und Learnings
 
 Für meinen ersten großen Offline-Geburtstag lief alles erstaunlich glatt. Natürlich gibt es ein paar Dinge, die ich nächstes Mal besser machen will:
 
-* Mehr Chips! Zwei pro Person fühlten sich etwas geizig an.
-* Ein Spiel, um die Gäste besser zu durchmischen – z. B. eine Vorstellungsrunde.
-* Fotos besser organisieren, damit niemand vergessen wird.
-* Die Location besser kennzeichnen – der Eingang war schwer zu finden.
+- Mehr Chips! Zwei pro Person fühlten sich etwas geizig an.
+- Ein Spiel, um die Gäste besser zu durchmischen – z. B. eine Vorstellungsrunde.
+- Fotos besser organisieren, damit niemand vergessen wird.
+- Die Location besser kennzeichnen – der Eingang war schwer zu finden.
 
 Aber insgesamt? Ein voller Erfolg. Und jetzt freue ich mich schon auf die nächste Herausforderung!

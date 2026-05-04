@@ -1,34 +1,36 @@
 ---
-title: 'Bday Metagame 23'
-description: 'Über das Metagame am 23. Geburtstag'
-date: '2023-06-04'
-tags: ['Bday', 'Meta']
-cover: 'Metagame2023.png'
+title: Bday Metagame 23
+cover: Metagame2023.png
+date: 2023-06-04
+description: Über das Metagame am 23. Geburtstag
 published: true
+tags:
+  - Bday
+  - Meta
 ---
 
 # Bday Metagame 23
 
-_In der Hektik des Aufbaus stolpert jemand aus deinem Team über eine mysteriöse Steintafel.
+*In der Hektik des Aufbaus stolpert jemand aus deinem Team über eine mysteriöse Steintafel.
 Sie ist alt und scheinbar aus einem anderen Jahrhundert.
-Wie ein Phantom aus einer vergessenen Zeit flüstert sie eine Botschaft in die Herzen aller, die sie erblicken ..._
+Wie ein Phantom aus einer vergessenen Zeit flüstert sie eine Botschaft in die Herzen aller, die sie erblicken ...*
 
 ---
 
 Und so begann die große Schnitzeljagd an meinem Geburtstag. Die Regeln waren einfach:
 
 - Es gibt zwei konkurrierende Teams: Team Rot und Team Blau aus dem [Mannschaftskampf](/articles/bday23) meines Geburtstags
-- Die Teams müssen vier `Secret Stones` :gem: finden, um den `Ultra Stone` :crystal_ball: zu finden, das alte Relikt des für dieses Spiel erfundenen Gründers des Veranstaltungsortes
+- Die Teams müssen vier `Secret Stones` 💎 finden, um den `Ultra Stone` 🔮 zu finden, das alte Relikt des für dieses Spiel erfundenen Gründers des Veranstaltungsortes
 - Jeder der Secret Stones ist durch das Bestehen einer Prüfung (siehe unten) zu erhalten. An jeder Location ist jeweils ein Stein für Team Rot und ein Stein für Team Blau, die jeweils nur von den jeweiligen Teams genommen werden dürfen
 - Sobald alle vier Secret Stones gefunden sind, können sie mithilfe der Hexe in die Sockel der Steintafel eingefügt werden. Dann wird der Hinweis zum Ultra Stone offenbart
 - Die Aufgabe der Teams besteht darin, die Hinweise zu entschlüsseln, die Prüfungen zu bestehen und schließlich den Ultra Stone zu finden. Das Metagame endet, wenn ein Team den Ultra Stone gefunden hat
-- Der Ultra Stone ist 50 Tokens :moneybag: für den [Mannschaftskampf](/articles/bday23) wert
+- Der Ultra Stone ist 50 Tokens 💰 für den [Mannschaftskampf](/articles/bday23) wert
 
 Also nun weiter in der Geschichte, was stand auf der oben beschriebenen Steintafel:
 
 ---
 
-_... "Gehuldigt seist du, unerschrockener Finder dieser Tafel!
+*... "Gehuldigt seist du, unerschrockener Finder dieser Tafel!
 Mit feinen Meißelschlägen habe ich diese Worte in den Stein geschlagen,
 um kühne Seelen auf die Suche nach dem Ultra Stone zu führen, einem mächtigen Artefakt meiner Zeit.
 Seine ungezähmte Macht hat diesen Ort, das HaDiKo, aus dem Nichts hervorgerufen und wachgehalten.
@@ -38,40 +40,40 @@ längst entschlafenen Gefolgsleute bestehen, um ihre Secret Stones zu erlangen.
 Jeder dieser Steine hat seinen Platz in dieser Tafel.
 Wenn ihr alle vier versammelt habt, wird sie euch den letzten Hinweis auf den Ultra Stone geben.
 Dabei wird eine unsterbliche Hexe mit flammend rotem Haar euch zur Seite stehen, die mir einst versprach,
-zukünftigen Abenteurern bei ihrer Suche zu helfen. Lest nun von den Prüfungen meiner Gefährten:_
+zukünftigen Abenteurern bei ihrer Suche zu helfen. Lest nun von den Prüfungen meiner Gefährten:*
 
 #### Prüfung des Wissens:
 
-_Der Secret Stone der Weisheit, ist bewacht von Saphira, der Weisen:_
+*Der Secret Stone der Weisheit, ist bewacht von Saphira, der Weisen:*
 
 > In der Halle der Geschichten erwartet euch eine Seite, die nicht da ist.
 > Nur durch das Netz der Weisheit könnt ihr die Lücke füllen und den Stein der Weisheit finden.
 
 #### Prüfung der Stärke:
 
-_Der Secret Stone der Kraft, ist bewacht von Thoric, dem Unerschütterlichen:_
+*Der Secret Stone der Kraft, ist bewacht von Thoric, dem Unerschütterlichen:*
 
 > Wo das Land den Himmel berührt und das Gleichgewicht von Bedeutung ist, erwartet euch die Prüfung der Stärke.
 > Nur wer den Pfad der Schwebenden begeht, kann den Stein der Kraft ergreifen.
 
 #### Prüfung der Kreativität:
 
-_Der Secret Stone der Inspiration, ist bewacht von Caelum, dem Verträumten:_
+*Der Secret Stone der Inspiration, ist bewacht von Caelum, dem Verträumten:*
 
 > An dem Ort, wo Farben noch geboren werden müssen, erwartet euch die Prüfung der Kreativität.
 > Vollendet das unvollendete und der Stein der Inspiration wird euch gezeigt.
 
 #### Prüfung der Orientierung:
 
-_Der Secret Stone der Führung, ist bewacht von Oriana, der Taktischen:_
+*Der Secret Stone der Führung, ist bewacht von Oriana, der Taktischen:*
 
 > An dem Ort, wo sich die meisten Wege sich kreuzen und der falsche Schritt zu Irreführung führt,
 > erwartet euch die Prüfung der Orientierung. Nur wer nach dem Brocken ohne Nummer nicht den rechten Weg nimmt,
 > wird in einer weißen Schüssel fündig werden!
 
-_Ich wünsche allen Suchern Mut und Verstand auf ihrer Reise!"_
+*Ich wünsche allen Suchern Mut und Verstand auf ihrer Reise!"*
 
-Plötzlich fällt dir die wahre Tragweite der Worte ein: Der Ultra Stone muss unermesslich viele Tokens wert sein. 50 Tokens :moneybag:, vielleicht sogar mehr! Ein Feuer entzündet sich in deinem Inneren. Du bist entschlossen, dein Team zu versammeln und diesen Hinweisen auf den Grund zu gehen!
+Plötzlich fällt dir die wahre Tragweite der Worte ein: Der Ultra Stone muss unermesslich viele Tokens wert sein. 50 Tokens 💰, vielleicht sogar mehr! Ein Feuer entzündet sich in deinem Inneren. Du bist entschlossen, dein Team zu versammeln und diesen Hinweisen auf den Grund zu gehen!
 
 ---
 
@@ -84,7 +86,7 @@ Damit auch die Leser etwas in den Genuss der Prüfungen kommen, folgt eine Besch
 ### Secret Stone des Wissens
 
 Fokus dieser Aufgabe war es, etwas zu lesen aka Wissen anzueignen und zu interpretieren.
-Viel Wissen findet sich bekanntlich in einer Bücherei (aka _Halle der Geschichten_) und dem Internet (aka _Netz der Weisheit_).
+Viel Wissen findet sich bekanntlich in einer Bücherei (aka *Halle der Geschichten*) und dem Internet (aka *Netz der Weisheit*).
 Ein kleines Bücherregal befand sich offen bei meinem Geburtstag.
 Zwischen den Büchern befand sich das ausgedruckte Werk "Der kleine Prinz" von Antoine de Saint-Exupéry. Doch eine Seite fehlte.
 Genaugenommen die Seite 24. Hier ein kleiner Auszug aus der fehlenden Seite:
@@ -123,9 +125,9 @@ Startpunkt war der Weg mit meisten Kreuzungen, von da aus zum sogenannten Doktor
 Wer alle vier Secret Stones gefunden hatte, konnte sie in mithelfe der Hexe (rothaarige Freundin meines Geburtstags)
 die Steintafel einsetzen und erhielt auf magische Weiße folgenden Hinweis:
 
-_Der Ultra Stone versteckt sich, wo eure Reise begann, und persönliche Geschichten entstanden.
+*Der Ultra Stone versteckt sich, wo eure Reise begann, und persönliche Geschichten entstanden.
 Der Anfang ist oft klein und unscheinbar, aber er trägt das Ende in sich.
-Denkt daran, was ihr zum ersten Mal in der Hand gehalten habt, dort werdet ihr fündig werden!_
+Denkt daran, was ihr zum ersten Mal in der Hand gehalten habt, dort werdet ihr fündig werden!*
 
 Die Spieler mussten also an den Ort zurückkehren, an dem sie ihre erste Erfahrung des Geburtstags gemacht hatten.
 Das war die Anmeldung, wo sie ihre ersten Materialien und Einführungen erhalten hatten.

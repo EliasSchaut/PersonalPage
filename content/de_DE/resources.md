@@ -1,7 +1,7 @@
 ---
-title: 'Verwendete Ressourcen'
-description: 'Detaillierte Einblicke in die Ressourcen, die für die Erstellung dieser Website verwendet wurden'
-date: '2024-01-03'
+title: Verwendete Ressourcen
+date: 2024-01-03
+description: Detaillierte Einblicke in die Ressourcen, die für die Erstellung dieser Website verwendet wurden
 published: false
 ---
 

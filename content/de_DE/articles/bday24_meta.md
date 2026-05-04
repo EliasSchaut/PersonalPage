@@ -1,18 +1,19 @@
 ---
-title: 'Bday Metagame 24'
-description: 'Über das Metagame am 24. Geburtstag'
-date: '2024-06-04'
-tags: ['Bday', 'Meta']
-cover: 'Metagame2024.png'
+title: Bday Metagame 24
+cover: Metagame2024.png
+date: 2024-06-04
+description: Über das Metagame am 24. Geburtstag
 published: true
+tags:
+  - Bday
+  - Meta
 ---
 
 # Bday Metagame 24
 
 ---
 
-*Seid gegrüßt, Sterbliche!* \
-*Ihr habt euch an einen Ort gewagt, der als Brücke zwischen dem Olymp und dem Hades bekannt ist – das HaDiKo. Ihr seid auserwählt, eine bedeutende Aufgabe zu erfüllen und das Zeitkontinuum zu retten. Der mächtige Titan Chronos hat die Zeit durcheinandergebracht und die Götter eingefroren. Nur ihr könnt dies rückgängig machen, indem ihr den magischen Zauberspruch, versiegelt in der Kryptex, verwendet, die hier in der Zwischenwelt liegt*.
+*Seid gegrüßt, Sterbliche!* :br*Ihr habt euch an einen Ort gewagt, der als Brücke zwischen dem Olymp und dem Hades bekannt ist – das HaDiKo. Ihr seid auserwählt, eine bedeutende Aufgabe zu erfüllen und das Zeitkontinuum zu retten. Der mächtige Titan Chronos hat die Zeit durcheinandergebracht und die Götter eingefroren. Nur ihr könnt dies rückgängig machen, indem ihr den magischen Zauberspruch, versiegelt in der Kryptex, verwendet, die hier in der Zwischenwelt liegt*.
 
 ---
 
@@ -23,6 +24,7 @@ So begann die Geschichte der nahezu Auslöschung allen Daseins … und des 4. Bd
 *Die listigen Götter konnten euch dafür sechs Rätsel hinterlassen, um den zu schützen. Jedes Rätsel führt zu einem Buchstaben, den ihr benötigt, um die Cryptex zu öffnen. Ihr müsst diese Hinweise entschlüsseln, bevor die Uhr auf 1 steht, denn sonst wird Chronos sein Ritual vollenden und die Zeit unwiderruflich zerstören.*
 
 *Die Hinweise der Götter:*
+
 - *Hestia, die Göttin des Herdfeuers, spricht zu euch: "Zwillingswärme."*
 - *Aphrodite, die Göttin der Liebe, flüstert: "Ist Liebe nur ein Spiel?"*
 - *Apollon, der Gott der Musik und Kunst, ruft: "Mein Album rockt!"*
@@ -32,14 +34,11 @@ So begann die Geschichte der nahezu Auslöschung allen Daseins … und des 4. Bd
 
 *Auf in die Schlacht gegen Chronos! Nutzt euren Verstand, eure Stärke und euren Mut, um die Rätsel der Götter zu lösen und die Welt vor der ewigen Dunkelheit zu bewahren.*
 
-*Viel Erfolg, Sterbliche. Die Zeit läuft!* \
-*Ein Freund*
-
+*Viel Erfolg, Sterbliche. Die Zeit läuft!* :br*Ein Freund*
 
 ---
 
 Die Kryptex ist ein alter verzierter hölzerner Zylinder, der zum Öffnen die Eingabe von sechs Buchstaben benötigt, genau die Anzahl wie Hinweise der Götter. Es ist nun die Aufgabe der Helden, hier wo die Verbindung zwischen Olymp und Hades am dünnsten ist, den Hinweisen zu folgen, um die erforderlichen Buchstaben finden zu können. Die Herausforderung liegt dabei, die angedeuteten Orte erst einmal zu finden, um sie entschlüsseln zu können
-
 
 ---
 
@@ -69,14 +68,14 @@ Auf dem Bday Gelände war ein hölzerner Rätseltresor platziert. Dieser hatte M
 
 Auf dem Bday Gelände waren Bücher zu finden. Dort lag folgendes Gedicht:
 
-> Drei Arme strecken sich zur Seite, \
-> wie Zinken einer Krone, so breite. \
-> Ein senkrechter Strich, stabil und stark, \
+> Drei Arme strecken sich zur Seite, :br
+> wie Zinken einer Krone, so breite. :br
+> Ein senkrechter Strich, stabil und stark, :br
 > verbindet sie, das ist mein Mark.
 >
-> Vorne, Mitte, hinten stehe ich gerne, \
-> ich leuchte häufig wie die Sterne. \
-> Was bin ich? Rate doch, sei schlau, \
+> Vorne, Mitte, hinten stehe ich gerne, :br
+> ich leuchte häufig wie die Sterne. :br
+> Was bin ich? Rate doch, sei schlau, :br
 > die Lösung findest du genau!
 
 Nun was könnte der Buchstabe sein? Die Antwort überlasse ich wieder deinem Können.
@@ -90,7 +89,6 @@ Wenn alle Buchstaben gesammelt wurden, mussten sie noch in eine richtige Reihenf
 Das heißt so viel übersetzt wie "*Die Zeit kehrt zurück und die Fesseln werden gelöst. Die Macht des Chronos soll zerschlagen werden, die Ewigkeit wird wiederhergestellt*"
 
 Spricht man nun den Spruch laut im Thekenraum spricht, erscheint ein Wesen (Schauspieler) mit langem weißem Bart und stellt sich als Zeus vor. Er ist der Freund mit dem Brief und bedankt sich herzlich für die Rettung allen Seins. Er und seine Mitgötter konnten sich dank des Spruchs befreien und Chronos zurückschlagen. Zur Belohnung gab es eine sehr große Packung "Merci"-Schokolade.
-
 
 ---
 

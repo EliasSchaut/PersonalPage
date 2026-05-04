@@ -1,10 +1,11 @@
 ---
-title: 'Bday 23'
-description: 'Über meinen 23. Geburtstag'
-date: '2023-06-04'
-tags: ['Bday']
-cover: 'Bday23.png'
+title: Bday 23
+cover: Bday23.png
+date: 2023-06-04
+description: Über meinen 23. Geburtstag
 published: true
+tags:
+  - Bday
 ---
 
 # Bday 23
@@ -21,10 +22,10 @@ Eine der häufigeren Rückmeldungen war, dass sich die Gäste noch mehr durchmis
 
 Diesmal wollte ich etwas mehr Budget investieren und entschied mich, kostenlose Cocktails anzubieten. Besonders stolz war ich auf die alkoholfreien Cocktails, die ich mit meinem Namen variierte. Hier ein paar Beispiele:
 
-* Elias Overload (Limettensaft, Rohrzucker, Spicy Ginger, Z-Limo, Cola)
-* Ipanias (Maracuja, Limettensaft, Orangensaft, Ginger Ale)
-* Lilalias (Limettensaft, Grenadine, Blue Curacao, Johannisbeersaft, Tonic, Zitronenlimo)
-* Long Elias (Kirschsaft, Bananensaft)
+- Elias Overload (Limettensaft, Rohrzucker, Spicy Ginger, Z-Limo, Cola)
+- Ipanias (Maracuja, Limettensaft, Orangensaft, Ginger Ale)
+- Lilalias (Limettensaft, Grenadine, Blue Curacao, Johannisbeersaft, Tonic, Zitronenlimo)
+- Long Elias (Kirschsaft, Bananensaft)
 
 Die Cocktailbar war ein voller Erfolg und brachte einen Hauch von Exklusivität in die Feier.
 
@@ -48,8 +49,8 @@ Ein weiteres Highlight war das neue Metagame. Da die Details den Rahmen sprengen
 
 Das Feedback war sehr hilfreich, um zukünftige Feiern noch besser zu machen. Hier ein paar Punkte:
 
-* Beim Speed-Friending sollten eventuell 2-3 Fragen als Eisbrecher vorgegeben werden.
-* Bei den großen Events sollten Tokens gewonnen werden und nicht gesetzt, um die Inflation anzuregen
-* Für Gäste mit weiter Anreise: In der Teilnehmerliste den Wohnort abfragen und im Vorfeld Fahrgemeinschaften über WhatsApp-Gruppen organisieren.
+- Beim Speed-Friending sollten eventuell 2-3 Fragen als Eisbrecher vorgegeben werden.
+- Bei den großen Events sollten Tokens gewonnen werden und nicht gesetzt, um die Inflation anzuregen
+- Für Gäste mit weiter Anreise: In der Teilnehmerliste den Wohnort abfragen und im Vorfeld Fahrgemeinschaften über WhatsApp-Gruppen organisieren.
 
 Insgesamt war der Geburtstag ein voller Erfolg, und ich freue mich schon auf die nächste Herausforderung: **Bday24!**

@@ -1,11 +1,11 @@
 ---
 title: Bday 24
-description: Über meinen 24. Geburtstag
+cover: Bday24.png
 date: 2024-06-04
+description: Über meinen 24. Geburtstag
+published: true
 tags:
   - Bday
-cover: Bday24.png
-published: true
 ---
 
 # Bday 24

@@ -1,10 +1,12 @@
 ---
-title: 'Bday Metagame 22'
-description: 'Über das Metagame am 22. Geburtstag'
-date: '2022-06-04'
-tags: ['Bday', 'Meta']
-cover: 'Metagame2022.png'
+title: Bday Metagame 22
+cover: Metagame2022.png
+date: 2022-06-04
+description: Über das Metagame am 22. Geburtstag
 published: true
+tags:
+  - Bday
+  - Meta
 ---
 
 # Bday Metagame 22
@@ -36,18 +38,16 @@ Der Meta-Meister richtet zu Beginn des Spiels jeweils einen Brief an seine Anhä
 
 ---
 
-_Geehrter :orange{content="[Rolle]"}-Meister, \
-wie ein Vögelchen mir gestern verraten hat, sind wir nicht allein: Der :orange{content="[andere Orden]"} hat unser Konzept kopiert - sie haben dieselben Rollen, dieselben Erkennungszeichen und auch sie wollen den Klassenkampf überwinden und allein herrschen. Nun müssen wir dringend, vereint mit allen Mitgliedern der :orange{content="[eigener Orden]"}, dem Orden der :orange{content="[anderer Orden]"} zuvorkommen!
+*Geehrter*&#x20;:orange{content="[Rolle]"}*-Meister,* :br
+*wie ein Vögelchen mir gestern verraten hat, sind wir nicht allein: Der* :orange{content="[andere Orden]"} *hat unser Konzept kopiert - sie haben dieselben Rollen, dieselben Erkennungszeichen und auch sie wollen den Klassenkampf überwinden und allein herrschen. Nun müssen wir dringend, vereint mit allen Mitgliedern der*&#x20;:orange{content="[eigener Orden]"}*, dem Orden der* :orange{content="[anderer Orden]"} *zuvorkommen!
 Der Verräter aus unseren Reihen, der Scheißmeister, wurde bereits umgehend liquidiert. Sollte irgendeiner von euch in der Öffentlichkeit erkannt werden, ereilt ihn dasselbe Schicksal.
-Trotzdem, die Zeit drängt: Wir müssen die Anonymität untereinander aufgeben. Daher teile ich dir hiermit ein weiteres Mitglied unseres Ordens mit: Es ist :orange{content="[Name]"}. Er gehört derselben Klasse :orange{content="[rot/blau]"} an wie du. Trefft euch möglichst früh! Und, um dein Vertrauen zu stärken: Auch meine eigene Identität gebe ich Preis (siehe unten).
+Trotzdem, die Zeit drängt: Wir müssen die Anonymität untereinander aufgeben. Daher teile ich dir hiermit ein weiteres Mitglied unseres Ordens mit: Es ist*&#x20;:orange{content="[Name]"}*. Er gehört derselben Klasse* :orange{content="[rot/blau]"} *an wie du. Trefft euch möglichst früh! Und, um dein Vertrauen zu stärken: Auch meine eigene Identität gebe ich Preis (siehe unten).
 Finde die anderen Mitglieder! Insgesamt sind in unserem Orden 4 in der blauen und 2 in der roten Klasse. Gebt euch das Erkennungszeichen beim Klassenkampf: Wenn du während eines Spiels "Na" sagst, und dieses "Na" erwidert wird, kannst du dir sicher sein: Es handelt sich um ein Mitglied eines Ordens!
 Jetzt geht es darum, herauszufinden, in welchem Orden es Mitglied ist. Doch Vorsicht, nicht jeder gibt sich als der aus, der er ist. Auch du darfst dich tarnen, um mehr über den anderen Orden herauszufinden.
-Besorgt mir fünf :orange{content="[blaue/rote]"} Chips, um den Ordensvorschrifen genüge zu tun, und trefft mich möglichst unbemerkt. Dann gebe ich euch den Entwurf eines Briefs. Fertiggestellt wird er den :orange{content="[gegnerischer Orden]"} zur Kapitulation zwingen. Gebt mir den Brief bis 1:00 Uhr nachts vervollständigt zurück. Denn wenn sich der Klassenkampf entscheidet, muss der Orden der :orange{content="[anderen]"} zerstört sein._
+Besorgt mir fünf* :orange{content="[blaue/rote]"} *Chips, um den Ordensvorschrifen genüge zu tun, und trefft mich möglichst unbemerkt. Dann gebe ich euch den Entwurf eines Briefs. Fertiggestellt wird er den* :orange{content="[gegnerischer Orden]"} *zur Kapitulation zwingen. Gebt mir den Brief bis 1:00 Uhr nachts vervollständigt zurück. Denn wenn sich der Klassenkampf entscheidet, muss der Orden der* :orange{content="[anderen]"} *zerstört sein.*
 
-_Ehrenvoll, \
-der Meta-Meister der :orange{content="[eigener Orden]"}_ \
-_:orange{content="[Name des Meta-Meisters]"}_ \
-_:orange{content="[Linksextremes Bild des Meta-Meisters]"}_
+*Ehrenvoll,* :br
+*der Meta-Meister der* :orange{content="[eigener Orden]"} :br:orange{content="[Name des Meta-Meisters]"} :br:orange{content="[Linksextremes Bild des Meta-Meisters]"}
 
 ---
 
@@ -55,25 +55,25 @@ Und so begann das Spiel. Die Mitglieder der Orden mussten nun versuchen, sich ge
 
 ---
 
-_Liebe Ordensmitglieder, \
-bevor wir den beiliegenden Brief vervollständigen und abgeben, habe ich noch eine gute und eine schlechte Nachricht.
+*Liebe Ordensmitglieder,* :br
+*bevor wir den beiliegenden Brief vervollständigen und abgeben, habe ich noch eine gute und eine schlechte Nachricht.
 Die schlechte Nachricht: Passiert uns auch nur ein einziger Fehler bei diesem Brief, ist er sofort unglaubwürdig. Nur, wenn er perfekt ist, entfaltet er seine Wirkung, unsere Gegner zur Kapitulation zu zwingen.
-Die gute Nachricht: Das allsehende Orakel der Meta-Meister-Versammlung ist uns wohlgesinnt. Es hat jedem von euch erlaubt, ihm genau eine Frage zu stellen. Nutzt diese Fragen weise. Das Orakel wird die Fragen nur mit 'ja' oder 'nein' beantworten. Falls die Frage nicht mit 'ja' oder 'nein' beantwortbar ist, oder der Fragesteller kein Recht auf eine Antwort hat, wird das Orakel mit 'Schweigen' antworten. Ihr könnt jederzeit Fragen stellen, indem ihr sie mir schriftlich überreicht, ich gebe sie dann so schnell wie möglich an das Orakel weiter und lasse dem Fragesteller die Antwort zukommen. Aber denkt daran, dies weiterhin möglichst unauffällig zu tun. Es gibt viele Wege, sich einen Zettel zu überreichen! Ich muss aber mitbekommen, wer mir den Zettel überreicht - nur so kann ich auch die Antwort direkt dieser Person mündlich zukommen lassen._
+Die gute Nachricht: Das allsehende Orakel der Meta-Meister-Versammlung ist uns wohlgesinnt. Es hat jedem von euch erlaubt, ihm genau eine Frage zu stellen. Nutzt diese Fragen weise. Das Orakel wird die Fragen nur mit 'ja' oder 'nein' beantworten. Falls die Frage nicht mit 'ja' oder 'nein' beantwortbar ist, oder der Fragesteller kein Recht auf eine Antwort hat, wird das Orakel mit 'Schweigen' antworten. Ihr könnt jederzeit Fragen stellen, indem ihr sie mir schriftlich überreicht, ich gebe sie dann so schnell wie möglich an das Orakel weiter und lasse dem Fragesteller die Antwort zukommen. Aber denkt daran, dies weiterhin möglichst unauffällig zu tun. Es gibt viele Wege, sich einen Zettel zu überreichen! Ich muss aber mitbekommen, wer mir den Zettel überreicht - nur so kann ich auch die Antwort direkt dieser Person mündlich zukommen lassen.*
 
-_Viel Glück, und wählt eure Fragen weise!_
+*Viel Glück, und wählt eure Fragen weise!*
 
 ...
 
-_An die :orange{content="[gegnerischer Orden]"}, die räudigen Imitatoren des ehrvollen Ordens der :orange{content="[eigener Orden]"}._
+*An die*&#x20;:orange{content="[gegnerischer Orden]"}*, die räudigen Imitatoren des ehrvollen Ordens der*&#x20;:orange{content="[eigener Orden]"}*.*
 
-_Nachdem der Scheißmeister uns verraten hat, denkt ihr, ihr könntet uns ablösen und euch unser ehrwürdiges Bestreben zu eigen machen? Ihr seid nichts, wir kennen euch bereits. Löst euren Orden auf und tretet uns als Lehrlinge bei. Wir bieten euch die Ämter des Schatzlehrlings, Schalllehrlings, Schmauslehrlings, Schließlehrlings, Schriftlehrlings, Schneiderlehrlings sowie - ausnahmsweise - das Amt des Scheißmeisters.
-Zum Beweis, dass wir eure Namen bereits enttarnt haben, und zum Beweis, dass dieser Brief tatsächlich aus unserem Orden stammt, sei Folgendes gesagt:_
+*Nachdem der Scheißmeister uns verraten hat, denkt ihr, ihr könntet uns ablösen und euch unser ehrwürdiges Bestreben zu eigen machen? Ihr seid nichts, wir kennen euch bereits. Löst euren Orden auf und tretet uns als Lehrlinge bei. Wir bieten euch die Ämter des Schatzlehrlings, Schalllehrlings, Schmauslehrlings, Schließlehrlings, Schriftlehrlings, Schneiderlehrlings sowie - ausnahmsweise - das Amt des Scheißmeisters.
+Zum Beweis, dass wir eure Namen bereits enttarnt haben, und zum Beweis, dass dieser Brief tatsächlich aus unserem Orden stammt, sei Folgendes gesagt:*
 
-_Der dritte Buchstabe der Namen des :orange{content="[eigenen Ordens]"} sind (in der Reihenfolge Schatz-,Schall-,Schmaus-,Schließ-,Schrift- und Schneidermeister):_
+*Der dritte Buchstabe der Namen des* :orange{content="[eigenen Ordens]"} *sind (in der Reihenfolge Schatz-,Schall-,Schmaus-,Schließ-,Schrift- und Schneidermeister):*
 
 \_ \_ \_ \_ \_ \_
 
-_Der dritte Buchstabe der Namen des :orange{content="[anderen Ordens]"} sind (in der Reihenfolge Schatz-,Schall-,Schmaus-,Schließ-,Schrift- und Schneidermeister):_
+*Der dritte Buchstabe der Namen des* :orange{content="[anderen Ordens]"} *sind (in der Reihenfolge Schatz-,Schall-,Schmaus-,Schließ-,Schrift- und Schneidermeister):*
 
 \_ \_ \_ \_ \_ \_
 
@@ -85,9 +85,9 @@ Der Meta-Meister überreichte dann folgenden Brief:
 
 ---
 
-_An alle Mitglieder des :orange{content="[gewinner Ordens]"}, \
-ich danke euch für eure Arbeit. Ihr habt unter Beweis gestellt, dass ihr würdig seid. Dafür will ich euch entlohnen, mit einem Freigetränk pro Mitglied! Auf unsere Zukunft!
-Ich habe fest an euch geglaubt. Auch wenn ich anfänglich das Gefühl hatte, ihr wärt dem Orden der :orange{content="[verlierer Orden]"} unterlegen. Das allsehende Orakel hat auch mir schon vor längerer Zeit eine Frage gewährt: „Wenn ich einen eigenen Orden gründe, wird dieser Orden den Klassenkampf überwinden?“ Die Antwort hat mich dort hingebracht, wo ich heute bin. Und sie wird euch verblüffen und, wenn ihr sie verseht, mit Hoffnung für die Zukunft erfüllen. Ich weiß jedenfalls nun: `Schweigen` ist tatsächlich Gold._
+*An alle Mitglieder des*&#x20;:orange{content="[gewinner Ordens]"}*,* :br
+*ich danke euch für eure Arbeit. Ihr habt unter Beweis gestellt, dass ihr würdig seid. Dafür will ich euch entlohnen, mit einem Freigetränk pro Mitglied! Auf unsere Zukunft!
+Ich habe fest an euch geglaubt. Auch wenn ich anfänglich das Gefühl hatte, ihr wärt dem Orden der* :orange{content="[verlierer Orden]"} *unterlegen. Das allsehende Orakel hat auch mir schon vor längerer Zeit eine Frage gewährt: „Wenn ich einen eigenen Orden gründe, wird dieser Orden den Klassenkampf überwinden?“ Die Antwort hat mich dort hingebracht, wo ich heute bin. Und sie wird euch verblüffen und, wenn ihr sie verseht, mit Hoffnung für die Zukunft erfüllen. Ich weiß jedenfalls nun:&#x20;**`Schweigen` ist tatsächlich Gold.*
 
 ---
 
