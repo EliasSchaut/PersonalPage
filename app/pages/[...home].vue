@@ -34,35 +34,52 @@
       <Tools class="flex flex-wrap gap-1" />
     </section>
 
-    <section id="experiences" class="flex flex-col gap-y-4">
-      <h2 class="text-lg">{{ $t('home.experiences.title') }}</h2>
-      <ListTime
-        :events="[
-          {
-            content: $t('home.experiences.uni.content'),
-            organisation: $t('home.experiences.uni.organisation'),
-            time: `2018 - ${$t('common.today')}`,
-          },
-          {
-            content: $t('home.experiences.andrena.content'),
-            organisation: 'andrena objects ag',
-            time: `2025 - ${$t('common.today')}`,
-          },
-          {
-            content: $t('home.experiences.iss.content'),
-            organisation: $t('home.experiences.iss.organisation'),
-            time: '2021 - 2025',
-            past: true,
-          },
-        ]"
-      />
-    </section>
+    <div class="flex w-full flex-col justify-between gap-8 md:flex-row">
+      <section id="contact" class="flex w-full flex-col gap-y-4"></section>
+
+      <section id="experiences" class="flex w-full flex-col gap-y-4">
+        <Card :title="$t('home.experiences.title')" :icon="BriefcaseIcon">
+          <div class="flex w-full flex-col gap-y-5">
+            <ListTime
+              :events="[
+                {
+                  content: $t('home.experiences.uni.content'),
+                  organisation: $t('home.experiences.uni.organisation'),
+                  time: `2018 - ${$t('common.today')}`,
+                },
+                {
+                  content: $t('home.experiences.andrena.content'),
+                  organisation: 'andrena objects ag',
+                  time: `2025 - ${$t('common.today')}`,
+                },
+                {
+                  content: $t('home.experiences.iss.content'),
+                  organisation: $t('home.experiences.iss.organisation'),
+                  time: '2021 - 2025',
+                  past: true,
+                },
+              ]"
+            />
+            <a
+              class="bg-second-100 dark:bg-second-800 hover:bg-second-200 dark:hover:bg-second-700 w-full rounded-md p-2 text-center"
+              href="https://rxresu.me/elias.schaut/lebenslauf"
+              target="_blank"
+            >
+              {{ $t('home.experiences.cv') }} ⬇
+            </a>
+          </div>
+        </Card>
+      </section>
+    </div>
   </div>
   <ModalDonate ref="donate_modal" />
 </template>
 
 <script lang="ts">
+import { BriefcaseIcon } from '@heroicons/vue/24/outline';
+
 export default defineComponent({
+  methods: { BriefcaseIcon },
   mounted() {
     if (this.$route.params.home && this.$route.params.home.includes('donate')) {
       this.$refs.donate_modal?.show();

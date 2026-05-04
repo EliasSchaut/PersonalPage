@@ -18,7 +18,7 @@
       </div>
     </div>
     <div
-      class="text-second-500 dark:text-second-400 px-6 py-4 text-sm leading-6 break-words"
+      class="text-second-500 dark:text-second-400 px-6 py-4 text-sm leading-6 wrap-break-word"
     >
       <slot />
     </div>

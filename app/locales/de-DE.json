@@ -44,10 +44,6 @@
   },
   "home": {
     "experiences": {
-      "uni": {
-        "content": "Computer Science M.Sc.",
-        "organisation": "Karlsruher Institut für Technologie (KIT)"
-      },
       "andrena": {
         "content": "Werkstudent"
       },
@@ -55,7 +51,12 @@
         "content": "Studentische Hilfskraft (HiWi)",
         "organisation": "Informatik Studiengang Service (ISS)"
       },
-      "title": "🚀 Meine Erfahrungen:"
+      "title": "🚀 Meine Erfahrungen",
+      "cv": "CV herunterladen",
+      "uni": {
+        "content": "Computer Science M.Sc.",
+        "organisation": "Karlsruher Institut für Technologie (KIT)"
+      }
     },
     "intro": {
       "bio": "Es ist meine Mission, positive Stimmung zu verbreiten, wo immer ich auch hingehe! Ich erschaffe ständig neue Möglichkeiten, um den Spaß und die Produktivität in den Gemeinschaften, in denen ich tätig bin, zu steigern.",

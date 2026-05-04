@@ -44,10 +44,6 @@
   },
   "home": {
     "experiences": {
-      "uni": {
-        "content": "Informatik M.Sc.",
-        "organisation": "Karlsruher Institut for Technology (KIT)"
-      },
       "andrena": {
         "content": "Working Student"
       },
@@ -55,7 +51,12 @@
         "content": "Student Research Assistant (HiWi)",
         "organisation": "Informatics Study Program Services (ISS)"
       },
-      "title": "🚀 My Experiences:"
+      "title": "🚀 My Experiences",
+      "cv": "Download CV",
+      "uni": {
+        "content": "Informatik M.Sc.",
+        "organisation": "Karlsruher Institut for Technology (KIT)"
+      }
     },
     "intro": {
       "bio": "It's my mission to spread positivity wherever I go! I'm constantly creating ways to enhance the fun and productivity of the communities I'm involved in.",
