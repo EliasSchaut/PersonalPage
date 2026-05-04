@@ -35,7 +35,11 @@
     </section>
 
     <div class="flex w-full flex-col justify-between gap-8 md:flex-row">
-      <section id="contact" class="flex w-full flex-col gap-y-4"></section>
+      <section id="contact" class="flex w-full flex-col gap-y-4">
+        <Card :title="$t('home.contact.title')" :icon="PaperAirplaneIcon">
+          <Contact />
+        </Card>
+      </section>
 
       <section id="experiences" class="flex w-full flex-col gap-y-4">
         <Card :title="$t('home.experiences.title')" :icon="BriefcaseIcon">
@@ -76,10 +80,10 @@
 </template>
 
 <script lang="ts">
-import { BriefcaseIcon } from '@heroicons/vue/24/outline';
+import { BriefcaseIcon, PaperAirplaneIcon } from '@heroicons/vue/24/outline';
 
 export default defineComponent({
-  methods: { BriefcaseIcon },
+  methods: { BriefcaseIcon, PaperAirplaneIcon },
   mounted() {
     if (this.$route.params.home && this.$route.params.home.includes('donate')) {
       this.$refs.donate_modal?.show();
