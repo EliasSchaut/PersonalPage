@@ -12,6 +12,10 @@
             answer: $t('privacy.data.body'),
           },
           {
+            question: $t('privacy.contact.title'),
+            answer: $t('privacy.contact.body'),
+          },
+          {
             question: $t('privacy.cookies.title'),
             answer: $t('privacy.cookies.body'),
           },
