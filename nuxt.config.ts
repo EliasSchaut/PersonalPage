@@ -23,6 +23,18 @@ export default defineNuxtConfig({
     name: 'Elias Lorenz Schaut personal website and portfolio',
   },
 
+  runtimeConfig: {
+    smtp: {
+      host: '',
+      port: 587,
+      user: '',
+      password: '',
+      secure: false,
+      from: 'Personal Page <info@schaut.dev>',
+      to: 'elias@schaut.dev',
+    },
+  },
+
   fonts: {
     defaults: {
       weights: [400, 500, 600, 700],
@@ -100,7 +112,7 @@ export default defineNuxtConfig({
       github: {
         clientId: process.env.NUXT_STUDIO_GITHUB_CLIENT_ID,
         clientSecret: process.env.NUXT_STUDIO_GITHUB_CLIENT_SECRET,
-      }
-    }
-  }
+      },
+    },
+  },
 });

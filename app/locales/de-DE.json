@@ -43,16 +43,19 @@
     "title": "Footer"
   },
   "home": {
+    "contact": {
+      "title": "Kontakt"
+    },
     "experiences": {
       "andrena": {
         "content": "Werkstudent"
       },
+      "cv": "CV herunterladen",
       "iss": {
         "content": "Studentische Hilfskraft (HiWi)",
         "organisation": "Informatik Studiengang Service (ISS)"
       },
       "title": "🚀 Meine Erfahrungen",
-      "cv": "CV herunterladen",
       "uni": {
         "content": "Computer Science M.Sc.",
         "organisation": "Karlsruher Institut für Technologie (KIT)"

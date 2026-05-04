@@ -43,16 +43,19 @@
     "title": "Footer"
   },
   "home": {
+    "contact": {
+      "title": "Contact"
+    },
     "experiences": {
       "andrena": {
         "content": "Working Student"
       },
+      "cv": "Download CV",
       "iss": {
         "content": "Student Research Assistant (HiWi)",
         "organisation": "Informatics Study Program Services (ISS)"
       },
       "title": "🚀 My Experiences",
-      "cv": "Download CV",
       "uni": {
         "content": "Informatik M.Sc.",
         "organisation": "Karlsruher Institut for Technology (KIT)"
