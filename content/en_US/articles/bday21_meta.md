@@ -1,38 +1,40 @@
 ---
-title: 'Bday Metagame 21'
-description: 'About my metagame on my 21st birthday'
-date: '2021-06-04'
-tags: ['Bday', 'Meta']
-cover: 'Metagame2021.png'
+title: Bday Metagame 21
+cover: Metagame2021.png
+date: 2021-06-04
+description: About my metagame on my 21st birthday
 published: true
+tags:
+  - Bday
+  - Meta
 ---
 
 # Bday Metagame 21
 
-You have finally found the entrance to the lost temple of _Holy Ilias_.
+You have finally found the entrance to the lost temple of *Holy Ilias*.
 Your long research has brought you here and you would do anything to uncover the secrets of this long-forgotten place.
-After all, tradition has it that those who unravel the mysteries:grey_question:of that place will be granted access to long-lost documents!
+After all, tradition has it that those who unravel the mysteries❔of that place will be granted access to long-lost documents!
 
 So you enter the temple. You have purchased extra map paper and begin to map everything you see:
 
 ![map](/articles/prologue_map.png)
 
-You stand up :arrow_down_small:. In front of you is a locked door :lock: on which, strangely enough, you can't see a keyhole. However, to your left is a room that immediately catches your eye.
-The room is full of candles of all kinds. You are both shocked and fascinated by the fact that the candles are still burning. In the long time since anyone has been here, the candles:candle: should have burned out long ago!
+You stand up 🔽. In front of you is a locked door 🔒 on which, strangely enough, you can't see a keyhole. However, to your left is a room that immediately catches your eye.
+The room is full of candles of all kinds. You are both shocked and fascinated by the fact that the candles are still burning. In the long time since anyone has been here, the candles🕯 should have burned out long ago!
 What triggers an even greater fascination in you, however, is an elegantly decorated book lying in the middle of the room. You take a closer look at the book:
 ![book](/articles/hodor.png)
 
 You open the book. On the first and only page is written:
 
-_I am **Ho**ly **D**ungeon **Or**ders, but you may also call me Hodor!
+*I am&#x20;****Ho****ly&#x20;****D****ungeon&#x20;****Or****ders, but you may also call me Hodor!
 I am a magical book and was created by my master himself!
-I exist to grant those who pass my tests access to deeper and deeper realms of the sacred temple._
+I exist to grant those who pass my tests access to deeper and deeper realms of the sacred temple.*
 
-_Magical_? You are perplexed, but determined to face all the tests this book will put you through...
+*Magical*? You are perplexed, but determined to face all the tests this book will put you through...
 
 ---
 
-This is how the story of the _Holy Ilias_ and _Hodor_ begins on my birthday.
+This is how the story of the *Holy Ilias* and *Hodor* begins on my birthday.
 Since it was Corona at the time, the metagame also had to take place online, just like my birthday.
 So I thought I would combine the Discord platform with a small metagame and send my participants on a puzzle hunt around various features of Discord.
 I don't want to give too much away though, as this game can still be played by anyone who wants to.

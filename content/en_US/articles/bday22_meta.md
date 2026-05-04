@@ -1,10 +1,12 @@
 ---
-title: 'Bday Metagame 22'
-description: 'About my metagame on my 22nd birthday'
-date: '2022-06-04'
-tags: ['Bday', 'Meta']
-cover: 'Metagame2022.png'
+title: Bday Metagame 22
+cover: Metagame2022.png
+date: 2022-06-04
+description: About my metagame on my 22nd birthday
 published: true
+tags:
+  - Bday
+  - Meta
 ---
 
 # Bday Metagame 22
@@ -36,18 +38,15 @@ The meta-master sends a letter to his followers at the start of the game:
 
 ---
 
-_Dear :orange{content="[role]"} master, \
-as a little bird told me yesterday, we are not alone: The :orange{content="[other order]"} has copied our concept - they have the same roles, the same identifying marks and they too want to overcome the battle of classes and rule alone. Now we must urgently unite with all members of the :orange{content="[own order]"} to forestall the order of the :orange{content="[other order]"}!
+*Dear* :orange{content="[role]"} *master,* :br
+*as a little bird told me yesterday, we are not alone: The* :orange{content="[other order]"} *has copied our concept - they have the same roles, the same identifying marks and they too want to overcome the battle of classes and rule alone. Now we must urgently unite with all members of the* :orange{content="[own order]"} *to forestall the order of the*&#x20;:orange{content="[other order]"}*!
 The traitor from our ranks, the shit master, has already been liquidated immediately. Should any of you be recognized in public, you will meet the same fate.
-Nevertheless, time is of the essence: We must give up anonymity among ourselves. Therefore, I hereby inform you of another member of our order: It is :orange{content="[name]"}. He belongs to the same class :orange{content="[red/blue]"} as you. Meet as early as possible! And, to boost your confidence: I also reveal my own identity (see below).
+Nevertheless, time is of the essence: We must give up anonymity among ourselves. Therefore, I hereby inform you of another member of our order: It is*&#x20;:orange{content="[name]"}*. He belongs to the same class* :orange{content="[red/blue]"} *as you. Meet as early as possible! And, to boost your confidence: I also reveal my own identity (see below).
 Find the other members! There are a total of 4 in the blue class and 2 in the red class in our order. Give yourselves the identification sign during the class battle: If you say "Na" during a game and this "Na" is replied to, you can be sure: It's a member of an order!
 Now it's time to find out which order they are a member of. But be careful, not everyone pretends to be who they are. You can also disguise yourself to find out more about the other order.
-Get me five :orange{content="[blue/red]"} chips to comply with the Order's regulations and meet me as unnoticed as possible. Then I'll give you the draft of a letter. Once completed, it will force the :orange{content="[opposing order]"} to surrender. Return the letter to me completed by 1:00 am. Because when the battle of classes is decided, the order of the :orange{content="[others]"} must be destroyed._
+Get me five* :orange{content="[blue/red]"} *chips to comply with the Order's regulations and meet me as unnoticed as possible. Then I'll give you the draft of a letter. Once completed, it will force the* :orange{content="[opposing order]"} *to surrender. Return the letter to me completed by 1:00 am. Because when the battle of classes is decided, the order of the* :orange{content="[others]"} *must be destroyed.*
 
-_Honorable,_ \
-_the meta-master of the :orange{content="[own order]"}_ \
-_:orange{content="[name of the meta-master]"}_ \
-_:orange{content="[Left-extreme image of the meta-master]"}_
+*Honorable,* :br*the meta-master of the* :orange{content="[own order]"} :br:orange{content="[name of the meta-master]"} :br:orange{content="[Left-extreme image of the meta-master]"}
 
 ---
 
@@ -55,24 +54,24 @@ And so the game began. The members of the orders now had to try to unmask each o
 
 ---
 
-_Dear Order members, \
-before we complete and hand in the enclosed letter, I have some good news and some bad news.
+*Dear Order members,* :br
+*before we complete and hand in the enclosed letter, I have some good news and some bad news.
 The bad news: If we make even a single mistake in this letter, it will immediately lose its credibility. Only if it is perfect will it have the effect of forcing our opponents to surrender.
-The good news is that the all-seeing oracle of the Meta-Master Assembly is well-disposed towards us. It has allowed each of you to ask it exactly one question. Use these questions wisely. The Oracle will only answer the questions with 'yes' or 'no'. If the question cannot be answered with 'yes' or 'no', or if the questioner has no right to an answer, the oracle will answer with 'silence'. You can ask questions at any time by sending them to me in writing. I will then pass them on to the oracle as quickly as possible and send the answer to the questioner. But remember to continue to do this as inconspicuously as possible. There are many ways to hand over a piece of paper! But I have to know who is handing me the note - that's the only way I can give the answer directly to that person verbally._
+The good news is that the all-seeing oracle of the Meta-Master Assembly is well-disposed towards us. It has allowed each of you to ask it exactly one question. Use these questions wisely. The Oracle will only answer the questions with 'yes' or 'no'. If the question cannot be answered with 'yes' or 'no', or if the questioner has no right to an answer, the oracle will answer with 'silence'. You can ask questions at any time by sending them to me in writing. I will then pass them on to the oracle as quickly as possible and send the answer to the questioner. But remember to continue to do this as inconspicuously as possible. There are many ways to hand over a piece of paper! But I have to know who is handing me the note - that's the only way I can give the answer directly to that person verbally.*
 
-_Good luck, and choose your questions wisely!_
+*Good luck, and choose your questions wisely!*
 
 ...
 
-_To the :orange{content="[opposing order]"}, the mangy imitators of the honorable order of the :orange{content="[own order]"}._
+*To the*&#x20;:orange{content="[opposing order]"}*, the mangy imitators of the honorable order of the*&#x20;:orange{content="[own order]"}*.*
 
-_After the shit master betrayed us, you think you can replace us and adopt our honorable endeavor as your own? You are nothing, we already know you. Dissolve your order and join us as apprentices. We offer you the offices of Treasure Apprentice, Sound Apprentice, Feast Apprentice, Locksmith Apprentice, Script Apprentice, Tailor Apprentice and - exceptionally - the office of Shit Master.
-To prove that we have already unmasked your names, and to prove that this letter actually comes from our order, let us say the following:_
+*After the shit master betrayed us, you think you can replace us and adopt our honorable endeavor as your own? You are nothing, we already know you. Dissolve your order and join us as apprentices. We offer you the offices of Treasure Apprentice, Sound Apprentice, Feast Apprentice, Locksmith Apprentice, Script Apprentice, Tailor Apprentice and - exceptionally - the office of Shit Master.
+To prove that we have already unmasked your names, and to prove that this letter actually comes from our order, let us say the following:*
 
-_The third letter of the names of the :orange{content="[own order]"} are (in the order Treasure Master, Sound Master, Feast Master, Closing master, Script Master, Tailor Master):_
+*The third letter of the names of the* :orange{content="[own order]"} *are (in the order Treasure Master, Sound Master, Feast Master, Closing master, Script Master, Tailor Master):*
 \_ \_ \_ \_ \_ \_
 
-_The third letter of the names of the :orange{content="[other order]"} are (in the order Treasure Master, Sound Master, Feast Master, Locksmith master, Script Master, Tailor Master):_
+*The third letter of the names of the* :orange{content="[other order]"} *are (in the order Treasure Master, Sound Master, Feast Master, Locksmith master, Script Master, Tailor Master):*
 
 \_ \_ \_ \_ \_ \_
 
@@ -83,9 +82,9 @@ The oracle served as an aid in case you got stuck. The meta-master then handed o
 
 ---
 
-_To all members of the :orange{content="[winning order]"}, \
-i thank you for your work. You have proven that you are worthy. I want to reward you with a free drink per member! Here's to our future!
-I firmly believed in you. Even if I initially had the feeling that you were inferior to the Order of the :orange{content="[losing order]"}. The all-seeing oracle also granted me a question a long time ago: "If I found my own order, will this order overcome the battle of classes?" The answer has brought me to where I am today. And it will amaze you and, if you understand it, fill you with hope for the future. In any case, I now know that `silence` really is golden._
+*To all members of the*&#x20;:orange{content="[winning order]"}*,* :br
+*i thank you for your work. You have proven that you are worthy. I want to reward you with a free drink per member! Here's to our future!
+I firmly believed in you. Even if I initially had the feeling that you were inferior to the Order of the*&#x20;:orange{content="[losing order]"}*. The all-seeing oracle also granted me a question a long time ago: "If I found my own order, will this order overcome the battle of classes?" The answer has brought me to where I am today. And it will amaze you and, if you understand it, fill you with hope for the future. In any case, I now know that `silence`* *really is golden.*
 
 ---
 

@@ -1,10 +1,11 @@
 ---
-title: 'Bday 22'
-description: 'About my 22nd birthday'
-date: '2022-06-04'
-tags: ['Bday']
-cover: 'Bday22.png'
+title: Bday 22
+cover: Bday22.png
+date: 2022-06-04
+description: About my 22nd birthday
 published: true
+tags:
+  - Bday
 ---
 
 # Bday22: My First Big Offline Birthday After Corona
@@ -29,41 +30,41 @@ Another highlight was an interactive quiz about me and birthdays in general, whi
 
 The final program looked like this:
 
-* 6:30 PM - Doors open  
-* 7:00 PM - Official start  
-* 7:00 PM - Opening of all stations (karaoke, grill, beer tap, pool table)  
-* 8:00 PM - Official announcement (Elias) (K2 Bar main room)  
-* 8:30 PM - Class Battle: Olympics (at the beer tap stand)  
-* 10:30 PM - Class Battle: Kahoot (K2 Bar main room)  
-* 11:45 PM - Gathering in the main room of K2 Bar  
-* 12:00 AM - Countdown + Birthday celebration, cake, gifts, etc. + Speech  
-* 1:00 AM - Class Battle results + Karaoke teardown + Dance floor setup  
-* 1:30 AM - Opening of the disco  
-* Afterward - Open end  
+- 6:30 PM - Doors open
+- 7:00 PM - Official start
+- 7:00 PM - Opening of all stations (karaoke, grill, beer tap, pool table)
+- 8:00 PM - Official announcement (Elias) (K2 Bar main room)
+- 8:30 PM - Class Battle: Olympics (at the beer tap stand)
+- 10:30 PM - Class Battle: Kahoot (K2 Bar main room)
+- 11:45 PM - Gathering in the main room of K2 Bar
+- 12:00 AM - Countdown + Birthday celebration, cake, gifts, etc. + Speech
+- 1:00 AM - Class Battle results + Karaoke teardown + Dance floor setup
+- 1:30 AM - Opening of the disco
+- Afterward - Open end
 
-## The Ultimate Birthday Website  
+## The Ultimate Birthday Website
 
-So much planning—and I needed helpers! So, I did what any aspiring web developer would do: I built a website. It served both as an invitation and as a platform for shift assignments. I was most proud of the visitor counter, which showed live how many people had signed up, and a trailer I made with iMovie. After weeks of hard work, it was ready. But just before sending out 150 invitations, panic struck: What if the site didn’t work? But I hit "send"—and it was magical. Within an hour, 10 guests had signed up, and I received lots of praise for the website. A great feeling!  
+So much planning—and I needed helpers! So, I did what any aspiring web developer would do: I built a website. It served both as an invitation and as a platform for shift assignments. I was most proud of the visitor counter, which showed live how many people had signed up, and a trailer I made with iMovie. After weeks of hard work, it was ready. But just before sending out 150 invitations, panic struck: What if the site didn’t work? But I hit "send"—and it was magical. Within an hour, 10 guests had signed up, and I received lots of praise for the website. A great feeling!
 
-## Showtime: The Big Day  
+## Showtime: The Big Day
 
-On the day of the party, everything was ready. Over 60 guests had signed up, and I had enough helpers. I wore a purple checkered shirt to make the red-blue blend joke—complete with a bow tie because the party felt like a children’s birthday for adults.  
+On the day of the party, everything was ready. Over 60 guests had signed up, and I had enough helpers. I wore a purple checkered shirt to make the red-blue blend joke—complete with a bow tie because the party felt like a children’s birthday for adults.
 
-As guests arrived, they were equipped with red or blue buttons and their tokens. I gave my opening speech, and the stations were officially opened. Most people headed straight for the grill before competing in the Olympics. At midnight, the highlight arrived: counting down to my birthday with 60 cheerful people. It was magical to bring together such a diverse group who, by the end, felt like one big community. That was my goal: to create a day where everyone could have fun—no drama, just joy.  
+As guests arrived, they were equipped with red or blue buttons and their tokens. I gave my opening speech, and the stations were officially opened. Most people headed straight for the grill before competing in the Olympics. At midnight, the highlight arrived: counting down to my birthday with 60 cheerful people. It was magical to bring together such a diverse group who, by the end, felt like one big community. That was my goal: to create a day where everyone could have fun—no drama, just joy.
 
-## And Then There Was the Garden Gnome…  
+## And Then There Was the Garden Gnome…
 
-A little highlight at the end: Sometime during the night, a garden gnome suddenly appeared. Random guests had stolen it from a nearby garden and left it as a gift. The next day, a stressed neighbor showed up at my door asking if I knew anything about a missing garden gnome. Of course, I returned it—but for one evening, it was the party’s secret star.  
+A little highlight at the end: Sometime during the night, a garden gnome suddenly appeared. Random guests had stolen it from a nearby garden and left it as a gift. The next day, a stressed neighbor showed up at my door asking if I knew anything about a missing garden gnome. Of course, I returned it—but for one evening, it was the party’s secret star.
 
-![Gnome](/articles/zwerg.jpg)  
+![Gnome](/articles/zwerg.jpg)
 
-## Conclusion and Lessons Learned  
+## Conclusion and Lessons Learned
 
-For my first big offline birthday, everything went surprisingly smoothly. Of course, there are a few things I’d do better next time:  
+For my first big offline birthday, everything went surprisingly smoothly. Of course, there are a few things I’d do better next time:
 
-* More chips! Two per person felt a bit stingy.  
-* A game to help guests mingle better—like an introduction round.  
-* Better photo organization to ensure no one gets left out.  
-* Mark the venue better—the entrance was hard to find.  
+- More chips! Two per person felt a bit stingy.
+- A game to help guests mingle better—like an introduction round.
+- Better photo organization to ensure no one gets left out.
+- Mark the venue better—the entrance was hard to find.
 
-But overall? A total success. And now, I’m already looking forward to the next challenge!  
+But overall? A total success. And now, I’m already looking forward to the next challenge!

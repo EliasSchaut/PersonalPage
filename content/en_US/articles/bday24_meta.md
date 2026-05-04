@@ -1,18 +1,19 @@
 ---
-title: 'Bday Metagame 24'
-description: 'About my metagame on my 24th birthday'
-date: '2024-06-04'
-tags: ['Bday', 'Meta']
-cover: 'Metagame2024.png'
+title: Bday Metagame 24
+cover: Metagame2024.png
+date: 2024-06-04
+description: About my metagame on my 24th birthday
 published: true
+tags:
+  - Bday
+  - Meta
 ---
 
 # Bday Metagame 24
 
 ---
 
-_Greetings, mortals!_ \
-_You have ventured into a place known as the bridge between Olympus and Hades - the HaDiKo. You have been chosen to fulfill a great task and save the time continuum. The mighty Titan Chronos has disrupted time and frozen the gods. Only you can reverse this by using the magical spell sealed in the cryptex located here in this liminal realm._
+*Greetings, mortals!* :br*You have ventured into a place known as the bridge between Olympus and Hades - the HaDiKo. You have been chosen to fulfill a great task and save the time continuum. The mighty Titan Chronos has disrupted time and frozen the gods. Only you can reverse this by using the magical spell sealed in the cryptex located here in this liminal realm.*
 
 ---
 
@@ -20,27 +21,24 @@ Thus began the story of the near destruction of all existence… and the 4th Bda
 
 ---
 
-_The cunning gods have left you six riddles to protect it. Each riddle leads to a letter that you will need to open the cryptex. You must decipher these clues before the clock strikes 1, or Chronos will complete his ritual and irrevocably destroy time._
+*The cunning gods have left you six riddles to protect it. Each riddle leads to a letter that you will need to open the cryptex. You must decipher these clues before the clock strikes 1, or Chronos will complete his ritual and irrevocably destroy time.*
 
-_The gods’ clues:_
+*The gods’ clues:*
 
-- _Hestia, goddess of the hearth, speaks to you: "Twin warmth."_
-- _Aphrodite, goddess of love, whispers: "Is love just a game?"_
-- _Apollo, god of music and art, proclaims: "My album rocks!"_
-- _Hermes, messenger of the gods, guides you: "6 lost letters."_
-- _Poseidon, god of the sea, challenges you: "The treasure of the nautilus shell."_
-- _Athena, goddess of wisdom, tests you: "Knowledge is power."_
+- *Hestia, goddess of the hearth, speaks to you: "Twin warmth."*
+- *Aphrodite, goddess of love, whispers: "Is love just a game?"*
+- *Apollo, god of music and art, proclaims: "My album rocks!"*
+- *Hermes, messenger of the gods, guides you: "6 lost letters."*
+- *Poseidon, god of the sea, challenges you: "The treasure of the nautilus shell."*
+- *Athena, goddess of wisdom, tests you: "Knowledge is power."*
 
-_Onward, into battle against Chronos! Use your wit, strength, and courage to solve the gods’ riddles and save the world from eternal darkness._
+*Onward, into battle against Chronos! Use your wit, strength, and courage to solve the gods’ riddles and save the world from eternal darkness.*
 
-_Good luck, mortals. The clock is ticking!_ \
-_A Friend_
-
+*Good luck, mortals. The clock is ticking!* :br*A Friend*
 
 ---
 
 The cryptex is an ancient ornate wooden cylinder that requires the entry of six letters to open—the same number as the gods’ clues. The heroes’ task was to follow these clues here, at the place where the connection between Olympus and Hades is thinnest, to uncover the necessary letters. The challenge lay in locating the hinted places and deciphering them.
-
 
 ---
 
@@ -70,14 +68,14 @@ A wooden puzzle box was placed at the venue, decorated with nautical elements an
 
 Books scattered around the venue contained the following riddle:
 
-> Three arms stretch to the side, \
-> like tines of a crown, so wide. \
-> A vertical line, steadfast and true, \
+> Three arms stretch to the side, :br
+> like tines of a crown, so wide. :br
+> A vertical line, steadfast and true, :br
 > Connects them all; my mark shines through.
 >
-> At the front, middle, or rear, \
-> I often shine bright and clear. \
-> What am I? Guess wisely now, \
+> At the front, middle, or rear, :br
+> I often shine bright and clear. :br
+> What am I? Guess wisely now, :br
 > The answer you’ll find, I vow!
 
 What could the letter be? That’s for your wisdom to reveal!
@@ -88,10 +86,9 @@ Once all six letters were gathered, they had to be arranged in the correct order
 
 > *Tempus revertere et vincula solvuntur. Potestas Chroni dissolvatur, aeternitas restituatur.*
 
-This roughly translates to: _"Time returns, and the bonds are broken. The power of Chronos is shattered, eternity is restored."_
+This roughly translates to: *"Time returns, and the bonds are broken. The power of Chronos is shattered, eternity is restored."*
 
 When the spell was spoken aloud in the main hall, a figure (an actor) with a long white beard appeared, introducing himself as Zeus. He revealed himself as the “friend” who had written the letter and thanked the heroes for saving existence. Thanks to the spell, he and his fellow gods were freed, and Chronos was defeated. As a reward, a giant box of "Merci" chocolates was given to the group.
-
 
 ---
 

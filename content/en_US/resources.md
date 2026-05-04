@@ -1,7 +1,7 @@
 ---
-title: 'Resource Compilation'
-description: 'Detailed insights into the resources utilized for building this Website'
-date: '2024-01-03'
+title: Resource Compilation
+date: 2024-01-03
+description: Detailed insights into the resources utilized for building this Website
 published: false
 ---
 

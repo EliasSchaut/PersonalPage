@@ -1,34 +1,36 @@
 ---
-title: 'Bday Metagame 23'
-description: 'About my metagame on my 23rd birthday'
-date: '2023-06-04'
-tags: ['Bday', 'Meta']
-cover: 'Metagame2023.png'
+title: Bday Metagame 23
+cover: Metagame2023.png
+date: 2023-06-04
+description: About my metagame on my 23rd birthday
 published: true
+tags:
+  - Bday
+  - Meta
 ---
 
 # Bday Metagame 23
 
-_In the hustle and bustle of setting up, someone from your team stumbles across a mysterious stone tablet.
+*In the hustle and bustle of setting up, someone from your team stumbles across a mysterious stone tablet.
 It is old and apparently from another century.
-Like a phantom from a forgotten time, it whispers a message into the hearts of all who behold it..._
+Like a phantom from a forgotten time, it whispers a message into the hearts of all who behold it...*
 
 ---
 
 And so began the great scavenger hunt on my birthday. The rules were simple:
 
 - There are two competing teams: team red and team blue from my birthday's [team battle](/articles/bday23)
-- The teams must find four `Secret Stones` :gem: to find the `Ultra Stone` :crystal_ball:, the ancient relic of the invented founder of this place for this game
+- The teams must find four `Secret Stones` 💎 to find the `Ultra Stone` 🔮, the ancient relic of the invented founder of this place for this game
 - Each of the Secret Stones can be obtained by passing a Trail (see below). At each location there is one stone for Team Red and one stone for Team Blue, which may only be taken by the respective teams
 - As soon as all four Secret Stones have been found, they can be inserted into the sockets of the stone tablet using the witch. The clue to the Ultra Stone is then revealed
 - The teams' task is to decipher the trails, find all Secret Stones and finally find the Ultra Stone. The metagame ends when a team has found the Ultra Stone
-- The Ultra Stone is worth 50 tokens :moneybag: for the [team battle](/articles/bday23)
+- The Ultra Stone is worth 50 tokens 💰 for the [team battle](/articles/bday23)
 
 So now on with the story, what was written on the stone tablet described above:
 
 ---
 
-_... "Hail to you, intrepid finder of this tablet!
+*... "Hail to you, intrepid finder of this tablet!
 With fine chisel strokes I have carved these words into the stone,
 to lead bold souls on a quest for the Ultra Stone, a mighty artifact of my time.
 Its untamed power has brought this place, the HaDiKo, forth from nothingness and kept it alive.
@@ -38,40 +40,40 @@ long-dead followers to obtain their Secret Stones.
 Each of these stones has its place in this tablet.
 When you have gathered all four, it will give you the final clue to the Ultra Stone.
 You will be assisted by an immortal witch with flaming red hair, who once promised,
-to help future adventurers in their quest. Now read about the trials of my companions:_
+to help future adventurers in their quest. Now read about the trials of my companions:*
 
 #### Trail of Knowledge:
 
-_The Secret Stone of Wisdom, guarded by Saphira the Wise:_
+*The Secret Stone of Wisdom, guarded by Saphira the Wise:*
 
 > In the Hall of Stories, a page awaits you that is not there.
 > Only through the Net of Wisdom can you fill the gap and find the Stone of Wisdom.
 
 #### Trail of Strength:
 
-_The Secret Stone of Strength, is guarded by Thoric, the Unshakable:_
+*The Secret Stone of Strength, is guarded by Thoric, the Unshakable:*
 
 > Where the land touches the sky and balance is important, the Trail of Strength awaits you.
 > Only those who walk the Path of the Floating can seize the Stone of Strength.
 
 #### Trail of Creativity:
 
-_The Secret Stone of Inspiration, is guarded by Caelum, the Dreaming One:_
+*The Secret Stone of Inspiration, is guarded by Caelum, the Dreaming One:*
 
 > In the place where colors have yet to be born, the Trail of creativity awaits you.
 > Complete the unfinished and the Stone of Inspiration will be revealed to you.
 
 #### Trail of Guidance:
 
-_The Secret Stone of Guidance, is guarded by Oriana, the Tactical:_
+*The Secret Stone of Guidance, is guarded by Oriana, the Tactical:*
 
 > At the place where most paths cross and the wrong step leads to misdirection,
 > the Trail of orientation awaits you. Only those who do not take the right path after the chunk without a number,
 > will find themselves in a white bowl!
 
-_I wish all seekers courage and understanding on their journey!"_
+*I wish all seekers courage and understanding on their journey!"*
 
-Suddenly you realize the true meaning of the words: The Ultra Stone must be worth an immeasurable amount of tokens. 50 tokens :moneybag:, maybe even more! A fire ignites inside you. You are determined to gather your team and get to the bottom of these clues!
+Suddenly you realize the true meaning of the words: The Ultra Stone must be worth an immeasurable amount of tokens. 50 tokens 💰, maybe even more! A fire ignites inside you. You are determined to gather your team and get to the bottom of these clues!
 
 ---
 
@@ -84,7 +86,7 @@ So that readers can also enjoy the trials, here is a description of the trials a
 ### Secret Stone of Knowledge
 
 The focus of this task was to read something aka acquire and interpret knowledge.
-A lot of knowledge can be found in a library (aka _Hall of Stories_) and the internet (aka _Net of Wisdom_).
+A lot of knowledge can be found in a library (aka *Hall of Stories*) and the internet (aka *Net of Wisdom*).
 A small bookshelf was open at my birthday party.
 Among the books was a printed copy of "The Little Prince" by Antoine de Saint-Exupéry. But one page was missing.
 Page 24 to be precise. Here is a small from german translated excerpt from the missing page:
@@ -123,9 +125,9 @@ The starting point was the path with most intersections, from there to the so-ca
 Once you had found all four Secret Stones, you could insert them into the stone tablet with the help of the witch
 (red-haired friend of my birthday) and magically received the following clue:
 
-_The Ultra Stone hides where your journey began, and personal stories emerged.
+*The Ultra Stone hides where your journey began, and personal stories emerged.
 The beginning is often small and inconspicuous, but it holds the end.
-Remember what you held in your hand for the first time, that's where you'll find it!_
+Remember what you held in your hand for the first time, that's where you'll find it!*
 
 So the players had to return to the place where they had their first experience of the birthday.
 This was the registration desk, where they had received their first materials and introductions.

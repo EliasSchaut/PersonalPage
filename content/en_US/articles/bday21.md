@@ -1,10 +1,11 @@
 ---
-title: 'Bday 21'
-description: 'About my 21st birthday'
-date: '2021-06-04'
-tags: ['Bday']
-cover: 'Bday21.png'
+title: Bday 21
+cover: Bday21.png
+date: 2021-06-04
+description: About my 21st birthday
 published: true
+tags:
+  - Bday
 ---
 
 # Bday 21
@@ -29,16 +30,16 @@ could prepare themselves.
 ### Event: The Bday Counter
 
 To increase the hype and reduce the lack of planning, there was a countdown on my Bday that counted down the time until
-the next event. This was a non-joinable voice channel that was constantly renamed by a bot _(Bday-Timer)_ to display
+the next event. This was a non-joinable voice channel that was constantly renamed by a bot *(Bday-Timer)* to display
 the time until the next event.
 
 ### Event: Speed-Dating
 
-What should have been called _Speed-Friending_ was an event at the beginning of Bday, which was supposed to get people
+What should have been called *Speed-Friending* was an event at the beginning of Bday, which was supposed to get people
 to get to know each other better, as it is more difficult to get to know each other online.
 Participants could get to know each other in groups of three in a voice channel. Each group had 5 minutes time to
 introduce themselves to each other and ask questions. After 5 minutes, they switched and the next group
-could get to know each other. The self-written bot _Shuffle_ took care of the fully automatic distribution of the
+could get to know each other. The self-written bot *Shuffle* took care of the fully automatic distribution of the
 participants into the groups.
 
 ### Discipline: Rally (35 points)
@@ -73,7 +74,7 @@ creative tasks to help the guests grow together. This produced interesting resul
 
 ### Discipline: Discord Dungeon Adventure (10 points)
 
-The _Discord Dungeon Adventure_ was an elaborate text adventure that took the guests into the depths of the Temple of
+The *Discord Dungeon Adventure* was an elaborate text adventure that took the guests into the depths of the Temple of
 the holy Ilias. Here they had to solve puzzles and complete tasks in order to leave the temple. A detailed description
 of the adventure can be found in this article: [Bday Metagame 21](/articles/bday21_meta).
 
@@ -85,7 +86,7 @@ rewards were higher Discord rights (like adding emojis) or insights into very pe
 
 ### Discipline: Codenames (10 points)
 
-The game [_Codenames_](https://de.wikipedia.org/wiki/Codenames) is a wonderful game that you can also play online in 2
+The game [*Codenames*](https://de.wikipedia.org/wiki/Codenames) is a wonderful game that you can also play online in 2
 teams against each other. The game was played via the website [codenames.game](https://codenames.game/). The secret
 service chiefs and the agents of both teams were each in a language channel and had a chaotic conversation about the
 meaning of the words.
