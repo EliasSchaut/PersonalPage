@@ -1,8 +1,7 @@
 ---
 title: 'Bday Metagame 23'
 description: 'About my metagame on my 23rd birthday'
-date: 'June 04, 2023'
-datetime: '2023-06-04'
+date: '2023-06-04'
 tags: ['Bday', 'Meta']
 cover: 'Metagame2023.png'
 published: true
@@ -18,12 +17,12 @@ Like a phantom from a forgotten time, it whispers a message into the hearts of a
 
 And so began the great scavenger hunt on my birthday. The rules were simple:
 
-- There are two competing teams: team red and team blue from my birthday's [team battle](bday23)
+- There are two competing teams: team red and team blue from my birthday's [team battle](/articles/bday23)
 - The teams must find four `Secret Stones` :gem: to find the `Ultra Stone` :crystal_ball:, the ancient relic of the invented founder of this place for this game
 - Each of the Secret Stones can be obtained by passing a Trail (see below). At each location there is one stone for Team Red and one stone for Team Blue, which may only be taken by the respective teams
 - As soon as all four Secret Stones have been found, they can be inserted into the sockets of the stone tablet using the witch. The clue to the Ultra Stone is then revealed
 - The teams' task is to decipher the trails, find all Secret Stones and finally find the Ultra Stone. The metagame ends when a team has found the Ultra Stone
-- The Ultra Stone is worth 50 tokens :moneybag: for the [team battle](bday23)
+- The Ultra Stone is worth 50 tokens :moneybag: for the [team battle](/articles/bday23)
 
 So now on with the story, what was written on the stone tablet described above:
 
@@ -111,7 +110,7 @@ On this tree was the Path of the Floating in the form of a slackline. If you bob
 ### Secret Stone of Creativity
 
 The aim of this task was to do something creative. The following picture was given, which had to be completed:
-![picture to be colored](switch.png)
+![picture to be colored](/articles/switch.png)
 Once completed, you could see the back of a Nintendo Switch docking station. The Secret Stone of Creativity was located there.
 
 ### Secret Stone of Orientation

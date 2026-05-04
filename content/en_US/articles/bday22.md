@@ -1,8 +1,7 @@
 ---
 title: 'Bday 22'
-description: 'About my 22rd birthday'
-date: 'June 04, 2022'
-datetime: '2022-06-04'
+description: 'About my 22nd birthday'
+date: '2022-06-04'
 tags: ['Bday']
 cover: 'Bday22.png'
 published: true
@@ -26,7 +25,7 @@ The teams wouldn’t be randomly assigned, though. Instead, I intentionally sepa
 
 I also set up several stations: a gaming corner with a Nintendo Switch, outdoor games like Kubb, and larger main events such as a mini-Olympics with crate runs and egg races. Thanks to my orientation event experience, I knew exactly how to set up the playing field (spray chalk to the rescue!).
 
-Another highlight was an interactive quiz about me and birthdays in general, which I organized with Kahoot. And since I had created a metagame last year, I wanted to include an exciting game this time too—the details of which I’ll cover in a [separate article](bday22_meta) to keep this one concise.
+Another highlight was an interactive quiz about me and birthdays in general, which I organized with Kahoot. And since I had created a metagame last year, I wanted to include an exciting game this time too—the details of which I’ll cover in a [separate article](/articles/bday22_meta) to keep this one concise.
 
 The final program looked like this:
 
@@ -56,7 +55,7 @@ As guests arrived, they were equipped with red or blue buttons and their tokens.
 
 A little highlight at the end: Sometime during the night, a garden gnome suddenly appeared. Random guests had stolen it from a nearby garden and left it as a gift. The next day, a stressed neighbor showed up at my door asking if I knew anything about a missing garden gnome. Of course, I returned it—but for one evening, it was the party’s secret star.  
 
-![Gnome](zwerg.jpg)  
+![Gnome](/articles/zwerg.jpg)  
 
 ## Conclusion and Lessons Learned  
 

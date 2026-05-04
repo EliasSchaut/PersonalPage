@@ -1,8 +1,7 @@
 ---
 title: 'Bday Metagame 22'
 description: 'About my metagame on my 22nd birthday'
-date: 'June 04, 2022'
-datetime: '2022-06-04'
+date: '2022-06-04'
 tags: ['Bday', 'Meta']
 cover: 'Metagame2022.png'
 published: true

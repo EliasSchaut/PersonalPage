@@ -1,8 +1,7 @@
 ---
 title: Bday 24
-description: About my 24rd birthday
-date: June 04, 2024
-datetime: 2023-06-04
+description: About my 24th birthday
+date: 2024-06-04
 tags:
   - Bday
 cover: Bday24.png
@@ -13,7 +12,7 @@ published: true
 
 ## Improvements and New Highlights
 
-To keep this article concise, I’ll focus on what improved compared to the [previous Bday](bday23).
+To keep this article concise, I’ll focus on what improved compared to the [previous Bday](/articles/bday23).
 
 ### The New Website
 
@@ -29,7 +28,7 @@ Based on last year’s feedback, I integrated icebreaker questions into the Spee
 
 Replacing karaoke with a DJ floor last year worked well but left karaoke fans slightly disappointed. This year, I came up with a creative solution to cater to both groups: the DJ set was moved to the rooftop and timed with the sunset. The combination of music, breathtaking views, and the setting sun created a magical atmosphere that thrilled many guests. Meanwhile, the karaoke stage remained open throughout the event, ensuring everyone got what they wanted.
 
-![Sunset DJ](/sunset-dj.jpg)
+![Sunset DJ](/articles/sunset-dj.jpg)
 
 ### Art Corner: Creativity for Everyone
 
@@ -37,11 +36,11 @@ Inspired by an activity from my first communion, I set up an art corner. Guests 
 
 At first, only the more artistically inclined guests approached the canvas, which made others hesitant. However, as the evening went on, many overcame their initial shyness, and the canvas gradually filled with an eclectic mix of patterns, drawings, and small messages. By the end of the night, only six puzzle pieces remained unpainted—a resounding success!
 
-![Art2024](/Art2024.png)
+![Art2024](/articles/Art2024.png)
 
 ### New Metagame
 
-Of course, no birthday is complete without a new metagame. For more details, I’ll refer you to the [Metagame Article](bday24_meta).
+Of course, no birthday is complete without a new metagame. For more details, I’ll refer you to the [Metagame Article](/articles/bday24_meta).
 
 ### Conclusion and Feedback
 

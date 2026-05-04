@@ -1,8 +1,7 @@
 ---
 title: Bday 24
 description: Über meinen 24. Geburtstag
-date: 04. Juni 2024
-datetime: 2024-06-04
+date: 2024-06-04
 tags:
   - Bday
 cover: Bday24.png
@@ -13,7 +12,7 @@ published: true
 
 ## Verbesserungen und neue Highlights
 
-Um den Rahmen des Artikels nicht zu sprengen, will ich hier nur beschreiben, was sich im Vergleich zu [vorherigen Bday](bday23) verbessert hat.
+Um den Rahmen des Artikels nicht zu sprengen, will ich hier nur beschreiben, was sich im Vergleich zu [vorherigen Bday](/articles/bday23) verbessert hat.
 
 ### Die neue Website
 
@@ -29,7 +28,7 @@ Auf Basis des Feedbacks vom letzten Jahr integrierte ich in die Speed-Friending-
 
 Das Karaoke abzubauen und durch einen DJ-Floor zu ersetzen, hatte im letzten Jahr zwar funktioniert, ließ aber die Herzen der Karaoke-Fans etwas schwerer werden. Dieses Jahr fand ich eine kreative Lösung, um beiden Interessen gerecht zu werden: Der DJ wurde auf die Dachterrasse verlegt und legte bei Sonnenuntergang auf. Die Kombination aus Musik, einem atemberaubenden Blick und der untergehenden Sonne schuf eine magische Atmosphäre, die viele Gäste begeistert hat. Für die Karaoke-Fans blieb die Bühne für die Gesamtheit des Bdays offen, sodass niemand zu kurz kam.
 
-![Sunset DJ](/sunset-dj.jpg)
+![Sunset DJ](/articles/sunset-dj.jpg)
 
 ### Kunstecke: Kreativität für alle
 
@@ -37,11 +36,11 @@ Inspiriert durch eine Aktivität aus meiner Kommunion richtete ich eine Kunsteck
 
 Zunächst trauten sich vor allem die künstlerisch versierten Gäste an die Leinwand, was andere etwas eingeschüchtert hat. Doch im Verlauf des Abends überwanden viele ihre Scheu, und die Leinwand füllte sich mit einer bunten Mischung aus kreativen Mustern, Zeichnungen und kleinen Botschaften. Am Ende blieben nur sechs Puzzleteile unbemalt – ein voller Erfolg!
 
-![Art2024](/Art2024.png)
+![Art2024](/articles/Art2024.png)
 
 ### Neues Metagame
 
-Ein weiteres Metagame darf natürlich nicht fehlen. Dazu verweise ich hier wieder auf den [Metagame Artikel](bday24_meta).
+Ein weiteres Metagame darf natürlich nicht fehlen. Dazu verweise ich hier wieder auf den [Metagame Artikel](/articles/bday24_meta).
 
 ### Fazit und Feedback
 

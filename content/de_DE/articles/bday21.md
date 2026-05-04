@@ -1,8 +1,7 @@
 ---
 title: 'Bday 21'
-description: 'Über meinem 21. Geburtstag'
-date: '04. Juni 2021'
-datetime: '2021-06-04'
+description: 'Über meinen 21. Geburtstag'
+date: '2021-06-04'
 tags: ['Bday']
 cover: 'Bday21.png'
 published: true
@@ -22,7 +21,7 @@ zwei Teams einteilen, die in unterschiedlichsten Disziplinen über die Dauer des
 und Punkte sammeln. Das Team mit den meisten Punkten gewinnt. Da ich eine große Fraktion an Karlsruhern durchs Studium
 und eine große Fraktion an Mannheimern durch die Schulzeit kenne, entschied ich mich, diese beiden Fraktionen
 gegeneinander antreten zu lassen. Die Mannheimer gegen die Karlsruher. So überlegte ich mir kreative Disziplinen und
-Events, die möglichst unterschiedlich waren, um den Spaß für alle zu Steigern. Damit die Gäste sich vorbereiten konnten, gab es sogar ein ausführliches [Informationsheft](InfoBday21.pdf).
+Events, die möglichst unterschiedlich waren, um den Spaß für alle zu Steigern. Damit die Gäste sich vorbereiten konnten, gab es sogar ein ausführliches [Informationsheft](/articles/InfoBday21.pdf).
 
 ## Events & Disziplinen
 
@@ -43,10 +42,10 @@ Teilnehmer in die Gruppen.
 
 ### Disziplin: Rallye (35 Punkte)
 
-Die [Rallye](Rallye_2021.pdf) dient als Schnitzeljagd, um die Gäste zu motivieren, dass komplette Angebot des
+Die [Rallye](/articles/Rallye_2021.pdf) dient als Schnitzeljagd, um die Gäste zu motivieren, dass komplette Angebot des
 Geburtstags zu erkunden. So müssen Gäste Antworten zu Bots und Events finden, um Punkte zu sammeln. Zudem waren auch
 kreative Aufgaben dabei, damit die Gäste zusammenzuwachsen. Dabei kamen interessante Ergebnisse heraus, wie zum Beispiel diese Karikatur:
-![Karikatur](Charikatur21.png)
+![Karikatur](/articles/Charikatur21.png)
 
 ... oder diese Geschichte:
 
@@ -89,7 +88,7 @@ Da ich einige Filmfans unter meinen Gästen hatte, entschied ich mich, ein Movie
 ### Event: Runterzählen Mitternacht
 
 Da ich in meinen Geburtstag reinfeierte, gab es ein Runterzählen bis Mitternacht. Die Gäste konnten sich in diesem Channel sammeln und gemeinsam in meinen Geburtstag reinfeiern. Da Discord bei aktivierten Kameras die Anzahl der Personen im Sprachchannel auf 25 limitiert, haben wir alle die unsere Kamera-App gestreamt, damit alle Gäste dabei sein konnten. Beim Zählen hörte man deutlich, wie die Bitrate des Streams runterging, da alles sehr krazig klang. War trotzdem ein richtig schöner Moment für mich. Hier ein Bild von dem Moment:
-![Mitternacht](Midnight21.png)
+![Mitternacht](/articles/Midnight21.png)
 
 ### Event: Siegerehrung
 
@@ -99,4 +98,4 @@ Den Klassenkampf gewann das Team Mannheim mit 43,5 Punkten knapp über Karlsruhe
 
 Am Geburtstag haben ca. 50 Personen teilgenommen. Die Kritik war durchweg positiv. Kritik gab es nur an der Komplexität des Metagames und Discord.
 Ich hoffe, dass ich mit diesem Artikel auch dir eine Inspiration für ein Bday geben konnte.
-Wenn du dich für weitere Bdays interessierst, schau doch mal bei meinen anderen [Bdays](t/Bday) vorbei.
+Wenn du dich für weitere Bdays interessierst, schau doch mal bei meinen anderen [Bdays](/articles?tag=Bday) vorbei.

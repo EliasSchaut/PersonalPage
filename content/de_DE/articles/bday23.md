@@ -1,8 +1,7 @@
 ---
 title: 'Bday 23'
 description: 'Über meinen 23. Geburtstag'
-date: '04. Juni 2023'
-datetime: '2023-06-04'
+date: '2023-06-04'
 tags: ['Bday']
 cover: 'Bday23.png'
 published: true
@@ -10,7 +9,7 @@ published: true
 
 # Bday 23
 
-Um den Rahmen des Artikels nicht zu sprengen, will ich hier nur beschreiben, was sich im Vergleich zum [vorherigen Bday](bday22) verbessert hat.
+Um den Rahmen des Artikels nicht zu sprengen, will ich hier nur beschreiben, was sich im Vergleich zum [vorherigen Bday](/articles/bday22) verbessert hat.
 
 Ein neues Jahr, eine neue Challenge! Mein Ziel war klar: Der Geburtstag musste noch besser werden als im Vorjahr. Deshalb begann ich mit den Verbesserungsvorschlägen aus dem letzten Feedback. Zum Beispiel wurde der Begriff "Klassenkampf" in "Mannschaftskampf" geändert, um weniger Missverständnisse bei politisch versierten Gästen auszulösen. Der Website gab ich einen frischen Look, behielt jedoch die bewährte Funktionalität bei. Doch das war natürlich nicht alles:
 
@@ -43,7 +42,7 @@ Als kleiner Spaß versteckte ich acht kleine "Among Us"-Figuren auf dem Geburtst
 
 ### Neues Metagame
 
-Ein weiteres Highlight war das neue Metagame. Da die Details den Rahmen sprengen würden, verweise ich hier auf den [anderen Artikel](bday23_meta).
+Ein weiteres Highlight war das neue Metagame. Da die Details den Rahmen sprengen würden, verweise ich hier auf den [anderen Artikel](/articles/bday23_meta).
 
 ## Feedback
 

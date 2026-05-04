@@ -21,22 +21,21 @@
           <li
             v-if="
               article.path.startsWith('/articles/') &&
-              article.meta.published &&
-              (!tag || (article.meta.tags as string[]).includes(tag))
+              article.published &&
+              (!tag || (article.tags ?? []).includes(tag))
             "
           >
             <ArticlePreview
               :title="article.title!"
               :href="article.path!"
               :cover="
-                article.meta.cover
-                  ? joinURL('/articles', 'covers', article.meta.cover as string)
+                article.cover
+                  ? joinURL('/articles', 'covers', article.cover)
                   : ''
               "
-              :date="article.meta.date as string"
-              :datetime="article.meta.datetime as string"
+              :date="article.date"
               :description="article.description"
-              :tags="article.meta.tags as string[]"
+              :tags="article.tags ?? []"
             />
           </li>
         </template>
@@ -60,8 +59,17 @@ const { data: list } = await useAsyncData(
   () => {
     const collection = ('content_' + locale.value) as keyof Collections;
     return queryCollection(collection)
-      .select('id', 'title', 'description', 'meta', 'path')
-      .order('id', 'ASC')
+      .select(
+        'id',
+        'title',
+        'description',
+        'path',
+        'date',
+        'tags',
+        'cover',
+        'published',
+      )
+      .order('date', 'DESC')
       .all();
   },
   { watch: [locale, tag] },

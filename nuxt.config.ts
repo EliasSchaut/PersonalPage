@@ -102,6 +102,9 @@ export default defineNuxtConfig({
   },
 
   studio: {
+    preview: {
+      url: 'https://schaut.dev',
+    },
     repository: {
       provider: 'github',
       owner: 'EliasSchaut',

@@ -1,8 +1,7 @@
 ---
 title: 'Bday Metagame 22'
 description: 'Über das Metagame am 22. Geburtstag'
-date: '04. Juni 2022'
-datetime: '2022-06-04'
+date: '2022-06-04'
 tags: ['Bday', 'Meta']
 cover: 'Metagame2022.png'
 published: true

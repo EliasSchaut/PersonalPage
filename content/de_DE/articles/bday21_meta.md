@@ -1,8 +1,7 @@
 ---
 title: 'Bday Metagame 21'
 description: 'Über das Metagame am 21. Geburtstag'
-date: '04. Juni 2021'
-datetime: '2021-06-04'
+date: '2021-06-04'
 tags: ['Bday', 'Meta']
 cover: 'Metagame2021.png'
 published: true
@@ -16,12 +15,12 @@ Schließlich steht in der Überlieferung, dass denjenigen, die die Rätsel:grey_
 
 Du trittst also in den Tempel ein. Du hast dir extra Kartenpapier angeschafft und beginnst alles, was du siehst, zu kartografieren:
 
-![Karte](prologue_map.png)
+![Karte](/articles/prologue_map.png)
 
 Du stehst auf :arrow_down_small:. Vor dir ist eine verschlossene Tür :lock:, an welcher du seltsamerweise auch kein Schlüsselloch erkennen kannst. Jedoch ist links von dir ein Raum, der dir sofort ins Auge springt.
 Der Raum ist voller Kerzen:candle:unterschiedlichster Art. Dich schockiert und fasziniert gleichermaßen, dass die Kerzen:candle:immer noch brennen. In der langen Zeit, in der niemand mehr hier gewesen sein dürfte, hätten die Kerzen:candle: längst ausbrennen müssen!
 Was jedoch eine noch größere Faszination in dir auslöst, ist ein edel geschmücktes Buch, welches in der Mitte des Raumes liegt. Du schaust dir das Buch genauer an:
-![Buch](hodor.png)
+![Buch](/articles/hodor.png)
 
 Du schlägst das Buch auf. Auf der ersten und gleichzeitig einzig beschrieben Seite steht geschrieben:
 

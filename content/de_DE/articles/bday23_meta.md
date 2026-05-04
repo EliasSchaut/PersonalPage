@@ -1,8 +1,7 @@
 ---
 title: 'Bday Metagame 23'
 description: 'Über das Metagame am 23. Geburtstag'
-date: '04. Juni 2023'
-datetime: '2023-06-04'
+date: '2023-06-04'
 tags: ['Bday', 'Meta']
 cover: 'Metagame2023.png'
 published: true
@@ -18,12 +17,12 @@ Wie ein Phantom aus einer vergessenen Zeit flüstert sie eine Botschaft in die H
 
 Und so begann die große Schnitzeljagd an meinem Geburtstag. Die Regeln waren einfach:
 
-- Es gibt zwei konkurrierende Teams: Team Rot und Team Blau aus dem [Mannschaftskampf](bday23) meines Geburtstags
+- Es gibt zwei konkurrierende Teams: Team Rot und Team Blau aus dem [Mannschaftskampf](/articles/bday23) meines Geburtstags
 - Die Teams müssen vier `Secret Stones` :gem: finden, um den `Ultra Stone` :crystal_ball: zu finden, das alte Relikt des für dieses Spiel erfundenen Gründers des Veranstaltungsortes
 - Jeder der Secret Stones ist durch das Bestehen einer Prüfung (siehe unten) zu erhalten. An jeder Location ist jeweils ein Stein für Team Rot und ein Stein für Team Blau, die jeweils nur von den jeweiligen Teams genommen werden dürfen
 - Sobald alle vier Secret Stones gefunden sind, können sie mithilfe der Hexe in die Sockel der Steintafel eingefügt werden. Dann wird der Hinweis zum Ultra Stone offenbart
 - Die Aufgabe der Teams besteht darin, die Hinweise zu entschlüsseln, die Prüfungen zu bestehen und schließlich den Ultra Stone zu finden. Das Metagame endet, wenn ein Team den Ultra Stone gefunden hat
-- Der Ultra Stone ist 50 Tokens :moneybag: für den [Mannschaftskampf](bday23) wert
+- Der Ultra Stone ist 50 Tokens :moneybag: für den [Mannschaftskampf](/articles/bday23) wert
 
 Also nun weiter in der Geschichte, was stand auf der oben beschriebenen Steintafel:
 
@@ -111,7 +110,7 @@ Dieser Baum war der Pfad der Schwebenden in Form einer Slackline gespannt. Wer h
 ### Secret Stone der Kreativität
 
 Ziel dieser Aufgabe war es, etwas Kreatives zu tun. Gegeben war folgendes Bild, was es zu vervollständigen galt:
-![Bild zum Ausmalen](switch.png)
+![Bild zum Ausmalen](/articles/switch.png)
 Fertig ausgemalt erkannte man die Rückseite einer Nintendo-Switch Docking-Station. Dort befand sich der Secret Stone der Kreativität.
 
 ### Secret Stone der Orientierung

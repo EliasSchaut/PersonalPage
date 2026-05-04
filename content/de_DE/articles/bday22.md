@@ -1,8 +1,7 @@
 ---
 title: 'Bday 22'
-description: 'Über meinem 22. Geburtstag'
-date: '04. Juni 2022'
-datetime: '2022-06-04'
+description: 'Über meinen 22. Geburtstag'
+date: '2022-06-04'
 tags: ['Bday']
 cover: 'Bday22.png'
 published: true
@@ -26,7 +25,7 @@ Die Teams sollten natürlich nicht zufällig entstehen. Stattdessen wollte ich b
 
 Zusätzlich baute ich mehrere Stationen auf: eine Gaming-Ecke mit einer Nintendo Switch, Outdoor-Spiele wie Wikingerschach und größere Haupt-Events wie eine Mini-Olympiade mit Bierkastenlauf und Eierlauf. Dank meiner Erfahrungen aus der O-Phase wusste ich genau, wie ich das Spielfeld gestalten musste (Sprühkreide sei Dank!).
 
-Ein weiteres Highlight: Ein interaktives Quiz über mich und Geburtstage im Allgemeinen, das ich mit Kahoot organisierte. Und weil ich letztes Jahr ein Metagame erstellt hatte, wollte ich auch diesmal ein spannendes Spiel integrieren – die Details dazu will ich in einem [anderen Artikel](bday22_meta) beschreiben, um hier nicht den Rahmen zu sprengen. 
+Ein weiteres Highlight: Ein interaktives Quiz über mich und Geburtstage im Allgemeinen, das ich mit Kahoot organisierte. Und weil ich letztes Jahr ein Metagame erstellt hatte, wollte ich auch diesmal ein spannendes Spiel integrieren – die Details dazu will ich in einem [anderen Artikel](/articles/bday22_meta) beschreiben, um hier nicht den Rahmen zu sprengen. 
 
 Das fertige Program sah wie folgt aus:
 
@@ -56,7 +55,7 @@ Als die Gäste eintrafen, wurden sie mit Buttons in Rot oder Blau und ihren Toke
 
 Ein kleines Highlight zum Schluss: Irgendwann in der Nacht tauchte plötzlich ein Gartenzwerg auf. Random Leute hatten ihn aus einem nahegelegenen Kleingarten geklaut und mir als Geschenk dagelassen. Am nächsten Tag stand ein gestresster Nachbar vor meiner Tür und fragte, ob ich etwas über einen verschwundenen Gartenzwerg wüsste. Ich gab ihn natürlich zurück – aber für einen Abend war er der heimliche Star der Party.
 
- ![Zwerg](zwerg.jpg)
+ ![Zwerg](/articles/zwerg.jpg)
 
 ## Fazit und Learnings
 

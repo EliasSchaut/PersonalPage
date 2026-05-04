@@ -1,8 +1,7 @@
 ---
 title: 'Bday 23'
 description: 'About my 23rd birthday'
-date: 'June 04, 2023'
-datetime: '2023-06-04'
+date: '2023-06-04'
 tags: ['Bday']
 cover: 'Bday23.png'
 published: true
@@ -10,7 +9,7 @@ published: true
 
 # Bday 23  
 
-To keep this article concise, I’ll focus on what improved compared to the [previous Bday](bday22).  
+To keep this article concise, I’ll focus on what improved compared to the [previous Bday](/articles/bday22).  
 
 A new year, a new challenge! My goal was clear: this birthday had to be even better than last year. I started with the improvement suggestions from last time’s feedback. For instance, I changed the term "Class Battle" to "Team Battle" to avoid misunderstandings with politically savvy guests. The website got a fresh look while retaining its proven functionality. But of course, that wasn’t all:  
 
@@ -43,7 +42,7 @@ As a fun twist, I hid eight small "Among Us" figures around the birthday venue. 
 
 ### New Metagame  
 
-Another highlight was the new metagame. Since detailing it here would go beyond the scope of this article, I’ll cover it in a [separate piece](bday23_meta).  
+Another highlight was the new metagame. Since detailing it here would go beyond the scope of this article, I’ll cover it in a [separate piece](/articles/bday23_meta).  
 
 ## Feedback  
 

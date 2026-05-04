@@ -13,13 +13,14 @@
     />
     <div class="flex max-w-xl flex-col items-start justify-between">
       <div class="flex items-center gap-x-4 text-xs">
-        <time :datetime="datetime" class="text-second-500 dark:text-second-400"
-          >{{ date }}
+        <time v-if="date" :datetime="date" class="text-second-500 dark:text-second-400"
+          >{{ formattedDate }}
         </time>
         <div class="flex flex-1 justify-end gap-1">
           <BadgeSimple
             v-for="tag in tags"
-            :content="tag as string"
+            :key="tag"
+            :content="tag"
             :href="'/articles?tag=' + tag"
           />
         </div>
@@ -31,6 +32,7 @@
           {{ title }}
         </h3>
         <p
+          v-if="description"
           class="text-second-600 dark:text-second-100 mt-5 line-clamp-3 text-sm leading-6"
         >
           {{ description }}
@@ -41,34 +43,31 @@
 </template>
 
 <script setup lang="ts">
-defineProps({
-  title: {
-    type: String,
-    required: true,
+const props = withDefaults(
+  defineProps<{
+    title: string;
+    href: string;
+    description?: string;
+    cover?: string;
+    date?: string;
+    tags?: string[];
+  }>(),
+  {
+    description: '',
+    cover: '',
+    date: '',
+    tags: () => [],
   },
-  description: {
-    type: String,
-    required: true,
-  },
-  href: {
-    type: String,
-    required: true,
-  },
-  cover: {
-    type: String,
-    default: '',
-  },
-  date: {
-    type: String,
-    required: true,
-  },
-  datetime: {
-    type: String,
-    required: true,
-  },
-  tags: {
-    type: Array<String>,
-    default: [''],
-  },
+);
+
+const { locale } = useI18n();
+
+const formattedDate = computed(() => {
+  if (!props.date) return '';
+  const d = new Date(props.date);
+  if (Number.isNaN(d.getTime())) return props.date;
+  return new Intl.DateTimeFormat(locale.value.replace('_', '-'), {
+    dateStyle: 'long',
+  }).format(d);
 });
 </script>

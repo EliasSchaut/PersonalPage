@@ -1,8 +1,7 @@
 ---
 title: 'Bday 21'
 description: 'About my 21st birthday'
-date: 'June 04, 2021'
-datetime: '2021-06-04'
+date: '2021-06-04'
 tags: ['Bday']
 cover: 'Bday21.png'
 published: true
@@ -22,7 +21,7 @@ into two teams that compete against each other in different disciplines over the
 and collect points. The team with the most points wins. As I have a large group of people from Karlsruhe through my
 studies and a large group of Mannheimer from school, I decided to have these two groups compete against each other. The
 Mannheimer against the Karlsruher. So I thought about creative disciplines and events that were as different as possible
-to increase the fun for everyone. There was even a detailed [information booklet](InfoBday21.pdf) so that the guests
+to increase the fun for everyone. There was even a detailed [information booklet](/articles/InfoBday21.pdf) so that the guests
 could prepare themselves.
 
 ## Events & Disciplines
@@ -44,10 +43,10 @@ participants into the groups.
 
 ### Discipline: Rally (35 points)
 
-The [Rallye](Rallye_2021.pdf) serves as a scavenger hunt to motivate the guests to explore the complete offer of the
+The [Rallye](/articles/Rallye_2021.pdf) serves as a scavenger hunt to motivate the guests to explore the complete offer of the
 birthday party. Guests have to find answers to bots and events in order to collect points. There were also
 creative tasks to help the guests grow together. This produced interesting results, such as this caricature:
-![Caricature](Charicature21.png)
+![Caricature](/articles/Charikatur21.png)
 
 ... or this story:
 
@@ -104,7 +103,7 @@ celebrate my birthday together. As Discord limits the number of people in the vo
 activated, we all streamed our camera app so that all the guests could be there. When counting, you could clearly hear
 the bit rate of the stream going down, as everything sounded very crackly. It was still a really nice moment for me.
 Here's a picture of the moment:
-![Midnight](Midnight21.png)
+![Midnight](/articles/Midnight21.png)
 
 ### Event: Award ceremony
 
@@ -116,4 +115,4 @@ be ranked above the other team in the Discord member list until the next birthda
 Around 50 people took part in the birthday party. The criticism was consistently positive. There was only criticism of
 the complexity of the metagame and Discord.
 I hope that I was able to give you some inspiration for a bday with this article.
-If you are interested in other bday, have a look at my other [Bdays](t/Bday).
+If you are interested in other bday, have a look at my other [Bdays](/articles?tag=Bday).
