@@ -32,8 +32,8 @@ function transport() {
 }
 
 export async function sendContactMail({ email, message }: { email: string; message: string }) {
-  const from = env.SMTP_FROM ?? 'Personal Page <info@schaut.dev>';
-  const to = env.SMTP_TO ?? 'elias@schaut.dev';
+  const from = env.SMTP_FROM ?? 'Elias Schaut <hi@schaut.dev>';
+  const to = env.SMTP_TO ?? 'hi@schaut.dev';
   await transport().sendMail({
     from,
     to,

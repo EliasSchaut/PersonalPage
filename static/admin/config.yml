@@ -76,24 +76,3 @@ collections:
         i18n: duplicate
         field: { name: tag, label: Tag, widget: string }
       - { name: body, label: Body, widget: markdown, i18n: true }
-
-  - name: pages
-    label: Pages
-    i18n: true
-    files:
-      - name: resources
-        label: Resources
-        file: content/resources.{{locale}}.md
-        i18n: true
-        fields:
-          - { name: title, label: Title, widget: string, i18n: true }
-          - { name: description, label: Description, widget: text, i18n: true }
-          - name: date
-            label: Date
-            widget: datetime
-            format: YYYY-MM-DD
-            date_format: YYYY-MM-DD
-            time_format: false
-            i18n: duplicate
-          - { name: published, label: Published, widget: boolean, i18n: duplicate }
-          - { name: body, label: Body, widget: markdown, i18n: true }

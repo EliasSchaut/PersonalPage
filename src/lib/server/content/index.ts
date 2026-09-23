@@ -11,12 +11,6 @@ const articleFiles = import.meta.glob('/content/articles/*/*.md', {
   eager: true,
 }) as Record<string, string>;
 
-const pageFiles = import.meta.glob('/content/*.md', {
-  query: '?raw',
-  import: 'default',
-  eager: true,
-}) as Record<string, string>;
-
 export { tagSlug };
 
 function buildArticle(locale: Locale, slug: string, source: string): Article {
@@ -54,19 +48,7 @@ function loadArticles(): Record<Locale, Article[]> {
   return byLocale;
 }
 
-function loadPages(): Record<string, Article> {
-  const pages: Record<string, Article> = {};
-  for (const [file, source] of Object.entries(pageFiles)) {
-    const m = file.match(/\/content\/([^/.]+)\.([^/.]+)\.md$/);
-    if (!m || !isLocale(m[2])) continue;
-    const article = buildArticle(m[2], m[1], source);
-    pages[`${m[2]}:${m[1]}`] = { ...article, path: `/${m[1]}` };
-  }
-  return pages;
-}
-
 const articles = loadArticles();
-const pages = loadPages();
 
 export interface ListOptions {
   includeDrafts?: boolean;
@@ -119,10 +101,6 @@ export function getTags(locale: Locale): TagInfo[] {
 
 export function getArticlesByTag(locale: Locale, slug: string): ArticleMeta[] {
   return getArticleMetas(locale).filter((a) => a.tags.some((t) => tagSlug(t) === slug));
-}
-
-export function getPage(locale: Locale, name: string): Article | undefined {
-  return pages[`${locale}:${name}`];
 }
 
 export function getSearchIndex(locale: Locale): SearchDoc[] {

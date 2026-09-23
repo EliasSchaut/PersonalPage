@@ -17,7 +17,8 @@ Personal website schaut.dev — SvelteKit (Svelte 5, runes), Tailwind 4, adapter
 - `src/lib/server/content/` — markdown pipeline (gray-matter → zod → remark/rehype), loaded at build time via `import.meta.glob`. Server-only.
 - `src/lib/components/` — UI; icons via `~icons/heroicons/*` and `~icons/simple-icons/*` (unplugin-icons).
 - `src/lib/data/` — static lists (tools, projects, work, socials, donate).
-- `content/articles/<en|de>/<slug>.md`, `content/resources.<locale>.md` — same slugs in both locales. Frontmatter: `title, description, cover (/articles/covers/x.png), date (YYYY-MM-DD), published, tags`.
+- Legal (imprint + privacy) lives on one page: `/legal`; `/imprint` and `/privacy` redirect there.
+- `content/articles/<en|de>/<slug>.md` — same slugs in both locales. Frontmatter: `title, description, cover (/articles/covers/x.png), date (YYYY-MM-DD), published, tags`.
 - `static/admin/` — Sveltia CMS (`config.yml`); OAuth endpoints in `src/routes/api/oauth/`.
 - Env via `$env/dynamic/private` only (see `.env.example`); never `$env/static`.
 

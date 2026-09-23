@@ -5,7 +5,6 @@ import {
   getArticle,
   getArticles,
   getArticlesByTag,
-  getPage,
   getSearchIndex,
   getTags,
 } from './index';
@@ -58,11 +57,6 @@ describe('content', () => {
     const meta = getArticlesByTag('en', 'meta');
     expect(meta.length).toBeGreaterThan(0);
     expect(meta.every((a) => a.tags.includes('Meta'))).toBe(true);
-  });
-
-  it('loads the resources page per locale', () => {
-    expect(getPage('en', 'resources')?.title).toBe('Resource Compilation');
-    expect(getPage('de', 'resources')?.title).toBe('Verwendete Ressourcen');
   });
 
   it('builds a compact search index', () => {
