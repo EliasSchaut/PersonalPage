@@ -10,9 +10,7 @@ test.describe('pages', () => {
     '/de/articles',
     '/articles/tags',
     '/articles/tags/meta',
-    '/resources',
-    '/imprint',
-    '/privacy',
+    '/legal',
     '/kofi',
     '/newsletter',
   ]) {
@@ -26,8 +24,15 @@ test.describe('pages', () => {
 
   test('home shows typewriter intro', async ({ page }) => {
     await page.goto('/');
-    await expect(page.getByRole('heading', { level: 1 })).toContainText('Hey');
-    await expect(page.getByText("I'm Elias Lorenz Schaut")).toBeVisible();
+    await expect(page.getByRole('heading', { level: 1 })).toContainText("I'm Elias Lorenz Schaut");
+    await expect(page.getByText('I build apps to improve communities')).toBeVisible();
+  });
+
+  test('old imprint and privacy urls redirect to the legal page', async ({ page }) => {
+    await page.goto('/imprint');
+    await expect(page).toHaveURL(/\/legal#imprint$/);
+    await page.goto('/de/privacy');
+    await expect(page).toHaveURL(/\/de\/legal#privacy$/);
   });
 
   test('unknown route is a 404', async ({ page }) => {
