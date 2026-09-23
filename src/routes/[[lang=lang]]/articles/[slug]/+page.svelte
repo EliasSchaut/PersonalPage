@@ -23,10 +23,7 @@
   tags={a.tags}
 />
 
-<a
-  href={i18n.path('/articles')}
-  class="mb-8 inline-flex items-center gap-1 text-sm text-second-500 hover:text-prime-500 dark:text-second-400 dark:hover:text-prime-400"
->
+<a href={i18n.path('/articles')} class="pill mb-8">
   <ArrowLeftIcon class="h-4 w-4" aria-hidden="true" />
   {i18n.t('articles.back_to_articles')}
 </a>
@@ -34,29 +31,29 @@
 <Article>
   <header class="not-prose mb-10">
     <div
-      class="flex flex-wrap items-center gap-x-4 gap-y-2 text-sm text-second-500 dark:text-second-400"
+      class="flex flex-wrap items-center gap-x-4 gap-y-2 text-sm font-semibold text-second-600 dark:text-second-300"
     >
       {#if a.date}
         <time datetime={a.date}>{i18n.formatDate(a.date)}</time>
       {/if}
       <span>{i18n.t('articles.reading_time', { minutes: a.readingMinutes })}</span>
-      <span class="flex flex-1 flex-wrap justify-end gap-1">
+      <span class="flex flex-1 flex-wrap justify-end gap-1.5">
         {#each a.tags as tag (tag)}
           <Badge content={tag} href={i18n.path(`/articles/tags/${tagSlug(tag)}`)} />
         {/each}
       </span>
     </div>
-    <h1 class="mt-4 text-4xl font-bold tracking-tight text-second-900 sm:text-5xl dark:text-white">
+    <h1 class="text-grad mt-4 text-4xl font-extrabold tracking-tight sm:text-5xl">
       {a.title}
     </h1>
     {#if a.description}
-      <p class="mt-4 text-lg text-second-600 dark:text-second-400">{a.description}</p>
+      <p class="mt-4 text-xl text-second-600 dark:text-second-300">{a.description}</p>
     {/if}
     {#if a.cover}
       <img
         src={a.cover}
         alt="{a.title} cover"
-        class="mx-auto mt-8 w-full max-w-md rounded-xl"
+        class="glass mx-auto mt-8 w-full max-w-md rounded-3xl p-2"
         width="512"
         height="512"
       />

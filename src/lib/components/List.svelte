@@ -12,23 +12,22 @@
   let { list, icon }: { list: ListItem[]; icon?: Snippet<[string]> } = $props();
 </script>
 
-<ul
-  class="divide-y divide-second-100 overflow-hidden bg-white shadow-sm ring-1 ring-second-900/5 sm:rounded-xl dark:divide-second-700 dark:bg-second-800 dark:ring-second-700"
->
+<ul class="flex flex-col gap-2">
   {#each list as element (element.content)}
     <li
-      class="relative flex justify-between gap-x-6 px-4 py-5 hover:bg-second-50 sm:px-6 dark:hover:bg-second-900"
+      class="relative flex justify-between gap-x-6 rounded-2xl border border-transparent px-4 py-4 transition hover:border-prime-400 hover:bg-white/50 dark:hover:bg-white/5"
     >
       <div class="flex min-w-0 gap-x-4">
         {#if element.icon && icon}
-          <span class="h-6 w-6 flex-none [&>svg]:h-6 [&>svg]:w-6">{@render icon(element.icon)}</span
-          >
+          <span class="h-6 w-6 flex-none pt-0.5 [&>svg]:h-6 [&>svg]:w-6">
+            {@render icon(element.icon)}
+          </span>
         {/if}
         <div class="min-w-0 flex-auto">
-          <p class="text-sm leading-6 font-semibold text-second-900 dark:text-second-100">
+          <p class="font-bold text-second-900 dark:text-white">
             {#if element.href}
               <a href={element.href} target="_blank" rel="noopener noreferrer">
-                <span class="absolute inset-x-0 -top-px bottom-0"></span>
+                <span class="absolute inset-0"></span>
                 {element.content}
               </a>
             {:else}
@@ -36,17 +35,15 @@
             {/if}
           </p>
           {#if element.subcontent}
-            <p class="text-second-600 dark:text-second-400">{element.subcontent}</p>
+            <p class="text-[15px] text-second-600 dark:text-second-300">{element.subcontent}</p>
           {/if}
         </div>
       </div>
       {#if element.href}
-        <div class="flex shrink-0 items-center gap-x-4">
-          <ChevronRightIcon
-            class="h-5 w-5 flex-none text-second-400 dark:text-second-500"
-            aria-hidden="true"
-          />
-        </div>
+        <ChevronRightIcon
+          class="h-5 w-5 flex-none self-center text-second-400 dark:text-second-400"
+          aria-hidden="true"
+        />
       {/if}
     </li>
   {/each}

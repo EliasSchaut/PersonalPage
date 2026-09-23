@@ -6,30 +6,33 @@
 
   let { prev, next }: { prev?: ArticleMeta; next?: ArticleMeta } = $props();
   const i18n = getI18n();
-  const linkClass =
-    'border-second-200 hover:bg-second-100 dark:border-second-800 dark:hover:bg-second-900 flex flex-1 flex-col gap-1 rounded-xl border p-4 text-sm';
+  const linkClass = 'glass glass-hover flex flex-1 flex-col gap-1 rounded-2xl p-4 text-base';
 </script>
 
 {#if prev || next}
   <nav class="not-prose mt-12 flex flex-col gap-4 sm:flex-row" aria-label="Pagination">
     {#if prev}
       <a href={i18n.path(prev.path)} class={linkClass} rel="prev">
-        <span class="flex items-center gap-1 text-xs text-second-500 dark:text-second-400">
+        <span
+          class="flex items-center gap-1 text-sm font-semibold text-second-600 dark:text-second-300"
+        >
           <ArrowLeftIcon class="h-4 w-4" aria-hidden="true" />
           {i18n.t('articles.prev')}
         </span>
-        <span class="font-semibold text-second-900 dark:text-white">{prev.title}</span>
+        <span class="font-bold text-second-900 dark:text-white">{prev.title}</span>
       </a>
     {:else}
       <span class="flex-1"></span>
     {/if}
     {#if next}
       <a href={i18n.path(next.path)} class={[linkClass, 'items-end text-right']} rel="next">
-        <span class="flex items-center gap-1 text-xs text-second-500 dark:text-second-400">
+        <span
+          class="flex items-center gap-1 text-sm font-semibold text-second-600 dark:text-second-300"
+        >
           {i18n.t('articles.next')}
           <ArrowRightIcon class="h-4 w-4" aria-hidden="true" />
         </span>
-        <span class="font-semibold text-second-900 dark:text-white">{next.title}</span>
+        <span class="font-bold text-second-900 dark:text-white">{next.title}</span>
       </a>
     {/if}
   </nav>

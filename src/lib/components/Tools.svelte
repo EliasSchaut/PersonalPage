@@ -4,7 +4,7 @@
   let { class: className = '' }: { class?: string } = $props();
 </script>
 
-<ul class={['flex flex-wrap gap-1', className]}>
+<ul class={['flex flex-wrap gap-3', className]}>
   {#each tools as tool (tool.name)}
     <li>
       <a
@@ -12,7 +12,7 @@
         target="_blank"
         rel="noopener noreferrer"
         title={tool.name}
-        class="flex h-10 w-10 items-center justify-center rounded-md p-1 transition hover:bg-second-200 dark:hover:bg-second-800"
+        class="pill pill-icon tool-tile h-13 w-13 rounded-2xl"
       >
         <img
           src="/devicons/{tool.icon}.svg"

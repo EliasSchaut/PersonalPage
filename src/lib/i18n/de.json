@@ -60,14 +60,14 @@
     "today": "heute"
   },
   "donate": {
+    "copied": "IBAN in die Zwischenablage kopiert",
+    "copy": "IBAN kopieren",
     "me": "Spende {name}",
     "title": "Spenden"
   },
   "footer": {
-    "home": "Startseite",
-    "imprint": "Impressum",
-    "privacy": "Datenschutz",
-    "resources": "Ressourcen",
+    "donate": "Spenden",
+    "legal": "Rechtliches",
     "rss": "RSS-Feed",
     "source": "Quellcode",
     "title": "Footer"
@@ -95,7 +95,7 @@
         "content": "Studentische Hilfskraft (HiWi)",
         "organisation": "Informatik Studiengang Service (ISS)"
       },
-      "title": "🚀 Meine Erfahrungen",
+      "title": "Meine Erfahrungen",
       "uni": {
         "content": "Computer Science M.Sc.",
         "organisation": "Karlsruher Institut für Technologie (KIT)"
@@ -103,7 +103,6 @@
     },
     "intro": {
       "bio": "Es ist meine Mission, positive Stimmung zu verbreiten, wo immer ich auch hingehe! Ich erschaffe ständig neue Möglichkeiten, um den Spaß und die Produktivität in den Gemeinschaften, in denen ich tätig bin, zu steigern.",
-      "hey": "Heyoo! 🤟",
       "jobs": "Web-/Game-/Bot-Entwickler • kreativer Projektleiter • Software-Designer • leidenschaftlicher Programmierer",
       "my_name": "Ich bin Elias Lorenz Schaut",
       "traits": {
@@ -121,7 +120,7 @@
       "title": "Projekte"
     },
     "skills": {
-      "title": "🛠️ Meine Tools:"
+      "title": "Meine Tools"
     },
     "work": {
       "event": {
@@ -153,13 +152,15 @@
     "phone": "Telefon",
     "title": "Impressum"
   },
+  "legal": {
+    "title": "Rechtliches"
+  },
   "nav": {
     "about": "Über",
     "articles": "Artikel",
     "go_home": "Zurück zur Startseite",
     "home": "Start",
-    "projects": "Projekte",
-    "wiki": "Wiki"
+    "projects": "Projekte"
   },
   "newsletter": {
     "consent": "Ich stimme zu, dass meine E-Mail-Adresse zum Versand des Newsletters gespeichert wird. Siehe",

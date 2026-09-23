@@ -15,23 +15,22 @@
   setTheme(theme);
   onMount(() => theme.mount());
 
-  const narrow = $derived(
-    /^\/(articles|projects|resources)(\/.*)?$/.test(stripLocale(page.url.pathname)),
-  );
+  const narrow = $derived(/^\/(articles|projects)(\/.*)?$/.test(stripLocale(page.url.pathname)));
 </script>
 
-<Nav />
-{#if narrow}
-  <main
-    class="mx-auto w-full bg-second-50 px-6 py-32 text-base leading-7 text-second-800 md:w-3/4 lg:w-2/3 lg:px-8 xl:w-1/2 dark:bg-second-950 dark:text-second-200"
-  >
-    {@render children()}
-  </main>
-{:else}
-  <main
-    class="w-full bg-second-50 p-4 text-second-800 sm:p-10 dark:bg-second-950 dark:text-second-200"
-  >
-    {@render children()}
-  </main>
-{/if}
-<Footer />
+<div class="relative isolate flex min-h-screen flex-col overflow-x-clip">
+  <div class="aurora -z-10" aria-hidden="true"></div>
+  <Nav />
+  {#if narrow}
+    <main
+      class="mx-auto w-full flex-1 px-6 py-20 text-[17px] leading-7 sm:py-28 md:w-3/4 lg:w-2/3 lg:px-8 xl:w-1/2"
+    >
+      {@render children()}
+    </main>
+  {:else}
+    <main class="mx-auto w-full max-w-7xl flex-1 px-5 py-8 text-[17px] sm:px-10 sm:py-12">
+      {@render children()}
+    </main>
+  {/if}
+  <Footer />
+</div>

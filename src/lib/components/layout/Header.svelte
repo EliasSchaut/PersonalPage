@@ -5,11 +5,11 @@
 </script>
 
 <header class="max-w-2xl">
-  <h1 class="text-4xl font-bold tracking-tight text-second-800 sm:text-5xl dark:text-second-100">
+  <h1 class="text-grad rise text-4xl font-extrabold tracking-tight sm:text-5xl">
     {title}
   </h1>
-  <p class="mt-6 text-base text-second-600 dark:text-second-400">{intro}</p>
+  <p class="rise rise-1 mt-5 text-lg text-second-600 dark:text-second-300">{intro}</p>
 </header>
-<div class="mt-16 sm:mt-20">
+<div class="mt-12 sm:mt-16">
   {@render children()}
 </div>

@@ -7,5 +7,5 @@
 <iframe
   title="Ko-fi"
   src="https://ko-fi.com/kid_ilias/?hidefeed=true&widget=true&embed=true&preview=true"
-  class="mx-auto h-screen w-full rounded-lg bg-white p-2 ring-4 ring-prime-200 xs:w-[440px] xs:p-5"
+  class="glass mx-auto h-screen w-full rounded-3xl bg-white p-2 xs:w-[440px] xs:p-4"
 ></iframe>

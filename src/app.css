@@ -4,36 +4,128 @@
 
 @custom-variant dark (&:where(.dark, .dark *));
 
+/*
+ * CI "Solid Glass": a calm, static aurora behind the hero, frosted glass surfaces,
+ * Outfit display type, Nunito body type. Tokens live here; components use the
+ * utilities from @layer components below.
+ */
 @theme {
   --breakpoint-xs: 475px;
   --font-nunito: 'Nunito', ui-sans-serif, system-ui, sans-serif;
   --font-sans: 'Nunito', ui-sans-serif, system-ui, sans-serif;
+  --font-display: 'Outfit', 'Nunito', ui-sans-serif, system-ui, sans-serif;
 
-  --color-prime-50: var(--color-indigo-50);
-  --color-prime-100: var(--color-indigo-100);
-  --color-prime-200: var(--color-indigo-200);
-  --color-prime-300: var(--color-indigo-300);
-  --color-prime-400: var(--color-indigo-400);
-  --color-prime-500: var(--color-indigo-500);
-  --color-prime-600: var(--color-indigo-600);
-  --color-prime-700: var(--color-indigo-700);
-  --color-prime-800: var(--color-indigo-800);
-  --color-prime-900: var(--color-indigo-900);
-  --color-prime-950: var(--color-indigo-950);
+  /* primary indigo */
+  --color-prime-50: #eef0ff;
+  --color-prime-100: #e0e3ff;
+  --color-prime-200: #c6caff;
+  --color-prime-300: #a3a6ff;
+  --color-prime-400: #7b7bff;
+  --color-prime-500: #5b5bff;
+  --color-prime-600: #4a46ee;
+  --color-prime-700: #3d38cf;
+  --color-prime-800: #3230a6;
+  --color-prime-900: #2c2c84;
+  --color-prime-950: #1a1950;
 
-  --color-second-50: var(--color-gray-50);
-  --color-second-100: var(--color-gray-100);
-  --color-second-200: var(--color-gray-200);
-  --color-second-300: var(--color-gray-300);
-  --color-second-400: var(--color-gray-400);
-  --color-second-500: var(--color-gray-500);
-  --color-second-600: var(--color-gray-600);
-  --color-second-700: var(--color-gray-700);
-  --color-second-800: var(--color-gray-800);
-  --color-second-900: var(--color-gray-900);
-  --color-second-950: var(--color-gray-950);
+  /* navy neutrals */
+  --color-second-50: #f4f5fc;
+  --color-second-100: #e9ebf8;
+  --color-second-200: #d5d9f0;
+  --color-second-300: #b4bbe3;
+  --color-second-400: #8a93c2;
+  --color-second-500: #5b6187;
+  --color-second-600: #454b78;
+  --color-second-700: #2f3560;
+  --color-second-800: #1e2554;
+  --color-second-900: #161c45;
+  --color-second-950: #0c1131;
+
+  /* accents used by gradients and glows */
+  --color-accent-pink: #f0479b;
+  --color-accent-cyan: #12b8de;
+  --color-accent-violet: #8b5cf6;
+
+  --animate-rise: rise 0.7s cubic-bezier(0.2, 0.8, 0.2, 1) backwards;
+  --animate-blink: blink 1s steps(1) infinite;
+  --animate-ring: ring 2.4s ease-out infinite;
+
+  @keyframes rise {
+    from {
+      opacity: 0;
+      transform: translateY(18px);
+    }
+    to {
+      opacity: 1;
+      transform: none;
+    }
+  }
+  @keyframes blink {
+    50% {
+      opacity: 0;
+    }
+  }
+  @keyframes ring {
+    0%,
+    100% {
+      box-shadow: 0 0 0 0 var(--ring-color);
+    }
+    70% {
+      box-shadow: 0 0 0 14px transparent;
+    }
+  }
 }
 
+/* semantic surfaces: light */
+:root {
+  --surface: rgba(255, 255, 255, 0.66);
+  --surface-2: rgba(255, 255, 255, 0.5);
+  --line: rgba(255, 255, 255, 0.9);
+  --line-soft: rgba(27, 31, 59, 0.1);
+  --ring-color: rgba(91, 91, 255, 0.45);
+  --grad-a: var(--color-prime-500);
+  --grad-b: var(--color-accent-violet);
+  --grad-c: var(--color-accent-cyan);
+  --aurora-a: var(--color-prime-500);
+  --aurora-b: var(--color-accent-pink);
+  --aurora-c: var(--color-accent-cyan);
+}
+/* semantic surfaces: dark */
+.dark {
+  --surface: rgba(255, 255, 255, 0.09);
+  --surface-2: rgba(255, 255, 255, 0.05);
+  --line: rgba(255, 255, 255, 0.22);
+  --line-soft: rgba(255, 255, 255, 0.14);
+  --ring-color: rgba(123, 123, 255, 0.5);
+  --grad-a: var(--color-prime-400);
+  --grad-b: #a98bff;
+  --grad-c: #3fd9fa;
+  --aurora-a: var(--color-prime-400);
+  --aurora-b: #ff66b3;
+  --aurora-c: #3fd9fa;
+}
+
+@font-face {
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 400 800;
+  font-display: swap;
+  src: url('/fonts/Outfit/Outfit-Variable-latin.woff2') format('woff2');
+  unicode-range:
+    U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329,
+    U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 400 800;
+  font-display: swap;
+  src: url('/fonts/Outfit/Outfit-Variable-latin-ext.woff2') format('woff2');
+  unicode-range:
+    U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329,
+    U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F,
+    U+A720-A7FF;
+}
 @font-face {
   font-family: 'Nunito';
   font-style: normal;
@@ -95,20 +187,253 @@
   html {
     scroll-behavior: smooth;
   }
+  body {
+    @apply bg-second-50 text-second-800 antialiased dark:bg-second-950 dark:text-second-100;
+  }
   button {
     @apply hover:cursor-pointer;
   }
+  h1,
+  h2,
+  h3,
+  h4 {
+    @apply font-display;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.001s !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.001s !important;
+    }
+  }
 }
 
-/* Article prose: replaces the former ProseA / Orange MDC components */
+@layer components {
+  /* static aurora behind the hero; fades out towards the page body */
+  .aurora {
+    position: absolute;
+    inset: 0 0 auto 0;
+    height: 620px;
+    pointer-events: none;
+    background:
+      radial-gradient(
+        55% 90% at 12% 0%,
+        color-mix(in srgb, var(--aurora-a) 42%, transparent),
+        transparent 70%
+      ),
+      radial-gradient(
+        45% 80% at 88% 8%,
+        color-mix(in srgb, var(--aurora-b) 30%, transparent),
+        transparent 70%
+      ),
+      radial-gradient(
+        40% 60% at 55% 30%,
+        color-mix(in srgb, var(--aurora-c) 22%, transparent),
+        transparent 70%
+      );
+    mask-image: linear-gradient(180deg, #000 55%, transparent);
+    -webkit-mask-image: linear-gradient(180deg, #000 55%, transparent);
+  }
+
+  /* frosted glass surface */
+  .glass {
+    position: relative;
+    background: var(--surface);
+    border: 1px solid var(--line);
+    backdrop-filter: blur(24px) saturate(1.4);
+    -webkit-backdrop-filter: blur(24px) saturate(1.4);
+    /* keep the blurred surface on its own compositor layer so hovering does not re-rasterize it */
+    transform: translateZ(0);
+    will-change: transform;
+    backface-visibility: hidden;
+    box-shadow:
+      inset 0 1px 0 rgba(255, 255, 255, 0.28),
+      0 24px 60px -30px rgba(10, 14, 39, 0.35);
+    transition:
+      transform 0.3s cubic-bezier(0.2, 0.8, 0.2, 1),
+      box-shadow 0.3s,
+      border-color 0.3s;
+  }
+  .dark .glass {
+    box-shadow:
+      inset 0 1px 0 rgba(255, 255, 255, 0.28),
+      0 24px 60px -30px rgba(10, 14, 39, 0.7);
+  }
+  /* hover: a light elevate */
+  .glass-hover:hover {
+    transform: translate3d(0, -4px, 0);
+    border-color: var(--color-prime-400);
+    box-shadow:
+      inset 0 1px 0 rgba(255, 255, 255, 0.4),
+      0 28px 60px -28px rgba(123, 123, 255, 0.55);
+  }
+
+  /* pill: nav links, toggles, icon buttons */
+  .pill {
+    @apply inline-flex min-h-11 items-center gap-2 rounded-full px-4 text-[15px] font-bold text-second-800 dark:text-second-100;
+    background: var(--surface);
+    border: 1px solid var(--line);
+    backdrop-filter: blur(22px) saturate(1.4);
+    -webkit-backdrop-filter: blur(22px) saturate(1.4);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.22);
+    transform: translateZ(0);
+    will-change: transform;
+    backface-visibility: hidden;
+    transition:
+      transform 0.25s,
+      border-color 0.25s,
+      color 0.25s;
+  }
+  .pill:hover {
+    transform: translate3d(0, -2px, 0);
+    border-color: var(--color-prime-400);
+  }
+  .tool-tile {
+    transition:
+      transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1),
+      border-color 0.25s,
+      box-shadow 0.25s;
+  }
+  .tool-tile:hover {
+    transform: translate3d(0, -4px, 0);
+    border-color: var(--color-accent-cyan);
+    box-shadow:
+      inset 0 -4px 0 var(--color-accent-cyan),
+      inset 0 1px 0 rgba(255, 255, 255, 0.22);
+  }
+  .pill-active {
+    background: linear-gradient(90deg, var(--grad-a), var(--grad-b));
+    border-color: transparent;
+    color: #fff;
+  }
+  .pill-icon {
+    @apply h-11 w-11 justify-center px-0;
+  }
+
+  /* buttons */
+  .btn {
+    @apply inline-flex min-h-11 items-center justify-center gap-2.5 rounded-full px-6 text-base font-bold;
+    transition:
+      transform 0.25s,
+      box-shadow 0.25s,
+      filter 0.25s;
+  }
+  .btn:disabled {
+    @apply cursor-not-allowed opacity-70;
+  }
+  .btn-primary {
+    color: #fff;
+    background: linear-gradient(90deg, var(--grad-a), var(--grad-b));
+    box-shadow: 0 14px 30px -14px var(--grad-b);
+  }
+  .btn-primary:hover:not(:disabled) {
+    filter: brightness(1.08);
+    box-shadow: 0 18px 34px -14px var(--grad-b);
+  }
+  .btn-ghost {
+    @apply text-second-800 dark:text-second-100;
+    background: var(--surface);
+    border: 1px solid var(--line);
+    backdrop-filter: blur(22px) saturate(1.4);
+    -webkit-backdrop-filter: blur(22px) saturate(1.4);
+  }
+  .btn-ghost:hover:not(:disabled) {
+    border-color: var(--color-prime-400);
+  }
+
+  /* form fields */
+  .field {
+    @apply block min-h-11 w-full rounded-xl px-3.5 py-2.5 text-base text-second-900 placeholder:text-second-500 disabled:opacity-60 dark:text-white dark:placeholder:text-second-400;
+    background: var(--surface-2);
+    border: 1px solid var(--line-soft);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    transition:
+      border-color 0.2s,
+      box-shadow 0.2s;
+  }
+  .field:focus {
+    outline: none;
+    border-color: var(--color-prime-500);
+    box-shadow: 0 0 0 3px color-mix(in srgb, var(--color-prime-500) 30%, transparent);
+  }
+
+  /* gradient text for the name and page titles */
+  .text-grad {
+    background: linear-gradient(90deg, var(--grad-a), var(--grad-b) 60%, var(--grad-c));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+
+  /* small gradient tile that carries a section icon */
+  .icon-tile {
+    @apply flex h-10 w-10 shrink-0 items-center justify-center rounded-[14px] text-white [&>svg]:h-5.5 [&>svg]:w-5.5;
+    background: linear-gradient(135deg, var(--grad-a), var(--grad-b));
+  }
+
+  /* badges: tags */
+  .badge {
+    @apply inline-flex min-h-8 items-center rounded-full px-3.5 text-sm font-bold text-second-800 dark:text-second-100;
+    background: var(--surface);
+    border: 1px solid var(--line);
+    transition:
+      border-color 0.2s,
+      background 0.2s;
+  }
+  a.badge:hover {
+    border-color: var(--color-prime-400);
+    background: var(--surface-2);
+  }
+
+  /* staggered entrance */
+  .rise {
+    animation: var(--animate-rise);
+  }
+  .rise-1 {
+    animation-delay: 0.1s;
+  }
+  .rise-2 {
+    animation-delay: 0.25s;
+  }
+  .rise-3 {
+    animation-delay: 0.4s;
+  }
+  .rise-4 {
+    animation-delay: 0.55s;
+  }
+  .rise-5 {
+    animation-delay: 0.7s;
+  }
+
+  /* avatar glow */
+  .avatar-glow {
+    border: 1px solid var(--line);
+    box-shadow:
+      0 0 0 8px var(--surface),
+      0 0 60px 4px color-mix(in srgb, var(--color-prime-500) 55%, transparent),
+      0 0 140px 30px color-mix(in srgb, var(--color-accent-cyan) 22%, transparent);
+  }
+}
+
+/* Article prose */
+.prose {
+  --tw-prose-links: var(--color-prime-600);
+  --tw-prose-invert-links: var(--color-prime-300);
+}
 .prose a:not(.not-prose a) {
-  @apply border-b-0 border-prime-500 font-semibold text-prime-500 no-underline hover:border-b-2;
+  @apply border-b-0 border-prime-500 font-semibold text-prime-600 no-underline hover:border-b-2 dark:text-prime-300;
 }
 .prose mark {
-  @apply bg-transparent text-orange-500;
+  @apply bg-transparent text-accent-pink;
 }
 .prose img {
-  @apply mx-auto rounded-md;
+  @apply mx-auto rounded-2xl;
+}
+.prose :where(h1, h2, h3, h4) {
+  @apply font-display;
 }
 .prose .heading-anchor {
   border: 0;

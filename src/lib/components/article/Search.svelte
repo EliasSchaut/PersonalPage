@@ -53,7 +53,7 @@
 <label class="relative block">
   <span class="sr-only">{i18n.t('articles.search.label')}</span>
   <MagnifyingGlassIcon
-    class="pointer-events-none absolute top-1/2 left-3 h-5 w-5 -translate-y-1/2 text-second-400"
+    class="pointer-events-none absolute top-1/2 left-3.5 h-5 w-5 -translate-y-1/2 text-second-500 dark:text-second-400"
     aria-hidden="true"
   />
   <input
@@ -61,6 +61,6 @@
     bind:value={query}
     onfocus={ensureIndex}
     placeholder={i18n.t('articles.search.placeholder')}
-    class="block w-full rounded-full bg-white py-2 pr-4 pl-10 text-sm text-second-900 outline-1 -outline-offset-1 outline-second-300 placeholder:text-second-400 focus:outline-2 focus:-outline-offset-2 focus:outline-prime-600 dark:bg-white/5 dark:text-white dark:outline-white/10 dark:focus:outline-prime-500"
+    class="field rounded-full pl-11"
   />
 </label>

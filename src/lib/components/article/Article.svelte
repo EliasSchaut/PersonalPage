@@ -6,7 +6,7 @@
 
 <article
   class={[
-    'prose max-w-none text-second-700 lg:prose-xl dark:text-second-100 dark:prose-invert',
+    'prose prose-lg max-w-none text-second-800 lg:prose-xl dark:text-second-100 dark:prose-invert',
     className,
   ]}
 >
