@@ -1,7 +1,7 @@
 <script lang="ts">
   let { size = 'big', class: className = '' }: { size?: 'big' | 'small'; class?: string } =
     $props();
-  const px = $derived(size === 'big' ? 192 : 40);
+  const px = $derived(size === 'big' ? 240 : 40);
 </script>
 
 <img
@@ -11,8 +11,8 @@
   height={px}
   class={[
     size === 'big'
-      ? 'h-48 w-48 rounded-md'
-      : 'h-10 w-10 rounded-full border-2 border-prime-600 dark:border-prime-400',
+      ? 'avatar-glow h-44 w-44 rounded-[36px] object-cover sm:h-60 sm:w-60'
+      : 'h-10 w-10 rounded-full border-2 border-prime-500 object-cover dark:border-prime-400',
     className,
   ]}
 />

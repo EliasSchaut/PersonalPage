@@ -25,7 +25,7 @@
 
 <Header title={i18n.t('articles.title')} intro={i18n.t('articles.intro')}>
   <div class="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
-    <div class="flex flex-wrap gap-1 text-sm">
+    <div class="flex flex-wrap gap-2">
       {#each data.tags as tag (tag.slug)}
         <Badge content="{tag.tag} ({tag.count})" href={i18n.path(`/articles/tags/${tag.slug}`)} />
       {/each}
@@ -37,13 +37,11 @@
 
   <nav>
     {#if shown.length === 0}
-      <p class="mt-10 text-center text-second-600 dark:text-second-400">
+      <p class="mt-10 text-center text-lg text-second-600 dark:text-second-300">
         {i18n.t('articles.search.no_results')}
       </p>
     {:else}
-      <ul
-        class="mx-auto mt-10 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 border-t border-second-200 pt-10 sm:mt-16 sm:pt-16 lg:mx-0 lg:max-w-none dark:border-second-500"
-      >
+      <ul class="mt-10 flex flex-col gap-5">
         {#each shown as article (article.slug)}
           <li><ArticlePreview {article} /></li>
         {/each}

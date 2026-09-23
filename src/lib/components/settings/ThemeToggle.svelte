@@ -11,16 +11,16 @@
 
 <button
   type="button"
-  class="flex items-center rounded-full bg-white/90 px-3 py-2 shadow-lg ring-1 shadow-second-800/5 ring-second-900/5 backdrop-blur-sm transition dark:bg-second-800/90 dark:ring-white/10 dark:hover:ring-white/20"
+  class="pill pill-icon"
   onclick={() => theme.toggle()}
   aria-label={i18n.t(`common.theme.${theme.preference}`)}
   title={i18n.t(`common.theme.${theme.preference}`)}
 >
   {#if theme.preference === 'light'}
-    <SunIcon class="h-6 w-6 text-second-900 dark:text-second-100" aria-hidden="true" />
+    <SunIcon class="h-6 w-6" aria-hidden="true" />
   {:else if theme.preference === 'dark'}
-    <MoonIcon class="h-6 w-6 text-second-900 dark:text-second-100" aria-hidden="true" />
+    <MoonIcon class="h-6 w-6" aria-hidden="true" />
   {:else}
-    <ComputerDesktopIcon class="h-6 w-6 text-second-900 dark:text-second-100" aria-hidden="true" />
+    <ComputerDesktopIcon class="h-6 w-6" aria-hidden="true" />
   {/if}
 </button>

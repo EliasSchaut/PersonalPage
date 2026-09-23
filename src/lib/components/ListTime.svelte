@@ -12,42 +12,36 @@
   let { events }: { events: TimeEvent[] } = $props();
 </script>
 
-<div class="flow-root">
-  <ul class="-mb-8">
-    {#each events as event, i (event.content)}
-      <li>
-        <div class="relative pb-8">
-          {#if i !== events.length - 1}
-            <span
-              class="absolute top-4 left-4 -ml-px h-full w-0.5 bg-second-200 dark:bg-second-800"
-              aria-hidden="true"
-            ></span>
-          {/if}
-          <div class="relative flex gap-x-3">
-            <div>
-              <span
-                class={[
-                  event.past ? 'bg-second-300 dark:bg-second-800' : 'bg-prime-500',
-                  'flex h-8 w-8 items-center justify-center rounded-full ring-8 ring-white dark:ring-second-900',
-                ]}
-              >
-                {#if event.past}
-                  <ArrowUpIcon class="h-5 w-5 text-white" aria-hidden="true" />
-                {:else}
-                  <ArrowRightIcon class="h-5 w-5 text-white" aria-hidden="true" />
-                {/if}
-              </span>
-            </div>
-            <div class="flex flex-1 items-center justify-between gap-x-5">
-              <div class="flex min-w-0 flex-col">
-                <p class="text-sm">{event.content}</p>
-                <p class="text-xs text-second-500 dark:text-second-400">{event.organisation}</p>
-              </div>
-              <div class="text-right text-sm whitespace-nowrap"><time>{event.time}</time></div>
-            </div>
-          </div>
-        </div>
-      </li>
-    {/each}
-  </ul>
-</div>
+<ol class="relative flex flex-col gap-6">
+  <span
+    class="absolute top-5 bottom-5 left-4 w-0.5 -translate-x-1/2 bg-second-200 dark:bg-white/15"
+    aria-hidden="true"
+  ></span>
+  {#each events as event (event.content)}
+    <li class="relative flex items-start gap-4">
+      <span
+        class={[
+          'flex h-8 w-8 shrink-0 items-center justify-center rounded-full',
+          event.past
+            ? 'bg-second-200 text-second-600 dark:bg-second-700 dark:text-second-200'
+            : 'animate-ring bg-prime-500 text-white',
+        ]}
+      >
+        {#if event.past}
+          <ArrowUpIcon class="h-4 w-4" aria-hidden="true" />
+        {:else}
+          <ArrowRightIcon class="h-4 w-4" aria-hidden="true" />
+        {/if}
+      </span>
+      <div class="flex min-w-0 flex-1 flex-col pt-0.5">
+        <p class="font-bold text-second-900 dark:text-white">{event.content}</p>
+        <p class="text-[15px] text-second-600 dark:text-second-300">{event.organisation}</p>
+      </div>
+      <time
+        class="pt-1 text-[15px] font-semibold whitespace-nowrap text-second-600 dark:text-second-300"
+      >
+        {event.time}
+      </time>
+    </li>
+  {/each}
+</ol>

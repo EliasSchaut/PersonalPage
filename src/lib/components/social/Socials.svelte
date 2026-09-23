@@ -9,13 +9,13 @@
   let { class: className = '' }: { class?: string } = $props();
 </script>
 
-<div class={['flex items-center', className]}>
+<div class={['flex items-center gap-1.5', className]}>
   {#each socials as social (social.name)}
     <a
       href={social.href}
       target="_blank"
       rel="noopener noreferrer"
-      class="flex h-6 w-6 items-center justify-center text-second-400 hover:text-second-500 dark:text-second-500 dark:hover:text-second-400 [&>svg]:h-5 [&>svg]:w-5"
+      class="pill pill-icon [&>svg]:h-5.5 [&>svg]:w-5.5"
     >
       <span class="sr-only">{social.name}</span>
       {#if social.icon === 'mail'}<EnvelopeIcon aria-hidden="true" />

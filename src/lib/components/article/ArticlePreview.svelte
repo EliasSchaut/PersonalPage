@@ -8,13 +8,10 @@
   const i18n = getI18n();
 </script>
 
-<a
-  class="group flex flex-col items-center justify-start gap-6 rounded-2xl p-5 hover:bg-second-100 sm:flex-row dark:hover:bg-second-900"
-  href={i18n.path(article.path)}
->
+<article class="glass glass-hover group relative flex flex-col gap-5 rounded-3xl p-5 sm:flex-row">
   {#if article.cover}
     <img
-      class="h-32 w-32 rounded-md object-cover transition-transform duration-300 group-hover:scale-105"
+      class="h-32 w-32 shrink-0 rounded-2xl object-cover transition-transform duration-300 group-hover:scale-105"
       height="128"
       width="128"
       src={article.cover}
@@ -22,33 +19,29 @@
       loading="lazy"
     />
   {/if}
-  <div class="flex w-full max-w-xl flex-col items-start justify-between">
-    <div class="flex w-full items-center gap-x-4 text-xs">
+  <div class="flex min-w-0 flex-1 flex-col gap-2">
+    <div
+      class="flex w-full flex-wrap items-center gap-x-4 gap-y-2 text-sm font-semibold text-second-600 dark:text-second-300"
+    >
       {#if article.date}
-        <time datetime={article.date} class="text-second-500 dark:text-second-400">
-          {i18n.formatDate(article.date)}
-        </time>
+        <time datetime={article.date}>{i18n.formatDate(article.date)}</time>
       {/if}
-      <span class="text-second-500 dark:text-second-400">
-        {i18n.t('articles.reading_time', { minutes: article.readingMinutes })}
-      </span>
-      <div class="flex flex-1 justify-end gap-1">
+      <span>{i18n.t('articles.reading_time', { minutes: article.readingMinutes })}</span>
+      <div class="flex flex-1 justify-end gap-1.5">
         {#each article.tags as tag (tag)}
           <Badge content={tag} href={i18n.path(`/articles/tags/${tagSlug(tag)}`)} />
         {/each}
       </div>
     </div>
-    <div>
-      <h3
-        class="mt-3 text-lg leading-6 font-semibold text-second-900 group-hover:underline dark:text-white"
-      >
+    <h3 class="text-xl font-extrabold text-second-900 dark:text-white">
+      <a href={i18n.path(article.path)} class="after:absolute after:inset-0 after:rounded-3xl">
         {article.title}
-      </h3>
-      {#if article.description}
-        <p class="mt-5 line-clamp-3 text-sm leading-6 text-second-600 dark:text-second-100">
-          {article.description}
-        </p>
-      {/if}
-    </div>
+      </a>
+    </h3>
+    {#if article.description}
+      <p class="line-clamp-3 text-base leading-7 text-second-700 dark:text-second-200">
+        {article.description}
+      </p>
+    {/if}
   </div>
-</a>
+</article>

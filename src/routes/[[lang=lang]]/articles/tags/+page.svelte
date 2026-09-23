@@ -15,10 +15,10 @@
       <li>
         <a
           href={i18n.path(`/articles/tags/${tag.slug}`)}
-          class="flex items-baseline gap-2 rounded-xl border border-second-200 px-4 py-3 hover:bg-second-100 dark:border-second-700 dark:hover:bg-second-900"
+          class="glass glass-hover flex items-baseline gap-2 rounded-2xl px-4 py-3"
         >
-          <span class="font-semibold text-second-900 dark:text-white">{tag.tag}</span>
-          <span class="text-sm text-second-500 dark:text-second-400">
+          <span class="font-bold text-second-900 dark:text-white">{tag.tag}</span>
+          <span class="text-sm text-second-600 dark:text-second-300">
             {tag.count === 1
               ? i18n.t('articles.tags.count_one')
               : i18n.t('articles.tags.count', { count: tag.count })}

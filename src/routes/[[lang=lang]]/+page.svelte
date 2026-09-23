@@ -11,8 +11,10 @@
   import DonateModal from '$lib/components/DonateModal.svelte';
   import { experiences, CV_URL } from '$lib/data/experiences';
   import { getI18n } from '$lib/i18n/context.svelte';
-  import BriefcaseIcon from '~icons/heroicons/briefcase';
-  import PaperAirplaneIcon from '~icons/heroicons/paper-airplane';
+  import RocketLaunchIcon from '~icons/heroicons/rocket-launch';
+  import ChatBubbleLeftIcon from '~icons/heroicons/chat-bubble-left';
+  import WrenchScrewdriverIcon from '~icons/heroicons/wrench-screwdriver';
+  import ArrowDownTrayIcon from '~icons/heroicons/arrow-down-tray';
 
   let { form } = $props();
   const i18n = getI18n();
@@ -33,56 +35,62 @@
 
 <SeoHead />
 
-<div class="flex flex-col gap-y-8">
-  <section id="intro" class="flex justify-between gap-x-6">
-    <div class="flex flex-col gap-y-4">
-      <h1 class="text-lg">{i18n.t('home.intro.hey')}</h1>
-      <Avatar class="sm:hidden" />
+<div class="flex flex-col gap-y-14 sm:gap-y-16">
+  <section
+    id="intro"
+    class="flex flex-col items-center gap-8 text-center sm:flex-row sm:items-center sm:justify-between sm:gap-12 sm:text-left"
+  >
+    <Avatar class="rise rise-1 sm:order-2" />
+    <div class="flex min-w-0 flex-1 flex-col items-center gap-y-4 sm:items-start">
+      <h1 class="text-grad rise rise-1 text-4xl font-extrabold tracking-tight sm:text-6xl">
+        {i18n.t('home.intro.my_name')}
+      </h1>
       {#key i18n.locale}
-        <Typewriter
-          class="text-3xl font-semibold"
-          strings={traits}
-          initString={i18n.t('home.intro.my_name')}
-          initDelay={2000}
-          autostart
-          loop
-        />
+        <p
+          class="rise rise-2 font-display text-xl font-semibold text-prime-600 sm:text-2xl dark:text-prime-300"
+        >
+          <Typewriter strings={traits} initString={traits[1]} initDelay={2000} autostart loop />
+        </p>
       {/key}
-      <p>{i18n.t('home.intro.jobs')}</p>
-      <p class="w-full text-second-600 italic lg:w-2/3 dark:text-second-400">
+      <p
+        class="rise rise-3 text-[15px] font-semibold tracking-wide text-second-600 dark:text-second-300"
+      >
+        {i18n.t('home.intro.jobs')}
+      </p>
+      <p class="rise rise-4 max-w-xl text-lg leading-8 text-second-600 italic dark:text-second-300">
         {i18n.t('home.intro.bio')}
       </p>
-      <Socials class="gap-x-4" />
+      <Socials class="rise rise-5 justify-center sm:justify-start" />
     </div>
-    <Avatar class="hidden sm:block" />
   </section>
 
-  <section id="tools" class="flex flex-col gap-y-2">
-    <h2 class="text-lg">{i18n.t('home.skills.title')}</h2>
+  <section id="tools" class="flex flex-col gap-y-5">
+    <h2 class="flex items-center gap-3 text-2xl font-extrabold text-second-900 dark:text-white">
+      <span class="icon-tile"><WrenchScrewdriverIcon aria-hidden="true" /></span>
+      <span>{i18n.t('home.skills.title')}</span>
+    </h2>
     <Tools />
   </section>
 
-  <div class="flex w-full flex-col justify-between gap-8 md:flex-row">
-    <section id="experiences" class="flex w-full flex-col gap-y-4">
-      <Card title={i18n.t('home.experiences.title')}>
-        {#snippet icon()}<BriefcaseIcon aria-hidden="true" />{/snippet}
-        <div class="flex w-full flex-col gap-y-5">
+  <div class="grid grid-cols-1 gap-8 md:grid-cols-2">
+    <section id="experiences" class="flex">
+      <Card title={i18n.t('home.experiences.title')} class="w-full">
+        {#snippet icon()}<RocketLaunchIcon aria-hidden="true" />{/snippet}
+        <div class="flex w-full flex-col gap-y-7">
           <ListTime {events} />
-          <a
-            class="w-full rounded-md bg-second-100 p-2 text-center hover:bg-second-200 dark:bg-second-800 dark:hover:bg-second-700"
-            href={CV_URL}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            {i18n.t('home.experiences.cv')} ⬇
-          </a>
+          <div>
+            <a class="btn btn-ghost" href={CV_URL} target="_blank" rel="noopener noreferrer">
+              {i18n.t('home.experiences.cv')}
+              <ArrowDownTrayIcon class="h-5 w-5" aria-hidden="true" />
+            </a>
+          </div>
         </div>
       </Card>
     </section>
 
-    <section id="contact" class="flex w-full flex-col gap-y-4">
-      <Card title={i18n.t('home.contact.title')}>
-        {#snippet icon()}<PaperAirplaneIcon aria-hidden="true" />{/snippet}
+    <section id="contact" class="flex">
+      <Card title={i18n.t('home.contact.title')} class="w-full">
+        {#snippet icon()}<ChatBubbleLeftIcon aria-hidden="true" />{/snippet}
         <Contact {form} />
       </Card>
     </section>

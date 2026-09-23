@@ -60,14 +60,14 @@
     "today": "today"
   },
   "donate": {
+    "copied": "IBAN copied to clipboard",
+    "copy": "Copy IBAN",
     "me": "Donate {name}",
     "title": "Donate"
   },
   "footer": {
-    "home": "Home",
-    "imprint": "Imprint",
-    "privacy": "Privacy",
-    "resources": "Resources",
+    "donate": "Donate",
+    "legal": "Legal",
     "rss": "RSS Feed",
     "source": "Source Code",
     "title": "Footer"
@@ -95,7 +95,7 @@
         "content": "Student Research Assistant (HiWi)",
         "organisation": "Informatics Study Program Services (ISS)"
       },
-      "title": "🚀 My Experiences",
+      "title": "My Experiences",
       "uni": {
         "content": "Informatik M.Sc.",
         "organisation": "Karlsruher Institut for Technology (KIT)"
@@ -103,7 +103,6 @@
     },
     "intro": {
       "bio": "It's my mission to spread positivity wherever I go! I'm constantly creating ways to enhance the fun and productivity of the communities I'm involved in.",
-      "hey": "Hey There! 🤟",
       "jobs": "Web/Game/Bot Developer • Creative Project Manager • Software Designer • Passionate Programmer",
       "my_name": "I'm Elias Lorenz Schaut",
       "traits": {
@@ -121,7 +120,7 @@
       "title": "Projects"
     },
     "skills": {
-      "title": "🛠️ My Tools:"
+      "title": "My Tools"
     },
     "work": {
       "event": {
@@ -153,13 +152,15 @@
     "phone": "Phone",
     "title": "Imprint"
   },
+  "legal": {
+    "title": "Legal"
+  },
   "nav": {
     "about": "About",
     "articles": "Articles",
     "go_home": "Go back home",
     "home": "Home",
-    "projects": "Projects",
-    "wiki": "Wiki"
+    "projects": "Projects"
   },
   "newsletter": {
     "consent": "I agree that my e-mail address is stored to send me the newsletter. See the",

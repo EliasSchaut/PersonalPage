@@ -1,5 +1,4 @@
 <script lang="ts">
-  import Socials from '../social/Socials.svelte';
   import { getI18n } from '$lib/i18n/context.svelte';
   import { site } from '$lib/data/socials';
 
@@ -7,37 +6,29 @@
   const year = new Date().getFullYear();
 
   const links = $derived([
-    { title: i18n.t('footer.home'), href: i18n.path('/') },
     { title: i18n.t('footer.source'), href: site.repo, external: true },
-    { title: i18n.t('footer.resources'), href: i18n.path('/resources') },
     { title: i18n.t('footer.rss'), href: i18n.path('/rss.xml'), external: true },
-    { title: i18n.t('footer.imprint'), href: i18n.path('/imprint') },
-    { title: i18n.t('footer.privacy'), href: i18n.path('/privacy') },
+    { title: i18n.t('footer.donate'), href: i18n.path('/donate') },
+    { title: i18n.t('footer.legal'), href: i18n.path('/legal') },
   ]);
 </script>
 
-<footer class="bg-second-100 dark:bg-second-900">
-  <div class="mx-auto max-w-7xl overflow-hidden px-6 py-20 sm:py-24 lg:px-8">
-    <nav
-      class="-mb-6 columns-2 sm:flex sm:justify-center sm:space-x-12"
-      aria-label={i18n.t('footer.title')}
-    >
+<footer class="mt-12 border-t border-second-200 dark:border-white/10">
+  <div
+    class="mx-auto flex w-full max-w-7xl flex-col-reverse items-center gap-3 px-5 py-6 text-sm text-second-600 sm:flex-row sm:justify-between sm:px-10 dark:text-second-300"
+  >
+    <p>&copy; 2023-{year} Elias Lorenz Schaut</p>
+    <nav class="flex flex-wrap justify-center gap-x-5 gap-y-2" aria-label={i18n.t('footer.title')}>
       {#each links as link (link.title)}
-        <div class="pb-6">
-          <a
-            href={link.href}
-            target={link.external ? '_blank' : undefined}
-            rel={link.external ? 'noopener noreferrer' : undefined}
-            class="text-sm leading-6 text-second-600 hover:text-second-900 dark:text-second-300 dark:hover:text-second-400"
-          >
-            {link.title}
-          </a>
-        </div>
+        <a
+          href={link.href}
+          target={link.external ? '_blank' : undefined}
+          rel={link.external ? 'noopener noreferrer' : undefined}
+          class="transition hover:text-prime-600 dark:hover:text-prime-300"
+        >
+          {link.title}
+        </a>
       {/each}
     </nav>
-    <Socials class="mt-10 justify-center gap-x-10" />
-    <p class="mt-10 text-center text-xs leading-5 text-second-500 dark:text-second-300">
-      &copy; 2023-{year} Elias Lorenz Schaut
-    </p>
   </div>
 </footer>

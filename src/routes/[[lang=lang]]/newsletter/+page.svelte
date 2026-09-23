@@ -9,6 +9,6 @@
 
 <SeoHead title={i18n.t('newsletter.title')} description={i18n.t('newsletter.intro')} />
 
-<div class="mx-auto my-10 max-w-xl">
+<div class="mx-auto max-w-xl">
   <NewsletterForm {form} />
 </div>

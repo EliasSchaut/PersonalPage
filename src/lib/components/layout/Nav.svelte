@@ -8,25 +8,20 @@
   const i18n = getI18n();
 </script>
 
-<nav
-  class="flex w-full items-center justify-between border-b-4 border-second-200 bg-second-100 p-4 dark:border-second-800 dark:bg-second-900"
->
-  <div class="hidden xs:inline">
-    <a href={i18n.path('/')} class="flex items-center gap-3">
-      <Avatar size="small" />
-      <span
-        class="bg-linear-to-r from-blue-800 to-prime-800 bg-clip-text font-bold text-transparent select-none dark:from-blue-200 dark:to-prime-200"
-      >
-        Elias Schaut
-      </span>
-    </a>
-  </div>
+<nav class="mx-auto flex w-full max-w-7xl items-center justify-between gap-4 px-5 py-4 sm:px-10">
+  <a href={i18n.path('/')} class="flex items-center gap-3">
+    <Avatar size="small" />
+    <span class="text-grad hidden font-display text-lg font-extrabold select-none xs:inline">
+      Elias Schaut
+    </span>
+  </a>
 
-  <div class="block xs:absolute xs:left-1/2 xs:-translate-x-1/2 xs:transform">
+  <div class="hidden md:absolute md:left-1/2 md:block md:-translate-x-1/2">
     <NavMenu />
   </div>
 
-  <div class="flex gap-3 rounded-full bg-white/90 dark:bg-second-800/90">
+  <div class="flex items-center gap-2">
+    <div class="md:hidden"><NavMenu /></div>
     <LangToggle />
     <ThemeToggle />
   </div>
