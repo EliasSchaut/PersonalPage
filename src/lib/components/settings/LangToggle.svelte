@@ -14,9 +14,7 @@
   }
 </script>
 
-<div
-  class="flex items-center gap-x-2 rounded-full bg-white/90 px-3 py-2 shadow-lg ring-1 shadow-second-800/5 ring-second-900/5 backdrop-blur-sm transition dark:bg-second-800/90 dark:ring-white/10 dark:hover:ring-white/20"
->
+<div class="pill gap-x-2.5 px-3.5">
   {#each LOCALES as locale (locale)}
     <a
       href={href(locale)}
@@ -25,11 +23,13 @@
       aria-current={i18n.locale === locale ? 'true' : undefined}
       aria-label={i18n.t(`common.lang.${locale}`)}
       onclick={() => remember(locale)}
+      data-sveltekit-reload
+      data-sveltekit-preload-data="off"
       class={[
-        'font-bold',
+        'transition',
         i18n.locale === locale
-          ? 'text-second-900 dark:text-second-100'
-          : 'text-second-400 hover:text-second-500',
+          ? 'text-second-900 dark:text-white'
+          : 'text-second-500 hover:text-prime-600 dark:text-second-400 dark:hover:text-prime-300',
       ]}
     >
       {locale}
