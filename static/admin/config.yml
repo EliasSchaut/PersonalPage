@@ -1,0 +1,99 @@
+# Sveltia CMS configuration — https://github.com/sveltia/sveltia-cms
+backend:
+  name: github
+  repo: EliasSchaut/PersonalPage
+  branch: main
+  base_url: https://schaut.dev
+  auth_endpoint: api/oauth/auth
+  commit_messages:
+    create: 'content: create {{collection}} "{{slug}}"'
+    update: 'content: update {{collection}} "{{slug}}"'
+    delete: 'content: delete {{collection}} "{{slug}}"'
+    uploadMedia: 'content: upload "{{path}}"'
+    deleteMedia: 'content: delete "{{path}}"'
+
+site_url: https://schaut.dev
+display_url: https://schaut.dev
+logo_url: https://schaut.dev/favicon/android-chrome-192x192.png
+
+# Body images / PDFs referenced as /articles/<file>
+media_folder: static/articles
+public_folder: /articles
+
+slug:
+  encoding: ascii
+  clean_accents: true
+
+i18n:
+  structure: multiple_folders # content/articles/<locale>/<slug>.md
+  locales: [en, de]
+  default_locale: en
+  initial_locales: all
+
+collections:
+  - name: articles
+    label: Articles
+    label_singular: Article
+    folder: content/articles
+    create: true
+    i18n: true
+    format: yaml-frontmatter
+    extension: md
+    slug: '{{slug}}'
+    identifier_field: title
+    summary: '{{date}} — {{title}}'
+    sortable_fields: [date, title]
+    preview_path: articles/{{slug}}
+    view_filters:
+      - label: Published
+        field: published
+        pattern: true
+      - label: Drafts
+        field: published
+        pattern: false
+    fields:
+      - { name: title, label: Title, widget: string, i18n: true }
+      - { name: description, label: Description, widget: text, i18n: true }
+      - name: cover
+        label: Cover image
+        widget: image
+        required: false
+        i18n: duplicate
+        media_folder: static/articles/covers
+        public_folder: /articles/covers
+      - name: date
+        label: Date
+        widget: datetime
+        format: YYYY-MM-DD
+        date_format: YYYY-MM-DD
+        time_format: false
+        picker_utc: true
+        i18n: duplicate
+      - { name: published, label: Published, widget: boolean, default: false, i18n: duplicate }
+      - name: tags
+        label: Tags
+        widget: list
+        i18n: duplicate
+        field: { name: tag, label: Tag, widget: string }
+      - { name: body, label: Body, widget: markdown, i18n: true }
+
+  - name: pages
+    label: Pages
+    i18n: true
+    files:
+      - name: resources
+        label: Resources
+        file: content/resources.{{locale}}.md
+        i18n: true
+        fields:
+          - { name: title, label: Title, widget: string, i18n: true }
+          - { name: description, label: Description, widget: text, i18n: true }
+          - name: date
+            label: Date
+            widget: datetime
+            format: YYYY-MM-DD
+            date_format: YYYY-MM-DD
+            time_format: false
+            i18n: duplicate
+          - { name: published, label: Published, widget: boolean, i18n: duplicate }
+          - { name: body, label: Body, widget: markdown, i18n: true }

@@ -2,11 +2,10 @@
   "name": "Basic Node.js",
   "build": { "dockerfile": "Dockerfile" },
   "remoteUser": "node",
-  forwardPorts: [3000],
-  "customizations" : {
-    "jetbrains" : {
-      "backend" : "WebStorm"
+  "forwardPorts": [3000],
+  "customizations": {
+    "jetbrains": {
+      "backend": "WebStorm"
     }
   }
-
 }

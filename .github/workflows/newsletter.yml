@@ -1,0 +1,28 @@
+name: Newsletter
+
+# Sends a Listmonk campaign for every newly published article.
+# Sveltia CMS commits land on main, so publishing from /admin triggers this.
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'content/articles/**'
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+      - run: node scripts/notify-newsletter.mjs
+        env:
+          LISTMONK_URL: ${{ secrets.LISTMONK_URL }}
+          LISTMONK_API_USER: ${{ secrets.LISTMONK_API_USER }}
+          LISTMONK_API_TOKEN: ${{ secrets.LISTMONK_API_TOKEN }}
+          LISTMONK_LIST_ID_EN: ${{ secrets.LISTMONK_LIST_ID_EN }}
+          LISTMONK_LIST_ID_DE: ${{ secrets.LISTMONK_LIST_ID_DE }}
+          SITE_URL: https://schaut.dev

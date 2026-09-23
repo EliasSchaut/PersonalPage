@@ -1,0 +1,213 @@
+{
+  "articles": {
+    "all_tags": "Alle Themen",
+    "back_to_articles": "Zurück zu allen Artikeln",
+    "intro": "Meine gesammelten Gedanken, Projekte und Inspirationen – in chronologischer Reihenfolge.",
+    "next": "Nächster Artikel",
+    "prev": "Vorheriger Artikel",
+    "published_on": "Veröffentlicht am",
+    "reading_time": "{minutes} Min. Lesezeit",
+    "return_overview": "Zurück zur Übersicht",
+    "search": {
+      "label": "Artikel suchen",
+      "no_results": "Keine Artikel passen zu deiner Suche.",
+      "placeholder": "Artikel suchen …"
+    },
+    "tag_not_found": "Es wurde kein Eintrag für diesen Tag gefunden ...",
+    "tags": {
+      "count": "{count} Artikel",
+      "count_one": "1 Artikel",
+      "intro": "Alle Artikel nach Thema durchstöbern.",
+      "tagged": "Artikel zum Thema „{tag}“",
+      "title": "Themen"
+    },
+    "title": "Kreativ-Blog: Ideen, Erfahrungen und Umsetzungen.",
+    "toc": "Inhalt"
+  },
+  "banner": {
+    "contact": "Kontakt"
+  },
+  "common": {
+    "and": "und",
+    "err": {
+      "404": {
+        "desc": "Sorry, die gesuchte Seite konnte nicht gefunden werden.",
+        "title": "Seite nicht gefunden"
+      },
+      "500": {
+        "desc": "Ein unerwarteter Fehler ist aufgetreten. Bitte versuche es später erneut.",
+        "title": "Etwas ist schiefgelaufen"
+      }
+    },
+    "lang": {
+      "de": "Deutsch",
+      "en": "Englisch"
+    },
+    "modal": {
+      "close": "Schließen",
+      "go_back": "Gehe zurück"
+    },
+    "sr": {
+      "dismiss": "Schließen",
+      "open_main_menu": "Hauptmenü öffnen",
+      "open_user_menu": "Benutzermenü öffnen"
+    },
+    "theme": {
+      "dark": "Dunkel",
+      "light": "Hell",
+      "system": "System"
+    },
+    "today": "heute"
+  },
+  "donate": {
+    "me": "Spende {name}",
+    "title": "Spenden"
+  },
+  "footer": {
+    "home": "Startseite",
+    "imprint": "Impressum",
+    "privacy": "Datenschutz",
+    "resources": "Ressourcen",
+    "rss": "RSS-Feed",
+    "source": "Quellcode",
+    "title": "Footer"
+  },
+  "home": {
+    "contact": {
+      "form": {
+        "agree": "Mit dem Klick akzeptierst du die",
+        "email": "Deine E-Mail",
+        "error_generic": "Etwas ist schiefgelaufen. Bitte versuche es später erneut.",
+        "message": "Nachricht",
+        "privacy_policy": "Datenschutzerklärung",
+        "sending": "Wird gesendet ...",
+        "submit": "Lass uns reden",
+        "success": "Danke! Deine Nachricht wurde gesendet."
+      },
+      "title": "Kontakt"
+    },
+    "experiences": {
+      "andrena": {
+        "content": "Werkstudent"
+      },
+      "cv": "CV herunterladen",
+      "iss": {
+        "content": "Studentische Hilfskraft (HiWi)",
+        "organisation": "Informatik Studiengang Service (ISS)"
+      },
+      "title": "🚀 Meine Erfahrungen",
+      "uni": {
+        "content": "Computer Science M.Sc.",
+        "organisation": "Karlsruher Institut für Technologie (KIT)"
+      }
+    },
+    "intro": {
+      "bio": "Es ist meine Mission, positive Stimmung zu verbreiten, wo immer ich auch hingehe! Ich erschaffe ständig neue Möglichkeiten, um den Spaß und die Produktivität in den Gemeinschaften, in denen ich tätig bin, zu steigern.",
+      "hey": "Heyoo! 🤟",
+      "jobs": "Web-/Game-/Bot-Entwickler • kreativer Projektleiter • Software-Designer • leidenschaftlicher Programmierer",
+      "my_name": "Ich bin Elias Lorenz Schaut",
+      "traits": {
+        "0": "🔭 Ich liebe es, neue Dinge zu lernen",
+        "1": "🌱 Ich entwickle Apps, um Gemeinschaften zu verbessern",
+        "2": "🔓 Ich liebe es, Open Source zu programmieren",
+        "3": "🤔 Ich bin offen für Zusammenarbeit",
+        "4": "💬 Ich bin voller kreativer Ideen",
+        "5": "😄 Ich mag es, Menschen glücklich zu machen",
+        "6": "⚡ Ich bin voller Energie"
+      }
+    },
+    "journey": "Mein Lebensweg",
+    "projects": {
+      "title": "Projekte"
+    },
+    "skills": {
+      "title": "🛠️ Meine Tools:"
+    },
+    "work": {
+      "event": {
+        "akk_desc": "Ehrenamtliche wöchentliche Ausschankarbeiten im Kultur-Café.",
+        "eezi_desc": "Tutor & HiWi Arbeiten zur Unterstützung der Studienanfänger.",
+        "fsmi": "FSMI - Fachschaft Mathe & Informatik",
+        "fsmi_desc": "Ehrenamtliche Sprechstunde und Unterstützung bei Events. Verantwortung für das Fachschaftsfrühstück.",
+        "hadiko_ev_desc": "Ehrenamtliche Vereinsarbeiten im Belegungsausschuss, Dachterrassenministerium, Billardministerium und AK Öffentlichkeitsarbeit. Zusätzlich etliche ehrenamtliche Flurarbeiten für Finanzen, Getränkeministerium, Flurputz, Fluressen und Flurturnieren.",
+        "hadiko_vev": "HaDiKo Veranstaltungen e.V. Abteilung K2",
+        "hadiko_vev_desc": "Ehrenamtliche Vereinsarbeiten und Finanzen für unzählige soziale Veranstaltungen.",
+        "kit_gamejam": "KIT GameJam - KIT Hochschulgruppe",
+        "kit_gamejam_desc": "Gründer und Vorstand der ehrenamtlichen Hochschulgruppe zur Förderung der Spieleentwicklungskultur an Karlsruher Hochschulen.",
+        "level42": "Level 42 - FSMI Master O-Phasen-Gruppe",
+        "level42_desc": "Gründung der ehrenamtlichen Gruppe zur Begrüßung & Einführung der Master Studienanfänger ",
+        "lila_pause": "Lila Pause - FSMI O-Phasen-Gruppe",
+        "lila_pause_desc": "Ehrenamtliche Begrüßung & Einführung der Studienanfänger. Zudem wöchentliche Stammtische mit gelegentlichen Specials. 2020-2023 Hauptorganisator.",
+        "mannheim": "Tätigkeiten Mannheim",
+        "mannheim_desc": "Beisitzender des Schülerbeirats des Technoseums Mannheim 2015-2016. Schülerstudium über zwei Semester an der Universität Mannheim 2018. Teilnahme am Blasorchester der Musikschule. Einmalige Teilnahme Jugend musiziert als Klavierbegleitung.",
+        "moll": "Tätigkeiten Moll Gymnasium",
+        "moll_desc": "Teilnahme an diversen Orchestern/Chören jedes Schuljahr, ab 2014 inklusive Mentor-Arbeit. Robotik AG mit Teilnahme FLL. Projektleiter im Rahmen der Projekttage über Musikgeschichte 2015."
+      },
+      "title": "Tätigkeiten"
+    }
+  },
+  "imprint": {
+    "contact": "Kontakt",
+    "declaration": "Angaben gemäß § 5 TMG",
+    "email": "E-Mail",
+    "phone": "Telefon",
+    "title": "Impressum"
+  },
+  "nav": {
+    "about": "Über",
+    "articles": "Artikel",
+    "go_home": "Zurück zur Startseite",
+    "home": "Start",
+    "projects": "Projekte",
+    "wiki": "Wiki"
+  },
+  "newsletter": {
+    "consent": "Ich stimme zu, dass meine E-Mail-Adresse zum Versand des Newsletters gespeichert wird. Siehe",
+    "email": "Deine E-Mail",
+    "error_generic": "Etwas ist schiefgelaufen. Bitte versuche es später erneut.",
+    "error_invalid": "Bitte gib eine gültige E-Mail-Adresse ein und akzeptiere die Datenschutzerklärung.",
+    "error_rate": "Zu viele Anfragen. Bitte versuche es in ein paar Minuten erneut.",
+    "intro": "Erhalte eine E-Mail, sobald ein neuer Artikel erscheint. Kein Spam, jederzeit abbestellbar.",
+    "sending": "Wird gesendet …",
+    "submit": "Abonnieren",
+    "success": "Fast geschafft! Bitte bestätige dein Abo über die E-Mail, die wir dir gerade geschickt haben.",
+    "title": "Newsletter"
+  },
+  "privacy": {
+    "contact": {
+      "body": "Wenn du das Kontaktformular absendest, werden die von dir angegebene E-Mail-Adresse und deine Nachricht über einen SMTP-Dienst als E-Mail an das Postfach des Betreibers gesendet. Die Website selbst speichert die Formularinhalte nicht in einer Datenbank. Die Daten werden ausschließlich zur Beantwortung deiner Anfrage verwendet und nicht an Dritte weitergegeben, abgesehen von dem zur Zustellung notwendigen E-Mail-Anbieter. Du kannst jederzeit die Löschung deiner Nachricht aus dem Postfach des Betreibers verlangen.",
+      "title": "Was passiert mit den Daten, die ich in das Kontaktformular eingebe?"
+    },
+    "cookies": {
+      "body": "Diese Website verwendet kein analytisches Tracking jeglicher Art. Diese Website verwendet Cookies. Das sind kleine Textdateien, die der Webbrowser auf dem Endgerät speichert. Cookies helfen dabei, das Angebot nutzerfreundlicher, effektiver und sicherer zu machen. Einige Cookies sind “Session-Cookies.” Solche Cookies werden nach Ende der Browser-Sitzung von selbst gelöscht. Hingegen bleiben andere Cookies auf Ihrem Endgerät bestehen, bis diese händisch selbst gelöscht werden. Solche Cookies helfen bei Rückkehr auf die Website gemachte Einstellungen wiederzuverwenden. Mit einem modernen Webbrowser kann das Setzen von Cookies überwacht, einschränkt oder unterbunden werden. Viele Webbrowser lassen sich so konfigurieren, dass Cookies mit dem Schließen des Programms von selbst gelöscht werden. Die Deaktivierung von Cookies kann eine eingeschränkte Funktionalität der Website zur Folge haben.",
+      "title": "Analytics/Cookies/Externe-Ressourcen u.ä.?"
+    },
+    "data": {
+      "body": "Diese Website erfasst keine Daten von dir. Der im Impressum angegebene Betreiber erfährt nur von dir, wenn du ihm eine E-Mail schreibst. Dadurch erfährt der Betreiber deine E-Mail-Adresse und deinen Namen. Diese Daten werden nur für die Beantwortung deiner Anfrage verwendet und nicht an Dritte weitergegeben.",
+      "title": "Welche Daten werden von dieser Website erfasst?"
+    },
+    "newsletter": {
+      "body": "Wenn du den Newsletter abonnierst, werden deine E-Mail-Adresse, die gewählte Sprache und der Zeitpunkt deiner Einwilligung auf einem selbst gehosteten Mailing-Server (Listmonk) des Betreibers gespeichert. Das Abo wird erst aktiv, nachdem du es über die Bestätigungs-E-Mail bestätigt hast (Double-Opt-in). Die Adresse wird ausschließlich genutzt, um dich über neue Artikel zu informieren (Rechtsgrundlage: Art. 6 Abs. 1 lit. a DSGVO). Du kannst deine Einwilligung jederzeit über den Abmeldelink in jeder E-Mail widerrufen; deine Daten werden dann gelöscht.",
+      "title": "Was passiert mit meiner E-Mail-Adresse, wenn ich den Newsletter abonniere?"
+    },
+    "rights": {
+      "body": "Nach DSGVO und BDSG kannst du jederzeit Auskunft, Aktualisierung, Sperrung oder Löschung aller deiner Daten verlangen. Dein Ansprechpartner hierfür ist der oben genannte Betreiber dieser Webseite. Außerdem bin ich verpflichtet, dich an dein Recht zu erinnern, dieser Zustimmung jederzeit zu widersprechen und dich ggf. bei einer Aufsichtsbehörde über mich zu beschweren.",
+      "title": "Was sind meine Rechte?"
+    },
+    "title": "Datenschutzerklärung"
+  },
+  "projects": {
+    "intro": "Über die letzten Jahre habe ich an einigen kleineren oder größeren Projekten gearbeitet.     Auf die hier gelisteten Projekte bin ich allerdings besonders stolz! Wenn dich etwas interessiert,     dann schau dir den Code doch einfach genauer an. Alles ist Open-Source!",
+    "subcontents": {
+      "bdayhero": "Eine hero Seite als Teaser und Einladung für meinen Geburtstag",
+      "discordbots": "(Eingestellt) Eine Sammlung von Discord-Bots für verschiedene Zwecke",
+      "discorddungeon": "(Event) Ein episches Rätzelabenteuer rund um Discord",
+      "karaokelist": "Eine Website zur Verwaltung aller verfügbaren Karaoke-Songs",
+      "snakearena": "(Event) Ein deutscher Java-Code-Wettbewerb für eine Variante des Spiels Snake",
+      "watchvote": "(WIP) Eine Full-Stack-Management-Anwendung zum Vorschlagen und Abstimmen von Filmen für zyklische Filmveranstaltungen",
+      "webbeginnings": "(Eingestellt) Meine ersten Webprojekte",
+      "winvite": "(Eingestellt) Ein vollständiges Stack-Management-Tool zum Erstellen von öffentlich zugänglichen Invites als Website"
+    },
+    "title": "Meine Projekte zu Stärkung von Gemeinschaften."
+  }
+}
