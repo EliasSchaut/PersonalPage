@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="%lang%" class="%theme.class%">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#111827" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png" />
+    <link rel="icon" href="/favicon/favicon.ico" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <script>
+      // Apply the "system" theme before first paint to avoid a flash.
+      (function () {
+        try {
+          var m = document.cookie.match(/(?:^|; )theme=(light|dark|system)/);
+          var pref = m ? m[1] : 'system';
+          if (pref === 'system') {
+            var dark = window.matchMedia
+              ? window.matchMedia('(prefers-color-scheme: dark)').matches
+              : true;
+            document.documentElement.classList.toggle('dark', dark);
+          }
+        } catch (e) {}
+      })();
+    </script>
+    %sveltekit.head%
+  </head>
+  <body
+    data-sveltekit-preload-data="hover"
+    class="bg-second-50 font-nunito selection:bg-prime-100 dark:bg-second-950 dark:selection:bg-prime-900"
+  >
+    <div style="display: contents">%sveltekit.body%</div>
+  </body>
+</html>

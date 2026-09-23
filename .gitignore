@@ -1,26 +1,33 @@
-# Nuxt dev/build outputs
+node_modules
+
+# Output
+/.svelte-kit
+/build
 .output
-.nuxt
-.nitro
 .cache
 dist
 
-# Node dependencies
-node_modules
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.fleet
+.idea
+
+# Env
+.env
+.env.*
+!.env.example
 
 # Logs
 logs
 *.log
 
-# Misc
-.DS_Store
-.fleet
-.idea
+# Vite
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
 
-# Local env files
-.env
-.env.*
-!.env.example
-
-# Local data files
-.data
+# Playwright
+test-results
+playwright-report
