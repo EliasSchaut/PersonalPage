@@ -63,5 +63,19 @@ is committed (see `scripts/notify-newsletter.mjs`).
 
 ## Deployment
 
-`docker compose up --build` builds the multi-stage image and runs it on port `3000` (`PORT`,
-`HOST`, `ORIGIN` env). Rebuild and restart the stack after every push to `main`.
+CI builds the image on every push to `main`, pushes it to Docker Hub as
+`kidilias/personalpage:latest` (plus `sha-<short>`), and then POSTs to a deploy webhook so the
+server pulls the new image. Required GitHub settings:
+
+| Kind     | Name                    | Purpose                                              |
+| -------- | ----------------------- | ---------------------------------------------------- |
+| secret   | `DOCKERHUB_USERNAME`    | Docker Hub account                                   |
+| secret   | `DOCKERHUB_TOKEN`       | Docker Hub access token (read/write)                 |
+| variable | `DEPLOY_WEBHOOK_URL`    | Endpoint the server exposes; skipped when unset      |
+| secret   | `DEPLOY_WEBHOOK_SECRET` | Sent as `Authorization: Bearer …` and as HMAC-SHA256 |
+
+The webhook receives `{"image","tag","sha","digest","ref"}` with headers
+`Authorization: Bearer <secret>` and `X-Signature-256: sha256=<hmac of body>`; verify one of
+them, then run `docker compose pull && docker compose up -d` in the deployed checkout. Local
+builds still work with `docker compose build` (the `Dockerfile` is unchanged); `.env` provides
+`PORT`, `HOST`, `ORIGIN` and the app secrets.

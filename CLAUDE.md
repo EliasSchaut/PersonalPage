@@ -28,4 +28,4 @@ Personal website schaut.dev — SvelteKit (Svelte 5, runes), Tailwind 4, adapter
 - Inline HTML in markdown is allowed (`<mark>`, `<br>`); no MDC syntax.
 - Never hold locale/theme in module-level `$state` (SSR leak) — use the context from `+layout.svelte`.
 - Prettier: 2 spaces, single quotes, trailing commas, width 100.
-- Deploy: Docker image from `docker-compose.yml`, rebuilt after pushes to `main` (content is baked in at build time, so `/admin` commits need a rebuild). Listmonk runs as a separate stack (`docker-compose.listmonk.yml`).
+- Deploy: CI (`ci.yml` job `deploy`) builds + pushes `kidilias/personalpage` on every push to `main` and POSTs the deploy webhook (`DEPLOY_WEBHOOK_URL` var, `DEPLOY_WEBHOOK_SECRET`); the server pulls. Content is baked in at build time, so `/admin` commits deploy the same way. Listmonk runs as a separate stack (`docker-compose.listmonk.yml`).

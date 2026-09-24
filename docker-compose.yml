@@ -1,10 +1,10 @@
 services:
   personalpage:
     container_name: personalpage
+    # Built and pushed by CI on every push to main (see .github/workflows/ci.yml);
+    # the deploy webhook then pulls and restarts: docker compose pull && docker compose up -d
     image: kidilias/personalpage:latest
-    build:
-      context: .
-      dockerfile: Dockerfile
+    pull_policy: always
     restart: unless-stopped
     env_file:
       - .env
