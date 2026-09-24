@@ -75,7 +75,11 @@ server pulls the new image. Required GitHub settings:
 | secret   | `DEPLOY_WEBHOOK_SECRET` | Sent as `Authorization: Bearer …` and as HMAC-SHA256 |
 
 The webhook receives `{"image","tag","sha","digest","ref"}` with headers
-`Authorization: Bearer <secret>` and `X-Signature-256: sha256=<hmac of body>`; verify one of
-them, then run `docker compose pull && docker compose up -d` in the deployed checkout. Local
+`X-Hub-Signature-256: sha256=<hmac of body>` (GitHub style), `X-Gitlab-Token: <secret>` and
+`Authorization: Bearer <secret>`; verify one of them, then pull and restart. With
+[Dockhand](https://github.com/Finsys/dockhand) point the URL at the git stack's webhook
+(`/api/git/stacks/<id>/webhook`), use the stack's webhook secret, and enable **Repull images**
+(so the new `latest` is fetched) plus **Force redeploy** (so a run without compose changes still
+restarts the container). Local
 builds still work with `docker compose build` (the `Dockerfile` is unchanged); `.env` provides
 `PORT`, `HOST`, `ORIGIN` and the app secrets.
