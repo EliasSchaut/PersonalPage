@@ -69,7 +69,7 @@ server pulls the new image. Required GitHub settings:
 
 | Kind     | Name                    | Purpose                                              |
 | -------- | ----------------------- | ---------------------------------------------------- |
-| secret   | `DOCKERHUB_USERNAME`    | Docker Hub account                                   |
+| variable | `DOCKERHUB_USERNAME`    | Docker Hub account                                   |
 | secret   | `DOCKERHUB_TOKEN`       | Docker Hub access token (read/write)                 |
 | variable | `DEPLOY_WEBHOOK_URL`    | Endpoint the server exposes; skipped when unset      |
 | secret   | `DEPLOY_WEBHOOK_SECRET` | Sent as `Authorization: Bearer …` and as HMAC-SHA256 |
