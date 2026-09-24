@@ -4,7 +4,7 @@ import { parseDocument, readingMinutes, renderMarkdown } from './markdown';
 import type { Article, ArticleMeta, SearchDoc, TagInfo } from './types';
 import { tagSlug } from '$lib/tags';
 
-// Content is baked in at build time: a Sveltia commit triggers a rebuild via doco-cd.
+// Content is baked in at build time: a Sveltia commit needs a rebuild to show up.
 const articleFiles = import.meta.glob('/content/articles/*/*.md', {
   query: '?raw',
   import: 'default',

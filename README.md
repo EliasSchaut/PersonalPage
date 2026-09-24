@@ -40,7 +40,8 @@ content edited through [Sveltia CMS](https://github.com/sveltia/sveltia-cms).
 - Content is rendered at build time (unified/remark/rehype). Inline HTML such as `<mark>` and
   `<br>` is allowed.
 - **Editing in the browser:** open `https://schaut.dev/admin/` and sign in with GitHub. Sveltia
-  commits straight to `main`; doco-cd rebuilds and redeploys the container.
+  commits straight to `main`; content is baked in at build time, so the image has to be rebuilt
+  and redeployed after content changes.
   - Requires a GitHub OAuth App with callback `https://schaut.dev/api/oauth/callback` and the
     `GITHUB_OAUTH_*` / `CMS_ALLOWED_ORIGINS` env vars.
   - Locally, open <http://localhost:5173/admin/> in Chromium and choose “Work with Local
@@ -63,4 +64,4 @@ is committed (see `scripts/notify-newsletter.mjs`).
 ## Deployment
 
 `docker compose up --build` builds the multi-stage image and runs it on port `3000` (`PORT`,
-`HOST`, `ORIGIN` env). doco-cd redeploys the stack on every push to `main`.
+`HOST`, `ORIGIN` env). Rebuild and restart the stack after every push to `main`.
