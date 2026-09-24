@@ -8,6 +8,9 @@ on:
     paths:
       - 'content/articles/**'
 
+permissions:
+  contents: read
+
 jobs:
   notify:
     runs-on: ubuntu-latest
