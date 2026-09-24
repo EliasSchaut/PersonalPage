@@ -9,9 +9,11 @@ content edited through [Sveltia CMS](https://github.com/sveltia/sveltia-cms).
 
 1. Install [Node.js](https://nodejs.org) 24 and enable pnpm via `corepack enable`.
 2. `pnpm install`
-3. `pnpm dev:services` – starts [MailDev](https://github.com/maildev/maildev) (`docker-compose.dev.yml`).
-   The committed `.env.development` points the contact form at it; mails show up at
-   <http://localhost:1080>. For real SMTP/OAuth/Listmonk credentials use `cp .env.example .env`.
+3. `cp .env.example .env` and fill in what you need (SMTP for the contact form, GitHub OAuth for
+   the CMS, Listmonk for the newsletter). Everything is optional for local development. For the
+   contact form without a real mailbox run `pnpm dev:services` ([MailDev](https://github.com/maildev/maildev),
+   `docker-compose.dev.yml`) and point `SMTP_HOST`/`SMTP_PORT` at `127.0.0.1:1025`; mails show up at
+   <http://localhost:1080>.
 4. `pnpm dev` – open <http://localhost:5173>.
 
 ## Scripts
@@ -53,7 +55,7 @@ are at `/rss.xml` and `/de/rss.xml`, the sitemap at `/sitemap.xml`.
 
 ## Newsletter
 
-Subscriptions go to a self-hosted [Listmonk](https://listmonk.app) (see `docker-compose.yml`,
+Subscriptions go to a self-hosted [Listmonk](https://listmonk.app) (own stack in `docker-compose.listmonk.yml`,
 `LISTMONK_*` env vars) with double opt-in. The GitHub Action in
 `.github/workflows/newsletter.yml` creates and sends a campaign whenever a new published article
 is committed (see `scripts/notify-newsletter.mjs`).
