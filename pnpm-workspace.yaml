@@ -1,0 +1,26 @@
+# pnpm settings (pnpm 12 reads them from here, not from package.json)
+onlyBuiltDependencies:
+  - esbuild
+
+# GHSA-pxg6-pf52-xh8x: @sveltejs/kit still pins cookie 0.6
+overrides:
+  'cookie@<0.7.0': ^0.7.2
+
+# vite 8.3 needs a rolldown release younger than the minimum release age
+minimumReleaseAgeExclude:
+  - rolldown@1.2.10
+  - '@rolldown/binding-android-arm-eabi@1.2.10'
+  - '@rolldown/binding-android-arm64@1.2.10'
+  - '@rolldown/binding-darwin-arm64@1.2.10'
+  - '@rolldown/binding-darwin-x64@1.2.10'
+  - '@rolldown/binding-freebsd-x64@1.2.10'
+  - '@rolldown/binding-linux-arm-gnueabihf@1.2.10'
+  - '@rolldown/binding-linux-arm64-gnu@1.2.10'
+  - '@rolldown/binding-linux-arm64-musl@1.2.10'
+  - '@rolldown/binding-linux-ppc64-gnu@1.2.10'
+  - '@rolldown/binding-linux-s390x-gnu@1.2.10'
+  - '@rolldown/binding-linux-x64-gnu@1.2.10'
+  - '@rolldown/binding-linux-x64-musl@1.2.10'
+  - '@rolldown/binding-openharmony-arm64@1.2.10'
+  - '@rolldown/binding-win32-arm64-msvc@1.2.10'
+  - '@rolldown/binding-win32-x64-msvc@1.2.10'
