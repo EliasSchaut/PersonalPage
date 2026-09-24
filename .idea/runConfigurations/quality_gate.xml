@@ -1,0 +1,8 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="quality gate (lint + check + test)" type="CompoundRunConfigurationType">
+    <toRun name="lint" type="js.build_tools.npm" />
+    <toRun name="check (svelte-check)" type="js.build_tools.npm" />
+    <toRun name="test (vitest)" type="js.build_tools.npm" />
+    <method v="2" />
+  </configuration>
+</component>

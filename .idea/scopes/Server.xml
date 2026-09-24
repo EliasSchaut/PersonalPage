@@ -1,0 +1,3 @@
+<component name="DependencyValidationManager">
+  <scope name="Server" pattern="file[PersonalPage]:src/lib/server//*||file[PersonalPage]:src/hooks.server.ts||file[PersonalPage]:src/routes/api//*" />
+</component>
