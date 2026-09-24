@@ -1,0 +1,11 @@
+# Local development helpers. The site itself runs on the host via `pnpm dev`.
+#   docker compose -f docker-compose.dev.yml up -d
+services:
+  # Catches every mail the contact form sends. Inbox: http://localhost:1080
+  maildev:
+    container_name: personalpage-maildev
+    image: maildev/maildev:latest
+    restart: unless-stopped
+    ports:
+      - '1080:1080' # web inbox
+      - '1025:1025' # SMTP

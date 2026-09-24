@@ -9,22 +9,24 @@ content edited through [Sveltia CMS](https://github.com/sveltia/sveltia-cms).
 
 1. Install [Node.js](https://nodejs.org) 24 and enable pnpm via `corepack enable`.
 2. `pnpm install`
-3. `cp .env.example .env` and fill in what you need (SMTP for the contact form, GitHub OAuth for
-   the CMS, Listmonk for the newsletter). Everything is optional for local development.
+3. `pnpm dev:services` – starts [MailDev](https://github.com/maildev/maildev) (`docker-compose.dev.yml`).
+   The committed `.env.development` points the contact form at it; mails show up at
+   <http://localhost:1080>. For real SMTP/OAuth/Listmonk credentials use `cp .env.example .env`.
 4. `pnpm dev` – open <http://localhost:5173>.
 
 ## Scripts
 
-| Command         | Purpose                                              |
-| --------------- | ---------------------------------------------------- |
-| `pnpm dev`      | Dev server with HMR                                  |
-| `pnpm build`    | Production build to `build/` (adapter-node)          |
-| `pnpm start`    | Run the production build (`node build`)              |
-| `pnpm check`    | svelte-check / TypeScript                            |
-| `pnpm lint`     | Prettier + ESLint                                    |
-| `pnpm test`     | Vitest unit tests (markdown pipeline, content, i18n) |
-| `pnpm test:e2e` | Playwright smoke tests (builds + previews the app)   |
-| `pnpm format`   | Prettier write                                       |
+| Command             | Purpose                                                 |
+| ------------------- | ------------------------------------------------------- |
+| `pnpm dev`          | Dev server with HMR                                     |
+| `pnpm dev:services` | MailDev via `docker-compose.dev.yml` (`:down` stops it) |
+| `pnpm build`        | Production build to `build/` (adapter-node)             |
+| `pnpm start`        | Run the production build (`node build`)                 |
+| `pnpm check`        | svelte-check / TypeScript                               |
+| `pnpm lint`         | Prettier + ESLint                                       |
+| `pnpm test`         | Vitest unit tests (markdown pipeline, content, i18n)    |
+| `pnpm test:e2e`     | Playwright smoke tests (builds + previews the app)      |
+| `pnpm format`       | Prettier write                                          |
 
 ## Content & CMS
 
