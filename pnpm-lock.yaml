@@ -66,8 +66,8 @@ importers:
         specifier: ^3.0.1
         version: 3.0.1
       nodemailer:
-        specifier: ^8.0.7
-        version: 8.0.11
+        specifier: ^9.1.1
+        version: 9.1.1
       prettier:
         specifier: ^3.8.3
         version: 3.9.9
@@ -1599,8 +1599,8 @@ packages:
   natural-compare@1.4.0:
     resolution: {integrity: sha512-OWND8ei3VtNC9h7V60qff3SVobHr996CTwgxubgyQYEpg290h9J0buyECNNJexkFm5sOajh5G116RYA1c8ZMSw==}
 
-  nodemailer@8.0.11:
-    resolution: {integrity: sha512-nrO/pDAUKl+wXX+lx16tDLbnm0fW6sK/x8mgohaCpg+CdCEl482bD4tCuAZk2DyliruiNTIZxRCoWkDqJEnAiA==}
+  nodemailer@9.1.1:
+    resolution: {integrity: sha512-izw9mVKFix6YSnC9eLgV6g1opl9DUlRio9ZNcq+Wu9Ujn2UwF+8Nl0B8nz22kEC+CTZCvinkxwJ0DeFbb6NwcQ==}
     engines: {node: '>=6.0.0'}
 
   object-assign@4.1.1:
@@ -3710,7 +3710,7 @@ snapshots:
 
   natural-compare@1.4.0: {}
 
-  nodemailer@8.0.11: {}
+  nodemailer@9.1.1: {}
 
   object-assign@4.1.1: {}
 
