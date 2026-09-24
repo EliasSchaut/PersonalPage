@@ -1,0 +1,3 @@
+<component name="DependencyValidationManager">
+  <scope name="Infra" pattern="file[PersonalPage]:.github//*||file[PersonalPage]:Dockerfile||file[PersonalPage]:docker-compose*.yml||file[PersonalPage]:*.config.js||file[PersonalPage]:*.config.ts||file[PersonalPage]:tsconfig.json||file[PersonalPage]:package.json||file[PersonalPage]:pnpm-workspace.yaml||file[PersonalPage]:.npmrc||file[PersonalPage]:.env.example" />
+</component>

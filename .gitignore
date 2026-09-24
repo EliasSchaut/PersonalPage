@@ -13,7 +13,6 @@ Thumbs.db
 
 # IDE
 .fleet
-.idea
 
 # Env
 .env
