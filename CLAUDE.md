@@ -4,7 +4,7 @@ Personal website schaut.dev — SvelteKit (Svelte 5, runes), Tailwind 4, adapter
 
 ## Commands
 
-- `pnpm dev` / `pnpm build` / `pnpm start` (`node build`); `pnpm dev:services` starts MailDev (`docker-compose.dev.yml`), `.env.development` (committed, no secrets) targets it.
+- `pnpm dev` / `pnpm build` / `pnpm start` (`node build`); `pnpm dev:services` starts MailDev (`docker-compose.dev.yml`) for the contact form.
 - `pnpm check` (svelte-check), `pnpm lint` (prettier + eslint), `pnpm format`
 - `pnpm test` (vitest), `pnpm test:e2e` (playwright, builds + previews on :4173)
 - Run `pnpm lint && pnpm check && pnpm test` before committing.
@@ -28,4 +28,4 @@ Personal website schaut.dev — SvelteKit (Svelte 5, runes), Tailwind 4, adapter
 - Inline HTML in markdown is allowed (`<mark>`, `<br>`); no MDC syntax.
 - Never hold locale/theme in module-level `$state` (SSR leak) — use the context from `+layout.svelte`.
 - Prettier: 2 spaces, single quotes, trailing commas, width 100.
-- Deploy: Docker image built by doco-cd on push to `main`; content commits from `/admin` trigger a rebuild.
+- Deploy: Docker image built by doco-cd on push to `main`; content commits from `/admin` trigger a rebuild. Listmonk runs as a separate stack (`docker-compose.listmonk.yml`).
